@@ -1,5 +1,5 @@
 /* ============================================================
-   VASTURE 华盛智造 - Shared Interactions JS
+   Yangzhou Zhuoshengxuan Garment Trade.Co., Ltd. - Shared Interactions JS
    Handles: nav scroll state, mobile drawer, theme toggle,
             scroll reveal, form interactions, product filtering
    ============================================================ */
