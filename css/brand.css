@@ -304,7 +304,11 @@ html.dark .mobile-drawer-nav a.active { background: rgba(122,156,181,0.12); }
 .social-icon svg { width: 20px; height: 20px; display: block; }
 
 .lang-switch { display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border: 1px solid var(--cf-border); border-radius: 999px; background: var(--cf-card); font-size: 13px; }
-.lang-switch .lang-btn { padding: 2px 6px; border-radius: 999px; color: var(--cf-muted-foreground); text-decoration: none; transition: all 150ms cubic-bezier(0.2,0.8,0.2,1); cursor: pointer; user-select: none; }
+.lang-switch .lang-btn {
+  padding: 2px 6px; border-radius: 999px; color: var(--cf-muted-foreground); text-decoration: none;
+  transition: all 150ms cubic-bezier(0.2,0.8,0.2,1); cursor: pointer; user-select: none;
+  border: none; background: transparent; font: inherit; line-height: 1.4;
+}
 .lang-switch .lang-btn:hover { color: var(--cf-primary); background: var(--cf-muted); }
 .lang-switch .lang-btn.active { color: var(--cf-primary-foreground); background: var(--cf-primary); font-weight: 500; cursor: default; }
 .lang-switch .lang-divider { color: var(--cf-neutral-400); }

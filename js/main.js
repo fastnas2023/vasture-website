@@ -83,12 +83,19 @@
     });
   });
 
-  // ---------- 5. Language Switch (placeholder: visual only) ----------
-  document.querySelectorAll('.lang-switch .lang-btn').forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      if (btn.classList.contains('active') || btn.tagName === 'A') return;
-      document.querySelectorAll('.lang-switch .lang-btn').forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
+  // ---------- 5. Language Switch ----------
+  document.querySelectorAll('.lang-switch').forEach((group) => {
+    const buttons = Array.from(group.querySelectorAll('.lang-btn'));
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        if (lang === 'en') {
+          showToast('英文版页面正在制作中，当前先保留中文版。', 'info');
+          return;
+        }
+        buttons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
     });
   });
 
