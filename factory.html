@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工厂实力 | VASTURE 华盛智造</title>
+<meta name="description" content="VASTURE华盛智造 - 15000m²自有智能工厂，从纱线到成衣全流程掌控，年产600万件，4道质检保障品质。">
+<link rel="stylesheet" href="css/brand.css">
+<style>
+.factory-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.factory-intro__img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: var(--cf-radius-lg);
+}
+.factory-intro__list {
+  list-style: none;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.factory-intro__item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.factory-intro__check {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--cf-brand-50);
+  color: var(--cf-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+.factory-intro__item p {
+  color: var(--cf-ink-2);
+  line-height: 1.6;
+}
+
+.process-timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0;
+}
+.process-timeline::before {
+  content: "";
+  position: absolute;
+  top: 44px;
+  left: 5%;
+  right: 5%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--cf-brand-200) 0%, var(--cf-primary) 100%);
+}
+.process-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 12px;
+  z-index: 1;
+}
+.process-step__num {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: var(--cf-card);
+  border: 2px solid var(--cf-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: all 200ms ease;
+}
+.process-step__num:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(20,61,102,0.15);
+}
+.process-step__icon {
+  width: 28px;
+  height: 28px;
+  color: var(--cf-primary);
+  margin-bottom: 4px;
+}
+.process-step__idx {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--cf-primary);
+  letter-spacing: 0.08em;
+}
+.process-step__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--cf-ink);
+  margin-bottom: 8px;
+}
+.process-step__desc {
+  font-size: 13px;
+  color: var(--cf-ink-2);
+  line-height: 1.6;
+}
+
+.qc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.qc-card {
+  background: linear-gradient(160deg, var(--cf-brand-700) 0%, var(--cf-brand-800) 100%);
+  border-radius: var(--cf-radius-lg);
+  padding: 32px 28px;
+  color: var(--cf-neutral-0);
+  position: relative;
+  overflow: hidden;
+  transition: transform 200ms ease;
+}
+.qc-card::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+}
+.qc-card:hover {
+  transform: translateY(-4px);
+}
+.qc-card__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.12);
+  margin-bottom: 20px;
+}
+.qc-card__badge svg {
+  width: 24px;
+  height: 24px;
+  color: var(--cf-neutral-0);
+}
+.qc-card__code {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}
+.qc-card__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.qc-card__desc {
+  font-size: 13px;
+  line-height: 1.65;
+  opacity: 0.85;
+}
+
+.equip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.equip-card {
+  background: var(--cf-card);
+  border: 1px solid var(--cf-border);
+  border-radius: var(--cf-radius-lg);
+  padding: 36px 28px;
+  text-align: center;
+  transition: all 200ms ease;
+}
+.equip-card:hover {
+  border-color: var(--cf-primary);
+  transform: translateY(-4px);
+  box-shadow: var(--cf-shadow-2);
+}
+.equip-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--cf-brand-50);
+  color: var(--cf-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.equip-card__icon svg {
+  width: 26px;
+  height: 26px;
+}
+.equip-card__num {
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 700;
+  color: var(--cf-primary);
+  line-height: 1.1;
+  margin-bottom: 8px;
+  font-variant-numeric: tabular-nums;
+}
+.equip-card__label {
+  font-size: 14px;
+  color: var(--cf-ink-2);
+  font-weight: 500;
+}
+.equip-card__unit {
+  font-size: 12px;
+  color: var(--cf-ink-3);
+  margin-top: 4px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.cert-card {
+  background: var(--cf-card);
+  border: 1px solid var(--cf-border);
+  border-radius: var(--cf-radius-lg);
+  aspect-ratio: 4 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  transition: all 200ms ease;
+}
+.cert-card:hover {
+  border-color: var(--cf-primary);
+  transform: translateY(-2px);
+}
+.cert-card__placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cf-brand-100), var(--cf-brand-50));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cert-card__placeholder svg {
+  width: 36px;
+  height: 36px;
+  color: var(--cf-primary);
+}
+.cert-card__name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--cf-ink);
+  text-align: center;
+  margin-bottom: 6px;
+}
+.cert-card__sub {
+  font-size: 12px;
+  color: var(--cf-ink-3);
+}
+
+.factory-gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 220px 220px;
+  gap: 16px;
+}
+.factory-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--cf-radius-lg);
+}
+.factory-gallery__img-1 {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+.factory-gallery__img-2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.factory-gallery__img-3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.factory-gallery__img-4 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, var(--cf-brand-800) 0%, var(--cf-brand-900) 100%);
+  border-radius: var(--cf-radius-lg);
+  padding: 72px 64px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-section::before,
+.cta-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.06;
+  background: var(--cf-neutral-0);
+}
+.cta-section::before {
+  width: 320px; height: 320px;
+  top: -120px; left: -80px;
+}
+.cta-section::after {
+  width: 240px; height: 240px;
+  bottom: -100px; right: -60px;
+}
+.cta-section__title {
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 600;
+  color: var(--cf-neutral-0);
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+.cta-section__desc {
+  font-size: 16px;
+  color: var(--cf-neutral-300);
+  max-width: 520px;
+  margin: 0 auto 32px;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+.cta-section .cf-btn {
+  position: relative;
+  z-index: 1;
+}
+.cta-section .cf-btn-primary {
+  background: var(--cf-neutral-0);
+  color: var(--cf-brand-800);
+  padding: 16px 36px;
+  font-size: 16px;
+}
+.cta-section .cf-btn-primary:hover {
+  background: var(--cf-neutral-100);
+}
+
+@media (max-width: 1024px) {
+  .factory-intro { grid-template-columns: 1fr; gap: 40px; }
+  .factory-intro__img { height: 360px; }
+  .qc-grid { grid-template-columns: repeat(2, 1fr); }
+  .equip-grid { grid-template-columns: repeat(2, 1fr); }
+  .process-timeline { grid-template-columns: repeat(3, 1fr); gap: 40px 0; }
+  .process-timeline::before { display: none; }
+}
+@media (max-width: 720px) {
+  .cert-grid { grid-template-columns: 1fr; }
+  .factory-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+  }
+  .factory-gallery__img-1 { grid-column: 1 / span 2; grid-row: 1; }
+  .factory-gallery__img-2 { grid-column: 1; grid-row: 2; }
+  .factory-gallery__img-3 { grid-column: 2; grid-row: 2; }
+  .factory-gallery__img-4 { grid-column: 1 / span 2; grid-row: 3; }
+  .cta-section { padding: 48px 28px; }
+}
+@media (max-width: 560px) {
+  .qc-grid { grid-template-columns: 1fr; }
+  .equip-grid { grid-template-columns: 1fr; }
+  .process-timeline { grid-template-columns: 1fr; gap: 32px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="cf-container">
+    <a href="home.html" class="logo-link">
+      <span>VASTURE</span>
+      <span>华盛智造</span>
+    </a>
+    <nav>
+      <a href="home.html" data-dom-id="nav-home">首页</a>
+      <a href="products.html" data-dom-id="nav-products">产品中心</a>
+      <a href="factory.html" data-dom-id="nav-factory">工厂实力</a>
+      <a href="services.html" data-dom-id="nav-services">定制服务</a>
+      <a href="blog.html" data-dom-id="nav-blog">行业资讯</a>
+      <a href="resources.html" data-dom-id="nav-resources">资源中心</a>
+      <a href="contact.html" data-dom-id="nav-contact">联系我们</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch">
+        <span class="lang-btn active">中</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-btn">EN</span>
+      </div>
+      <button class="cf-btn cf-btn-secondary" data-theme-toggle aria-label="切换主题">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <a href="contact.html" class="cf-btn cf-btn-primary">获取报价</a>
+      <button class="mobile-menu-btn" data-action="open-menu" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="移动导航">
+  <div class="mobile-drawer-header">
+    <a href="home.html" class="logo-link">
+      <span>VASTURE</span>
+      <span>华盛智造</span>
+    </a>
+    <button class="mobile-drawer-close" data-action="close-menu" aria-label="关闭菜单">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-drawer-nav">
+    <a href="home.html" data-dom-id="nav-home">首页 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="products.html" data-dom-id="nav-products">产品中心 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="factory.html" data-dom-id="nav-factory">工厂实力 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="services.html" data-dom-id="nav-services">定制服务 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="blog.html" data-dom-id="nav-blog">行业资讯 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="resources.html" data-dom-id="nav-resources">资源中心 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="contact.html" data-dom-id="nav-contact">联系我们 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+  </nav>
+  <div class="mobile-drawer-footer">
+    <a href="contact.html" class="cf-btn cf-btn-primary">获取免费报价</a>
+  </div>
+</div>
+<div class="drawer-backdrop"></div>
+
+<section class="page-header">
+  <div class="cf-container">
+    <div class="page-header__caption reveal">FACTORY</div>
+    <h1 class="page-header__title reveal">工厂实力</h1>
+    <p class="page-header__desc reveal">从纱线到成衣，全流程自有智能工厂</p>
+    <div class="page-header__meta reveal">
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">15,000m²</span>
+        <span class="page-header__meta-label">智能生产基地</span>
+      </div>
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">800+</span>
+        <span class="page-header__meta-label">专业技术工人</span>
+      </div>
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">600万件</span>
+        <span class="page-header__meta-label">年产能规模</span>
+      </div>
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">4道</span>
+        <span class="page-header__meta-label">严格品控质检</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section">
+  <div class="cf-container">
+    <div class="factory-intro">
+      <div class="reveal">
+        <div class="cf-sec-head" style="margin-bottom: 0;">
+          <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>ABOUT US</div>
+          <h2 class="cf-sec-title">自有智能工厂，全链路品质可控</h2>
+          <p class="cf-sec-desc">华盛智造拥有15000平方米现代化智能生产基地，配备行业领先的自动化生产设备与数字化管理系统。从面料采购到成品出货，每一个环节都在自有工厂内完成，确保交期稳定与品质如一。</p>
+        </div>
+        <ul class="factory-intro__list">
+          <li class="factory-intro__item">
+            <span class="factory-intro__check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <p>全流程自有工厂，无外包品质更可控</p>
+          </li>
+          <li class="factory-intro__item">
+            <span class="factory-intro__check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <p>ERP/MES数字化管理，实时掌握生产进度</p>
+          </li>
+          <li class="factory-intro__item">
+            <span class="factory-intro__check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <p>通过BSCI、ISO9001等多项国际认证</p>
+          </li>
+          <li class="factory-intro__item">
+            <span class="factory-intro__check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <p>绿色环保生产，废水废气达标排放</p>
+          </li>
+        </ul>
+      </div>
+      <img src="assets/image_9_yi19x4.jpg" alt="华盛智造智能工厂全景" class="factory-intro__img reveal">
+    </div>
+  </div>
+</section>
+
+<section class="cf-section" style="background: var(--cf-surface-2);">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal" style="text-align: center; margin-left: auto; margin-right: auto;">
+      <div class="cf-eyebrow" style="justify-content: center;"><span class="cf-eyebrow-line"></span>PROCESS<span class="cf-eyebrow-line"></span></div>
+      <h2 class="cf-sec-title" style="text-align: center;">标准化生产流程</h2>
+      <p class="cf-sec-desc" style="text-align: center; margin: 16px auto 0;">6道核心工序，每一步都有SOP标准作业指导，确保产品一致性</p>
+    </div>
+    <div class="process-timeline reveal">
+      <div class="process-step">
+        <div class="process-step__num">
+          <svg class="process-step__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          <span class="process-step__idx">STEP 01</span>
+        </div>
+        <div class="process-step__title">面料采购</div>
+        <div class="process-step__desc">源头直采优质面料，入厂IQC全检</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">
+          <svg class="process-step__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+          <span class="process-step__idx">STEP 02</span>
+        </div>
+        <div class="process-step__title">自动化裁剪</div>
+        <div class="process-step__desc">CAM自动裁剪机，精度±0.1mm</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">
+          <svg class="process-step__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.3 20.3l-2-2a2.4 2.4 0 0 1 0-3.4l8.9-8.9a2.4 2.4 0 0 1 3.4 0l2 2a2.4 2.4 0 0 1 0 3.4l-8.9 8.9a2.4 2.4 0 0 1-3.4 0z"/><path d="m14.5 7.5 2 2"/></svg>
+          <span class="process-step__idx">STEP 03</span>
+        </div>
+        <div class="process-step__title">精工缝制</div>
+        <div class="process-step__desc">8条流水线，单件流精益生产</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">
+          <svg class="process-step__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2h8l-1 6H9z"/><path d="M9 8v14h6V8"/><circle cx="12" cy="19" r="1"/></svg>
+          <span class="process-step__idx">STEP 04</span>
+        </div>
+        <div class="process-step__title">整烫定型</div>
+        <div class="process-step__desc">真空抽湿烫台，版型挺括持久</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">
+          <svg class="process-step__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span class="process-step__idx">STEP 05</span>
+        </div>
+        <div class="process-step__title">全检质检</div>
+        <div class="process-step__desc">FQC成品100%全检，针检过机</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">
+          <svg class="process-step__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          <span class="process-step__idx">STEP 06</span>
+        </div>
+        <div class="process-step__title">包装出货</div>
+        <div class="process-step__desc">OQC抽检合格，按客要求包装发货</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal">
+      <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>QUALITY SYSTEM</div>
+      <h2 class="cf-sec-title">四级质量管控体系</h2>
+      <p class="cf-sec-desc">建立从入料到出货的全链路QC管控体系，严格执行AQL2.5国际验货标准</p>
+    </div>
+    <div class="qc-grid">
+      <div class="qc-card reveal">
+        <div class="qc-card__badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <div class="qc-card__code">IQC · 01</div>
+        <div class="qc-card__title">来料检验</div>
+        <div class="qc-card__desc">面料辅料入厂全检，色差、克重、缩水率、色牢度四项核心指标100%检测合格方可入库</div>
+      </div>
+      <div class="qc-card reveal">
+        <div class="qc-card__badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <div class="qc-card__code">IPQC · 02</div>
+        <div class="qc-card__title">制程巡检</div>
+        <div class="qc-card__desc">每2小时巡检一次，首件必检、转款必检，发现异常立即停线整改，问题不流入下工序</div>
+      </div>
+      <div class="qc-card reveal">
+        <div class="qc-card__badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <div class="qc-card__code">FQC · 03</div>
+        <div class="qc-card__title">成品全检</div>
+        <div class="qc-card__desc">每件成衣经过外观、尺寸、工艺、过针检四关，不合格品100%返工，确保出厂零缺陷</div>
+      </div>
+      <div class="qc-card reveal">
+        <div class="qc-card__badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <div class="qc-card__code">OQC · 04</div>
+        <div class="qc-card__title">出货抽检</div>
+        <div class="qc-card__desc">按AQL2.5标准抽样，核对包装物料、唛头信息、装箱明细，确保万无一失再发出</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section" style="background: var(--cf-surface-2);">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal" style="text-align: center; margin-left: auto; margin-right: auto;">
+      <div class="cf-eyebrow" style="justify-content: center;"><span class="cf-eyebrow-line"></span>EQUIPMENT<span class="cf-eyebrow-line"></span></div>
+      <h2 class="cf-sec-title" style="text-align: center;">先进设备实力</h2>
+      <p class="cf-sec-desc" style="text-align: center; margin: 16px auto 0;">投入行业顶级生产设备，以自动化提升效率与品质稳定性</p>
+    </div>
+    <div class="equip-grid">
+      <div class="equip-card reveal">
+        <div class="equip-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6m4.22-13.22l4.24 4.24M1.54 1.54l4.24 4.24M20.46 20.46l-4.24-4.24M1.54 20.46l4.24-4.24"/></svg>
+        </div>
+        <div class="equip-card__num">600<span style="font-size: 16px;">+</span></div>
+        <div class="equip-card__label">工业缝纫机</div>
+        <div class="equip-card__unit">Brother / JUKI 品牌</div>
+      </div>
+      <div class="equip-card reveal">
+        <div class="equip-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+        </div>
+        <div class="equip-card__num">8<span style="font-size: 16px;">条</span></div>
+        <div class="equip-card__label">吊挂生产流水线</div>
+        <div class="equip-card__unit">单件流精益模式</div>
+      </div>
+      <div class="equip-card reveal">
+        <div class="equip-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+        </div>
+        <div class="equip-card__num">12<span style="font-size: 16px;">台</span></div>
+        <div class="equip-card__label">全自动裁剪机</div>
+        <div class="equip-card__unit">Gerber / Lectra 系统</div>
+      </div>
+      <div class="equip-card reveal">
+        <div class="equip-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="equip-card__num">3<span style="font-size: 16px;">台</span></div>
+        <div class="equip-card__label">高速绣花机</div>
+        <div class="equip-card__unit">支持多色复杂花型</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal">
+      <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>CERTIFICATIONS</div>
+      <h2 class="cf-sec-title">资质与认证</h2>
+      <p class="cf-sec-desc">通过多项国际权威认证，产品出口全球50+国家和地区</p>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-card__placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+        </div>
+        <div class="cert-card__name">ISO 9001:2015</div>
+        <div class="cert-card__sub">质量管理体系认证</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="cert-card__name">BSCI 认证</div>
+        <div class="cert-card__sub">商业社会合规倡议</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg>
+        </div>
+        <div class="cert-card__name">OEKO-TEX Standard 100</div>
+        <div class="cert-card__sub">生态纺织品认证</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="cert-card__name">GRS 全球回收标准</div>
+        <div class="cert-card__sub">可持续面料认证</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="cert-card__name">SEDEX / SMETA</div>
+        <div class="cert-card__sub">社会责任审核通过</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-card__placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="cert-card__name">Disney / Walmart 验厂</div>
+        <div class="cert-card__sub">国际品牌供应商资质</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section" style="padding-top: 0;">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal">
+      <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>FACTORY TOUR</div>
+      <h2 class="cf-sec-title">厂区实景展示</h2>
+      <p class="cf-sec-desc">开放透明，欢迎客户随时预约实地考察</p>
+    </div>
+    <div class="factory-gallery reveal">
+      <img src="assets/image_10_yi19x4.jpg" alt="生产车间全景" class="factory-gallery__img-1">
+      <img src="assets/image_11_yi19x4.jpg" alt="缝制生产线" class="factory-gallery__img-2">
+      <img src="assets/image_12_yi19x4.jpg" alt="质检中心" class="factory-gallery__img-3">
+      <img src="assets/image_12_yi19x4.jpg" alt="成品仓库" class="factory-gallery__img-4">
+    </div>
+  </div>
+</section>
+
+<section class="cf-section" style="padding-top: 0;">
+  <div class="cf-container">
+    <div class="cta-section reveal">
+      <h3 class="cta-section__title">眼见为实，诚邀您参观我们的工厂</h3>
+      <p class="cta-section__desc">我们在广东佛山设有大型生产基地，全天候开放客户参观。专业顾问全程陪同讲解，让您真切感受华盛智造的生产实力与品控标准。</p>
+      <a href="contact.html" class="cf-btn cf-btn-primary">
+        预约参观工厂
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="cf-container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">VASTURE 华盛智造</div>
+        <p class="footer-brand-desc">专注高品质服装定制制造18年，服务全球500+品牌客户。从设计、打样到量产，一站式服装OEM/ODM解决方案。</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon" aria-label="微信"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 8.5c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5-2 4.5-4.5 4.5c-.7 0-1.3-.1-1.9-.3L9.5 15l.8-2.4c-1.4-.8-2.3-2.3-2.3-4.1z"/><path d="M5.5 13.5c0-2.5 2-4.5 4.5-4.5.5 0 1 .1 1.5.2"/></svg></a>
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Alibaba"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M3 6h18M3 18h12"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">产品中心</div>
+        <div class="footer-links">
+          <a href="products.html" class="footer-link">运动服装</a>
+          <a href="products.html" class="footer-link">休闲卫衣</a>
+          <a href="products.html" class="footer-link">时尚女装</a>
+          <a href="products.html" class="footer-link">童装系列</a>
+          <a href="products.html" class="footer-link">功能外套</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">快速链接</div>
+        <div class="footer-links">
+          <a href="factory.html" class="footer-link">工厂实力</a>
+          <a href="services.html" class="footer-link">定制服务</a>
+          <a href="blog.html" class="footer-link">行业资讯</a>
+          <a href="resources.html" class="footer-link">资源下载</a>
+          <a href="contact.html" class="footer-link">联系我们</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">联系方式</div>
+        <div class="footer-contact">
+          <span>广东省佛山市顺德区</span>
+          <span>华盛智造产业园A栋</span>
+          <span>电话：+86 757 8888 8888</span>
+          <span>邮箱：sales@vasture.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 VASTURE 华盛智造. All Rights Reserved.</span>
+      <span>粤ICP备XXXXXXXX号-1</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

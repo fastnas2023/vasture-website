@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系询价 - VASTURE 华盛智造</title>
+  <link rel="stylesheet" href="css/brand.css">
+  <style>
+    .contact-main {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 32px;
+      margin-bottom: 56px;
+    }
+
+    /* Contact Info Cards */
+    .contact-info-col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .info-card {
+      padding: 28px;
+    }
+    .info-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--cf-shadow-3);
+    }
+    .info-card .ic-head {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .info-card .ic-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--cf-radius-md);
+      background: var(--cf-brand-50);
+      color: var(--cf-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    html.dark .info-card .ic-icon {
+      background: rgba(122,156,181,0.15);
+      color: var(--cf-brand-300);
+    }
+    .info-card .ic-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+    .info-card h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--cf-ink);
+      letter-spacing: -0.01em;
+    }
+    .info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .info-item .ii-label {
+      color: var(--cf-ink-3);
+      flex-shrink: 0;
+      min-width: 64px;
+    }
+    .info-item .ii-value {
+      color: var(--cf-ink);
+      font-weight: 500;
+    }
+    .info-item .ii-value a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .info-item .ii-value a:hover {
+      color: var(--cf-primary);
+    }
+
+    .working-hours-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      background: rgba(45, 122, 78, 0.1);
+      color: var(--state-success);
+      border-radius: var(--cf-radius-pill);
+      font-size: 13px;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+    .working-hours-badge .wh-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--state-success);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.2); }
+    }
+
+    /* Quote Form */
+    .quote-form-col {
+      background: var(--cf-card);
+      border: 1px solid var(--cf-border);
+      border-radius: var(--cf-radius-lg);
+      padding: 36px;
+    }
+    .quote-form-head {
+      margin-bottom: 28px;
+    }
+    .quote-form-head h2 {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--cf-ink);
+      letter-spacing: -0.015em;
+      margin-bottom: 8px;
+    }
+    .quote-form-head p {
+      font-size: 14px;
+      color: var(--cf-ink-2);
+    }
+    .form-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .form-field {
+      margin-bottom: 18px;
+    }
+    .form-field label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--cf-ink);
+      margin-bottom: 6px;
+    }
+    .form-field label .req {
+      color: var(--state-error);
+      margin-left: 2px;
+    }
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid var(--cf-border);
+      background: var(--cf-surface);
+      color: var(--cf-ink);
+      border-radius: var(--cf-radius-sm);
+      font-size: 14px;
+      font-family: inherit;
+      line-height: 1.5;
+      transition: border-color 150ms;
+      appearance: none;
+    }
+    .form-field select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A8A86' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      padding-right: 34px;
+    }
+    .form-field input:focus,
+    .form-field select:focus,
+    .form-field textarea:focus {
+      outline: none;
+      border-color: var(--cf-primary);
+    }
+    .form-field textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .file-upload {
+      border: 1.5px dashed var(--cf-border);
+      border-radius: var(--cf-radius-md);
+      padding: 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 150ms;
+      background: var(--cf-surface);
+      position: relative;
+    }
+    .file-upload:hover {
+      border-color: var(--cf-primary);
+      background: var(--cf-brand-50);
+    }
+    html.dark .file-upload:hover {
+      background: rgba(122,156,181,0.08);
+    }
+    .file-upload input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+    .file-upload .fu-icon {
+      margin-bottom: 10px;
+      color: var(--cf-primary);
+    }
+    .file-upload .fu-icon svg {
+      width: 32px;
+      height: 32px;
+    }
+    .file-upload .fu-text {
+      font-size: 14px;
+      color: var(--cf-ink-2);
+      font-weight: 500;
+    }
+    .file-upload .fu-hint {
+      font-size: 12px;
+      color: var(--cf-ink-3);
+      margin-top: 4px;
+    }
+
+    .trust-stripes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .trust-stripe {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      background: var(--cf-surface-2);
+      border-radius: var(--cf-radius-sm);
+      font-size: 12px;
+      color: var(--cf-ink-2);
+      font-weight: 500;
+    }
+    .trust-stripe svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      color: var(--state-success);
+    }
+
+    .quote-submit {
+      width: 100%;
+      height: 52px;
+      font-size: 15px;
+    }
+    .spin {
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Map Section */
+    .map-section {
+      margin-bottom: 64px;
+    }
+    .map-wrap {
+      overflow: hidden;
+      border-radius: var(--cf-radius-lg);
+      border: 1px solid var(--cf-border);
+      position: relative;
+    }
+    .map-wrap img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16 / 7;
+      object-fit: cover;
+      transition: transform 400ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .map-wrap:hover img {
+      transform: scale(1.02);
+    }
+    .map-pin {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 44px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: bounce 2s ease-in-out infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translate(-50%, -50%) translateY(0); }
+      50% { transform: translate(-50%, -50%) translateY(-10px); }
+    }
+    .map-pin svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 6px 16px rgba(20,61,102,0.3));
+    }
+    .map-caption {
+      margin-top: 16px;
+      padding: 20px 24px;
+      background: var(--cf-card);
+      border: 1px solid var(--cf-border);
+      border-radius: var(--cf-radius-md);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .map-caption .mc-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .map-caption .mc-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--cf-radius-md);
+      background: var(--cf-brand-50);
+      color: var(--cf-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    html.dark .map-caption .mc-icon {
+      background: rgba(122,156,181,0.15);
+      color: var(--cf-brand-300);
+    }
+    .map-caption .mc-icon svg { width: 20px; height: 20px; }
+    .map-caption .mc-title { font-size: 15px; font-weight: 600; color: var(--cf-ink); margin-bottom: 2px; }
+    .map-caption .mc-sub { font-size: 13px; color: var(--cf-ink-2); }
+    .map-caption .mc-right { display: flex; gap: 10px; }
+    .mc-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 18px;
+      border-radius: var(--cf-radius-md);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 150ms;
+      text-decoration: none;
+    }
+    .mc-btn-primary {
+      background: var(--cf-primary);
+      color: var(--cf-primary-foreground);
+      border: none;
+    }
+    .mc-btn-primary:hover { background: var(--cf-brand-800); }
+    .mc-btn-secondary {
+      background: transparent;
+      color: var(--cf-ink-2);
+      border: 1px solid var(--cf-border);
+    }
+    .mc-btn-secondary:hover { border-color: var(--cf-primary); color: var(--cf-primary); }
+
+    @media (max-width: 1024px) {
+      .contact-main {
+        grid-template-columns: 1fr;
+      }
+      .trust-stripes {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 640px) {
+      .quote-form-col {
+        padding: 24px 20px;
+      }
+      .form-grid-2 {
+        grid-template-columns: 1fr;
+      }
+      .info-card {
+        padding: 22px;
+      }
+      .map-caption {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .map-caption .mc-right {
+        width: 100%;
+      }
+      .mc-btn {
+        flex: 1;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="cf-container">
+      <a href="home.html" class="logo-link">
+        <span>VASTURE</span>
+        <span>华盛智造</span>
+      </a>
+      <nav>
+        <a href="home.html" data-dom-id="nav-home">首页</a>
+        <a href="products.html" data-dom-id="nav-products">产品中心</a>
+        <a href="factory.html" data-dom-id="nav-factory">智能工厂</a>
+        <a href="services.html" data-dom-id="nav-services">服务支持</a>
+        <a href="blog.html" data-dom-id="nav-blog">新闻资讯</a>
+        <a href="resources.html" data-dom-id="nav-resources">资源下载</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch">
+          <span class="lang-btn active">中</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-btn">EN</span>
+        </div>
+        <button class="lang-switch" data-theme-toggle style="width:40px;height:40px;padding:0;justify-content:center;border-radius:var(--cf-radius-md);" aria-label="切换主题">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </button>
+        <a href="contact.html" class="cf-btn cf-btn-primary" data-dom-id="nav-contact">联系询价</a>
+        <button class="mobile-menu-btn" data-action="open-menu" aria-label="打开菜单">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="cf-container">
+      <div class="page-header__caption reveal">CONTACT</div>
+      <h1 class="page-header__title reveal">联系询价</h1>
+      <p class="page-header__desc reveal">填写表单24h内报价，多渠道直接联系</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="cf-section" style="padding-top: 64px;">
+    <div class="cf-container">
+
+      <!-- Main 2-col Layout -->
+      <div class="contact-main">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-info-col">
+
+          <div class="cf-card info-card reveal">
+            <div class="ic-head">
+              <div class="ic-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <h3>公司地址</h3>
+            </div>
+            <div class="info-list">
+              <div class="info-item">
+                <span class="ii-label">总部</span>
+                <span class="ii-value">广东省东莞市虎门镇VASTURE智造工业园A栋</span>
+              </div>
+              <div class="info-item">
+                <span class="ii-label">分厂</span>
+                <span class="ii-value">广东省佛山市顺德区龙江生产基地</span>
+              </div>
+              <div class="info-item">
+                <span class="ii-label">邮编</span>
+                <span class="ii-value cf-numeric">523900</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cf-card info-card reveal">
+            <div class="ic-head">
+              <div class="ic-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <h3>电话联系</h3>
+            </div>
+            <div class="info-list">
+              <div class="info-item">
+                <span class="ii-label">销售热线</span>
+                <span class="ii-value"><a href="tel:+86076988886666">+86 0769-8888-6666</a></span>
+              </div>
+              <div class="info-item">
+                <span class="ii-label">大客户</span>
+                <span class="ii-value"><a href="tel:+8613800008888">+86 138-0000-8888</a></span>
+              </div>
+              <div class="info-item">
+                <span class="ii-label">售后</span>
+                <span class="ii-value"><a href="tel:+86076988887777">+86 0769-8888-7777</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cf-card info-card reveal">
+            <div class="ic-head">
+              <div class="ic-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <h3>邮箱与社媒</h3>
+            </div>
+            <div class="info-list">
+              <div class="info-item">
+                <span class="ii-label">邮箱</span>
+                <span class="ii-value"><a href="mailto:sales@vasture.com">sales@vasture.com</a></span>
+              </div>
+              <div class="info-item">
+                <span class="ii-label">WhatsApp</span>
+                <span class="ii-value"><a href="https://wa.me/8613800008888" target="_blank" rel="noopener">+86 138-0000-8888</a></span>
+              </div>
+              <div class="info-item">
+                <span class="ii-label">微信</span>
+                <span class="ii-value">VASTURE-Sales</span>
+              </div>
+            </div>
+            <div class="working-hours-badge">
+              <span class="wh-dot"></span>
+              工作时间：周一至周六 09:00 - 18:00
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Quote Form -->
+        <div class="quote-form-col reveal form-card">
+          <div class="quote-form-head">
+            <h2>获取免费报价</h2>
+            <p>填写以下信息，我们的客户经理将在24小时内为您提供专属报价方案</p>
+          </div>
+
+          <form data-quote-form>
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label for="q-name">姓名<span class="req">*</span></label>
+                <input id="q-name" type="text" placeholder="请输入您的姓名" required>
+              </div>
+              <div class="form-field">
+                <label for="q-company">公司名称<span class="req">*</span></label>
+                <input id="q-company" type="text" placeholder="请输入公司名称" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label for="q-country">所在国家/地区<span class="req">*</span></label>
+                <select id="q-country" required>
+                  <option value="" disabled selected>请选择国家/地区</option>
+                  <option value="CN">中国内地</option>
+                  <option value="HK">中国香港</option>
+                  <option value="TW">中国台湾</option>
+                  <option value="US">美国</option>
+                  <option value="UK">英国</option>
+                  <option value="DE">德国</option>
+                  <option value="FR">法国</option>
+                  <option value="JP">日本</option>
+                  <option value="KR">韩国</option>
+                  <option value="AU">澳大利亚</option>
+                  <option value="CA">加拿大</option>
+                  <option value="BR">巴西</option>
+                  <option value="IN">印度</option>
+                  <option value="SG">新加坡</option>
+                  <option value="MY">马来西亚</option>
+                  <option value="TH">泰国</option>
+                  <option value="VN">越南</option>
+                  <option value="OTHER">其他国家/地区</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="q-product">产品类型<span class="req">*</span></label>
+                <select id="q-product" required>
+                  <option value="" disabled selected>请选择产品类型</option>
+                  <option value="hoodie">休闲卫衣</option>
+                  <option value="tee">T恤/Polo衫</option>
+                  <option value="jacket">夹克/外套</option>
+                  <option value="pants">裤装/运动裤</option>
+                  <option value="dress">裙装/连衣裙</option>
+                  <option value="sport">运动套装</option>
+                  <option value="kids">童装系列</option>
+                  <option value="uniform">企业工服</option>
+                  <option value="other">其他品类</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="q-qty">预估数量<span class="req">*</span></label>
+              <select id="q-qty" required>
+                <option value="" disabled selected>请选择数量区间</option>
+                <option value="50-100">50 - 100 件 (试单)</option>
+                <option value="100-500">100 - 500 件 (小批量)</option>
+                <option value="500-2000">500 - 2,000 件 (中批量)</option>
+                <option value="2000-10000">2,000 - 10,000 件 (大批量)</option>
+                <option value="10000plus">10,000+ 件 (超大单)</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="q-desc">需求描述<span class="req">*</span></label>
+              <textarea id="q-desc" placeholder="请描述您的需求：面料要求、尺码范围、工艺细节（印花/刺绣等）、目标交期等信息..." required></textarea>
+            </div>
+
+            <div class="form-field">
+              <label>设计文件上传（可选）</label>
+              <div class="file-upload">
+                <div class="fu-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                </div>
+                <div class="fu-text">点击上传或拖拽文件到此处</div>
+                <div class="fu-hint">支持 PDF、AI、PSD、JPG、PNG 格式，单个文件不超过 20MB</div>
+                <input type="file" accept=".pdf,.ai,.psd,.jpg,.jpeg,.png" multiple>
+              </div>
+            </div>
+
+            <div class="trust-stripes">
+              <div class="trust-stripe">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                24h 极速响应
+              </div>
+              <div class="trust-stripe">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                NDA 保密协议
+              </div>
+              <div class="trust-stripe">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                无任何义务
+              </div>
+            </div>
+
+            <button type="submit" class="cf-btn cf-btn-primary quote-submit">
+              获取免费报价
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map Section -->
+      <div class="map-section reveal">
+        <div class="cf-sec-head" style="margin-bottom:28px;">
+          <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>VISIT US</div>
+          <h2 class="cf-sec-title">实地考察 · 欢迎莅临参观</h2>
+        </div>
+
+        <div class="map-wrap">
+          <img src="assets/image_14_yi19x4.jpg" alt="VASTURE华盛智造工业园位置地图">
+          <div class="map-pin">
+            <svg viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 8.5 12 20 12 20s12-11.5 12-20C24 5.373 18.627 0 12 0zm0 16c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z" fill="#143D66"/>
+              <circle cx="12" cy="12" r="4" fill="#fff"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="map-caption">
+          <div class="mc-left">
+            <div class="mc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="mc-title">VASTURE 华盛智造东莞总部工业园</div>
+              <div class="mc-sub">广东省东莞市虎门镇 S358省道旁 · 距虎门高铁站 12 分钟车程 · 距深圳宝安机场 35 分钟</div>
+            </div>
+          </div>
+          <div class="mc-right">
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="mc-btn mc-btn-secondary">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16"/><path d="M16 6v16"/></svg>
+              Google 地图
+            </a>
+            <a href="https://map.baidu.com" target="_blank" rel="noopener" class="mc-btn mc-btn-primary">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+              导航到此
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="cf-container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">VASTURE 华盛智造</div>
+          <p class="footer-brand-desc">专注服装智能制造20年，提供从设计打版到批量生产的一站式柔性供应链服务，服务全球500+品牌客户。</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Alibaba">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.983 11.945h4.736l-.252-1.264h-3.09c-.23 0-.41-.18-.41-.41v-.396c0-.23.18-.41.41-.41h3.518L18.228 8.2h-4.245c-.942 0-1.708.766-1.708 1.708v.396c0 .942.766 1.708 1.708 1.708zm-3.463-3.75h-2.71L6.42 9.9h2.71l1.39-1.705zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm7.79 12.38c-.12.6-.71 2.05-2.78 2.05-.93 0-1.89-.45-2.51-1.19l.3-.19c.55.66 1.34 1.05 2.21 1.05 1.31 0 1.89-.75 2.02-1.48.07-.37.07-.65.05-.78h1.65v-.16c-.04-.15-3.13-8.17-3.27-8.47h-.19c-.14.3-3.22 8.32-3.28 8.47h-.11v.16h1.65l.02-.12c.15-.46.48-1.29 1.13-2.22l.27-.41c.05-.08.05-.1-.03-.1h-4.18v-.16c.1-.26 2.59-6.44 2.76-6.81h-.19c-.17.37-2.66 6.55-2.79 6.84h-.11V10h1.68c.1-.19.62-1.38-.2-2.95h-.44l-.01-.16c.1-.21 2.48-5.34 2.65-5.71h-.19C15.1 3.59 12.71 8.93 12.59 9.18h-.12V9.3h1.81c-.03.06-.71 1.45.11 2.74h-.61V12.3h.88c.09.15 2.27 5.61 2.17 5.82h-.19c-.1-.21-2.08-5.5-2.17-5.82h-.61l-.01.16c.3.69.97 1.93 2.53 1.93.79 0 1.4-.25 1.81-.63v.05l-.97.65h-.01l.02.16c1.15.8 2.97.67 3.56.56l-.01-.15c-1.15.36-2.81.42-3.6-.56.02-.02-.01-.05.01-.08.43.21 1.14.39 2.05.09 1.09-.35 1.29-1.08 1.4-1.66.01-.05.9-2.61.94-2.72.52 1.27.92 2.69.53 4.16-.12.48-.46 1.12-1.39 1.39v.16c1.26-.29 1.64-1.2 1.76-1.67l.01-.04h.01c0 .01.13-.3.15-.38V16h-.01c-.02.03-.2.4-.2.4 0 0 .35-.87.38-.98l.01.02v-.16c0 0-.01 0-.01-.02.35-.72.67-1.67.42-2.9z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="微信">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.045c.134 0 .24-.11.24-.245 0-.06-.024-.12-.04-.178l-.325-1.233a.492.492 0 0 1 .178-.553C23.024 18.254 24 16.61 24 14.812c0-3.21-2.931-5.897-6.656-6.088V8.72l-.001-.002c-.006 0-.012-.001-.018-.001h-.386zm-3.16 2.908c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.857 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">快速导航</div>
+          <div class="footer-links">
+            <a href="home.html" class="footer-link">首页</a>
+            <a href="products.html" class="footer-link">产品中心</a>
+            <a href="factory.html" class="footer-link">智能工厂</a>
+            <a href="services.html" class="footer-link">服务支持</a>
+            <a href="blog.html" class="footer-link">新闻资讯</a>
+            <a href="resources.html" class="footer-link">资源下载</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">产品分类</div>
+          <div class="footer-links">
+            <a href="#" class="footer-link">休闲卫衣</a>
+            <a href="#" class="footer-link">潮流T恤</a>
+            <a href="#" class="footer-link">运动夹克</a>
+            <a href="#" class="footer-link">POLO衫</a>
+            <a href="#" class="footer-link">时尚连衣裙</a>
+            <a href="#" class="footer-link">童装系列</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">联系我们</div>
+          <div class="footer-contact">
+            <div>📍 广东省东莞市虎门镇VASTURE工业园</div>
+            <div>📞 +86 0769-8888-6666</div>
+            <div>✉️ sales@vasture.com</div>
+            <div>💬 WhatsApp: +86 138-0000-8888</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2025 VASTURE 华盛智造. All Rights Reserved.</div>
+        <div>粤ICP备2025000001号 · 粤公网安备44190000000001号</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Drawer Backdrop -->
+  <div class="drawer-backdrop"></div>
+
+  <!-- Mobile Drawer -->
+  <aside class="mobile-drawer" role="dialog" aria-label="移动端导航">
+    <div class="mobile-drawer-header">
+      <a href="home.html" class="logo-link">
+        <span>VASTURE</span>
+        <span>华盛智造</span>
+      </a>
+      <button class="mobile-drawer-close" data-action="close-menu" aria-label="关闭菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-drawer-nav">
+      <a href="home.html" data-dom-id="nav-home">首页
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="products.html" data-dom-id="nav-products">产品中心
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="factory.html" data-dom-id="nav-factory">智能工厂
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="services.html" data-dom-id="nav-services">服务支持
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="blog.html" data-dom-id="nav-blog">新闻资讯
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="resources.html" data-dom-id="nav-resources">资源下载
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <a href="contact.html" data-dom-id="nav-contact">联系询价
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <div class="lang-switch" style="margin-bottom:16px;justify-content:center;">
+        <span class="lang-btn active">中文</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-btn">English</span>
+      </div>
+      <button class="cf-btn cf-btn-primary" data-theme-toggle style="margin-bottom:12px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px;">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+        </svg>
+        切换主题
+      </button>
+      <a href="contact.html" class="cf-btn cf-btn-primary" style="width:100%;">获取免费报价</a>
+    </div>
+  </aside>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

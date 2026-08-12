@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>定制服务 | VASTURE 华盛智造</title>
+<meta name="description" content="VASTURE华盛智造 - OEM贴牌与ODM研发双模式服装定制，7天快速打样，300件起订，98%准时交付率，200+成功案例。">
+<link rel="stylesheet" href="css/brand.css">
+<style>
+.service-modes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.mode-card {
+  background: var(--cf-card);
+  border: 1px solid var(--cf-border);
+  border-radius: var(--cf-radius-lg);
+  padding: 44px 40px;
+  transition: all 250ms ease;
+  position: relative;
+  overflow: hidden;
+}
+.mode-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--cf-brand-500), var(--cf-primary));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms cubic-bezier(0.2,0.8,0.2,1);
+}
+.mode-card:hover {
+  border-color: var(--cf-primary);
+  transform: translateY(-6px);
+  box-shadow: 0 28px 60px -24px rgba(20,61,102,0.18);
+}
+.mode-card:hover::before { transform: scaleX(1); }
+.mode-card--odm::before {
+  background: linear-gradient(90deg, var(--cf-brand-400), var(--cf-brand-700));
+}
+.mode-card__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: var(--cf-radius-pill);
+  background: var(--cf-brand-50);
+  color: var(--cf-primary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 24px;
+}
+.mode-card__title {
+  font-size: clamp(22px, 2.2vw, 30px);
+  font-weight: 600;
+  color: var(--cf-ink);
+  margin-bottom: 14px;
+  letter-spacing: -0.015em;
+}
+.mode-card__desc {
+  font-size: 15px;
+  color: var(--cf-ink-2);
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+.mode-card__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.mode-card__item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.mode-card__icon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: var(--cf-brand-50);
+  color: var(--cf-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+.mode-card__item strong {
+  display: block;
+  font-size: 14px;
+  color: var(--cf-ink);
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.mode-card__item p {
+  font-size: 13px;
+  color: var(--cf-ink-2);
+  line-height: 1.6;
+}
+
+.service-process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  position: relative;
+}
+.service-process::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--cf-brand-200) 0px,
+    var(--cf-brand-200) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+}
+.service-process__row {
+  display: contents;
+}
+.service-process__step {
+  position: relative;
+  background: var(--cf-card);
+  border: 1px solid var(--cf-border);
+  border-radius: var(--cf-radius-lg);
+  padding: 28px 24px;
+  transition: all 200ms ease;
+  z-index: 1;
+}
+.service-process__step:hover {
+  border-color: var(--cf-primary);
+  transform: translateY(-3px);
+}
+.service-process__idx {
+  position: absolute;
+  top: -16px;
+  left: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--cf-primary);
+  color: var(--cf-neutral-0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 8px 20px rgba(20,61,102,0.25);
+}
+.service-process__title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--cf-ink);
+  margin: 16px 0 10px;
+}
+.service-process__desc {
+  font-size: 13px;
+  color: var(--cf-ink-2);
+  line-height: 1.65;
+}
+.service-process__duration {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 4px 10px;
+  background: var(--cf-brand-50);
+  color: var(--cf-primary);
+  border-radius: var(--cf-radius-pill);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.capability-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.capability-card {
+  background: var(--cf-card);
+  border: 1px solid var(--cf-border);
+  border-radius: var(--cf-radius-lg);
+  padding: 36px 28px;
+  transition: all 220ms ease;
+  cursor: default;
+}
+.capability-card:hover {
+  border-color: var(--cf-primary);
+  background: linear-gradient(180deg, var(--cf-brand-50) 0%, var(--cf-card) 100%);
+  transform: translateY(-4px);
+}
+.capability-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.capability-card__tag {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--cf-brand-700);
+  color: var(--cf-neutral-0);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 200ms ease;
+}
+.capability-card:hover .capability-card__tag {
+  transform: rotate(-6deg) scale(1.05);
+}
+.capability-card__tag svg {
+  width: 28px;
+  height: 28px;
+}
+.capability-card__count {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--cf-primary);
+  background: var(--cf-brand-50);
+  padding: 4px 10px;
+  border-radius: var(--cf-radius-pill);
+}
+.capability-card__title {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--cf-ink);
+  margin-bottom: 10px;
+}
+.capability-card__desc {
+  font-size: 14px;
+  color: var(--cf-ink-2);
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+.capability-card__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.capability-card__chip {
+  padding: 5px 12px;
+  font-size: 12px;
+  background: var(--cf-muted);
+  color: var(--cf-muted-foreground);
+  border-radius: var(--cf-radius-pill);
+  font-weight: 500;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.case-card {
+  background: var(--cf-card);
+  border: 1px solid var(--cf-border);
+  border-radius: var(--cf-radius-lg);
+  overflow: hidden;
+  transition: all 250ms cubic-bezier(0.2,0.8,0.2,1);
+}
+.case-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 32px 60px -28px rgba(20,61,102,0.22);
+  border-color: var(--cf-primary);
+}
+.case-card__img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: transform 400ms ease;
+}
+.case-card:hover .case-card__img {
+  transform: scale(1.04);
+}
+.case-card__img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.case-card__badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 5px 12px;
+  background: rgba(9,31,56,0.88);
+  color: var(--cf-neutral-0);
+  border-radius: var(--cf-radius-pill);
+  font-size: 12px;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+}
+.case-card__body {
+  padding: 28px 28px 32px;
+}
+.case-card__client {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--cf-primary);
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+.case-card__title {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--cf-ink);
+  margin-bottom: 14px;
+  line-height: 1.35;
+}
+.case-card__desc {
+  font-size: 14px;
+  color: var(--cf-ink-2);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+.case-card__meta {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--cf-line);
+}
+.case-card__meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.case-card__meta-val {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--cf-primary);
+  font-variant-numeric: tabular-nums;
+}
+.case-card__meta-label {
+  font-size: 11px;
+  color: var(--cf-ink-3);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, var(--cf-brand-800) 0%, var(--cf-brand-900) 100%);
+  border-radius: var(--cf-radius-lg);
+  padding: 72px 64px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-section::before,
+.cta-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.06;
+  background: var(--cf-neutral-0);
+}
+.cta-section::before {
+  width: 320px; height: 320px;
+  top: -120px; left: -80px;
+}
+.cta-section::after {
+  width: 240px; height: 240px;
+  bottom: -100px; right: -60px;
+}
+.cta-section__title {
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 600;
+  color: var(--cf-neutral-0);
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+.cta-section__desc {
+  font-size: 16px;
+  color: var(--cf-neutral-300);
+  max-width: 560px;
+  margin: 0 auto 36px;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+.cta-section__actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cta-section .cf-btn-primary {
+  background: var(--cf-neutral-0);
+  color: var(--cf-brand-800);
+  padding: 16px 36px;
+  font-size: 16px;
+}
+.cta-section .cf-btn-primary:hover {
+  background: var(--cf-neutral-100);
+}
+.cta-section .cf-btn-secondary {
+  border-color: rgba(255,255,255,0.25);
+  color: var(--cf-neutral-0);
+  padding: 16px 32px;
+}
+.cta-section .cf-btn-secondary:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.4);
+}
+
+@media (max-width: 1024px) {
+  .service-modes { grid-template-columns: 1fr; }
+  .service-process { grid-template-columns: repeat(2, 1fr); }
+  .service-process::before { display: none; }
+  .capability-grid { grid-template-columns: repeat(2, 1fr); }
+  .case-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .case-grid { grid-template-columns: 1fr; }
+  .mode-card { padding: 32px 24px; }
+  .cta-section { padding: 48px 28px; }
+}
+@media (max-width: 560px) {
+  .service-process { grid-template-columns: 1fr; }
+  .capability-grid { grid-template-columns: 1fr; }
+  .cta-section__actions { flex-direction: column; }
+  .cta-section__actions .cf-btn { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="cf-container">
+    <a href="home.html" class="logo-link">
+      <span>VASTURE</span>
+      <span>华盛智造</span>
+    </a>
+    <nav>
+      <a href="home.html" data-dom-id="nav-home">首页</a>
+      <a href="products.html" data-dom-id="nav-products">产品中心</a>
+      <a href="factory.html" data-dom-id="nav-factory">工厂实力</a>
+      <a href="services.html" data-dom-id="nav-services">定制服务</a>
+      <a href="blog.html" data-dom-id="nav-blog">行业资讯</a>
+      <a href="resources.html" data-dom-id="nav-resources">资源中心</a>
+      <a href="contact.html" data-dom-id="nav-contact">联系我们</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch">
+        <span class="lang-btn active">中</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-btn">EN</span>
+      </div>
+      <button class="cf-btn cf-btn-secondary" data-theme-toggle aria-label="切换主题">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <a href="contact.html" class="cf-btn cf-btn-primary">获取报价</a>
+      <button class="mobile-menu-btn" data-action="open-menu" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="移动导航">
+  <div class="mobile-drawer-header">
+    <a href="home.html" class="logo-link">
+      <span>VASTURE</span>
+      <span>华盛智造</span>
+    </a>
+    <button class="mobile-drawer-close" data-action="close-menu" aria-label="关闭菜单">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-drawer-nav">
+    <a href="home.html" data-dom-id="nav-home">首页 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="products.html" data-dom-id="nav-products">产品中心 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="factory.html" data-dom-id="nav-factory">工厂实力 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="services.html" data-dom-id="nav-services">定制服务 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="blog.html" data-dom-id="nav-blog">行业资讯 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="resources.html" data-dom-id="nav-resources">资源中心 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a href="contact.html" data-dom-id="nav-contact">联系我们 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></a>
+  </nav>
+  <div class="mobile-drawer-footer">
+    <a href="contact.html" class="cf-btn cf-btn-primary">获取免费报价</a>
+  </div>
+</div>
+<div class="drawer-backdrop"></div>
+
+<section class="page-header">
+  <div class="cf-container">
+    <div class="page-header__caption reveal">SERVICES</div>
+    <h1 class="page-header__title reveal">定制服务</h1>
+    <p class="page-header__desc reveal">从OEM贴牌到ODM研发，一站式服装定制解决方案</p>
+    <div class="page-header__meta reveal">
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">7<span style="font-size: 18px;">天</span></span>
+        <span class="page-header__meta-label">快速打样周期</span>
+      </div>
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">300<span style="font-size: 18px;">件</span></span>
+        <span class="page-header__meta-label">灵活起订量</span>
+      </div>
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">98<span style="font-size: 18px;">%</span></span>
+        <span class="page-header__meta-label">准时交付率</span>
+      </div>
+      <div class="page-header__meta-item">
+        <span class="page-header__meta-num">200<span style="font-size: 18px;">+</span></span>
+        <span class="page-header__meta-label">成功合作案例</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal" style="text-align: center; margin-left: auto; margin-right: auto;">
+      <div class="cf-eyebrow" style="justify-content: center;"><span class="cf-eyebrow-line"></span>SERVICE MODELS<span class="cf-eyebrow-line"></span></div>
+      <h2 class="cf-sec-title" style="text-align: center;">两种合作模式，灵活满足您的需求</h2>
+      <p class="cf-sec-desc" style="text-align: center; margin: 16px auto 0;">无论您是成熟品牌还是初创企业，我们都提供匹配的定制方案</p>
+    </div>
+    <div class="service-modes">
+      <div class="mode-card reveal">
+        <div class="mode-card__tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          OEM MODE
+        </div>
+        <h3 class="mode-card__title">OEM 贴牌服务</h3>
+        <p class="mode-card__desc">您提供设计稿或样衣，我们负责从面料采购到成品交付的全流程生产。成熟的工艺体系与品控标准，确保每一件产品都符合您的品牌要求。</p>
+        <ul class="mode-card__list">
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>来图 / 来样生产</strong>
+              <p>按客户提供的设计稿或样衣1:1复刻生产</p>
+            </div>
+          </li>
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>指定品牌工艺</strong>
+              <p>严格遵循品牌工艺单与品控标准生产</p>
+            </div>
+          </li>
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>客户指定面料</strong>
+              <p>支持客户自带面料或指定面料供应商采购</p>
+            </div>
+          </li>
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>贴牌 / 换标服务</strong>
+              <p>提供品牌主唛、洗水唛、吊牌贴牌服务</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="mode-card mode-card--odm reveal">
+        <div class="mode-card__tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          ODM MODE
+        </div>
+        <h3 class="mode-card__title">ODM 研发服务</h3>
+        <p class="mode-card__desc">从市场趋势分析到产品落地，提供设计、面料、版型、工艺全链路研发服务。资深设计团队助力品牌打造具有市场竞争力的产品系列。</p>
+        <ul class="mode-card__list">
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>趋势分析 & 企划</strong>
+              <p>市场趋势研究，季度产品系列企划方案</p>
+            </div>
+          </li>
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>原创设计开发</strong>
+              <p>资深设计团队原创设计稿与版型开发</p>
+            </div>
+          </li>
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>面料 & 工艺创新</strong>
+              <p>新面料推荐，特殊工艺研发与测试</p>
+            </div>
+          </li>
+          <li class="mode-card__item">
+            <span class="mode-card__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            <div>
+              <strong>品牌定制包案</strong>
+              <p>全季度产品系列开发打包服务方案</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section" style="background: var(--cf-surface-2);">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal" style="text-align: center; margin-left: auto; margin-right: auto;">
+      <div class="cf-eyebrow" style="justify-content: center;"><span class="cf-eyebrow-line"></span>CUSTOMIZATION PROCESS<span class="cf-eyebrow-line"></span></div>
+      <h2 class="cf-sec-title" style="text-align: center;">8步标准化定制流程</h2>
+      <p class="cf-sec-desc" style="text-align: center; margin: 16px auto 0;">每个环节都有专属项目经理对接，让您随时掌握进度</p>
+    </div>
+    <div class="service-process reveal" style="margin-bottom: 24px;">
+      <div class="service-process__row">
+        <div class="service-process__step">
+          <div class="service-process__idx">01</div>
+          <div class="service-process__title">需求沟通</div>
+          <div class="service-process__desc">深入了解您的品牌定位、产品风格、目标价格带与交付时间</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            1-2 工作日
+          </span>
+        </div>
+        <div class="service-process__step">
+          <div class="service-process__idx">02</div>
+          <div class="service-process__title">方案确认</div>
+          <div class="service-process__desc">提供定制方案报价、面料推荐、工艺建议与MOQ确认</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            2-3 工作日
+          </span>
+        </div>
+        <div class="service-process__step">
+          <div class="service-process__idx">03</div>
+          <div class="service-process__title">面料开发</div>
+          <div class="service-process__desc">按需求定制面料颜色、组织规格，提供ABC方案打色卡</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            3-5 工作日
+          </span>
+        </div>
+        <div class="service-process__step">
+          <div class="service-process__idx">04</div>
+          <div class="service-process__title">打样确认</div>
+          <div class="service-process__desc">专业版师制版打样，免费修改2次，直至100%满意确认</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            7 工作日
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="service-process reveal">
+      <div class="service-process__row">
+        <div class="service-process__step">
+          <div class="service-process__idx">05</div>
+          <div class="service-process__title">批量生产</div>
+          <div class="service-process__desc">确认样衣后安排大货生产，MES系统实时进度可查</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            15-30 天
+          </span>
+        </div>
+        <div class="service-process__step">
+          <div class="service-process__idx">06</div>
+          <div class="service-process__title">品控检验</div>
+          <div class="service-process__desc">FQC全检+OQC抽检，支持客户第三方验货或现场验货</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            2-3 工作日
+          </span>
+        </div>
+        <div class="service-process__step">
+          <div class="service-process__idx">07</div>
+          <div class="service-process__title">物流发货</div>
+          <div class="service-process__desc">支持海运/空运/快递多渠道，协助报关与清关资料</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            3-15 天
+          </span>
+        </div>
+        <div class="service-process__step">
+          <div class="service-process__idx">08</div>
+          <div class="service-process__title">售后跟踪</div>
+          <div class="service-process__desc">收货后质量问题7天内响应，返单优先排产保障</div>
+          <span class="service-process__duration">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            持续服务
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal">
+      <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>CORE CAPABILITY</div>
+      <h2 class="cf-sec-title">四大核心能力，为您的品牌赋能</h2>
+      <p class="cf-sec-desc">沉淀18年行业经验，构建从面料到设计的完整能力矩阵</p>
+    </div>
+    <div class="capability-grid">
+      <div class="capability-card reveal">
+        <div class="capability-card__header">
+          <div class="capability-card__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <span class="capability-card__count">500+ 种</span>
+        </div>
+        <h3 class="capability-card__title">面料资料库</h3>
+        <p class="capability-card__desc">长期合作50+优质面料厂，常备针织、梭织、毛织、功能面料500余种，支持小批量定制染色。</p>
+        <div class="capability-card__chips">
+          <span class="capability-card__chip">纯棉</span>
+          <span class="capability-card__chip">CVC</span>
+          <span class="capability-card__chip">涤沦</span>
+          <span class="capability-card__chip">再生纤维</span>
+          <span class="capability-card__chip">功能性</span>
+        </div>
+      </div>
+      <div class="capability-card reveal">
+        <div class="capability-card__header">
+          <div class="capability-card__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+          </div>
+          <span class="capability-card__count">80+ 工艺</span>
+        </div>
+        <h3 class="capability-card__title">工艺实现库</h3>
+        <p class="capability-card__desc">印花、绣花、烫钻、植绒、复合、水洗等80+成熟工艺储备，特殊工艺研发团队支持创新。</p>
+        <div class="capability-card__chips">
+          <span class="capability-card__chip">数码印花</span>
+          <span class="capability-card__chip">电脑绣花</span>
+          <span class="capability-card__chip">烫画烫钻</span>
+          <span class="capability-card__chip">水洗做旧</span>
+        </div>
+      </div>
+      <div class="capability-card reveal">
+        <div class="capability-card__header">
+          <div class="capability-card__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
+          </div>
+          <span class="capability-card__count">300+ 版型</span>
+        </div>
+        <h3 class="capability-card__title">版型数据库</h3>
+        <p class="capability-card__desc">积累300+成熟男女童装基础版型，覆盖欧码/美码/亚码，支持快速改款调版。</p>
+        <div class="capability-card__chips">
+          <span class="capability-card__chip">欧版 EU</span>
+          <span class="capability-card__chip">美版 US</span>
+          <span class="capability-card__chip">亚洲版</span>
+          <span class="capability-card__chip">大码定制</span>
+        </div>
+      </div>
+      <div class="capability-card reveal">
+        <div class="capability-card__header">
+          <div class="capability-card__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <span class="capability-card__count">10+ 设计师</span>
+        </div>
+        <h3 class="capability-card__title">设计支持团队</h3>
+        <p class="capability-card__desc">10年以上经验设计团队，精通潮牌、运动、休闲、女装多风格，支持独立系列开发。</p>
+        <div class="capability-card__chips">
+          <span class="capability-card__chip">趋势企划</span>
+          <span class="capability-card__chip">款式设计</span>
+          <span class="capability-card__chip">花型设计</span>
+          <span class="capability-card__chip">系列开发</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section" style="background: var(--cf-surface-2);">
+  <div class="cf-container">
+    <div class="cf-sec-head reveal">
+      <div class="cf-eyebrow"><span class="cf-eyebrow-line"></span>SUCCESS CASES</div>
+      <h2 class="cf-sec-title">精选定制案例</h2>
+      <p class="cf-sec-desc">成功服务跨境电商、独立设计师、快时尚品牌等多类型客户</p>
+    </div>
+    <div class="case-grid">
+      <div class="case-card reveal">
+        <div class="case-card__img-wrap">
+          <img src="assets/image_7_yi19x4.jpg" alt="跨境品牌运动服定制案例" class="case-card__img">
+          <span class="case-card__badge">跨境电商 · OEM</span>
+        </div>
+        <div class="case-card__body">
+          <div class="case-card__client">AMAZON 头部运动品牌</div>
+          <h3 class="case-card__title">跨境品牌运动服系列</h3>
+          <p class="case-card__desc">为亚马逊头部运动品牌定制瑜伽服、跑步外套系列，支持Lululemon同品质面料，月出货3万件+。</p>
+          <div class="case-card__meta">
+            <div class="case-card__meta-item">
+              <span class="case-card__meta-val">36万件</span>
+              <span class="case-card__meta-label">年度累计交付</span>
+            </div>
+            <div class="case-card__meta-item">
+              <span class="case-card__meta-val">99.2%</span>
+              <span class="case-card__meta-label">客户好评率</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="case-card reveal">
+        <div class="case-card__img-wrap">
+          <img src="assets/image_8_yi19x4.jpg" alt="快时尚女装定制案例" class="case-card__img">
+          <span class="case-card__badge">快时尚 · ODM</span>
+        </div>
+        <div class="case-card__body">
+          <div class="case-card__client">国内知名快时尚女装</div>
+          <h3 class="case-card__title">快时尚女装季度开发</h3>
+          <p class="case-card__desc">ODM全案服务，从趋势企划、款式设计、面料开发到生产交付，每季度150+新款同步上市。</p>
+          <div class="case-card__meta">
+            <div class="case-card__meta-item">
+              <span class="case-card__meta-val">600+</span>
+              <span class="case-card__meta-label">年开发款式</span>
+            </div>
+            <div class="case-card__meta-item">
+              <span class="case-card__meta-val">15天</span>
+              <span class="case-card__meta-label">平均上新周期</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="case-card reveal">
+        <div class="case-card__img-wrap">
+          <img src="assets/image_13_yi19x4.jpg" alt="独立设计师品牌定制案例" class="case-card__img">
+          <span class="case-card__badge">设计师品牌 · OEM</span>
+        </div>
+        <div class="case-card__body">
+          <div class="case-card__client">新锐独立设计师品牌</div>
+          <h3 class="case-card__title">独立设计师品牌联名</h3>
+          <p class="case-card__desc">支持设计师品牌小批量、多SKU生产需求，复杂工艺单件流定制，MOQ 300件灵活起订。</p>
+          <div class="case-card__meta">
+            <div class="case-card__meta-item">
+              <span class="case-card__meta-val">300件</span>
+              <span class="case-card__meta-label">SKU 最低起订</span>
+            </div>
+            <div class="case-card__meta-item">
+              <span class="case-card__meta-val">120+</span>
+              <span class="case-card__meta-label">合作SKU数量</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cf-section">
+  <div class="cf-container">
+    <div class="cta-section reveal">
+      <h3 class="cta-section__title">启动您的定制项目，从一件样衣开始</h3>
+      <p class="cta-section__desc">无论您是需要小批量试单的新品牌，还是需要稳定供应链的成熟客户，我们都能提供匹配的解决方案。提交需求，24小时内专业顾问与您对接。</p>
+      <div class="cta-section__actions">
+        <a href="contact.html" class="cf-btn cf-btn-primary">
+          获取定制报价
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="contact.html" class="cf-btn cf-btn-secondary">
+          下载定制手册
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="cf-container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">VASTURE 华盛智造</div>
+        <p class="footer-brand-desc">专注高品质服装定制制造18年，服务全球500+品牌客户。从设计、打样到量产，一站式服装OEM/ODM解决方案。</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon" aria-label="微信"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 8.5c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5-2 4.5-4.5 4.5c-.7 0-1.3-.1-1.9-.3L9.5 15l.8-2.4c-1.4-.8-2.3-2.3-2.3-4.1z"/><path d="M5.5 13.5c0-2.5 2-4.5 4.5-4.5.5 0 1 .1 1.5.2"/></svg></a>
+          <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-icon" aria-label="Alibaba"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M3 6h18M3 18h12"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">产品中心</div>
+        <div class="footer-links">
+          <a href="products.html" class="footer-link">运动服装</a>
+          <a href="products.html" class="footer-link">休闲卫衣</a>
+          <a href="products.html" class="footer-link">时尚女装</a>
+          <a href="products.html" class="footer-link">童装系列</a>
+          <a href="products.html" class="footer-link">功能外套</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">快速链接</div>
+        <div class="footer-links">
+          <a href="factory.html" class="footer-link">工厂实力</a>
+          <a href="services.html" class="footer-link">定制服务</a>
+          <a href="blog.html" class="footer-link">行业资讯</a>
+          <a href="resources.html" class="footer-link">资源下载</a>
+          <a href="contact.html" class="footer-link">联系我们</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">联系方式</div>
+        <div class="footer-contact">
+          <span>广东省佛山市顺德区</span>
+          <span>华盛智造产业园A栋</span>
+          <span>电话：+86 757 8888 8888</span>
+          <span>邮箱：sales@vasture.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 VASTURE 华盛智造. All Rights Reserved.</span>
+      <span>粤ICP备XXXXXXXX号-1</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
