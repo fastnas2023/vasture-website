@@ -1,5 +1,5 @@
 /* ============================================================
-   Yangzhou Zhuoshengxuan Garment Trade.Co., Ltd. - Shared Interactions JS
+   扬州卓圣轩服装贸易有限公司 - Shared Interactions JS
    Handles: nav scroll state, mobile drawer, theme toggle,
             scroll reveal, form interactions, product filtering
    ============================================================ */
