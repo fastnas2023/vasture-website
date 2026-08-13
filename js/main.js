@@ -20,7 +20,7 @@
 
   // ---------- 2. Active Nav Highlight by data-dom-id ----------
   const pageMap = {
-    'nav-home': 'home.html',
+    'nav-home': 'index.html',
     'nav-products': 'products.html',
     'nav-factory': 'factory.html',
     'nav-services': 'services.html',
@@ -29,7 +29,7 @@
     'nav-resources': 'resources.html',
     'nav-contact': 'contact.html'
   };
-  const currentFile = (location.pathname.split('/').pop() || 'home.html').toLowerCase();
+  const currentFile = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
   let activeKey = 'nav-home';
   for (const [key, file] of Object.entries(pageMap)) {
     if (file.toLowerCase() === currentFile) { activeKey = key; break; }
@@ -50,7 +50,7 @@
     'nav-contact': '联系我们'
   };
   const primaryNavItems = [
-    ['nav-home', 'home.html'],
+    ['nav-home', 'index.html'],
     ['nav-products', 'products.html'],
     ['nav-services', 'services.html'],
     ['nav-factory', 'factory.html'],
