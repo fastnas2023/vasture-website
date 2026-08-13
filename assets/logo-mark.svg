@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">卓圣轩服贸图形标志</title>
+  <desc id="desc">以工作服、反光条与防护盾牌为灵感的图形标志</desc>
+  <defs>
+    <clipPath id="jacket-clip">
+      <path d="M174 122 221 86l35 40 35-40 47 36 53 31-31 78-39-20v187l-65 43-65-43V211l-39 20-31-78z"/>
+    </clipPath>
+  </defs>
+
+  <path d="M256 24 456 103v137c0 113-77 207-200 248C133 447 56 353 56 240V103z"
+        fill="#0B2A3A" stroke="#0E5D89" stroke-width="18" stroke-linejoin="round"/>
+
+  <g clip-path="url(#jacket-clip)">
+    <path d="M174 122 221 86l35 40 35-40 47 36 53 31-31 78-39-20v187l-65 43-65-43V211l-39 20-31-78z"
+          fill="#104C70" stroke="#F2F5F6" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M120 242h272v44H120z" fill="#DCE4E8"/>
+    <path d="M120 286h272v62H120z" fill="#FF7600"/>
+    <path d="M120 348h272v42H120z" fill="#DCE4E8"/>
+    <path d="M256 124v314" stroke="#F2F5F6" stroke-width="9"/>
+    <path d="m221 86 35 40 35-40" fill="none" stroke="#F2F5F6" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M204 107 238 145l-39 46-45-35zM308 107l-34 38 39 46 45-35z"
+          fill="#0B334B" stroke="#F2F5F6" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M256 170v18M256 206v18M256 370v18M256 406v18"
+          stroke="#DCE4E8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <path d="M174 122 221 86l35 40 35-40 47 36 53 31-31 78-39-20v187l-65 43-65-43V211l-39 20-31-78z"
+        fill="none" stroke="#F2F5F6" stroke-width="8" stroke-linejoin="round"/>
+</svg>
