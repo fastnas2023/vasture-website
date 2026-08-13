@@ -344,12 +344,19 @@
 
     filterSidebar.querySelectorAll('input[type="checkbox"]').forEach((cb) => cb.addEventListener('change', apply));
     sortSelect && sortSelect.addEventListener('change', apply);
+    const requestedType = new URLSearchParams(window.location.search).get('type');
+    if (requestedType) {
+      const requestedCheckbox = Array.from(filterSidebar.querySelectorAll('input[name="type"]'))
+        .find((cb) => cb.value === requestedType);
+      if (requestedCheckbox) requestedCheckbox.checked = true;
+    }
     resetBtn && resetBtn.addEventListener('click', () => {
       filterSidebar.querySelectorAll('input[type="checkbox"]').forEach((cb) => { cb.checked = false; });
       if (sortSelect) sortSelect.value = 'recommend';
       apply();
       showToast('筛选已重置', 'info');
     });
+    apply();
   }
 
   // ---------- 11. Blog / Resources Pagination Tabs ----------
