@@ -46,7 +46,7 @@ vasture-website/
 │   ├── image_12_yi19x4.jpg  # 厂区展示3
 │   ├── image_13_yi19x4.jpg  # 新闻头图/设计师案例
 │   └── image_14_yi19x4.jpg  # 地图
-├── home.html              # 首页：Hero+数据+产品品类+工厂优势+CTA
+├── index.html             # 首页：Hero+数据+产品品类+工厂优势+CTA
 ├── products.html          # 产品中心：筛选侧栏+8产品卡片+排序
 ├── factory.html           # 工厂实力：介绍+6步流程+质量体系+设备+证书
 ├── services.html          # 定制服务：OEM/ODM+8步流程+能力+案例
@@ -104,7 +104,7 @@ vasture-website/
 
 | 页面文件 | data-dom-id | 导航标签 |
 |----------|-------------|----------|
-| home.html | nav-home | 首页 |
+| index.html | nav-home | 首页 |
 | products.html | nav-products | 产品中心 |
 | factory.html | nav-factory | 工厂实力 |
 | services.html | nav-services | 服务方案 |
@@ -117,7 +117,7 @@ vasture-website/
 ```bash
 cd vasture-website
 python -m http.server 8080
-# 浏览器打开 http://localhost:8080/home.html
+# 浏览器打开 http://localhost:8080/index.html
 ```
 
 ## 验证状态
@@ -133,7 +133,7 @@ python -m http.server 8080
 - [x] 创建项目目录结构和资源复制
 - [x] 提取共享CSS样式到brand.css
 - [x] 创建共享JS文件main.js（12个交互模块）
-- [x] 创建首页 home.html
+- [x] 创建首页 index.html
 - [x] 创建产品中心 products.html
 - [x] 创建工厂实力 factory.html
 - [x] 创建定制服务 services.html
