@@ -24,6 +24,7 @@
     'nav-products': 'products.html',
     'nav-factory': 'factory.html',
     'nav-services': 'services.html',
+    'nav-about': 'about.html',
     'nav-blog': 'blog.html',
     'nav-resources': 'resources.html',
     'nav-contact': 'contact.html'
@@ -36,6 +37,67 @@
   document.querySelectorAll(`[data-dom-id="${activeKey}"]`).forEach((el) => {
     if (el.tagName === 'A') el.classList.add('active');
   });
+
+  // ---------- 2.5. Canonical navigation labels across legacy page headers ----------
+  const navLabels = {
+    'nav-home': '首页',
+    'nav-products': '产品中心',
+    'nav-factory': '供应链能力',
+    'nav-services': 'OEM/ODM定制',
+    'nav-about': '关于我们',
+    'nav-blog': '行业资讯',
+    'nav-resources': '采购资料',
+    'nav-contact': '联系我们'
+  };
+  const primaryNavItems = [
+    ['nav-home', 'home.html'],
+    ['nav-products', 'products.html'],
+    ['nav-services', 'services.html'],
+    ['nav-factory', 'factory.html'],
+    ['nav-about', 'about.html'],
+    ['nav-resources', 'resources.html'],
+    ['nav-blog', 'blog.html']
+  ];
+  document.querySelectorAll('.site-header nav, .mobile-drawer-nav').forEach((nav) => {
+    const isMobile = nav.classList.contains('mobile-drawer-nav');
+    const items = isMobile ? primaryNavItems.concat([['nav-contact', 'contact.html']]) : primaryNavItems;
+    const existing = new Map(Array.from(nav.querySelectorAll(':scope > a')).map((el) => [el.dataset.domId, el]));
+    items.forEach(([id, href]) => {
+      let link = existing.get(id);
+      if (!link) {
+        link = document.createElement('a');
+        link.dataset.domId = id;
+        nav.appendChild(link);
+      }
+      const icon = link.querySelector('svg');
+      link.href = href;
+      link.textContent = navLabels[id] || id;
+      if (icon && isMobile) link.append(' ', icon);
+      link.classList.toggle('active', id === activeKey);
+      // Re-append every canonical item so legacy headers are reordered as well
+      // as relabeled. This keeps desktop and mobile navigation identical.
+      nav.appendChild(link);
+    });
+    Array.from(nav.querySelectorAll(':scope > a')).forEach((link) => {
+      if (!items.some(([id]) => id === link.dataset.domId)) link.remove();
+    });
+  });
+  document.querySelectorAll('.site-header .lang-switch').forEach((group) => {
+    const buttons = group.querySelectorAll('.lang-btn');
+    if (buttons.length >= 2) {
+      buttons[0].textContent = '中文';
+      buttons[1].textContent = 'EN';
+    }
+    const divider = group.querySelector('.lang-divider');
+    if (divider) divider.textContent = '|';
+  });
+  document.querySelectorAll('.site-header [data-theme-toggle]').forEach((el) => el.remove());
+  document.querySelectorAll('.site-header a.cf-btn-primary, .site-header button.cf-btn-primary').forEach((el) => {
+    const textNode = Array.from(el.childNodes).find((node) => node.nodeType === Node.TEXT_NODE && node.textContent.trim());
+    if (textNode) textNode.textContent = '获取报价';
+  });
+  document.querySelectorAll('.mobile-drawer [data-theme-toggle]').forEach((el) => el.remove());
+  document.querySelectorAll('.mobile-drawer .lang-switch').forEach((el) => el.remove());
 
   // ---------- 3. Mobile Drawer ----------
   const drawer = document.querySelector('.mobile-drawer');
@@ -238,20 +300,29 @@
       cards.forEach((card) => {
         let show = true;
         const hay = (card.textContent + (card.dataset.filters || '')).toLowerCase();
-        const typeMap = { hoodie: '卫衣', tee: 't恤', jacket: '夹克', polo: 'polo', dress: '连衣裙', pants: '长裤', kids: '童装', sportswear: '运动' };
+        const typeMap = {
+          hoodie: '卫衣',
+          workshirt: '工作衫',
+          jacket: '夹克',
+          vest: '背心',
+          pants: '裤',
+          coverall: '连体服',
+          polo: 'polo',
+          workwear: '工作服'
+        };
         if (filters.type.length) {
           show = filters.type.some((v) => hay.includes(v) || hay.includes(typeMap[v] || ''));
         }
         if (show && filters.fabric.length) {
-          const fm = { cotton: 'cotton', blend: 'blend', polyester: 'polyester', wool: 'wool' };
+          const fm = { fleece: 'fleece', softshell: 'softshell', oxford: 'oxford', mesh: 'mesh' };
           show = filters.fabric.some((v) => hay.includes(v) || hay.includes(fm[v] || ''));
         }
         if (show && filters.craft.length) {
-          const cm = { print: '印花', embroidery: '刺绣', flocking: '植绒', 'heat-transfer': '烫画' };
+          const cm = { reflective: 'reflective', branding: 'branding', waterproof: 'waterproof', functional: 'functional' };
           show = filters.craft.some((v) => hay.includes(v) || hay.includes(cm[v] || ''));
         }
         if (show && filters.scene.length) {
-          const sm = { casual: '休闲', sport: '运动', business: '商务', street: '潮流' };
+          const sm = { safety: 'safety', outdoor: 'outdoor', business: 'business', project: 'project' };
           show = filters.scene.some((v) => hay.includes(v) || hay.includes(sm[v] || ''));
         }
         card.style.display = show ? '' : 'none';
