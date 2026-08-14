@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fastnas2023.github.io/vasture-website/data/product.schema.json",
+  "title": "Vasture product import dataset",
+  "type": "object",
+  "required": ["schema_version", "updated_date", "asset_base_url", "products"],
+  "properties": {
+    "schema_version": { "type": "integer", "minimum": 1 },
+    "updated_date": { "type": "string", "format": "date" },
+    "asset_base_url": { "type": "string", "format": "uri" },
+    "products": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/product" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "nullableString": { "type": ["string", "null"] },
+    "product": {
+      "type": "object",
+      "required": [
+        "id", "sku", "name_zh", "name_en", "description_zh", "product_type",
+        "tags", "main_image", "image_alt_zh", "gallery_images", "badge",
+        "supply_mode", "moq_label", "moq_value", "stock_status", "catalogue_id",
+        "catalogue_name", "source_file", "source_pages", "added_date",
+        "source_status", "visibility", "sort_order"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "sku": { "$ref": "#/$defs/nullableString" },
+        "name_zh": { "type": "string", "minLength": 1 },
+        "name_en": { "type": "string", "minLength": 1 },
+        "description_zh": { "type": "string", "minLength": 1 },
+        "product_type": { "enum": ["hoodie", "workshirt", "jacket", "vest", "pants", "coverall", "polo", "accessory"] },
+        "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "main_image": { "type": "string", "minLength": 1 },
+        "image_alt_zh": { "type": "string", "minLength": 1 },
+        "gallery_images": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "badge": { "type": "string", "minLength": 1 },
+        "supply_mode": { "enum": ["catalogue_inquiry", "odm_proposal", "ready_stock", "oem", "odm"] },
+        "moq_label": { "type": "string", "minLength": 1 },
+        "moq_value": { "type": "string", "minLength": 1 },
+        "stock_status": { "enum": ["inquiry_required", "not_claimed", "in_stock", "out_of_stock", "made_to_order"] },
+        "catalogue_id": { "$ref": "#/$defs/nullableString" },
+        "catalogue_name": { "$ref": "#/$defs/nullableString" },
+        "source_file": { "$ref": "#/$defs/nullableString" },
+        "source_pages": { "type": "array", "items": { "type": "integer", "minimum": 1 }, "uniqueItems": true },
+        "added_date": { "type": ["string", "null"], "format": "date" },
+        "source_status": { "const": "catalogue_linked" },
+        "visibility": { "enum": ["public", "draft", "hidden"] },
+        "sort_order": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": false
+    }
+  }
+}

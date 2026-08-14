@@ -35,7 +35,9 @@
   };
   const currentFile = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
   let activeKey = 'nav-home';
+  if (location.pathname.includes('/product/')) activeKey = 'nav-products';
   for (const [key, file] of Object.entries(pageMap)) {
+    if (activeKey === 'nav-products') break;
     if (file.toLowerCase() === currentFile) { activeKey = key; break; }
   }
   document.querySelectorAll(`[data-dom-id="${activeKey}"]`).forEach((el) => {
@@ -62,6 +64,7 @@
     ['nav-resources', 'resources.html'],
     ['nav-blog', 'blog.html']
   ];
+  const navBase = location.pathname.includes('/product/') ? '../' : '';
   document.querySelectorAll('.site-header nav, .mobile-drawer-nav').forEach((nav) => {
     const isMobile = nav.classList.contains('mobile-drawer-nav');
     const items = isMobile ? primaryNavItems.concat([['nav-contact', 'contact.html']]) : primaryNavItems;
@@ -74,7 +77,7 @@
         nav.appendChild(link);
       }
       const icon = link.querySelector('svg');
-      link.href = href;
+      link.href = `${navBase}${href}`;
       link.textContent = navLabels[id] || id;
       if (icon && isMobile) link.append(' ', icon);
       link.classList.toggle('active', id === activeKey);
@@ -211,6 +214,32 @@
         }
       });
     }
+    // Prefill the quote form when a product detail/listing CTA passes context.
+    const query = new URLSearchParams(window.location.search);
+    const productName = query.get('name');
+    const productNeed = query.get('need');
+    const productId = query.get('product');
+    const requestedProductType = query.get('type');
+    const productField = quoteForm.querySelector('#q-product');
+    const descriptionField = quoteForm.querySelector('#q-desc');
+    if (requestedProductType && productField && Array.from(productField.options).some((option) => option.value === requestedProductType)) {
+      productField.value = requestedProductType;
+    } else if (productId && productField) {
+      fetch('data/products.json')
+        .then((response) => response.ok ? response.json() : null)
+        .then((catalogue) => {
+          const selected = catalogue && catalogue.products && catalogue.products.find((item) => item.id === productId);
+          if (selected && Array.from(productField.options).some((option) => option.value === selected.product_type)) {
+            productField.value = selected.product_type;
+          }
+        })
+        .catch(() => {});
+    }
+    if (productNeed && descriptionField) {
+      descriptionField.value = productNeed;
+    } else if (productName && descriptionField) {
+      descriptionField.value = `咨询${productName}的ODM开发方案`;
+    }
     // Submit handler (demo)
     quoteForm.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -287,48 +316,87 @@
     const countEl = document.querySelector('.grid-toolbar__count strong');
     const sortSelect = document.querySelector('.sort-select');
     const resetBtn = document.querySelector('.filter-reset');
+    const emptyResetBtn = document.querySelector('.product-empty__reset');
+    const emptyState = document.querySelector('.product-empty');
+    const productGrid = document.querySelector('.product-grid');
+    const filterCard = filterSidebar.querySelector('.filter-card');
+    const mobileToggle = filterSidebar.querySelector('.filter-mobile-toggle');
+    const filterGroups = ['type', 'fabric', 'craft', 'scene'];
+
+    allCards.forEach((card) => {
+      card._filterTokens = new Set((card.dataset.filters || '').toLowerCase().split(/\s+/).filter(Boolean));
+    });
+
+    mobileToggle && mobileToggle.addEventListener('click', () => {
+      const isOpen = filterCard.classList.toggle('is-open');
+      mobileToggle.setAttribute('aria-expanded', String(isOpen));
+      mobileToggle.textContent = isOpen ? '收起筛选' : '展开筛选';
+    });
 
     function getFilters() {
       const out = { type: [], fabric: [], craft: [], scene: [] };
-      ['type', 'fabric', 'craft', 'scene'].forEach((group) => {
+      filterGroups.forEach((group) => {
         filterSidebar.querySelectorAll(`input[name="${group}"]:checked`).forEach((cb) => out[group].push(cb.value));
       });
+      if (out.type.includes('all')) out.type = [];
       return out;
+    }
+
+    function matchesFilters(card, filters, ignoredGroup) {
+      return filterGroups.every((group) => {
+        if (group === ignoredGroup || !filters[group].length) return true;
+        return filters[group].some((value) => card._filterTokens.has(value));
+      });
+    }
+
+    function updateFilterOptions(filters) {
+      filterGroups.forEach((group) => {
+        filterSidebar.querySelectorAll(`input[name="${group}"]`).forEach((input) => {
+          let optionCount;
+          if (group === 'type') {
+            optionCount = input.value === 'all'
+              ? allCards.length
+              : allCards.filter((card) => card._filterTokens.has(input.value)).length;
+          } else {
+            const candidateFilters = {};
+            filterGroups.forEach((name) => { candidateFilters[name] = filters[name].slice(); });
+            candidateFilters[group] = [input.value];
+            optionCount = allCards.filter((card) => matchesFilters(card, candidateFilters)).length;
+          }
+
+          const option = input.closest('.filter-option');
+          const optionCountEl = option && option.querySelector('.count');
+          if (optionCountEl) optionCountEl.textContent = optionCount;
+          const shouldDisable = group !== 'type' && optionCount === 0 && !input.checked;
+          input.disabled = shouldDisable;
+          option && option.classList.toggle('is-disabled', shouldDisable);
+        });
+      });
+    }
+
+    function syncTypeUrl() {
+      const selectedType = filterSidebar.querySelector('input[name="type"]:checked');
+      const url = new URL(window.location.href);
+      if (selectedType && selectedType.value !== 'all') {
+        url.searchParams.set('type', selectedType.value);
+      } else {
+        url.searchParams.delete('type');
+      }
+      try {
+        window.history.replaceState({}, '', url.href);
+      } catch (error) {
+        // Some browsers restrict history updates for pages opened directly with file://.
+        // Filtering must continue even when the address bar cannot be updated.
+      }
     }
 
     function apply() {
       const filters = getFilters();
       const sortBy = sortSelect ? sortSelect.value : 'recommend';
       const cards = allCards.slice();
-      // simple keyword-based demo filter using data attributes or name text
+      // Filter only by the structured tokens declared on each product card.
       cards.forEach((card) => {
-        let show = true;
-        const hay = (card.textContent + (card.dataset.filters || '')).toLowerCase();
-        const typeMap = {
-          hoodie: '卫衣',
-          workshirt: '工作衫',
-          jacket: '夹克',
-          vest: '背心',
-          pants: '裤',
-          coverall: '连体服',
-          polo: 'polo',
-          workwear: '工作服'
-        };
-        if (filters.type.length) {
-          show = filters.type.some((v) => hay.includes(v) || hay.includes(typeMap[v] || ''));
-        }
-        if (show && filters.fabric.length) {
-          const fm = { fleece: 'fleece', softshell: 'softshell', oxford: 'oxford', mesh: 'mesh' };
-          show = filters.fabric.some((v) => hay.includes(v) || hay.includes(fm[v] || ''));
-        }
-        if (show && filters.craft.length) {
-          const cm = { reflective: 'reflective', branding: 'branding', waterproof: 'waterproof', functional: 'functional' };
-          show = filters.craft.some((v) => hay.includes(v) || hay.includes(cm[v] || ''));
-        }
-        if (show && filters.scene.length) {
-          const sm = { safety: 'safety', outdoor: 'outdoor', business: 'business', project: 'project' };
-          show = filters.scene.some((v) => hay.includes(v) || hay.includes(sm[v] || ''));
-        }
+        const show = matchesFilters(card, filters);
         card.style.display = show ? '' : 'none';
       });
 
@@ -340,26 +408,46 @@
           const mb = (b.textContent.match(moqRe) || [])[1] || 9999;
           return sortBy === 'moq-asc' ? ma - mb : mb - ma;
         });
-        const grid = document.querySelector('.product-grid');
-        if (grid) visible.forEach((c) => grid.appendChild(c));
+        if (productGrid) visible.forEach((c) => productGrid.appendChild(c));
       }
       if (countEl) countEl.textContent = visible.length;
+      if (productGrid) productGrid.hidden = visible.length === 0;
+      if (emptyState) emptyState.hidden = visible.length !== 0;
+      updateFilterOptions(filters);
     }
 
-    filterSidebar.querySelectorAll('input[type="checkbox"]').forEach((cb) => cb.addEventListener('change', apply));
+    filterSidebar.querySelectorAll('input').forEach((input) => input.addEventListener('change', () => {
+      if (input.name === 'type') {
+        filterSidebar.querySelectorAll('input[name="fabric"], input[name="craft"], input[name="scene"]')
+          .forEach((secondary) => { secondary.checked = false; });
+        syncTypeUrl();
+      }
+      apply();
+    }));
     sortSelect && sortSelect.addEventListener('change', apply);
     const requestedType = new URLSearchParams(window.location.search).get('type');
     if (requestedType) {
-      const requestedCheckbox = Array.from(filterSidebar.querySelectorAll('input[name="type"]'))
-        .find((cb) => cb.value === requestedType);
-      if (requestedCheckbox) requestedCheckbox.checked = true;
+      const requestedRadio = Array.from(filterSidebar.querySelectorAll('input[name="type"]'))
+        .find((radio) => radio.value === requestedType);
+      if (requestedRadio) {
+        requestedRadio.checked = true;
+      } else {
+        syncTypeUrl();
+      }
     }
-    resetBtn && resetBtn.addEventListener('click', () => {
+
+    function resetFilters(showMessage) {
       filterSidebar.querySelectorAll('input[type="checkbox"]').forEach((cb) => { cb.checked = false; });
+      const allType = filterSidebar.querySelector('input[name="type"][value="all"]');
+      if (allType) allType.checked = true;
       if (sortSelect) sortSelect.value = 'recommend';
+      syncTypeUrl();
       apply();
-      showToast('筛选已重置', 'info');
-    });
+      if (showMessage) showToast('筛选已重置', 'info');
+    }
+
+    resetBtn && resetBtn.addEventListener('click', () => resetFilters(true));
+    emptyResetBtn && emptyResetBtn.addEventListener('click', () => resetFilters(false));
     apply();
   }
 
@@ -376,6 +464,42 @@
     });
   });
 
-  // ---------- 12. Expose some globals (optional debug) ----------
+  // ---------- 12. Catalogue source-page lightbox ----------
+  const catalogueLinks = document.querySelectorAll('[data-catalogue-lightbox]');
+  if (catalogueLinks.length && typeof HTMLDialogElement !== 'undefined') {
+    const lightbox = document.createElement('dialog');
+    lightbox.className = 'catalogue-lightbox';
+    lightbox.setAttribute('aria-label', '画册原页大图');
+    lightbox.innerHTML = `
+      <div class="catalogue-lightbox__panel">
+        <button type="button" class="catalogue-lightbox__close" aria-label="关闭大图">×</button>
+        <div class="catalogue-lightbox__image-wrap"><img alt="" /></div>
+        <div class="catalogue-lightbox__caption"></div>
+      </div>`;
+    document.body.appendChild(lightbox);
+
+    const lightboxImage = lightbox.querySelector('img');
+    const lightboxCaption = lightbox.querySelector('.catalogue-lightbox__caption');
+    const closeLightbox = () => lightbox.close();
+    lightbox.querySelector('.catalogue-lightbox__close').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (event) => {
+      if (event.target === lightbox) closeLightbox();
+    });
+
+    catalogueLinks.forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const preview = link.querySelector('img');
+        const figure = link.closest('figure');
+        const caption = figure && figure.querySelector('figcaption');
+        lightboxImage.src = link.href;
+        lightboxImage.alt = preview ? preview.alt : '画册原页图';
+        lightboxCaption.textContent = caption ? caption.textContent.replace(' · 点击可放大', '') : '画册原页参考';
+        lightbox.showModal();
+      });
+    });
+  }
+
+  // ---------- 13. Expose some globals (optional debug) ----------
   window.VASTURE = { showToast };
 })();

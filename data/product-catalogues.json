@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "catalogues": [
+    {
+      "id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "catalogue_name_zh": "Modish Centro Edile 英文产品画册 v2",
+      "file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "added_date": "2026-08-14",
+      "source_type": "customer-provided-odm-proposal",
+      "frontend_label": "ODM方案",
+      "frontend_claims": {
+        "stock": false,
+        "moq_confirmed": false,
+        "certification_confirmed": false
+      },
+      "products": [
+        { "slug": "strategic-ventilation-jacket", "source_pages": [2] },
+        { "slug": "ultra-light-rain-coat", "source_pages": [3] },
+        { "slug": "multi-pocket-tech-jacket", "source_pages": [4, 6] },
+        { "slug": "softshell-jacket", "source_pages": [5] },
+        { "slug": "tech-crew-utility-vest", "source_pages": [7] },
+        { "slug": "thermal-work-pants", "source_pages": [8] },
+        { "slug": "cargo-pant-02", "source_pages": [9] },
+        { "slug": "tech-motion-work-pant", "source_pages": [10] },
+        { "slug": "convertible-performance-pant", "source_pages": [11] },
+        { "slug": "hydroactive-cooling-vest", "source_pages": [12] },
+        { "slug": "bio-based-pcm-cooling-vest", "source_pages": [13] },
+        { "slug": "utility-tech-shirt", "source_pages": [14] },
+        { "slug": "utility-tech-vest", "source_pages": [15] },
+        { "slug": "premium-t-shirts", "source_pages": [16] },
+        { "slug": "formal-shirt", "source_pages": [17] },
+        { "slug": "performance-polo", "source_pages": [18] },
+        { "slug": "performance-cap", "source_pages": [19] },
+        { "slug": "performance-beanie", "source_pages": [20] },
+        { "slug": "roll-top-waterproof-backpack", "source_pages": [21] },
+        { "slug": "tool-backpack", "source_pages": [22] },
+        { "slug": "heavy-duty-duffle-bag", "source_pages": [23] },
+        { "slug": "thermal-lunch-bag", "source_pages": [24] },
+        { "slug": "tool-mug", "source_pages": [25] },
+        { "slug": "winter-rainproof-coverall", "source_pages": [26] }
+      ]
+    }
+  ]
+}
