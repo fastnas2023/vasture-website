@@ -18,6 +18,7 @@ from urllib.parse import urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://fastnas2023.github.io/vasture-website/"
+CATALOGUE_IMAGE_VERSION = "20260815-footer-trim-1"
 PRODUCT_TYPE_LABELS = {
     "jacket": "夹克 / 防水外套",
     "vest": "工作背心 / 功能背心",
@@ -90,7 +91,10 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
     inquiry = inquiry_query(product)
     pages = "、".join(str(page) for page in product["source_pages"])
     main_image = "../" + product["main_image"]
-    gallery = ["../" + image for image in product.get("gallery_images", [])]
+    gallery = [
+        f"../{image}?v={CATALOGUE_IMAGE_VERSION}"
+        for image in product.get("gallery_images", [])
+    ]
     gallery_markup = "\n".join(
         f'''            <figure class="product-detail__gallery-item">
               <a href="{esc(image)}" data-catalogue-lightbox aria-label="放大查看{esc(product["name_zh"])}画册原页">
