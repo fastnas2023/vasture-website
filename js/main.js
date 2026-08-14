@@ -6,6 +6,10 @@
 (function () {
   'use strict';
 
+  // Keep content visible if JavaScript is unavailable or an observer fails.
+  // CSS uses this class to opt into the scroll-reveal enhancement only.
+  document.documentElement.classList.add('js-enabled');
+
   // ---------- 1. Header scroll state ----------
   const header = document.querySelector('.site-header');
   const onScroll = () => {
