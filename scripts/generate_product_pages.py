@@ -139,7 +139,7 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
   <meta property="og:image" content="{esc(BASE_URL + product["main_image"])}" />
   <link rel="icon" href="../assets/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="../assets/logo-mark.png" />
-  <link rel="stylesheet" href="../css/brand.css?v=20260815-product-detail" />
+  <link rel="stylesheet" href="../css/brand.css?v=20260815-full-catalogue-page-3" />
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>
 <body>
@@ -208,7 +208,7 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
     </section>
   </main>
 {prefix_relative_urls(footer)}
-  <script src="../js/main.js?v=20260815-product-detail"></script>
+  <script src="../js/main.js?v=20260815-full-catalogue-page-3"></script>
 </body>
 </html>
 '''
