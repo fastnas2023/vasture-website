@@ -40,6 +40,50 @@
         { "slug": "tool-mug", "source_pages": [25] },
         { "slug": "winter-rainproof-coverall", "source_pages": [26] }
       ]
+    },
+    {
+      "id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "catalogue_name_zh": "Catalogue A4 工作服产品画册",
+      "file": "产品图册/catalogue-a4.pdf",
+      "added_date": "2026-08-15",
+      "source_type": "customer-provided-product-catalogue",
+      "frontend_label": "新画册",
+      "frontend_claims": {
+        "stock": false,
+        "moq_confirmed": false,
+        "certification_confirmed": false
+      },
+      "products": [
+        { "slug": "hvp211-classic-bomber-jacket", "source_pages": [2] },
+        { "slug": "hvj510-reflective-sweatshirt", "source_pages": [1] },
+        { "slug": "hvk05-pull-over-hoodie", "source_pages": [1] },
+        { "slug": "hvk07-zip-hoodie", "source_pages": [1] },
+        { "slug": "hvk09-reflective-softshell-jacket", "source_pages": [1] },
+        { "slug": "hv016t-reflective-jogging-pants", "source_pages": [1] },
+        { "slug": "hvk06-quarter-zip-hoodie", "source_pages": [1] },
+        { "slug": "hv006-reflective-softshell-gilet", "source_pages": [1] },
+        { "slug": "hvp711-seven-in-one-jacket", "source_pages": [2] }
+      ]
+    },
+    {
+      "id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "catalogue_name_zh": "Safety Workwear 78页英文产品画册",
+      "file": "产品图册/catalogue-78-en.pdf",
+      "added_date": "2026-08-15",
+      "source_type": "customer-provided-product-catalogue",
+      "frontend_label": "英文画册",
+      "frontend_claims": {
+        "stock": false,
+        "moq_confirmed": false,
+        "certification_confirmed": false
+      },
+      "import_status": "source-archived-not-published",
+      "english_source_data": "data/catalogue-78-english-source.json",
+      "draft_inventory": "data/catalogue-78-inventory.json",
+      "draft_product_code_count": 149,
+      "products": []
     }
   ]
 }

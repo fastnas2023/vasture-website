@@ -1,0 +1,4031 @@
+{
+  "schema_version": 1,
+  "catalogue_id": "catalogue-78-en",
+  "batch": "XK-001-XK-151",
+  "publish_to_frontend": false,
+  "products": [
+    {
+      "id": "xk-001",
+      "sku": "XK-001",
+      "name_en": "Long Sleeve Camo Shirt",
+      "name_zh": "长袖迷彩工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-001-front.webp",
+      "image_alt_zh": "长袖迷彩工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        4
+      ],
+      "source_crop": [
+        220,
+        405,
+        620,
+        960
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-002",
+      "sku": "XK-002",
+      "name_en": "FR Solid Vent Work Shirt",
+      "name_zh": "阻燃纯色透气工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-002-front.webp",
+      "image_alt_zh": "阻燃纯色透气工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        4
+      ],
+      "source_crop": [
+        1350,
+        310,
+        1680,
+        860
+      ],
+      "crop_status": "needs-annotation-cleanup",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-003",
+      "sku": "XK-003",
+      "name_en": "Inherent Lightweight FR Rip-Stop Work Shirt",
+      "name_zh": "本质阻燃轻量防撕裂工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-003-front.webp",
+      "image_alt_zh": "本质阻燃轻量防撕裂工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        5
+      ],
+      "source_crop": [
+        340,
+        370,
+        610,
+        840
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-004",
+      "sku": "XK-004",
+      "name_en": "FR Stretch Work Shirt with Pearl Snaps",
+      "name_zh": "阻燃弹力珍珠按扣工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-004-front.webp",
+      "image_alt_zh": "阻燃弹力珍珠按扣工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        5
+      ],
+      "source_crop": [
+        1450,
+        385,
+        1755,
+        850
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-005",
+      "sku": "XK-005",
+      "name_en": "Classic Button Down FR Work Shirt",
+      "name_zh": "经典纽扣阻燃工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-005-front.webp",
+      "image_alt_zh": "经典纽扣阻燃工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        6
+      ],
+      "source_crop": [
+        505,
+        345,
+        770,
+        850
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-006",
+      "sku": "XK-006",
+      "name_en": "FR Plaid Work Shirt",
+      "name_zh": "阻燃格纹工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-006-front.webp",
+      "image_alt_zh": "阻燃格纹工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        6
+      ],
+      "source_crop": [
+        1420,
+        375,
+        1700,
+        850
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-007",
+      "sku": "XK-007",
+      "name_en": "Denim FR Work Shirt with Pearl Snaps",
+      "name_zh": "珍珠按扣阻燃牛仔工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-007-front.webp",
+      "image_alt_zh": "珍珠按扣阻燃牛仔工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        7
+      ],
+      "source_crop": [
+        600,
+        270,
+        1000,
+        910
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-008",
+      "sku": "XK-008",
+      "name_en": "Women's Non-FR Work Shirt",
+      "name_zh": "女式非阻燃工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-008-front.webp",
+      "image_alt_zh": "女式非阻燃工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        7
+      ],
+      "source_crop": [
+        1800,
+        320,
+        2190,
+        870
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-009",
+      "sku": "XK-009",
+      "name_en": "Women's Work Shirt",
+      "name_zh": "女式工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-009-front.webp",
+      "image_alt_zh": "女式工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        8
+      ],
+      "source_crop": [
+        815,
+        465,
+        1120,
+        985
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-010",
+      "sku": "XK-010",
+      "name_en": "Women's FR Crew Neck Shirt",
+      "name_zh": "女式阻燃圆领衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-010-front.webp",
+      "image_alt_zh": "女式阻燃圆领衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        8
+      ],
+      "source_crop": [
+        1410,
+        285,
+        1805,
+        810
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-011",
+      "sku": "XK-011",
+      "name_en": "FR Stretch Crew Neck Tee Shirt",
+      "name_zh": "阻燃弹力圆领长袖T恤",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-011-front.webp",
+      "image_alt_zh": "阻燃弹力圆领长袖T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        9
+      ],
+      "source_crop": [
+        455,
+        350,
+        720,
+        900
+      ],
+      "crop_status": "needs-product-only-image",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-012",
+      "sku": "XK-012",
+      "name_en": "FR Crew Neck Tee Shirt",
+      "name_zh": "阻燃圆领长袖T恤",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-012-front.webp",
+      "image_alt_zh": "阻燃圆领长袖T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        9
+      ],
+      "source_crop": [
+        1740,
+        280,
+        2110,
+        985
+      ],
+      "crop_status": "needs-product-only-image",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-013",
+      "sku": "XK-013",
+      "name_en": "FR Henley Shirt-Raglan Sleeve",
+      "name_zh": "阻燃插肩袖亨利领衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-013-front.webp",
+      "image_alt_zh": "阻燃插肩袖亨利领衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        10
+      ],
+      "source_crop": [
+        670,
+        125,
+        1145,
+        1540
+      ],
+      "crop_status": "needs-product-only-image",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-014",
+      "sku": "XK-014",
+      "name_en": "Functional Base Layer",
+      "name_zh": "功能性阻燃打底套装",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-014-front.webp",
+      "image_alt_zh": "功能性阻燃打底套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        11
+      ],
+      "source_crop": [
+        310,
+        300,
+        700,
+        805
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-015",
+      "sku": "XK-015",
+      "name_en": "FR Polo Shirts",
+      "name_zh": "阻燃Polo衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-015-front.webp",
+      "image_alt_zh": "阻燃Polo衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        12
+      ],
+      "source_crop": [
+        1370,
+        700,
+        1635,
+        1080
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-016",
+      "sku": "XK-016",
+      "name_en": "Multinorm Sweater",
+      "name_zh": "多标准防护半拉链卫衣",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-016-front.webp",
+      "image_alt_zh": "多标准防护半拉链卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        13
+      ],
+      "source_crop": [
+        255,
+        935,
+        475,
+        1215
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-017",
+      "sku": "XK-017",
+      "name_en": "Multinorm Sweatshirt",
+      "name_zh": "多标准防护圆领卫衣",
+      "product_type": "sweatshirt",
+      "variant_group_id": "xk-017-018-multinorm-sweatshirt",
+      "main_image": "assets/catalogue-78/main/xk-017-front.webp",
+      "image_alt_zh": "多标准防护圆领卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        13
+      ],
+      "source_crop": [
+        1270,
+        260,
+        1685,
+        725
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-018",
+      "sku": "XK-018",
+      "name_en": "Multinorm Sweatshirt",
+      "name_zh": "多标准防护圆领卫衣",
+      "product_type": "sweatshirt",
+      "variant_group_id": "xk-017-018-multinorm-sweatshirt",
+      "main_image": "assets/catalogue-78/main/xk-018-front.webp",
+      "image_alt_zh": "多标准防护圆领卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        13
+      ],
+      "source_crop": [
+        1265,
+        855,
+        1685,
+        1385
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-019",
+      "sku": "XK-019",
+      "name_en": "Short Sleeve T-Shirt",
+      "name_zh": "短袖T恤",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-019-front.webp",
+      "image_alt_zh": "短袖T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        14
+      ],
+      "source_crop": [
+        205,
+        275,
+        645,
+        875
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-020",
+      "sku": "XK-020",
+      "name_en": "Round Neck Sweatshirts",
+      "name_zh": "圆领卫衣",
+      "product_type": "sweatshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-020-front.webp",
+      "image_alt_zh": "圆领卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        14
+      ],
+      "source_crop": [
+        1235,
+        865,
+        1695,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-021",
+      "sku": "XK-021",
+      "name_en": "Hi-Visibility Closed Front Long Sleeve Shirt",
+      "name_zh": "高可视封闭前襟长袖工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-021-front.webp",
+      "image_alt_zh": "高可视封闭前襟长袖工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        15
+      ],
+      "source_crop": [
+        560,
+        375,
+        960,
+        935
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-022",
+      "sku": "XK-022",
+      "name_en": "Mens Hi Vis Work Shirt Underarm Mesh Vent",
+      "name_zh": "男式高可视腋下网眼透气工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-022-front.webp",
+      "image_alt_zh": "男式高可视腋下网眼透气工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        15
+      ],
+      "source_crop": [
+        1860,
+        620,
+        2195,
+        1030
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-023",
+      "sku": "XK-023",
+      "name_en": "High Visibility Birdseye Mesh Crew Neck Shirt",
+      "name_zh": "高可视鸟眼网布反光圆领衫",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-023-front.webp",
+      "image_alt_zh": "高可视鸟眼网布反光圆领衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        16
+      ],
+      "source_crop": [
+        185,
+        325,
+        650,
+        875
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-024",
+      "sku": "XK-024",
+      "name_en": "Hi-Vis Lime Birdseye Safety Short Sleeve Shirt",
+      "name_zh": "荧光黄鸟眼网布安全短袖衫",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-024-front.webp",
+      "image_alt_zh": "荧光黄鸟眼网布安全短袖衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        16
+      ],
+      "source_crop": [
+        1260,
+        320,
+        1685,
+        885
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-025",
+      "sku": "XK-025",
+      "name_en": "Lightweight Work Shirt",
+      "name_zh": "轻量反光工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-025-front.webp",
+      "image_alt_zh": "轻量反光工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        17
+      ],
+      "source_crop": [
+        215,
+        295,
+        665,
+        890
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-026",
+      "sku": "XK-026",
+      "name_en": "Apple Green Work Shirt",
+      "name_zh": "苹果绿反光工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-026-front.webp",
+      "image_alt_zh": "苹果绿反光工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        17
+      ],
+      "source_crop": [
+        1350,
+        350,
+        1605,
+        720
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-027",
+      "sku": "XK-027",
+      "name_en": "Green Quick Drying Work Shirt",
+      "name_zh": "绿色速干工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-027-front.webp",
+      "image_alt_zh": "绿色速干工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        18
+      ],
+      "source_crop": [
+        1285,
+        315,
+        1695,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-028",
+      "sku": "XK-028",
+      "name_en": "Stretched Front Zip Hoodie",
+      "name_zh": "弹力全拉链连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-028-front.webp",
+      "image_alt_zh": "弹力全拉链连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        20
+      ],
+      "source_crop": [
+        775,
+        245,
+        1085,
+        765
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-029",
+      "sku": "XK-029",
+      "name_en": "FR Pull Over Hoodie",
+      "name_zh": "阻燃套头连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": "xk-029-033-pullover-hoodie",
+      "main_image": "assets/catalogue-78/main/xk-029-front.webp",
+      "image_alt_zh": "阻燃套头连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        20
+      ],
+      "source_crop": [
+        1815,
+        85,
+        2200,
+        1030
+      ],
+      "crop_status": "needs-product-only-image",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-030",
+      "sku": "XK-030",
+      "name_en": "FR Pull Over Hoodie",
+      "name_zh": "阻燃套头连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": "xk-029-033-pullover-hoodie",
+      "main_image": "assets/catalogue-78/main/xk-030-front.webp",
+      "image_alt_zh": "阻燃套头连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        20
+      ],
+      "source_crop": [
+        1275,
+        1070,
+        1485,
+        1380
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-031",
+      "sku": "XK-031",
+      "name_en": "FR Pull Over Hoodie",
+      "name_zh": "阻燃套头连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": "xk-029-033-pullover-hoodie",
+      "main_image": "assets/catalogue-78/main/xk-031-front.webp",
+      "image_alt_zh": "阻燃套头连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        20
+      ],
+      "source_crop": [
+        1495,
+        1070,
+        1745,
+        1380
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-032",
+      "sku": "XK-032",
+      "name_en": "FR Pull Over Hoodie",
+      "name_zh": "阻燃套头连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": "xk-029-033-pullover-hoodie",
+      "main_image": "assets/catalogue-78/main/xk-032-front.webp",
+      "image_alt_zh": "阻燃套头连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        20
+      ],
+      "source_crop": [
+        1760,
+        1065,
+        1950,
+        1380
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-033",
+      "sku": "XK-033",
+      "name_en": "FR Pull Over Hoodie",
+      "name_zh": "阻燃套头连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": "xk-029-033-pullover-hoodie",
+      "main_image": "assets/catalogue-78/main/xk-033-front.webp",
+      "image_alt_zh": "阻燃套头连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        20
+      ],
+      "source_crop": [
+        1960,
+        1050,
+        2180,
+        1380
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-034",
+      "sku": "XK-034",
+      "name_en": "FR Insulated Duck Jacket",
+      "name_zh": "阻燃鸭绒保暖夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-034-front.webp",
+      "image_alt_zh": "阻燃鸭绒保暖夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        22
+      ],
+      "source_crop": [
+        320,
+        320,
+        720,
+        860
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-035",
+      "sku": "XK-035",
+      "name_en": "Flame Retardant Jacket",
+      "name_zh": "阻燃反光夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-035-front.webp",
+      "image_alt_zh": "阻燃反光夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        22
+      ],
+      "source_crop": [
+        1510,
+        400,
+        1900,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-036",
+      "sku": "XK-036",
+      "name_en": "Polyester Cotton Basic Jacket",
+      "name_zh": "涤棉基础夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-036-front.webp",
+      "image_alt_zh": "涤棉基础夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        23
+      ],
+      "source_crop": [
+        230,
+        330,
+        700,
+        850
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-037",
+      "sku": "XK-037",
+      "name_en": "Polyester Cotton Jacket",
+      "name_zh": "涤棉功能夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-037-front.webp",
+      "image_alt_zh": "涤棉功能夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        23
+      ],
+      "source_crop": [
+        1330,
+        480,
+        1690,
+        850
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-038",
+      "sku": "XK-038",
+      "name_en": "Polyester Cotton Basic Jacket",
+      "name_zh": "涤棉基础夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-038-front.webp",
+      "image_alt_zh": "涤棉基础夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        24
+      ],
+      "source_crop": [
+        600,
+        930,
+        870,
+        1300
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-039",
+      "sku": "XK-039",
+      "name_en": "Zip Base Layer-Top",
+      "name_zh": "拉链打底上衣",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-039-front.webp",
+      "image_alt_zh": "拉链打底上衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        25
+      ],
+      "source_crop": [
+        220,
+        300,
+        700,
+        850
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-040",
+      "sku": "XK-040",
+      "name_en": "Waterproof Outdoor Winter Jacket",
+      "name_zh": "防水户外冬季夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-040-front.webp",
+      "image_alt_zh": "防水户外冬季夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        25
+      ],
+      "source_crop": [
+        1270,
+        300,
+        1710,
+        860
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-041",
+      "sku": "XK-041",
+      "name_en": "Offshore Anti-Flame Jacket",
+      "name_zh": "海工阻燃反光夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-041-front.webp",
+      "image_alt_zh": "海工阻燃反光夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        26
+      ],
+      "source_crop": [
+        220,
+        340,
+        610,
+        870
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-042",
+      "sku": "XK-042",
+      "name_en": "Offshore Anti-Flame Winter Jacket",
+      "name_zh": "海工阻燃冬季夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-042-front.webp",
+      "image_alt_zh": "海工阻燃冬季夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        26
+      ],
+      "source_crop": [
+        1400,
+        320,
+        1840,
+        870
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-043",
+      "sku": "XK-043",
+      "name_en": "FR Stretch Pants",
+      "name_zh": "阻燃弹力长裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-043-front.webp",
+      "image_alt_zh": "阻燃弹力长裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        28
+      ],
+      "source_crop": [
+        780,
+        280,
+        1050,
+        970
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-044",
+      "sku": "XK-044",
+      "name_en": "FR Stretch Pants",
+      "name_zh": "阻燃弹力长裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-044-front.webp",
+      "image_alt_zh": "阻燃弹力长裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        28
+      ],
+      "source_crop": [
+        1260,
+        300,
+        1690,
+        1500
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-045",
+      "sku": "XK-045",
+      "name_en": "Offshore Anti-Flame Trousers",
+      "name_zh": "海工阻燃反光长裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-045-front.webp",
+      "image_alt_zh": "海工阻燃反光长裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        29
+      ],
+      "source_crop": [
+        240,
+        320,
+        590,
+        1160
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-046",
+      "sku": "XK-046",
+      "name_en": "Industry Hi-Vis Trousers",
+      "name_zh": "工业高可视长裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-046-front.webp",
+      "image_alt_zh": "工业高可视长裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        29
+      ],
+      "source_crop": [
+        1300,
+        270,
+        1640,
+        1160
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-047",
+      "sku": "XK-047",
+      "name_en": "100% Cotton FR Jeans",
+      "name_zh": "纯棉阻燃牛仔裤",
+      "product_type": "pants",
+      "variant_group_id": "xk-047-048-cotton-fr-jeans",
+      "main_image": "assets/catalogue-78/main/xk-047-front.webp",
+      "image_alt_zh": "纯棉阻燃牛仔裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        30
+      ],
+      "source_crop": [
+        280,
+        300,
+        590,
+        1100
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-048",
+      "sku": "XK-048",
+      "name_en": "100% Cotton FR Jeans",
+      "name_zh": "纯棉阻燃牛仔裤",
+      "product_type": "pants",
+      "variant_group_id": "xk-047-048-cotton-fr-jeans",
+      "main_image": "assets/catalogue-78/main/xk-048-front.webp",
+      "image_alt_zh": "纯棉阻燃牛仔裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        30
+      ],
+      "source_crop": [
+        1260,
+        680,
+        1590,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-049",
+      "sku": "XK-049",
+      "name_en": "Basical Man FR Stretch Jeans",
+      "name_zh": "男式阻燃弹力牛仔裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-049-front.webp",
+      "image_alt_zh": "男式阻燃弹力牛仔裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        31
+      ],
+      "source_crop": [
+        240,
+        390,
+        530,
+        1110
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-050",
+      "sku": "XK-050",
+      "name_en": "Women FR Stretch Jeans",
+      "name_zh": "女式阻燃弹力牛仔裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-050-front.webp",
+      "image_alt_zh": "女式阻燃弹力牛仔裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        31
+      ],
+      "source_crop": [
+        1260,
+        760,
+        1600,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-051",
+      "sku": "XK-051",
+      "name_en": "Cotton Basic Pants",
+      "name_zh": "棉质基础工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-051-front.webp",
+      "image_alt_zh": "棉质基础工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        32
+      ],
+      "source_crop": [
+        270,
+        830,
+        600,
+        1580
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-052",
+      "sku": "XK-052",
+      "name_en": "Polyester Cotton Pants",
+      "name_zh": "涤棉工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-052-front.webp",
+      "image_alt_zh": "涤棉工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        32
+      ],
+      "source_crop": [
+        1340,
+        300,
+        1640,
+        1050
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-053",
+      "sku": "XK-053",
+      "name_en": "Polyester Cotton Cargo Pants",
+      "name_zh": "涤棉工装多袋裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-053-front.webp",
+      "image_alt_zh": "涤棉工装多袋裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        33
+      ],
+      "source_crop": [
+        250,
+        300,
+        630,
+        980
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-054",
+      "sku": "XK-054",
+      "name_en": "Lightweight Trouser",
+      "name_zh": "轻量反光工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-054-front.webp",
+      "image_alt_zh": "轻量反光工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        33
+      ],
+      "source_crop": [
+        1370,
+        950,
+        1710,
+        1570
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-055",
+      "sku": "XK-055",
+      "name_en": "Utility Pants",
+      "name_zh": "多功能工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-055-front.webp",
+      "image_alt_zh": "多功能工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        34
+      ],
+      "source_crop": [
+        260,
+        280,
+        620,
+        1030
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-056",
+      "sku": "XK-056",
+      "name_en": "Stretch Utility Pants",
+      "name_zh": "弹力多功能工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-056-front.webp",
+      "image_alt_zh": "弹力多功能工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        34
+      ],
+      "source_crop": [
+        1250,
+        300,
+        1530,
+        920
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-057",
+      "sku": "XK-057",
+      "name_en": "Ripstop Stretch Shorts",
+      "name_zh": "防撕裂弹力短裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-057-front.webp",
+      "image_alt_zh": "防撕裂弹力短裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        35
+      ],
+      "source_crop": [
+        280,
+        300,
+        670,
+        870
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-058",
+      "sku": "XK-058",
+      "name_en": "Ripstop Stretch Pants",
+      "name_zh": "防撕裂弹力长裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-058-front.webp",
+      "image_alt_zh": "防撕裂弹力长裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        35
+      ],
+      "source_crop": [
+        1810,
+        270,
+        2160,
+        1010
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-059",
+      "sku": "XK-059",
+      "name_en": "Stretch Utility Shorts",
+      "name_zh": "弹力多功能短裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-059-front.webp",
+      "image_alt_zh": "弹力多功能短裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        36
+      ],
+      "source_crop": [
+        240,
+        280,
+        650,
+        880
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-060",
+      "sku": "XK-060",
+      "name_en": "3/4 Length Stretch Trousers",
+      "name_zh": "七分弹力工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-060-front.webp",
+      "image_alt_zh": "七分弹力工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        36
+      ],
+      "source_crop": [
+        1280,
+        780,
+        1650,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-061",
+      "sku": "XK-061",
+      "name_en": "Stretch Work Jeans",
+      "name_zh": "弹力工装牛仔裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-061-front.webp",
+      "image_alt_zh": "弹力工装牛仔裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        37
+      ],
+      "source_crop": [
+        230,
+        280,
+        590,
+        940
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-062",
+      "sku": "XK-062",
+      "name_en": "Stretch Jeans with Holster Pockets",
+      "name_zh": "带工具袋弹力牛仔裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-062-front.webp",
+      "image_alt_zh": "带工具袋弹力牛仔裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        37
+      ],
+      "source_crop": [
+        1500,
+        870,
+        1830,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-063",
+      "sku": "XK-063",
+      "name_en": "Base Layer-Trousers",
+      "name_zh": "弹力保暖打底裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-063-front.webp",
+      "image_alt_zh": "弹力保暖打底裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        38
+      ],
+      "source_crop": [
+        810,
+        280,
+        1090,
+        980
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-064",
+      "sku": "XK-064",
+      "name_en": "4-Way Stretch Cargo Pants",
+      "name_zh": "四向弹力工装多袋裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-064-front.webp",
+      "image_alt_zh": "四向弹力工装多袋裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        38
+      ],
+      "source_crop": [
+        1370,
+        300,
+        1730,
+        980
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-065",
+      "sku": "XK-065",
+      "name_en": "Eco Work Pants",
+      "name_zh": "环保工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-065-front.webp",
+      "image_alt_zh": "环保工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        39
+      ],
+      "source_crop": [
+        220,
+        220,
+        530,
+        880
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-066",
+      "sku": "XK-066",
+      "name_en": "Eco Work Pants",
+      "name_zh": "环保工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-066-front.webp",
+      "image_alt_zh": "环保工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        39
+      ],
+      "source_crop": [
+        220,
+        930,
+        530,
+        1580
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-067",
+      "sku": "XK-067",
+      "name_en": "White Cargo Pants",
+      "name_zh": "白色工装多袋裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-067-front.webp",
+      "image_alt_zh": "白色工装多袋裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        39
+      ],
+      "source_crop": [
+        1480,
+        760,
+        1830,
+        1560
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-068",
+      "sku": "XK-068",
+      "name_en": "Hi-Vis Cargo Pants",
+      "name_zh": "高可视工装多袋裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-068-front.webp",
+      "image_alt_zh": "高可视工装多袋裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        40
+      ],
+      "source_crop": [
+        500,
+        470,
+        870,
+        1210
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-069",
+      "sku": "XK-069",
+      "name_en": "Safety Work Pants with Reflective Tape",
+      "name_zh": "带反光带安全工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-069-front.webp",
+      "image_alt_zh": "带反光带安全工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        40
+      ],
+      "source_crop": [
+        1480,
+        470,
+        1810,
+        1190
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-070",
+      "sku": "XK-070",
+      "name_en": "Flame Retardant Coverall",
+      "name_zh": "阻燃连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-070-front.webp",
+      "image_alt_zh": "阻燃连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        42
+      ],
+      "source_crop": [
+        220,
+        280,
+        680,
+        1530
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-071",
+      "sku": "XK-071",
+      "name_en": "Flame Retardant Coverall",
+      "name_zh": "阻燃连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-071-front.webp",
+      "image_alt_zh": "阻燃连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        42
+      ],
+      "source_crop": [
+        1370,
+        310,
+        1720,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-072",
+      "sku": "XK-072",
+      "name_en": "Inherent FR Coverall",
+      "name_zh": "本质阻燃连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-072-front.webp",
+      "image_alt_zh": "本质阻燃连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        43
+      ],
+      "source_crop": [
+        750,
+        280,
+        1110,
+        1530
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-073",
+      "sku": "XK-073",
+      "name_en": "Offshore Anti-Flame Coverall",
+      "name_zh": "海工阻燃连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-073-front.webp",
+      "image_alt_zh": "海工阻燃连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        43
+      ],
+      "source_crop": [
+        1810,
+        300,
+        2160,
+        1530
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-074",
+      "sku": "XK-074",
+      "name_en": "Offshore Anti-Flame Coverall",
+      "name_zh": "海工阻燃高可视连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-074-front.webp",
+      "image_alt_zh": "海工阻燃高可视连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        44
+      ],
+      "source_crop": [
+        640,
+        280,
+        1110,
+        1530
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-075",
+      "sku": "XK-075",
+      "name_en": "Flame Retardant Coverall",
+      "name_zh": "阻燃反光连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-075-front.webp",
+      "image_alt_zh": "阻燃反光连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        44
+      ],
+      "source_crop": [
+        1250,
+        280,
+        1580,
+        1080
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-076",
+      "sku": "XK-076",
+      "name_en": "Flame Retardant Coverall",
+      "name_zh": "阻燃连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-076-front.webp",
+      "image_alt_zh": "阻燃连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        45
+      ],
+      "source_crop": [
+        210,
+        280,
+        590,
+        1040
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-077",
+      "sku": "XK-077",
+      "name_en": "Flame Retardant Coverall",
+      "name_zh": "阻燃反光连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-077-front.webp",
+      "image_alt_zh": "阻燃反光连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        45
+      ],
+      "source_crop": [
+        1370,
+        690,
+        1710,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-078",
+      "sku": "XK-078",
+      "name_en": "Pilot Coverall",
+      "name_zh": "飞行员连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-078-front.webp",
+      "image_alt_zh": "飞行员连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        46
+      ],
+      "source_crop": [
+        1120,
+        120,
+        1570,
+        1610
+      ],
+      "crop_status": "needs-background-isolation",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-079",
+      "sku": "XK-079",
+      "name_en": "Hi-Visibility Two Tone Coverall",
+      "name_zh": "高可视双色连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-079-front.webp",
+      "image_alt_zh": "高可视双色连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        47
+      ],
+      "source_crop": [
+        210,
+        850,
+        560,
+        1570
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-080",
+      "sku": "XK-080",
+      "name_en": "Cotton Coverall",
+      "name_zh": "棉质连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-080-front.webp",
+      "image_alt_zh": "棉质连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        47
+      ],
+      "source_crop": [
+        970,
+        120,
+        1280,
+        820
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-081",
+      "sku": "XK-081",
+      "name_en": "Women's Non-FR Coverall",
+      "name_zh": "女式非阻燃连体工作服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-081-front.webp",
+      "image_alt_zh": "女式非阻燃连体工作服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        47
+      ],
+      "source_crop": [
+        970,
+        850,
+        1280,
+        1580
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-082",
+      "sku": "XK-082",
+      "name_en": "FR Insulated Bib Pants",
+      "name_zh": "阻燃加厚背带裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-082-front.webp",
+      "image_alt_zh": "阻燃加厚背带裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        48
+      ],
+      "source_crop": [
+        260,
+        220,
+        560,
+        940
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-083",
+      "sku": "XK-083",
+      "name_en": "Catalogue Product",
+      "name_zh": "阻燃加厚背带裤（标题待确认）",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-083-front.webp",
+      "image_alt_zh": "阻燃加厚背带裤（标题待确认）画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        48
+      ],
+      "source_crop": [
+        1510,
+        250,
+        1840,
+        950
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-084",
+      "sku": "XK-084",
+      "name_en": "HI-VIS STRETCH TROUSERS",
+      "name_zh": "高可视弹力工作裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-084-front.webp",
+      "image_alt_zh": "高可视弹力工作裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        50
+      ],
+      "source_crop": [
+        255,
+        970,
+        455,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-085",
+      "sku": "XK-085",
+      "name_en": "HI-VIS STRETCH TROUSERS",
+      "name_zh": "高可视弹力工作裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-085-front.webp",
+      "image_alt_zh": "高可视弹力工作裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        50
+      ],
+      "source_crop": [
+        1280,
+        330,
+        1505,
+        790
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-086",
+      "sku": "XK-086",
+      "name_en": "HI-VIS STRETCH TROUSERS",
+      "name_zh": "高可视弹力工作裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-086-front.webp",
+      "image_alt_zh": "高可视弹力工作裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        50
+      ],
+      "source_crop": [
+        1270,
+        900,
+        1500,
+        1470
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-087",
+      "sku": "XK-087",
+      "name_en": "HI-VIS STRETCH TROUSERS",
+      "name_zh": "高可视弹力工作裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-087-front.webp",
+      "image_alt_zh": "高可视弹力工作裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        51
+      ],
+      "source_crop": [
+        210,
+        310,
+        450,
+        810
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-088",
+      "sku": "XK-088",
+      "name_en": "HI-VIS STRETCH TROUSERS",
+      "name_zh": "高可视弹力工作裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-088-front.webp",
+      "image_alt_zh": "高可视弹力工作裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        51
+      ],
+      "source_crop": [
+        205,
+        910,
+        455,
+        1485
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-089",
+      "sku": "XK-089",
+      "name_en": "4-WAY STRETCH CARGO PANTS",
+      "name_zh": "四向弹力工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-089-front.webp",
+      "image_alt_zh": "四向弹力工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        51
+      ],
+      "source_crop": [
+        1285,
+        310,
+        1515,
+        810
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-090",
+      "sku": "XK-090",
+      "name_en": "4-WAY STRETCH CARGO PANTS",
+      "name_zh": "四向弹力工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-090-front.webp",
+      "image_alt_zh": "四向弹力工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        51
+      ],
+      "source_crop": [
+        1280,
+        920,
+        1520,
+        1480
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-091",
+      "sku": "XK-091",
+      "name_en": "STRETCH SOFTSHELL JACKET",
+      "name_zh": "弹力软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-091-front.webp",
+      "image_alt_zh": "弹力软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        52
+      ],
+      "source_crop": [
+        175,
+        335,
+        475,
+        835
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-092",
+      "sku": "XK-092",
+      "name_en": "STRETCH SOFTSHELL JACKET",
+      "name_zh": "弹力软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-092-front.webp",
+      "image_alt_zh": "弹力软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        52
+      ],
+      "source_crop": [
+        180,
+        970,
+        490,
+        1500
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-093",
+      "sku": "XK-093",
+      "name_en": "STRETCH SOFTSHELL JACKET",
+      "name_zh": "弹力软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-093-front.webp",
+      "image_alt_zh": "弹力软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        52
+      ],
+      "source_crop": [
+        1260,
+        335,
+        1540,
+        835
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-094",
+      "sku": "XK-094",
+      "name_en": "STRETCH SOFTSHELL JACKET",
+      "name_zh": "弹力软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-094-front.webp",
+      "image_alt_zh": "弹力软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        52
+      ],
+      "source_crop": [
+        1260,
+        970,
+        1545,
+        1500
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-095",
+      "sku": "XK-095",
+      "name_en": "STRETCH REFLECTIVE SOFTSHELL JACKET",
+      "name_zh": "弹力反光软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-095-front.webp",
+      "image_alt_zh": "弹力反光软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        53
+      ],
+      "source_crop": [
+        160,
+        295,
+        445,
+        805
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-096",
+      "sku": "XK-096",
+      "name_en": "STRETCH REFLECTIVE SOFTSHELL JACKET",
+      "name_zh": "弹力反光软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-096-front.webp",
+      "image_alt_zh": "弹力反光软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        53
+      ],
+      "source_crop": [
+        145,
+        965,
+        510,
+        1495
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-097",
+      "sku": "XK-097",
+      "name_en": "STRETCH REFLECTIVE SOFTSHELL JACKET",
+      "name_zh": "弹力反光软壳夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-097-front.webp",
+      "image_alt_zh": "弹力反光软壳夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        53
+      ],
+      "source_crop": [
+        1590,
+        300,
+        1910,
+        820
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-098",
+      "sku": "XK-098",
+      "name_en": "4-WAY STRETCH MULTINORM TROUSERS",
+      "name_zh": "四向弹力多标准防护裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-098-front.webp",
+      "image_alt_zh": "四向弹力多标准防护裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        54
+      ],
+      "source_crop": [
+        245,
+        315,
+        525,
+        1045
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-099",
+      "sku": "XK-099",
+      "name_en": "Catalogue Product",
+      "name_zh": "四向弹力工装裤（标题待确认）",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-099-front.webp",
+      "image_alt_zh": "四向弹力工装裤（标题待确认）画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        54
+      ],
+      "source_crop": [
+        1560,
+        745,
+        1885,
+        1525
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-100",
+      "sku": "XK-100",
+      "name_en": "4-WAY STRETCH MULTINORM JACKET",
+      "name_zh": "四向弹力多标准防护夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-100-front.webp",
+      "image_alt_zh": "四向弹力多标准防护夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        56
+      ],
+      "source_crop": [
+        190,
+        300,
+        600,
+        860
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-101",
+      "sku": "XK-101",
+      "name_en": "FLAME RETARDANT HI-VIS JACKET",
+      "name_zh": "阻燃高可视夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-101-front.webp",
+      "image_alt_zh": "阻燃高可视夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        56
+      ],
+      "source_crop": [
+        1330,
+        300,
+        1710,
+        860
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-102",
+      "sku": "XK-102",
+      "name_en": "INHERENT MULTINORM JACKET",
+      "name_zh": "本质阻燃多标准防护夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-102-front.webp",
+      "image_alt_zh": "本质阻燃多标准防护夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        57
+      ],
+      "source_crop": [
+        210,
+        300,
+        610,
+        860
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-103",
+      "sku": "XK-103",
+      "name_en": "FR/ARC RATED RAINWEAR",
+      "name_zh": "阻燃及防电弧雨衣",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-103-front.webp",
+      "image_alt_zh": "阻燃及防电弧雨衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        57
+      ],
+      "source_crop": [
+        1340,
+        300,
+        1710,
+        860
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-104",
+      "sku": "XK-104",
+      "name_en": "INHERENT LIGHTWEIGHT HI-VIS SOLID SHIRT",
+      "name_zh": "本质阻燃轻量高可视纯色工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-104-front.webp",
+      "image_alt_zh": "本质阻燃轻量高可视纯色工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        58
+      ],
+      "source_crop": [
+        1515,
+        420,
+        1920,
+        945
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-105",
+      "sku": "XK-105",
+      "name_en": "INHERENT LIGHTWEIGHT HI-VIS LONG SLEEVE SHIRT",
+      "name_zh": "本质阻燃轻量高可视长袖工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-105-front.webp",
+      "image_alt_zh": "本质阻燃轻量高可视长袖工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        59
+      ],
+      "source_crop": [
+        280,
+        320,
+        585,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-106",
+      "sku": "XK-106",
+      "name_en": "INHERENT FR HI-VIS TWO TONE WORK SHIRT",
+      "name_zh": "本质阻燃高可视双色工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-106-front.webp",
+      "image_alt_zh": "本质阻燃高可视双色工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        59
+      ],
+      "source_crop": [
+        1420,
+        320,
+        1730,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-107",
+      "sku": "XK-107",
+      "name_en": "FR CREW NECK TEE SHIRT",
+      "name_zh": "阻燃圆领长袖T恤",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-107-front.webp",
+      "image_alt_zh": "阻燃圆领长袖T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        60
+      ],
+      "source_crop": [
+        220,
+        315,
+        500,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-108",
+      "sku": "XK-108",
+      "name_en": "FR CREW NECK TEE SHIRT",
+      "name_zh": "阻燃圆领长袖T恤",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-108-front.webp",
+      "image_alt_zh": "阻燃圆领长袖T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        60
+      ],
+      "source_crop": [
+        1810,
+        320,
+        2110,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-109",
+      "sku": "XK-109",
+      "name_en": "Catalogue Product",
+      "name_zh": "阻燃圆领衫（标题待确认）",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-109-front.webp",
+      "image_alt_zh": "阻燃圆领衫（标题待确认）画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        60
+      ],
+      "source_crop": [
+        1260,
+        1000,
+        1700,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-110",
+      "sku": "XK-110",
+      "name_en": "Catalogue Product",
+      "name_zh": "阻燃圆领衫（标题待确认）",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-110-front.webp",
+      "image_alt_zh": "阻燃圆领衫（标题待确认）画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        60
+      ],
+      "source_crop": [
+        1700,
+        1000,
+        2200,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-111",
+      "sku": "XK-111",
+      "name_en": "MULTINORM POLO SHIRT",
+      "name_zh": "多标准防护Polo衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-111-front.webp",
+      "image_alt_zh": "多标准防护Polo衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        61
+      ],
+      "source_crop": [
+        800,
+        240,
+        1110,
+        870
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-112",
+      "sku": "XK-112",
+      "name_en": "MULTINORM POLO SHIRT",
+      "name_zh": "多标准防护Polo衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-112-front.webp",
+      "image_alt_zh": "多标准防护Polo衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        61
+      ],
+      "source_crop": [
+        210,
+        930,
+        520,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-113",
+      "sku": "XK-113",
+      "name_en": "HI-VIS YELLOW PULLOVER HOODIE",
+      "name_zh": "高可视黄色套头连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-113-front.webp",
+      "image_alt_zh": "高可视黄色套头连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        61
+      ],
+      "source_crop": [
+        1790,
+        430,
+        2200,
+        1540
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-114",
+      "sku": "XK-114",
+      "name_en": "FLEECE HOODED SWEATSHIRT",
+      "name_zh": "抓绒连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-114-front.webp",
+      "image_alt_zh": "抓绒连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        62
+      ],
+      "source_crop": [
+        350,
+        300,
+        720,
+        890
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-115",
+      "sku": "XK-115",
+      "name_en": "FLEECE HOODED SWEATSHIRT",
+      "name_zh": "抓绒连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-115-front.webp",
+      "image_alt_zh": "抓绒连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        62
+      ],
+      "source_crop": [
+        1350,
+        280,
+        1640,
+        880
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-116",
+      "sku": "XK-116",
+      "name_en": "FLEECE HOODED SWEATSHIRT",
+      "name_zh": "抓绒连帽卫衣",
+      "product_type": "hoodie",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-116-front.webp",
+      "image_alt_zh": "抓绒连帽卫衣画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        62
+      ],
+      "source_crop": [
+        1390,
+        930,
+        1685,
+        1500
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-117",
+      "sku": "XK-117",
+      "name_en": "4-WAY STRETCH MULTINORM COVERALL",
+      "name_zh": "四向弹力多标准防护连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-117-front.webp",
+      "image_alt_zh": "四向弹力多标准防护连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        63
+      ],
+      "source_crop": [
+        480,
+        740,
+        795,
+        1510
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-118",
+      "sku": "XK-118",
+      "name_en": "MULTI NORM COVERALL",
+      "name_zh": "多标准防护连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-118-front.webp",
+      "image_alt_zh": "多标准防护连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        63
+      ],
+      "source_crop": [
+        1380,
+        475,
+        1615,
+        1070
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-119",
+      "sku": "XK-119",
+      "name_en": "INHERENT MULTINORM WINTER COVERALL",
+      "name_zh": "本质阻燃多标准冬季连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-119-front.webp",
+      "image_alt_zh": "本质阻燃多标准冬季连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        64
+      ],
+      "source_crop": [
+        230,
+        310,
+        500,
+        1050
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-120",
+      "sku": "XK-120",
+      "name_en": "ANTI-FLAME WINTER COVERALL",
+      "name_zh": "防火冬季连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-120-front.webp",
+      "image_alt_zh": "防火冬季连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        64
+      ],
+      "source_crop": [
+        1500,
+        410,
+        1880,
+        1120
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-121",
+      "sku": "XK-121",
+      "name_en": "HI-VIS WATERPROOF JACKET",
+      "name_zh": "高可视防水夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-121-front.webp",
+      "image_alt_zh": "高可视防水夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        65
+      ],
+      "source_crop": [
+        190,
+        300,
+        650,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-122",
+      "sku": "XK-122",
+      "name_en": "REFLECTIVE SAFETY JACKETS",
+      "name_zh": "反光安全夹克",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-122-front.webp",
+      "image_alt_zh": "反光安全夹克画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        65
+      ],
+      "source_crop": [
+        1320,
+        430,
+        1740,
+        985
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-123",
+      "sku": "XK-123",
+      "name_en": "Catalogue Product",
+      "name_zh": "高可视夹克（标题待确认）",
+      "product_type": "jacket",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-123-front.webp",
+      "image_alt_zh": "高可视夹克（标题待确认）画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        65
+      ],
+      "source_crop": [
+        1890,
+        995,
+        2210,
+        1470
+      ],
+      "crop_status": "reviewed-clean-low-source-resolution",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-124",
+      "sku": "XK-124",
+      "name_en": "HI-VIS CARGO SUIT",
+      "name_zh": "高可视工装套装",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-124-front.webp",
+      "image_alt_zh": "高可视工装套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        66
+      ],
+      "source_crop": [
+        850,
+        350,
+        1120,
+        1480
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-125",
+      "sku": "XK-125",
+      "name_en": "HI-VIS CARGO SUIT",
+      "name_zh": "高可视工装套装",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-125-front.webp",
+      "image_alt_zh": "高可视工装套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        67
+      ],
+      "source_crop": [
+        820,
+        350,
+        1100,
+        1480
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-126",
+      "sku": "XK-126",
+      "name_en": "HI-VIS CARGO SUIT",
+      "name_zh": "高可视工装套装",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-126-front.webp",
+      "image_alt_zh": "高可视工装套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        67
+      ],
+      "source_crop": [
+        1825,
+        305,
+        2210,
+        1470
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-127",
+      "sku": "XK-127",
+      "name_en": "HI-VIS CARGO SUIT",
+      "name_zh": "高可视工装套装",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-127-front.webp",
+      "image_alt_zh": "高可视工装套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        68
+      ],
+      "source_crop": [
+        700,
+        350,
+        1010,
+        1480
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-128",
+      "sku": "XK-128",
+      "name_en": "HI VIS REVERSIBLE SAFETY VEST",
+      "name_zh": "高可视双面安全背心",
+      "product_type": "vest",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-128-front.webp",
+      "image_alt_zh": "高可视双面安全背心画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        68
+      ],
+      "source_crop": [
+        1550,
+        390,
+        1900,
+        1030
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-131",
+      "sku": "XK-131",
+      "name_en": "HI VIS SAFETY VESTS",
+      "name_zh": "高可视安全背心",
+      "product_type": "vest",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-131-front.webp",
+      "image_alt_zh": "高可视安全背心画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        69
+      ],
+      "source_crop": [
+        255,
+        330,
+        610,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-132",
+      "sku": "XK-132",
+      "name_en": "HIGH VISIBILITY MESH SAFETY REFLECTIVE VEST",
+      "name_zh": "高可视网眼反光安全背心",
+      "product_type": "vest",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-132-front.webp",
+      "image_alt_zh": "高可视网眼反光安全背心画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        69
+      ],
+      "source_crop": [
+        1330,
+        315,
+        1725,
+        900
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-133",
+      "sku": "XK-133",
+      "name_en": "FLAME RESISTANT DUAL STRIPE MESH VEST",
+      "name_zh": "阻燃双条纹网眼背心",
+      "product_type": "vest",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-133-front.webp",
+      "image_alt_zh": "阻燃双条纹网眼背心画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        70
+      ],
+      "source_crop": [
+        170,
+        330,
+        450,
+        930
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-134",
+      "sku": "XK-134",
+      "name_en": "HALF SLEEVED FR DUAL STRIPE MESH VEST",
+      "name_zh": "短袖阻燃双条纹网眼背心",
+      "product_type": "vest",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-134-front.webp",
+      "image_alt_zh": "短袖阻燃双条纹网眼背心画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        70
+      ],
+      "source_crop": [
+        1420,
+        330,
+        1830,
+        930
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-135",
+      "sku": "XK-135",
+      "name_en": "STRETCH PANTS",
+      "name_zh": "弹力工作裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-135-front.webp",
+      "image_alt_zh": "弹力工作裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        71
+      ],
+      "source_crop": [
+        520,
+        420,
+        820,
+        1130
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-136",
+      "sku": "XK-136",
+      "name_en": "HI-VIS CARGO PANTS",
+      "name_zh": "高可视工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-136-front.webp",
+      "image_alt_zh": "高可视工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        71
+      ],
+      "source_crop": [
+        1650,
+        790,
+        1985,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-137",
+      "sku": "XK-137",
+      "name_en": "HI-VIS CARGO PANTS",
+      "name_zh": "高可视工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-137-front.webp",
+      "image_alt_zh": "高可视工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        72
+      ],
+      "source_crop": [
+        550,
+        480,
+        825,
+        1250
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-138",
+      "sku": "XK-138",
+      "name_en": "HI-VIS CARGO PANTS",
+      "name_zh": "高可视工装裤",
+      "product_type": "pants",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-138-front.webp",
+      "image_alt_zh": "高可视工装裤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        72
+      ],
+      "source_crop": [
+        1520,
+        295,
+        1825,
+        1015
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-139",
+      "sku": "XK-139",
+      "name_en": "HI-VIS CARGO VEST AND SHORT",
+      "name_zh": "高可视工装背心及短裤套装",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-139-front.webp",
+      "image_alt_zh": "高可视工装背心及短裤套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        73
+      ],
+      "source_crop": [
+        470,
+        520,
+        1120,
+        1150
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-140",
+      "sku": "XK-140",
+      "name_en": "HI-VIS CARGO VEST AND TROUSERS",
+      "name_zh": "高可视工装背心及长裤套装",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-140-front.webp",
+      "image_alt_zh": "高可视工装背心及长裤套装画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        73
+      ],
+      "source_crop": [
+        1830,
+        350,
+        2190,
+        1520
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-141",
+      "sku": "XK-141",
+      "name_en": "HIGH VISIBILITY BIRDSEYE MESH SHIRT",
+      "name_zh": "高可视鸟眼网眼工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-141-front.webp",
+      "image_alt_zh": "高可视鸟眼网眼工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        74
+      ],
+      "source_crop": [
+        195,
+        295,
+        500,
+        780
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-142",
+      "sku": "XK-142",
+      "name_en": "Catalogue Product",
+      "name_zh": "高可视连帽衫（标题待确认）",
+      "product_type": "hoodie",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-142-front.webp",
+      "image_alt_zh": "高可视连帽衫（标题待确认）画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        74
+      ],
+      "source_crop": [
+        205,
+        1070,
+        505,
+        1530
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-143",
+      "sku": "XK-143",
+      "name_en": "HI-VIS LONG SLEEVES BREATHABLE BIRDSEYE SAFETY T-SHIRT",
+      "name_zh": "高可视长袖透气鸟眼网眼安全T恤",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-143-front.webp",
+      "image_alt_zh": "高可视长袖透气鸟眼网眼安全T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        74
+      ],
+      "source_crop": [
+        1320,
+        300,
+        1740,
+        800
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-144",
+      "sku": "XK-144",
+      "name_en": "HIGH VISIBILITY T-SHIRT",
+      "name_zh": "高可视T恤",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-144-front.webp",
+      "image_alt_zh": "高可视T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        75
+      ],
+      "source_crop": [
+        230,
+        330,
+        580,
+        890
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-145",
+      "sku": "XK-145",
+      "name_en": "HI-VIS LONG SLEEVES BIRDSEYE SAFETY T-SHIRT",
+      "name_zh": "高可视长袖鸟眼网眼安全T恤",
+      "product_type": "tshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-145-front.webp",
+      "image_alt_zh": "高可视长袖鸟眼网眼安全T恤画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        75
+      ],
+      "source_crop": [
+        1340,
+        980,
+        1640,
+        1540
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-146",
+      "sku": "XK-146",
+      "name_en": "HI-VIS TC COVERALLS",
+      "name_zh": "高可视TC连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-146-front.webp",
+      "image_alt_zh": "高可视TC连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        76
+      ],
+      "source_crop": [
+        520,
+        460,
+        720,
+        1120
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-147",
+      "sku": "XK-147",
+      "name_en": "HI-VIS TC COVERALLS",
+      "name_zh": "高可视TC连体服",
+      "product_type": "coverall",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-147-front.webp",
+      "image_alt_zh": "高可视TC连体服画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        76
+      ],
+      "source_crop": [
+        1420,
+        540,
+        1660,
+        1090
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-148",
+      "sku": "XK-148",
+      "name_en": "WOMEN'S BASICAL SAFETY MESH VEST",
+      "name_zh": "女式基础款安全网眼背心",
+      "product_type": "vest",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-148-front.webp",
+      "image_alt_zh": "女式基础款安全网眼背心画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        77
+      ],
+      "source_crop": [
+        145,
+        1030,
+        475,
+        1545
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-149",
+      "sku": "XK-149",
+      "name_en": "WOMEN'S REFLECTIVE SHIRTS",
+      "name_zh": "女式反光工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": "xk-149-150-womens-reflective-shirts",
+      "main_image": "assets/catalogue-78/main/xk-149-front.webp",
+      "image_alt_zh": "女式反光工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        77
+      ],
+      "source_crop": [
+        1140,
+        270,
+        1495,
+        830
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-150",
+      "sku": "XK-150",
+      "name_en": "WOMEN'S REFLECTIVE SHIRTS",
+      "name_zh": "女式反光工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": "xk-149-150-womens-reflective-shirts",
+      "main_image": "assets/catalogue-78/main/xk-150-front.webp",
+      "image_alt_zh": "女式反光工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        77
+      ],
+      "source_crop": [
+        1465,
+        270,
+        1810,
+        830
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    },
+    {
+      "id": "xk-151",
+      "sku": "XK-151",
+      "name_en": "REFLECTIVE SHIRTS",
+      "name_zh": "反光工作衫",
+      "product_type": "workshirt",
+      "variant_group_id": null,
+      "main_image": "assets/catalogue-78/main/xk-151-front.webp",
+      "image_alt_zh": "反光工作衫画册正面参考图",
+      "catalogue_id": "catalogue-78-en",
+      "catalogue_name": "Safety Workwear Catalogue (English, 78 pages)",
+      "source_file": "产品图册/catalogue-78-en.pdf",
+      "source_pages": [
+        77
+      ],
+      "source_crop": [
+        1145,
+        1025,
+        1475,
+        1520
+      ],
+      "crop_status": "reviewed-clean-single-product",
+      "added_date": "2026-08-15",
+      "source_status": "catalogue-linked",
+      "frontend_status": "draft-not-imported",
+      "claims_status": "not-reviewed-not-published"
+    }
+  ]
+}

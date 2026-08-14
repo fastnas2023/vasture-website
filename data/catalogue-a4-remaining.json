@@ -1,0 +1,2359 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-08-15",
+  "asset_base_url": "https://fastnas2023.github.io/vasture-website/",
+  "products": [
+    {
+      "id": "hvp218-two-tone-bomber-jacket",
+      "sku": "HVP218",
+      "name_zh": "HVP218 双色反光飞行夹克",
+      "name_en": "HVP218 TWO TONE BOMBER JACKET",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "waterproof"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp218-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP218 双色反光飞行夹克荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp218-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp218-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp218-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp218-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 34
+    },
+    {
+      "id": "hvs461-waterproof-over-trousers",
+      "sku": "HVS461",
+      "name_zh": "HVS461 高可视防水套裤",
+      "name_en": "HVS461 WATERPROOF OVER TROUSERS",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "pants",
+      "tags": [
+        "pants",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "waterproof"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvs461-hi-vis-yellow.webp",
+      "image_alt_zh": "HVS461 高可视防水套裤荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvs461-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvs461-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvs461-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvs461-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 35
+    },
+    {
+      "id": "hvp209-fontaine-flight-jacket",
+      "sku": "HVP209",
+      "name_zh": "HVP209 Fontaine反光飞行夹克",
+      "name_en": "HVP209 FONTAINE FLIGHT JACKET",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "waterproof"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp209-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP209 Fontaine反光飞行夹克荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp209-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp209-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp209-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp209-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 36
+    },
+    {
+      "id": "hvp309-fontaine-storm-jacket",
+      "sku": "HVP309",
+      "name_zh": "HVP309 Fontaine反光风雨夹克",
+      "name_en": "HVP309 FONTAINE STORM JACKET",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "waterproof"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp309-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP309 Fontaine反光风雨夹克荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp309-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp309-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp309-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp309-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 37
+    },
+    {
+      "id": "hv008f-reversible-fleece-body-warmer",
+      "sku": "HV008F",
+      "name_zh": "HV008F 双面穿抓绒保暖背心",
+      "name_en": "HV008F REVERSIBLE FLEECE BODY WARMER",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp",
+      "image_alt_zh": "HV008F 双面穿抓绒保暖背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hv008f-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hv008f-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 38
+    },
+    {
+      "id": "hv005-multi-pocket-body-warmer",
+      "sku": "HV005",
+      "name_zh": "HV005 多口袋保暖背心",
+      "name_en": "HV005 MULTI-POCKET BODY WARMER",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hv005-hi-vis-yellow.webp",
+      "image_alt_zh": "HV005 多口袋保暖背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hv005-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hv005-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hv005-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hv005-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 39
+    },
+    {
+      "id": "hvp300-classic-motorway-jacket",
+      "sku": "HVP300",
+      "name_zh": "HVP300 经典高速公路反光夹克",
+      "name_en": "HVP300 CLASSIC MOTORWAY JACKET",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "waterproof"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP300 经典高速公路反光夹克荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp300-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp300-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 40
+    },
+    {
+      "id": "hvp302-two-tone-motorway-jacket",
+      "sku": "HVP302",
+      "name_zh": "HVP302 双色高速公路反光夹克",
+      "name_en": "HVP302 TWO TONE MOTORWAY JACKET",
+      "description_zh": "画册第2页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "waterproof"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP302 双色高速公路反光夹克荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp302-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp302-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 41
+    },
+    {
+      "id": "hvw120-renewable-open-mesh-waistcoat",
+      "sku": "HVW120",
+      "name_zh": "HVW120 可再生网眼反光背心",
+      "name_en": "HVW120 RENEWABLE TOP COOL OPEN MESH 2 BAND & BRACES",
+      "description_zh": "画册第3页展示12张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "mesh"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw120-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW120 可再生网眼反光背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw120-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw120-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvw120-sky-blue.webp",
+        "assets/catalogue-a4/main/hvw120-black.webp",
+        "assets/catalogue-a4/main/hvw120-lake-blue.webp",
+        "assets/catalogue-a4/main/hvw120-red.webp",
+        "assets/catalogue-a4/main/hvw120-pink.webp",
+        "assets/catalogue-a4/main/hvw120-lime.webp",
+        "assets/catalogue-a4/main/hvw120-purple.webp",
+        "assets/catalogue-a4/main/hvw120-maroon.webp",
+        "assets/catalogue-a4/main/hvw120-navy.webp",
+        "assets/catalogue-a4/main/hvw120-white.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw120-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw120-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "天蓝",
+          "label_en": "Sky Blue",
+          "image": "assets/catalogue-a4/main/hvw120-sky-blue.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvw120-black.webp"
+        },
+        {
+          "label_zh": "湖蓝",
+          "label_en": "Lake Blue",
+          "image": "assets/catalogue-a4/main/hvw120-lake-blue.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvw120-red.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvw120-pink.webp"
+        },
+        {
+          "label_zh": "亮绿",
+          "label_en": "Lime",
+          "image": "assets/catalogue-a4/main/hvw120-lime.webp"
+        },
+        {
+          "label_zh": "紫色",
+          "label_en": "Purple",
+          "image": "assets/catalogue-a4/main/hvw120-purple.webp"
+        },
+        {
+          "label_zh": "酒红",
+          "label_en": "Maroon",
+          "image": "assets/catalogue-a4/main/hvw120-maroon.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvw120-navy.webp"
+        },
+        {
+          "label_zh": "白色",
+          "label_en": "White",
+          "image": "assets/catalogue-a4/main/hvw120-white.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        3
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 42
+    },
+    {
+      "id": "hvj259-reflective-border-tabard",
+      "sku": "HVJ259",
+      "name_zh": "HVJ259 反光包边套头背心",
+      "name_en": "HVJ259 REFLECTIVE BORDER TABARD",
+      "description_zh": "画册第3页展示15张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ259 反光包边套头背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj259-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvj259-red.webp",
+        "assets/catalogue-a4/main/hvj259-lake-blue.webp",
+        "assets/catalogue-a4/main/hvj259-green.webp",
+        "assets/catalogue-a4/main/hvj259-purple.webp",
+        "assets/catalogue-a4/main/hvj259-sky-blue.webp",
+        "assets/catalogue-a4/main/hvj259-white.webp",
+        "assets/catalogue-a4/main/hvj259-raspberry.webp",
+        "assets/catalogue-a4/main/hvj259-navy.webp",
+        "assets/catalogue-a4/main/hvj259-black.webp",
+        "assets/catalogue-a4/main/hvj259-lime.webp",
+        "assets/catalogue-a4/main/hvj259-royal-blue.webp",
+        "assets/catalogue-a4/main/hvj259-pink.webp",
+        "assets/catalogue-a4/main/hvj259-grey.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj259-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvj259-red.webp"
+        },
+        {
+          "label_zh": "湖蓝",
+          "label_en": "Lake Blue",
+          "image": "assets/catalogue-a4/main/hvj259-lake-blue.webp"
+        },
+        {
+          "label_zh": "绿色",
+          "label_en": "Green",
+          "image": "assets/catalogue-a4/main/hvj259-green.webp"
+        },
+        {
+          "label_zh": "紫色",
+          "label_en": "Purple",
+          "image": "assets/catalogue-a4/main/hvj259-purple.webp"
+        },
+        {
+          "label_zh": "天蓝",
+          "label_en": "Sky Blue",
+          "image": "assets/catalogue-a4/main/hvj259-sky-blue.webp"
+        },
+        {
+          "label_zh": "白色",
+          "label_en": "White",
+          "image": "assets/catalogue-a4/main/hvj259-white.webp"
+        },
+        {
+          "label_zh": "树莓红",
+          "label_en": "Raspberry",
+          "image": "assets/catalogue-a4/main/hvj259-raspberry.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvj259-navy.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvj259-black.webp"
+        },
+        {
+          "label_zh": "亮绿",
+          "label_en": "Lime",
+          "image": "assets/catalogue-a4/main/hvj259-lime.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/hvj259-royal-blue.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvj259-pink.webp"
+        },
+        {
+          "label_zh": "灰色",
+          "label_en": "Grey",
+          "image": "assets/catalogue-a4/main/hvj259-grey.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        3
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 43
+    },
+    {
+      "id": "hvw820-renewable-executive-waistcoat",
+      "sku": "HVW820",
+      "name_zh": "HVW820 可再生网眼多口袋背心",
+      "name_en": "HVW820 RENEWABLE EXECUTIVE OPEN MESH WAISTCOAT",
+      "description_zh": "画册第3页展示7张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "mesh"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw820-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW820 可再生网眼多口袋背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw820-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw820-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvw820-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvw820-royal-blue-yellow.webp",
+        "assets/catalogue-a4/main/hvw820-orange-grey.webp",
+        "assets/catalogue-a4/main/hvw820-orange-yellow.webp",
+        "assets/catalogue-a4/main/hvw820-red-yellow.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw820-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw820-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvw820-yellow-navy.webp"
+        },
+        {
+          "label_zh": "宝蓝/黄",
+          "label_en": "Royal Blue/Yellow",
+          "image": "assets/catalogue-a4/main/hvw820-royal-blue-yellow.webp"
+        },
+        {
+          "label_zh": "橙/灰",
+          "label_en": "Orange/Grey",
+          "image": "assets/catalogue-a4/main/hvw820-orange-grey.webp"
+        },
+        {
+          "label_zh": "橙/黄",
+          "label_en": "Orange/Yellow",
+          "image": "assets/catalogue-a4/main/hvw820-orange-yellow.webp"
+        },
+        {
+          "label_zh": "红/黄",
+          "label_en": "Red/Yellow",
+          "image": "assets/catalogue-a4/main/hvw820-red-yellow.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        3
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 44
+    },
+    {
+      "id": "hvw108-mash-multi-pocket-mesh-vest",
+      "sku": "HVW108-MASH",
+      "name_zh": "HVW108-MASH 多口袋网眼反光背心",
+      "name_en": "HVW108-MASH MULTI-POCKET MESH REFLECTIVE VEST",
+      "description_zh": "画册第3页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "mesh"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw108-mash-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW108-MASH 多口袋网眼反光背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw108-mash-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw108-mash-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw108-mash-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw108-mash-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        3
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 45
+    },
+    {
+      "id": "hvwn4-black-red-mesh-vest",
+      "sku": "HVWN4",
+      "name_zh": "HVWN4 黑红网眼反光背心",
+      "name_en": "HVWN4 BLACK & RED MESH VEST",
+      "description_zh": "画册第3页展示1张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "mesh"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvwn4-red.webp",
+      "image_alt_zh": "HVWN4 黑红网眼反光背心红色画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvwn4-red.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvwn4-red.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        3
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 46
+    },
+    {
+      "id": "hvw100-two-band-braces-waistcoat",
+      "sku": "HVW100",
+      "name_zh": "HVW100 两横两竖反光背心",
+      "name_en": "HVW100 2 BAND & BRACES WAISTCOAT",
+      "description_zh": "画册第4页展示24张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw100-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW100 两横两竖反光背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw100-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvw100-sky-blue.webp",
+        "assets/catalogue-a4/main/hvw100-black.webp",
+        "assets/catalogue-a4/main/hvw100-lake-blue.webp",
+        "assets/catalogue-a4/main/hvw100-red.webp",
+        "assets/catalogue-a4/main/hvw100-royal-blue.webp",
+        "assets/catalogue-a4/main/hvw100-raspberry.webp",
+        "assets/catalogue-a4/main/hvw100-pink.webp",
+        "assets/catalogue-a4/main/hvw100-lime.webp",
+        "assets/catalogue-a4/main/hvw100-purple.webp",
+        "assets/catalogue-a4/main/hvw100-maroon.webp",
+        "assets/catalogue-a4/main/hvw100-navy.webp",
+        "assets/catalogue-a4/main/hvw100-white.webp",
+        "assets/catalogue-a4/main/hvw100-green-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-orange-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-navy-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-lime-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-black-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-red-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-royal-blue-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-purple-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-raspberry-yellow.webp",
+        "assets/catalogue-a4/main/hvw100-green-yellow-2.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw100-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "天蓝",
+          "label_en": "Sky Blue",
+          "image": "assets/catalogue-a4/main/hvw100-sky-blue.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvw100-black.webp"
+        },
+        {
+          "label_zh": "湖蓝",
+          "label_en": "Lake Blue",
+          "image": "assets/catalogue-a4/main/hvw100-lake-blue.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvw100-red.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/hvw100-royal-blue.webp"
+        },
+        {
+          "label_zh": "树莓红",
+          "label_en": "Raspberry",
+          "image": "assets/catalogue-a4/main/hvw100-raspberry.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvw100-pink.webp"
+        },
+        {
+          "label_zh": "亮绿",
+          "label_en": "Lime",
+          "image": "assets/catalogue-a4/main/hvw100-lime.webp"
+        },
+        {
+          "label_zh": "紫色",
+          "label_en": "Purple",
+          "image": "assets/catalogue-a4/main/hvw100-purple.webp"
+        },
+        {
+          "label_zh": "酒红",
+          "label_en": "Maroon",
+          "image": "assets/catalogue-a4/main/hvw100-maroon.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvw100-navy.webp"
+        },
+        {
+          "label_zh": "白色",
+          "label_en": "White",
+          "image": "assets/catalogue-a4/main/hvw100-white.webp"
+        },
+        {
+          "label_zh": "绿/黄",
+          "label_en": "Green/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-green-yellow.webp"
+        },
+        {
+          "label_zh": "橙/黄",
+          "label_en": "Orange/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-orange-yellow.webp"
+        },
+        {
+          "label_zh": "藏青/黄",
+          "label_en": "Navy/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-navy-yellow.webp"
+        },
+        {
+          "label_zh": "亮绿/黄",
+          "label_en": "Lime/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-lime-yellow.webp"
+        },
+        {
+          "label_zh": "黑/黄",
+          "label_en": "Black/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-black-yellow.webp"
+        },
+        {
+          "label_zh": "红/黄",
+          "label_en": "Red/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-red-yellow.webp"
+        },
+        {
+          "label_zh": "宝蓝/黄",
+          "label_en": "Royal Blue/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-royal-blue-yellow.webp"
+        },
+        {
+          "label_zh": "紫/黄",
+          "label_en": "Purple/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-purple-yellow.webp"
+        },
+        {
+          "label_zh": "树莓红/黄",
+          "label_en": "Raspberry/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-raspberry-yellow.webp"
+        },
+        {
+          "label_zh": "绿/黄",
+          "label_en": "Green/Yellow",
+          "image": "assets/catalogue-a4/main/hvw100-green-yellow-2.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        4
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 47
+    },
+    {
+      "id": "hvw801-multi-functional-executive-waistcoat",
+      "sku": "HVW801",
+      "name_zh": "HVW801 多功能行政反光背心",
+      "name_en": "HVW801 MULTI-FUNCTIONAL EXECUTIVE WAISTCOAT",
+      "description_zh": "画册第4页展示26张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw801-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW801 多功能行政反光背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw801-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvw801-red.webp",
+        "assets/catalogue-a4/main/hvw801-pink.webp",
+        "assets/catalogue-a4/main/hvw801-royal-blue.webp",
+        "assets/catalogue-a4/main/hvw801-black.webp",
+        "assets/catalogue-a4/main/hvw801-green.webp",
+        "assets/catalogue-a4/main/hvw801-lime.webp",
+        "assets/catalogue-a4/main/hvw801-navy.webp",
+        "assets/catalogue-a4/main/hvw801-white.webp",
+        "assets/catalogue-a4/main/hvw801-purple.webp",
+        "assets/catalogue-a4/main/hvw801-lake-blue.webp",
+        "assets/catalogue-a4/main/hvw801-sky-blue.webp",
+        "assets/catalogue-a4/main/hvw801-black-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-purple-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-navy-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-grey-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-royal-blue-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-orange-black.webp",
+        "assets/catalogue-a4/main/hvw801-orange-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-orange-navy.webp",
+        "assets/catalogue-a4/main/hvw801-orange-grey.webp",
+        "assets/catalogue-a4/main/hvw801-orange-royal-blue.webp",
+        "assets/catalogue-a4/main/hvw801-red-yellow.webp",
+        "assets/catalogue-a4/main/hvw801-red-black.webp",
+        "assets/catalogue-a4/main/hvw801-green-yellow.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw801-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvw801-red.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvw801-pink.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/hvw801-royal-blue.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvw801-black.webp"
+        },
+        {
+          "label_zh": "绿色",
+          "label_en": "Green",
+          "image": "assets/catalogue-a4/main/hvw801-green.webp"
+        },
+        {
+          "label_zh": "亮绿",
+          "label_en": "Lime",
+          "image": "assets/catalogue-a4/main/hvw801-lime.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvw801-navy.webp"
+        },
+        {
+          "label_zh": "白色",
+          "label_en": "White",
+          "image": "assets/catalogue-a4/main/hvw801-white.webp"
+        },
+        {
+          "label_zh": "紫色",
+          "label_en": "Purple",
+          "image": "assets/catalogue-a4/main/hvw801-purple.webp"
+        },
+        {
+          "label_zh": "湖蓝",
+          "label_en": "Lake Blue",
+          "image": "assets/catalogue-a4/main/hvw801-lake-blue.webp"
+        },
+        {
+          "label_zh": "天蓝",
+          "label_en": "Sky Blue",
+          "image": "assets/catalogue-a4/main/hvw801-sky-blue.webp"
+        },
+        {
+          "label_zh": "黑/黄",
+          "label_en": "Black/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-black-yellow.webp"
+        },
+        {
+          "label_zh": "紫/黄",
+          "label_en": "Purple/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-purple-yellow.webp"
+        },
+        {
+          "label_zh": "藏青/黄",
+          "label_en": "Navy/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-navy-yellow.webp"
+        },
+        {
+          "label_zh": "灰/黄",
+          "label_en": "Grey/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-grey-yellow.webp"
+        },
+        {
+          "label_zh": "宝蓝/黄",
+          "label_en": "Royal Blue/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-royal-blue-yellow.webp"
+        },
+        {
+          "label_zh": "橙/黑",
+          "label_en": "Orange/Black",
+          "image": "assets/catalogue-a4/main/hvw801-orange-black.webp"
+        },
+        {
+          "label_zh": "橙/黄",
+          "label_en": "Orange/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-orange-yellow.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvw801-orange-navy.webp"
+        },
+        {
+          "label_zh": "橙/灰",
+          "label_en": "Orange/Grey",
+          "image": "assets/catalogue-a4/main/hvw801-orange-grey.webp"
+        },
+        {
+          "label_zh": "橙/宝蓝",
+          "label_en": "Orange/Royal Blue",
+          "image": "assets/catalogue-a4/main/hvw801-orange-royal-blue.webp"
+        },
+        {
+          "label_zh": "红/黄",
+          "label_en": "Red/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-red-yellow.webp"
+        },
+        {
+          "label_zh": "红/黑",
+          "label_en": "Red/Black",
+          "image": "assets/catalogue-a4/main/hvw801-red-black.webp"
+        },
+        {
+          "label_zh": "绿/黄",
+          "label_en": "Green/Yellow",
+          "image": "assets/catalogue-a4/main/hvw801-green-yellow.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        4
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 48
+    },
+    {
+      "id": "hvw108-multi-pocket-oxford-vest",
+      "sku": "HVW108",
+      "name_zh": "HVW108 多口袋牛津布反光背心",
+      "name_en": "HVW108 MULTI-POCKET OXFORD REFLECTIVE VEST",
+      "description_zh": "画册第4页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw108-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW108 多口袋牛津布反光背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw108-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw108-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw108-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw108-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        4
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 49
+    },
+    {
+      "id": "lhvw802-reflective-mesh-vest",
+      "sku": "LHVW802",
+      "name_zh": "LHVW802 反光网眼背心",
+      "name_en": "LHVW802 REFLECTIVE MESH VEST",
+      "description_zh": "画册第4页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective",
+        "mesh"
+      ],
+      "main_image": "assets/catalogue-a4/main/lhvw802-hi-vis-yellow.webp",
+      "image_alt_zh": "LHVW802 反光网眼背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/lhvw802-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/lhvw802-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/lhvw802-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/lhvw802-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        4
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 50
+    },
+    {
+      "id": "hvj210-short-sleeve-polo",
+      "sku": "HVJ210",
+      "name_zh": "HVJ210 高可视短袖Polo衫",
+      "name_en": "HVJ210 SHORT SLEEVE POLO",
+      "description_zh": "画册第5页展示4张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ210 高可视短袖Polo衫荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj210-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvj210-black.webp",
+        "assets/catalogue-a4/main/hvj210-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj210-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvj210-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvj210-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 51
+    },
+    {
+      "id": "hvj410-short-sleeve-t-shirt",
+      "sku": "HVJ410",
+      "name_zh": "HVJ410 高可视短袖T恤",
+      "name_en": "HVJ410 SHORT SLEEVE T-SHIRT",
+      "description_zh": "画册第5页展示4张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ410 高可视短袖T恤荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj410-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvj410-black.webp",
+        "assets/catalogue-a4/main/hvj410-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj410-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvj410-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvj410-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 52
+    },
+    {
+      "id": "hvj910-top-cool-v-neck-t-shirt",
+      "sku": "HVJ910",
+      "name_zh": "HVJ910 Top Cool V领反光T恤",
+      "name_en": "HVJ910 TOP COOL V-NECK T-SHIRT",
+      "description_zh": "画册第5页展示4张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ910 Top Cool V领反光T恤荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj910-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvj910-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvj910-orange-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj910-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvj910-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvj910-orange-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 53
+    },
+    {
+      "id": "hvj220-two-tone-short-sleeve-polo",
+      "sku": "HVJ220",
+      "name_zh": "HVJ220 双色短袖反光Polo衫",
+      "name_en": "HVJ220 TWO TONE SHORT SLEEVE POLO",
+      "description_zh": "画册第5页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ220 双色短袖反光Polo衫荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj220-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj220-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 54
+    },
+    {
+      "id": "hvj400-two-tone-short-sleeve-t-shirt",
+      "sku": "HVJ400",
+      "name_zh": "HVJ400 双色短袖反光T恤",
+      "name_en": "HVJ400 TWO TONE SHORT SLEEVE T-SHIRT",
+      "description_zh": "画册第5页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ400 双色短袖反光T恤荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj400-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj400-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 55
+    },
+    {
+      "id": "hvj310-long-sleeve-polo",
+      "sku": "HVJ310",
+      "name_zh": "HVJ310 高可视长袖Polo衫",
+      "name_en": "HVJ310 LONG SLEEVE POLO",
+      "description_zh": "画册第5页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ310 高可视长袖Polo衫荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj310-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj310-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 56
+    },
+    {
+      "id": "hvj420-long-sleeve-t-shirt",
+      "sku": "HVJ420",
+      "name_zh": "HVJ420 高可视长袖T恤",
+      "name_en": "HVJ420 LONG SLEEVE T-SHIRT",
+      "description_zh": "画册第5页展示2张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ420 高可视长袖T恤荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj420-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj420-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 57
+    },
+    {
+      "id": "hvw706-kensington-jacket",
+      "sku": "HVW706",
+      "name_zh": "HVW706 Kensington抓绒里反光夹克",
+      "name_en": "HVW706 KENSINGTON JACKET WITH FLEECE LINING",
+      "description_zh": "画册第5页展示5张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw706-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvw706-black.webp",
+        "assets/catalogue-a4/main/hvw706-navy.webp",
+        "assets/catalogue-a4/main/hvw706-pink.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw706-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvw706-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvw706-navy.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvw706-pink.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 58
+    },
+    {
+      "id": "hvdw15-reflective-border-dog-vest",
+      "sku": "HVDW15",
+      "name_zh": "HVDW15 反光包边宠物背心",
+      "name_en": "HVDW15 REFLECTIVE BORDER DOG'S VEST",
+      "description_zh": "画册第6页展示7张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp",
+      "image_alt_zh": "HVDW15 反光包边宠物背心荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvdw15-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvdw15-pink.webp",
+        "assets/catalogue-a4/main/hvdw15-red.webp",
+        "assets/catalogue-a4/main/hvdw15-royal-blue.webp",
+        "assets/catalogue-a4/main/hvdw15-washed-denim.webp",
+        "assets/catalogue-a4/main/hvdw15-dark-denim.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvdw15-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvdw15-pink.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvdw15-red.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/hvdw15-royal-blue.webp"
+        },
+        {
+          "label_zh": "水洗丹宁",
+          "label_en": "Washed Denim",
+          "image": "assets/catalogue-a4/main/hvdw15-washed-denim.webp"
+        },
+        {
+          "label_zh": "深丹宁",
+          "label_en": "Dark Denim",
+          "image": "assets/catalogue-a4/main/hvdw15-dark-denim.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 59
+    },
+    {
+      "id": "hvw066-print-me-arm-bands",
+      "sku": "HVW066",
+      "name_zh": "HVW066 可印刷反光臂带",
+      "name_en": "HVW066 PRINT ME ARM BANDS",
+      "description_zh": "画册第6页展示7张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW066 可印刷反光臂带荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw066-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvw066-pink.webp",
+        "assets/catalogue-a4/main/hvw066-lime.webp",
+        "assets/catalogue-a4/main/hvw066-red.webp",
+        "assets/catalogue-a4/main/hvw066-royal-blue.webp",
+        "assets/catalogue-a4/main/hvw066-white.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvw066-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/hvw066-pink.webp"
+        },
+        {
+          "label_zh": "亮绿",
+          "label_en": "Lime",
+          "image": "assets/catalogue-a4/main/hvw066-lime.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/hvw066-red.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/hvw066-royal-blue.webp"
+        },
+        {
+          "label_zh": "白色",
+          "label_en": "White",
+          "image": "assets/catalogue-a4/main/hvw066-white.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 60
+    },
+    {
+      "id": "id03-id-arm-bands",
+      "sku": "ID03",
+      "name_zh": "ID03 证件卡臂带",
+      "name_en": "ID03 ID ARM BANDS",
+      "description_zh": "画册第6页展示8张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/id03-hi-vis-yellow.webp",
+      "image_alt_zh": "ID03 证件卡臂带荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/id03-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/id03-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/id03-royal-blue.webp",
+        "assets/catalogue-a4/main/id03-lime.webp",
+        "assets/catalogue-a4/main/id03-pink.webp",
+        "assets/catalogue-a4/main/id03-red.webp",
+        "assets/catalogue-a4/main/id03-black.webp",
+        "assets/catalogue-a4/main/id03-silver.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/id03-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/id03-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/id03-royal-blue.webp"
+        },
+        {
+          "label_zh": "亮绿",
+          "label_en": "Lime",
+          "image": "assets/catalogue-a4/main/id03-lime.webp"
+        },
+        {
+          "label_zh": "粉色",
+          "label_en": "Pink",
+          "image": "assets/catalogue-a4/main/id03-pink.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/id03-red.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/id03-black.webp"
+        },
+        {
+          "label_zh": "银色",
+          "label_en": "Silver",
+          "image": "assets/catalogue-a4/main/id03-silver.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 61
+    },
+    {
+      "id": "tfc100-safety-bump-cap",
+      "sku": "TFC100",
+      "name_zh": "TFC100 安全防撞帽",
+      "name_en": "TFC100 SAFETY BUMP CAP",
+      "description_zh": "画册第6页展示5张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp",
+      "image_alt_zh": "TFC100 安全防撞帽荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/tfc100-green.webp",
+        "assets/catalogue-a4/main/tfc100-navy.webp",
+        "assets/catalogue-a4/main/tfc100-red.webp",
+        "assets/catalogue-a4/main/tfc100-royal-blue.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "绿色",
+          "label_en": "Green",
+          "image": "assets/catalogue-a4/main/tfc100-green.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/tfc100-navy.webp"
+        },
+        {
+          "label_zh": "红色",
+          "label_en": "Red",
+          "image": "assets/catalogue-a4/main/tfc100-red.webp"
+        },
+        {
+          "label_zh": "宝蓝",
+          "label_en": "Royal Blue",
+          "image": "assets/catalogue-a4/main/tfc100-royal-blue.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 62
+    },
+    {
+      "id": "c6713-baseball-cap",
+      "sku": "C6713",
+      "name_zh": "C6713 反光棒球帽",
+      "name_en": "C6713 BASEBALL CAP",
+      "description_zh": "画册第6页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/c6713-hi-vis-yellow.webp",
+      "image_alt_zh": "C6713 反光棒球帽荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/c6713-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/c6713-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/c6713-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/c6713-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 63
+    },
+    {
+      "id": "ct01-clip-on-ties",
+      "sku": "CT01",
+      "name_zh": "CT01 夹式领带",
+      "name_en": "CT01 CLIP-ON TIES",
+      "description_zh": "画册第6页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/ct01-black.webp",
+      "image_alt_zh": "CT01 夹式领带黑色画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/ct01-black.webp",
+        "assets/catalogue-a4/main/ct01-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/ct01-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/ct01-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 64
+    },
+    {
+      "id": "yk8001-london-rucksack",
+      "sku": "YK8001",
+      "name_zh": "YK8001 London反光背包",
+      "name_en": "YK8001 LONDON RUCKSACK",
+      "description_zh": "画册第6页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/yk8001-hi-vis-yellow.webp",
+      "image_alt_zh": "YK8001 London反光背包荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/yk8001-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/yk8001-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/yk8001-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/yk8001-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 65
+    },
+    {
+      "id": "yk2518-seattle-holdall",
+      "sku": "YK2518",
+      "name_zh": "YK2518 Seattle反光旅行包",
+      "name_en": "YK2518 SEATTLE HOLDALL",
+      "description_zh": "画册第6页展示2张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/yk2518-hi-vis-yellow.webp",
+      "image_alt_zh": "YK2518 Seattle反光旅行包荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/yk2518-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/yk2518-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/yk2518-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/yk2518-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 66
+    },
+    {
+      "id": "hvw068-rucksack-cover",
+      "sku": "HVW068",
+      "name_zh": "HVW068 反光背包防雨罩",
+      "name_en": "HVW068 RUCKSACK COVER",
+      "description_zh": "画册第6页展示1张颜色模特参考图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp",
+      "image_alt_zh": "HVW068 反光背包防雨罩荧光黄画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 67
+    },
+    {
+      "id": "wk006-knee-pads",
+      "sku": "WK006",
+      "name_zh": "WK006 EVA护膝",
+      "name_en": "WK006 KNEE PADS",
+      "description_zh": "画册第6页展示1张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/wk006-black.webp",
+      "image_alt_zh": "WK006 EVA护膝黑色画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/wk006-black.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/wk006-black.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 68
+    },
+    {
+      "id": "rp01-heat-apply-reflective-tape",
+      "sku": "RP01",
+      "name_zh": "RP01 热转印反光条",
+      "name_en": "RP01 HEAT APPLY REFLECTIVE TAPE",
+      "description_zh": "画册第6页展示1张颜色单品图；本页用于选款和询价，具体规格、认证、库存与起订条件需确认。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/rp01-silver.webp",
+      "image_alt_zh": "RP01 热转印反光条银色画册参考图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/rp01-silver.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "银色",
+          "label_en": "Silver",
+          "image": "assets/catalogue-a4/main/rp01-silver.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        6
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 69
+    }
+  ]
+}
