@@ -1900,7 +1900,7 @@ html.dark .factor-icon {
 .product-detail__gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
 .product-detail__gallery-item { margin: 0; }
 .product-detail__gallery-item a { position: relative; display: block; overflow: hidden; border: 1px solid var(--cf-border); border-radius: var(--cf-radius-lg); background: var(--cf-surface-2); }
-.product-detail__gallery-item img { width: 100%; aspect-ratio: 4 / 3; display: block; object-fit: contain; transition: transform 350ms ease; }
+.product-detail__gallery-item img { width: 100%; height: auto; display: block; transition: transform 350ms ease; }
 .product-detail__gallery-item a:hover img { transform: scale(1.025); }
 .product-detail__zoom-hint {
   position: absolute;
