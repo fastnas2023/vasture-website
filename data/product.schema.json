@@ -16,6 +16,16 @@
   "additionalProperties": false,
   "$defs": {
     "nullableString": { "type": ["string", "null"] },
+    "colorVariant": {
+      "type": "object",
+      "required": ["label_zh", "label_en", "image"],
+      "properties": {
+        "label_zh": { "type": "string", "minLength": 1 },
+        "label_en": { "type": "string", "minLength": 1 },
+        "image": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
     "product": {
       "type": "object",
       "required": [
@@ -36,6 +46,8 @@
         "main_image": { "type": "string", "minLength": 1 },
         "image_alt_zh": { "type": "string", "minLength": 1 },
         "gallery_images": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "detail_images": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "color_variants": { "type": "array", "items": { "$ref": "#/$defs/colorVariant" }, "minItems": 1 },
         "badge": { "type": "string", "minLength": 1 },
         "supply_mode": { "enum": ["catalogue_inquiry", "odm_proposal", "ready_stock", "oem", "odm"] },
         "moq_label": { "type": "string", "minLength": 1 },

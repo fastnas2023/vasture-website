@@ -106,6 +106,42 @@
   document.querySelectorAll('.mobile-drawer [data-theme-toggle]').forEach((el) => el.remove());
   document.querySelectorAll('.mobile-drawer .lang-switch').forEach((el) => el.remove());
 
+  // ---------- 2.8. Social profile links ----------
+  // Add the complete public profile URL here when each account is ready.
+  // Empty values keep the matching footer icon visible but non-clickable.
+  const SOCIAL_LINKS = {
+    linkedin: '',
+    facebook: '',
+    instagram: '',
+    tiktok: '',
+    pinterest: '',
+    youtube: ''
+  };
+  const socialLabels = {
+    linkedin: 'LinkedIn',
+    facebook: 'Facebook',
+    instagram: 'Instagram',
+    tiktok: 'TikTok',
+    pinterest: 'Pinterest',
+    youtube: 'YouTube'
+  };
+  document.querySelectorAll('[data-social]').forEach((icon) => {
+    const platform = icon.dataset.social;
+    const url = SOCIAL_LINKS[platform] || '';
+    const label = socialLabels[platform] || platform;
+    if (/^https?:\/\//i.test(url)) {
+      icon.href = url;
+      icon.target = '_blank';
+      icon.rel = 'noopener noreferrer';
+      icon.classList.remove('social-icon--placeholder');
+      icon.removeAttribute('role');
+      icon.removeAttribute('aria-disabled');
+      icon.removeAttribute('tabindex');
+      icon.setAttribute('aria-label', `${label} 官方账号（新窗口）`);
+      icon.title = label;
+    }
+  });
+
   // ---------- 3. Mobile Drawer ----------
   const drawer = document.querySelector('.mobile-drawer');
   const drawerBackdrop = document.querySelector('.drawer-backdrop');
@@ -309,22 +345,53 @@
     }, 3200);
   }
 
-  // ---------- 10. Products Page Filter & Sort ----------
+  // ---------- 10. Temporary product favourites ----------
+  const favouriteKey = 'vasture-product-favourites';
+  let favourites = [];
+  try { favourites = JSON.parse(localStorage.getItem(favouriteKey) || '[]'); } catch (_) { favourites = []; }
+  const syncFavourites = () => {
+    const saved = new Set(favourites);
+    document.querySelectorAll('[data-favorite-id]').forEach((button) => {
+      const active = saved.has(button.dataset.favoriteId);
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+      const icon = button.querySelector('span');
+      if (icon) icon.textContent = active ? '♥' : '♡';
+      if (button.classList.contains('product-detail__favorite')) button.lastChild.textContent = active ? ' 已收藏' : ' 收藏';
+    });
+  };
+  document.querySelectorAll('[data-favorite-id]').forEach((button) => button.addEventListener('click', (event) => {
+    event.preventDefault(); event.stopPropagation();
+    const id = button.dataset.favoriteId;
+    favourites = favourites.includes(id) ? favourites.filter((item) => item !== id) : [...favourites, id];
+    try { localStorage.setItem(favouriteKey, JSON.stringify(favourites)); } catch (_) {}
+    syncFavourites();
+  }));
+  syncFavourites();
+
+  // ---------- 11. Products Page Filter & Sort ----------
   const filterSidebar = document.querySelector('.filter-sidebar');
   if (filterSidebar) {
     const allCards = Array.from(document.querySelectorAll('.product-card'));
     const countEl = document.querySelector('.grid-toolbar__count strong');
     const sortSelect = document.querySelector('.sort-select');
+    const searchInput = document.querySelector('#product-search');
     const resetBtn = document.querySelector('.filter-reset');
     const emptyResetBtn = document.querySelector('.product-empty__reset');
     const emptyState = document.querySelector('.product-empty');
     const productGrid = document.querySelector('.product-grid');
+    const loadMore = document.querySelector('[data-product-load-more]');
+    const loadMoreBtn = loadMore && loadMore.querySelector('.product-load-more__button');
+    const loadMoreStatus = loadMore && loadMore.querySelector('.product-load-more__status');
     const filterCard = filterSidebar.querySelector('.filter-card');
     const mobileToggle = filterSidebar.querySelector('.filter-mobile-toggle');
     const filterGroups = ['type', 'fabric', 'craft', 'scene'];
+    const pageSize = 24;
+    let visibleLimit = pageSize;
 
-    allCards.forEach((card) => {
+    allCards.forEach((card, index) => {
       card._filterTokens = new Set((card.dataset.filters || '').toLowerCase().split(/\s+/).filter(Boolean));
+      card._initialIndex = index;
     });
 
     mobileToggle && mobileToggle.addEventListener('click', () => {
@@ -347,6 +414,13 @@
         if (group === ignoredGroup || !filters[group].length) return true;
         return filters[group].some((value) => card._filterTokens.has(value));
       });
+    }
+
+    function matchesSearch(card) {
+      const query = (searchInput ? searchInput.value : '').trim().toLowerCase();
+      if (!query) return true;
+      const haystack = [card.dataset.sku, card.dataset.filters, card.querySelector('.product-card__cat')?.textContent, card.querySelector('.product-card__title')?.textContent, card.querySelector('.product-card__desc')?.textContent].join(' ').toLowerCase();
+      return haystack.includes(query);
     }
 
     function updateFilterOptions(filters) {
@@ -394,25 +468,24 @@
       const filters = getFilters();
       const sortBy = sortSelect ? sortSelect.value : 'recommend';
       const cards = allCards.slice();
-      // Filter only by the structured tokens declared on each product card.
-      cards.forEach((card) => {
-        const show = matchesFilters(card, filters);
-        card.style.display = show ? '' : 'none';
-      });
-
-      const visible = cards.filter((c) => c.style.display !== 'none');
-      if (sortBy === 'moq-asc' || sortBy === 'moq-desc') {
-        const moqRe = /MOQ\s*(\d+)/i;
-        visible.sort((a, b) => {
-          const ma = (a.textContent.match(moqRe) || [])[1] || 9999;
-          const mb = (b.textContent.match(moqRe) || [])[1] || 9999;
-          return sortBy === 'moq-asc' ? ma - mb : mb - ma;
-        });
-        if (productGrid) visible.forEach((c) => productGrid.appendChild(c));
+      if (sortBy === 'newest') {
+        cards.sort((a, b) => (b.dataset.addedDate || '').localeCompare(a.dataset.addedDate || '') || a._initialIndex - b._initialIndex);
+      } else if (sortBy === 'sku-asc') {
+        cards.sort((a, b) => (a.dataset.sku || '').localeCompare(b.dataset.sku || '', undefined, { numeric: true }) || a._initialIndex - b._initialIndex);
+      } else {
+        cards.sort((a, b) => a._initialIndex - b._initialIndex);
       }
-      if (countEl) countEl.textContent = visible.length;
-      if (productGrid) productGrid.hidden = visible.length === 0;
-      if (emptyState) emptyState.hidden = visible.length !== 0;
+      if (productGrid) cards.forEach((card) => productGrid.appendChild(card));
+
+      const matched = cards.filter((card) => matchesFilters(card, filters) && matchesSearch(card));
+      const visible = new Set(matched.slice(0, visibleLimit));
+      cards.forEach((card) => { card.style.display = visible.has(card) ? '' : 'none'; });
+
+      if (countEl) countEl.textContent = matched.length;
+      if (productGrid) productGrid.hidden = matched.length === 0;
+      if (emptyState) emptyState.hidden = matched.length !== 0;
+      if (loadMore) loadMore.hidden = matched.length === 0 || matched.length <= visibleLimit;
+      if (loadMoreStatus) loadMoreStatus.textContent = `已显示 ${Math.min(visibleLimit, matched.length)} / ${matched.length} 款`;
       updateFilterOptions(filters);
     }
 
@@ -422,9 +495,18 @@
           .forEach((secondary) => { secondary.checked = false; });
         syncTypeUrl();
       }
+      visibleLimit = pageSize;
       apply();
     }));
-    sortSelect && sortSelect.addEventListener('change', apply);
+    sortSelect && sortSelect.addEventListener('change', () => {
+      visibleLimit = pageSize;
+      apply();
+    });
+    searchInput && searchInput.addEventListener('input', () => { visibleLimit = pageSize; apply(); });
+    loadMoreBtn && loadMoreBtn.addEventListener('click', () => {
+      visibleLimit += pageSize;
+      apply();
+    });
     const requestedType = new URLSearchParams(window.location.search).get('type');
     if (requestedType) {
       const requestedRadio = Array.from(filterSidebar.querySelectorAll('input[name="type"]'))
@@ -441,6 +523,7 @@
       const allType = filterSidebar.querySelector('input[name="type"][value="all"]');
       if (allType) allType.checked = true;
       if (sortSelect) sortSelect.value = 'recommend';
+      visibleLimit = pageSize;
       syncTypeUrl();
       apply();
       if (showMessage) showToast('筛选已重置', 'info');
@@ -500,6 +583,31 @@
     });
   }
 
-  // ---------- 13. Expose some globals (optional debug) ----------
+  // ---------- 13. Product colour thumbnails ----------
+  document.querySelectorAll('[data-product-colour-picker]').forEach((picker) => {
+    const mainImage = document.querySelector('[data-product-colour-main]');
+    const currentLabel = picker.querySelector('[data-product-colour-label]');
+    const colourButtons = picker.querySelectorAll('[data-colour-src]');
+    if (!mainImage || !colourButtons.length) return;
+
+    colourButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.classList.contains('is-active')) return;
+        mainImage.classList.add('is-switching');
+        mainImage.src = button.dataset.colourSrc;
+        mainImage.alt = button.dataset.colourAlt || mainImage.alt;
+        if (currentLabel) currentLabel.textContent = button.dataset.colourLabel || '';
+        colourButtons.forEach((item) => {
+          const active = item === button;
+          item.classList.toggle('is-active', active);
+          item.setAttribute('aria-pressed', String(active));
+        });
+        if (mainImage.complete) mainImage.classList.remove('is-switching');
+        else mainImage.addEventListener('load', () => mainImage.classList.remove('is-switching'), { once: true });
+      });
+    });
+  });
+
+  // ---------- 14. Expose some globals (optional debug) ----------
   window.VASTURE = { showToast };
 })();
