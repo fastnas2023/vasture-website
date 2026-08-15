@@ -69,7 +69,7 @@ def listing_card(product: dict, index: int) -> str:
     badge = f'{len(variants)}色可选' if len(variants) > 1 else product.get("badge", "画册款")
     loading = "eager" if index < 3 else "lazy"
     return f'''            <div class="product-card reveal" data-filters="{esc(' '.join(tags))}" data-sku="{esc(product.get('sku') or '')}" data-sort-order="{esc(product.get('sort_order') or index + 1)}" data-catalogue-id="{esc(product.get('catalogue_id') or '')}" data-catalogue-name="{esc(product.get('catalogue_name') or '')}" data-added-date="{esc(product.get('added_date') or '')}" data-source-pages="{esc(','.join(str(page) for page in product.get('source_pages', [])))}">
-              <div class="product-card__img"><a class="product-card__link" href="product/{esc(product['id'])}.html" aria-label="查看{esc(product['name_zh'])}详情"><img src="{esc(product['main_image'] + '?v=' + CATALOGUE_IMAGE_VERSION)}" alt="{esc(product['image_alt_zh'])}" loading="{loading}" /></a><span class="product-card__badge">{esc(badge)}</span></div>
+              <div class="product-card__img"><a class="product-card__link" href="product/{esc(product['id'])}.html" aria-label="查看{esc(product['name_zh'])}详情"><img src="{esc(product['main_image'] + '?v=' + CATALOGUE_IMAGE_VERSION)}" alt="{esc(product['image_alt_zh'])}" loading="{loading}" /></a><span class="product-card__badge">{esc(badge)}</span><button class="product-favorite" type="button" data-favorite-id="{esc(product['id'])}" aria-label="收藏{esc(product['name_zh'])}" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
               <div class="product-card__body">
                 <span class="product-card__cat">{esc(product['name_en'])}</span>
                 <h3 class="product-card__title"><a href="product/{esc(product['id'])}.html">{esc(product['name_zh'])}</a></h3>
@@ -356,6 +356,7 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
             <p class="product-detail__description">{esc(product["description_zh"])}</p>
             <div class="product-detail__actions">
               <a class="cf-btn cf-btn-primary" href="../contact.html?{inquiry}">咨询此产品 <span aria-hidden="true">→</span></a>
+              <button class="product-detail__favorite product-favorite" type="button" data-favorite-id="{esc(product['id'])}" aria-label="收藏{esc(product['name_zh'])}" aria-pressed="false"><span aria-hidden="true">♡</span> 收藏</button>
               <a class="product-detail__back-link" href="../products.html">返回产品中心</a>
             </div>
             <dl class="product-detail__facts">

@@ -345,12 +345,37 @@
     }, 3200);
   }
 
-  // ---------- 10. Products Page Filter & Sort ----------
+  // ---------- 10. Temporary product favourites ----------
+  const favouriteKey = 'vasture-product-favourites';
+  let favourites = [];
+  try { favourites = JSON.parse(localStorage.getItem(favouriteKey) || '[]'); } catch (_) { favourites = []; }
+  const syncFavourites = () => {
+    const saved = new Set(favourites);
+    document.querySelectorAll('[data-favorite-id]').forEach((button) => {
+      const active = saved.has(button.dataset.favoriteId);
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+      const icon = button.querySelector('span');
+      if (icon) icon.textContent = active ? '♥' : '♡';
+      if (button.classList.contains('product-detail__favorite')) button.lastChild.textContent = active ? ' 已收藏' : ' 收藏';
+    });
+  };
+  document.querySelectorAll('[data-favorite-id]').forEach((button) => button.addEventListener('click', (event) => {
+    event.preventDefault(); event.stopPropagation();
+    const id = button.dataset.favoriteId;
+    favourites = favourites.includes(id) ? favourites.filter((item) => item !== id) : [...favourites, id];
+    try { localStorage.setItem(favouriteKey, JSON.stringify(favourites)); } catch (_) {}
+    syncFavourites();
+  }));
+  syncFavourites();
+
+  // ---------- 11. Products Page Filter & Sort ----------
   const filterSidebar = document.querySelector('.filter-sidebar');
   if (filterSidebar) {
     const allCards = Array.from(document.querySelectorAll('.product-card'));
     const countEl = document.querySelector('.grid-toolbar__count strong');
     const sortSelect = document.querySelector('.sort-select');
+    const searchInput = document.querySelector('#product-search');
     const resetBtn = document.querySelector('.filter-reset');
     const emptyResetBtn = document.querySelector('.product-empty__reset');
     const emptyState = document.querySelector('.product-empty');
@@ -389,6 +414,13 @@
         if (group === ignoredGroup || !filters[group].length) return true;
         return filters[group].some((value) => card._filterTokens.has(value));
       });
+    }
+
+    function matchesSearch(card) {
+      const query = (searchInput ? searchInput.value : '').trim().toLowerCase();
+      if (!query) return true;
+      const haystack = [card.dataset.sku, card.dataset.filters, card.querySelector('.product-card__cat')?.textContent, card.querySelector('.product-card__title')?.textContent, card.querySelector('.product-card__desc')?.textContent].join(' ').toLowerCase();
+      return haystack.includes(query);
     }
 
     function updateFilterOptions(filters) {
@@ -445,7 +477,7 @@
       }
       if (productGrid) cards.forEach((card) => productGrid.appendChild(card));
 
-      const matched = cards.filter((card) => matchesFilters(card, filters));
+      const matched = cards.filter((card) => matchesFilters(card, filters) && matchesSearch(card));
       const visible = new Set(matched.slice(0, visibleLimit));
       cards.forEach((card) => { card.style.display = visible.has(card) ? '' : 'none'; });
 
@@ -470,6 +502,7 @@
       visibleLimit = pageSize;
       apply();
     });
+    searchInput && searchInput.addEventListener('input', () => { visibleLimit = pageSize; apply(); });
     loadMoreBtn && loadMoreBtn.addEventListener('click', () => {
       visibleLimit += pageSize;
       apply();
