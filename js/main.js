@@ -380,14 +380,14 @@
     const emptyResetBtn = document.querySelector('.product-empty__reset');
     const emptyState = document.querySelector('.product-empty');
     const productGrid = document.querySelector('.product-grid');
-    const loadMore = document.querySelector('[data-product-load-more]');
-    const loadMoreBtn = loadMore && loadMore.querySelector('.product-load-more__button');
-    const loadMoreStatus = loadMore && loadMore.querySelector('.product-load-more__status');
+    const pagination = document.querySelector('[data-product-pagination]');
+    const paginationControls = document.querySelector('[data-product-pagination-controls]');
+    const paginationStatus = document.querySelector('[data-product-pagination-status]');
     const filterCard = filterSidebar.querySelector('.filter-card');
     const mobileToggle = filterSidebar.querySelector('.filter-mobile-toggle');
     const filterGroups = ['type', 'fabric', 'craft', 'scene'];
     const pageSize = 24;
-    let visibleLimit = pageSize;
+    let currentPage = 1;
 
     allCards.forEach((card, index) => {
       card._filterTokens = new Set((card.dataset.filters || '').toLowerCase().split(/\s+/).filter(Boolean));
@@ -448,7 +448,7 @@
       });
     }
 
-    function syncTypeUrl() {
+    function syncProductUrl() {
       const selectedType = filterSidebar.querySelector('input[name="type"]:checked');
       const url = new URL(window.location.href);
       if (selectedType && selectedType.value !== 'all') {
@@ -456,12 +456,62 @@
       } else {
         url.searchParams.delete('type');
       }
+      if (currentPage > 1) {
+        url.searchParams.set('page', String(currentPage));
+      } else {
+        url.searchParams.delete('page');
+      }
       try {
         window.history.replaceState({}, '', url.href);
       } catch (error) {
         // Some browsers restrict history updates for pages opened directly with file://.
         // Filtering must continue even when the address bar cannot be updated.
       }
+    }
+
+    function pageButtons(pageCount) {
+      if (pageCount <= 7) return Array.from({ length: pageCount }, (_, index) => index + 1);
+      if (currentPage <= 4) return [1, 2, 3, 4, 5, '…', pageCount];
+      if (currentPage >= pageCount - 3) return [1, '…', pageCount - 4, pageCount - 3, pageCount - 2, pageCount - 1, pageCount];
+      return [1, '…', currentPage - 1, currentPage, currentPage + 1, '…', pageCount];
+    }
+
+    function renderPagination(matchedCount) {
+      if (!pagination || !paginationControls || !paginationStatus) return;
+      const pageCount = Math.max(1, Math.ceil(matchedCount / pageSize));
+      pagination.hidden = matchedCount === 0 || pageCount === 1;
+      paginationStatus.textContent = `第 ${currentPage} / ${pageCount} 页 · 共 ${matchedCount} 款`;
+      if (pagination.hidden) return;
+
+      const makeButton = (label, page, options = {}) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = `product-pagination__button${options.primary ? ' product-pagination__button--page' : ''}${options.current ? ' is-current' : ''}`;
+        button.textContent = label;
+        button.disabled = Boolean(options.disabled);
+        button.dataset.page = String(page);
+        button.setAttribute('aria-label', options.ariaLabel || label);
+        if (options.current) button.setAttribute('aria-current', 'page');
+        return button;
+      };
+
+      const fragment = document.createDocumentFragment();
+      fragment.appendChild(makeButton('首页', 1, { disabled: currentPage === 1, ariaLabel: '跳转到首页' }));
+      fragment.appendChild(makeButton('上一页', currentPage - 1, { disabled: currentPage === 1, ariaLabel: '上一页' }));
+      pageButtons(pageCount).forEach((page) => {
+        if (page === '…') {
+          const dots = document.createElement('span');
+          dots.className = 'product-pagination__ellipsis';
+          dots.textContent = '…';
+          dots.setAttribute('aria-hidden', 'true');
+          fragment.appendChild(dots);
+          return;
+        }
+        fragment.appendChild(makeButton(String(page), page, { primary: true, current: page === currentPage, ariaLabel: `第 ${page} 页` }));
+      });
+      fragment.appendChild(makeButton('下一页', currentPage + 1, { disabled: currentPage === pageCount, ariaLabel: '下一页' }));
+      fragment.appendChild(makeButton('末页', pageCount, { disabled: currentPage === pageCount, ariaLabel: '跳转到末页' }));
+      paginationControls.replaceChildren(fragment);
     }
 
     function apply() {
@@ -478,53 +528,63 @@
       if (productGrid) cards.forEach((card) => productGrid.appendChild(card));
 
       const matched = cards.filter((card) => matchesFilters(card, filters) && matchesSearch(card));
-      const visible = new Set(matched.slice(0, visibleLimit));
+      const pageCount = Math.max(1, Math.ceil(matched.length / pageSize));
+      currentPage = Math.min(Math.max(currentPage, 1), pageCount);
+      const start = (currentPage - 1) * pageSize;
+      const visible = new Set(matched.slice(start, start + pageSize));
       cards.forEach((card) => { card.style.display = visible.has(card) ? '' : 'none'; });
 
       if (countEl) countEl.textContent = matched.length;
       if (productGrid) productGrid.hidden = matched.length === 0;
       if (emptyState) emptyState.hidden = matched.length !== 0;
-      if (loadMore) loadMore.hidden = matched.length === 0 || matched.length <= visibleLimit;
-      if (loadMoreStatus) loadMoreStatus.textContent = `已显示 ${Math.min(visibleLimit, matched.length)} / ${matched.length} 款`;
+      renderPagination(matched.length);
       updateFilterOptions(filters);
+    }
+
+    function goToPage(page, scrollToResults = false) {
+      currentPage = Number(page) || 1;
+      apply();
+      syncProductUrl();
+      if (scrollToResults && productGrid) productGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     filterSidebar.querySelectorAll('input').forEach((input) => input.addEventListener('change', () => {
       if (input.name === 'type') {
         filterSidebar.querySelectorAll('input[name="fabric"], input[name="craft"], input[name="scene"]')
           .forEach((secondary) => { secondary.checked = false; });
-        syncTypeUrl();
+        syncProductUrl();
       }
-      visibleLimit = pageSize;
-      apply();
+      goToPage(1);
     }));
     sortSelect && sortSelect.addEventListener('change', () => {
-      visibleLimit = pageSize;
-      apply();
+      goToPage(1);
     });
-    searchInput && searchInput.addEventListener('input', () => { visibleLimit = pageSize; apply(); });
-    loadMoreBtn && loadMoreBtn.addEventListener('click', () => {
-      visibleLimit += pageSize;
-      apply();
+    searchInput && searchInput.addEventListener('input', () => { goToPage(1); });
+    paginationControls && paginationControls.addEventListener('click', (event) => {
+      const button = event.target.closest('button[data-page]');
+      if (!button || button.disabled) return;
+      goToPage(button.dataset.page, true);
     });
     const requestedType = new URLSearchParams(window.location.search).get('type');
+    const requestedPage = Number(new URLSearchParams(window.location.search).get('page'));
     if (requestedType) {
       const requestedRadio = Array.from(filterSidebar.querySelectorAll('input[name="type"]'))
         .find((radio) => radio.value === requestedType);
       if (requestedRadio) {
         requestedRadio.checked = true;
       } else {
-        syncTypeUrl();
+        syncProductUrl();
       }
     }
+    if (Number.isInteger(requestedPage) && requestedPage > 1) currentPage = requestedPage;
 
     function resetFilters(showMessage) {
       filterSidebar.querySelectorAll('input[type="checkbox"]').forEach((cb) => { cb.checked = false; });
       const allType = filterSidebar.querySelector('input[name="type"][value="all"]');
       if (allType) allType.checked = true;
       if (sortSelect) sortSelect.value = 'recommend';
-      visibleLimit = pageSize;
-      syncTypeUrl();
+      currentPage = 1;
+      syncProductUrl();
       apply();
       if (showMessage) showToast('筛选已重置', 'info');
     }
@@ -532,6 +592,7 @@
     resetBtn && resetBtn.addEventListener('click', () => resetFilters(true));
     emptyResetBtn && emptyResetBtn.addEventListener('click', () => resetFilters(false));
     apply();
+    syncProductUrl();
   }
 
   // ---------- 11. Blog / Resources Pagination Tabs ----------
