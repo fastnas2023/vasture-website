@@ -19,6 +19,14 @@ from urllib.parse import urlencode
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://fastnas2023.github.io/vasture-website/"
 CATALOGUE_IMAGE_VERSION = "20260815-product-images-4"
+PRODUCT_PAGE_STYLE_VERSION = "20260816-full-product-main-1"
+DETAIL_IMAGE_OVERRIDES = {
+    # These are wearing references only. Main-image and colour-picker assets remain clean product-only images.
+    "hv005-multi-pocket-body-warmer": [
+        "assets/catalogue-a4/main/hv005-hi-vis-yellow-model.webp",
+        "assets/catalogue-a4/main/hv005-hi-vis-orange-model.webp",
+    ],
+}
 PRODUCT_TYPE_LABELS = {
     "hoodie": "卫衣 / 帽衫",
     "jacket": "夹克 / 防水外套",
@@ -57,6 +65,16 @@ def load_products() -> list[dict]:
     if catalogue_78_path.exists():
         catalogue_78 = json.loads(catalogue_78_path.read_text(encoding="utf-8"))["products"]
     products = primary + generated + catalogue_78
+    colour_review_path = ROOT / "data/catalogue-78-colour-review.json"
+    if colour_review_path.exists():
+        colour_review = json.loads(colour_review_path.read_text(encoding="utf-8"))
+        multi_colour_skus = {
+            item["sku"]
+            for item in colour_review.get("visually_confirmed_available_colours_no_separate_images", [])
+        }
+        for product in products:
+            if product.get("catalogue_id") == "catalogue-78-en" and product.get("sku") in multi_colour_skus:
+                product["catalogue_colour_options"] = "source-confirmed-no-separate-images"
     ids = [product["id"] for product in products]
     if len(ids) != len(set(ids)):
         raise ValueError("Duplicate product ids across product datasets")
@@ -66,7 +84,11 @@ def load_products() -> list[dict]:
 def listing_card(product: dict, index: int) -> str:
     tags = list(dict.fromkeys([product["product_type"], *product.get("tags", [])]))
     variants = product.get("color_variants", [])
-    badge = f'{len(variants)}色可选' if len(variants) > 1 else product.get("badge", "画册款")
+    badge = (
+        f'{len(variants)}色可选' if len(variants) > 1
+        else "画册多色" if product.get("catalogue_colour_options")
+        else product.get("badge", "画册款")
+    )
     loading = "eager" if index < 3 else "lazy"
     return f'''            <div class="product-card reveal" data-filters="{esc(' '.join(tags))}" data-sku="{esc(product.get('sku') or '')}" data-sort-order="{esc(product.get('sort_order') or index + 1)}" data-catalogue-id="{esc(product.get('catalogue_id') or '')}" data-catalogue-name="{esc(product.get('catalogue_name') or '')}" data-added-date="{esc(product.get('added_date') or '')}" data-source-pages="{esc(','.join(str(page) for page in product.get('source_pages', [])))}">
               <div class="product-card__img"><a class="product-card__link" href="product/{esc(product['id'])}.html" aria-label="查看{esc(product['name_zh'])}详情"><img src="{esc(product['main_image'] + '?v=' + CATALOGUE_IMAGE_VERSION)}" alt="{esc(product['image_alt_zh'])}" loading="{loading}" /></a><span class="product-card__badge">{esc(badge)}</span><button class="product-favorite" type="button" data-favorite-id="{esc(product['id'])}" aria-label="收藏{esc(product['name_zh'])}" aria-pressed="false"><span aria-hidden="true">♡</span></button></div>
@@ -204,10 +226,12 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
         f"../{image}?v={CATALOGUE_IMAGE_VERSION}"
         for image in product.get("gallery_images", [])
     ]
+    detail_image_paths = product.get("detail_images", DETAIL_IMAGE_OVERRIDES.get(product["id"], []))
     detail_images = [
         f"../{image}?v={CATALOGUE_IMAGE_VERSION}"
-        for image in product.get("detail_images", [])
+        for image in detail_image_paths
     ]
+    wearing_reference = bool(detail_image_paths) and all("-model" in image for image in detail_image_paths)
     colour_variants = product.get("color_variants", [])
     is_colour_gallery = bool(colour_variants)
     gallery_eyebrow = "COLOUR OPTIONS" if is_colour_gallery else "CATALOGUE REFERENCE"
@@ -247,23 +271,39 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
             </div>
           </div>'''
 
+    source_colour_note_markup = ""
+    if product.get("catalogue_colour_options"):
+        source_colour_note_markup = '''          <aside class="product-detail__source-colours" aria-label="画册颜色信息">
+            <strong>画册多色可选</strong>
+            <p>画册展示多个可选颜色；当前未收录每个颜色的独立产品图，因此不会切换主图。具体颜色、面料与供货条件请询价确认。</p>
+          </aside>'''
+
     if is_colour_gallery and detail_images:
+        detail_eyebrow = "WEARING REFERENCE" if wearing_reference else "DETAIL VIEW"
+        detail_title = "模特穿着效果" if wearing_reference else "面料与工艺细节"
+        detail_description = (
+            f"用于查看{product['name_zh']}的穿着效果；主图仍采用完整单品图。"
+            if wearing_reference
+            else "用于查看面料纹理、口袋结构、门襟与反光条等局部细节；颜色与规格仍以询价确认结果为准。"
+        )
+        detail_caption = "模特穿着效果" if wearing_reference else "产品工艺细节参考"
+        detail_hint = "查看穿着效果" if wearing_reference else "查看细节"
         detail_markup = "\n".join(
             f'''            <figure class="product-detail__gallery-item">
-              <a href="{esc(image)}" data-catalogue-lightbox aria-label="放大查看{esc(product["name_zh"])}工艺细节">
-                <img src="{esc(image)}" alt="{esc(product["name_zh"])}面料与反光条工艺细节" loading="lazy" />
-                <span class="product-detail__zoom-hint" aria-hidden="true">查看细节 <span>↗</span></span>
+              <a href="{esc(image)}" data-catalogue-lightbox aria-label="放大查看{esc(product["name_zh"])}{detail_caption}">
+                <img src="{esc(image)}" alt="{esc(product["name_zh"])}{detail_caption}" loading="lazy" />
+                <span class="product-detail__zoom-hint" aria-hidden="true">{detail_hint} <span>↗</span></span>
               </a>
-              <figcaption>产品工艺细节参考 · 点击可放大</figcaption>
+              <figcaption>{detail_caption} · PDF第 {esc(pages)} 页</figcaption>
             </figure>'''
             for image in detail_images
         )
         gallery_section_markup = f'''    <section class="product-detail-section">
       <div class="cf-container">
         <div class="product-detail__section-heading">
-          <p class="cf-eyebrow"><span class="cf-eyebrow-line"></span><span>DETAIL VIEW</span></p>
-          <h2>面料与工艺细节</h2>
-          <p>用于查看面料纹理、口袋结构、门襟与反光条等局部细节；颜色与规格仍以询价确认结果为准。</p>
+          <p class="cf-eyebrow"><span class="cf-eyebrow-line"></span><span>{detail_eyebrow}</span></p>
+          <h2>{esc(detail_title)}</h2>
+          <p>{esc(detail_description)}</p>
         </div>
         <div class="product-detail__gallery product-detail__gallery--detail">{detail_markup}
         </div>
@@ -328,7 +368,7 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
   <meta property="og:image" content="{esc(BASE_URL + product["main_image"])}" />
   <link rel="icon" href="../assets/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="../assets/logo-mark.png" />
-  <link rel="stylesheet" href="../css/brand.css?v=20260815-catalogue-final-5" />
+  <link rel="stylesheet" href="../css/brand.css?v={PRODUCT_PAGE_STYLE_VERSION}" />
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>
 <body>
@@ -348,6 +388,7 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
               <span class="product-detail__badge">{esc(badge)}</span>
             </div>
 {colour_picker_markup}
+{source_colour_note_markup}
           </div>
           <div class="product-detail__intro">
             <p class="product-detail__eyebrow">{esc(eyebrow)}</p>

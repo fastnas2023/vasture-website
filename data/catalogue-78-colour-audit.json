@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "catalogue_id": "catalogue-78-en",
+  "source_file": "产品图册/catalogue-78-en.pdf",
+  "audit_date": "2026-08-16",
+  "purpose": "Internal source-page audit only. A detected colour swatch may be a garment component colour, not an alternative colourway. Do not publish or generate variants without per-product review.",
+  "manual_review_file": "data/catalogue-78-colour-review.json",
+  "summary": {
+    "product_blocks_with_multiple_detected_swatches": 36,
+    "product_blocks_with_multiple_swatches_and_no_frontend_picker": 34,
+    "pages_needing_visual_sku_mapping": 28,
+    "important_rule": "Multiple swatches are source evidence only; they must be classified as component colours, confirmed available colourways, or existing image variants before frontend use."
+  },
+  "entries": [
+    {
+      "sku": "XK-002",
+      "source_page": 4,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#3f4999",
+        "#bbb4a2"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-003",
+      "source_page": 5,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#3f4999",
+        "#a79c8d",
+        "#5a6461"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-004",
+      "source_page": 5,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#3f4998",
+        "#dbd3c3"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-005",
+      "source_page": 6,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#313942",
+        "#a38e7e",
+        "#8db1c4"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-006",
+      "source_page": 6,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#914d47",
+        "#887a6c",
+        "#7f6768"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-007",
+        "XK-008"
+      ],
+      "source_page": 7,
+      "detected_colour_labels": 4,
+      "detected_swatch_counts": [
+        1,
+        0,
+        6,
+        6
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-009",
+        "XK-010"
+      ],
+      "source_page": 8,
+      "detected_colour_labels": 3,
+      "detected_swatch_counts": [
+        7,
+        2,
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-011",
+      "source_page": 9,
+      "source_swatch_count": 4,
+      "source_swatch_rgb": [
+        "#e5dab3",
+        "#aac9e2",
+        "#e7bf58",
+        "#7c3d41"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-012",
+      "source_page": 9,
+      "source_swatch_count": 5,
+      "source_swatch_rgb": [
+        "#e6dbb2",
+        "#a9c9e3",
+        "#cfc4a6",
+        "#e7c15a",
+        "#7c3b3e"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-013"
+      ],
+      "source_page": 10,
+      "detected_colour_labels": 2,
+      "detected_swatch_counts": [
+        4,
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-014",
+      "source_page": 11,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#cbc2b8",
+        "#222b2c"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-015",
+      "source_page": 12,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#616f77",
+        "#988c83",
+        "#9698a2"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-019",
+        "XK-020"
+      ],
+      "source_page": 14,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        1
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-021",
+        "XK-022"
+      ],
+      "source_page": 15,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        2
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-023",
+      "source_page": 16,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#d18e4c",
+        "#9ba14e"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-027"
+      ],
+      "source_page": 18,
+      "detected_colour_labels": 3,
+      "detected_swatch_counts": [
+        0,
+        0,
+        5
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-028",
+        "XK-029",
+        "XK-030",
+        "XK-031",
+        "XK-032",
+        "XK-033"
+      ],
+      "source_page": 20,
+      "detected_colour_labels": 2,
+      "detected_swatch_counts": [
+        2,
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-034",
+      "source_page": 22,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#d48053",
+        "#404696",
+        "#a98773"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-035",
+      "source_page": 22,
+      "source_swatch_count": 4,
+      "source_swatch_rgb": [
+        "#e84549",
+        "#ef824c",
+        "#365fa5",
+        "#313d45"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-036",
+        "XK-037"
+      ],
+      "source_page": 23,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        2
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-038",
+      "source_page": 24,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#333659",
+        "#21282b"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-041",
+      "source_page": 26,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#ef8a58",
+        "#e95053"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-042",
+      "source_page": 26,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#ce7341",
+        "#4e85bf",
+        "#a5826e"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-045",
+      "source_page": 29,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#ebe774",
+        "#3d4d6f"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-046",
+      "source_page": 29,
+      "source_swatch_count": 5,
+      "source_swatch_rgb": [
+        "#b1464e",
+        "#f09855",
+        "#e95955",
+        "#3c4d6f",
+        "#4d74b3"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-047",
+      "source_page": 30,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#475b65",
+        "#6c869f",
+        "#384247"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": true
+    },
+    {
+      "sku": "XK-048",
+      "source_page": 30,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#68819b",
+        "#455962"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": true
+    },
+    {
+      "sku_refs": [
+        "XK-049",
+        "XK-050"
+      ],
+      "source_page": 31,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        2
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-051",
+      "source_page": 32,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#305a81",
+        "#b24041"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-052",
+      "source_page": 32,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#344045",
+        "#486bac",
+        "#e84145"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-053",
+        "XK-054"
+      ],
+      "source_page": 33,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        4
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-055",
+        "XK-056"
+      ],
+      "source_page": 34,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        2
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-059",
+        "XK-060"
+      ],
+      "source_page": 36,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        4
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-063",
+      "source_page": 38,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#e74548",
+        "#ed7e47",
+        "#e0e45e"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-065",
+        "XK-066",
+        "XK-067"
+      ],
+      "source_page": 39,
+      "detected_colour_labels": 2,
+      "detected_swatch_counts": [
+        0,
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-068",
+      "source_page": 40,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#3670b0",
+        "#cfc4b3"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-069",
+      "source_page": 40,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#a9a655",
+        "#b37e4b",
+        "#ae4645"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-072",
+      "source_page": 43,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#38536c",
+        "#b8af83",
+        "#010b07"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-073",
+      "source_page": 43,
+      "source_swatch_count": 4,
+      "source_swatch_rgb": [
+        "#4b72b1",
+        "#f09954",
+        "#e85953",
+        "#3d4e72"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-074",
+      "source_page": 44,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#4a526d",
+        "#a59b8b",
+        "#dc4146"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-076",
+        "XK-077"
+      ],
+      "source_page": 45,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        3
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-078",
+      "source_page": 46,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#3080bc",
+        "#4882bd",
+        "#4a5446"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-079",
+        "XK-080",
+        "XK-081"
+      ],
+      "source_page": 47,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        5
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-098",
+        "XK-099"
+      ],
+      "source_page": 54,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        1
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-101",
+      "source_page": 56,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#979c61",
+        "#9598a0"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-102",
+      "source_page": 57,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#e95254",
+        "#ece97a",
+        "#f08d5c"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-103",
+      "source_page": 57,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#999e65",
+        "#888e93"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-107",
+        "XK-108",
+        "XK-109",
+        "XK-110"
+      ],
+      "source_page": 60,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        2
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-111",
+        "XK-112",
+        "XK-113"
+      ],
+      "source_page": 61,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        4
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-114",
+        "XK-115",
+        "XK-116"
+      ],
+      "source_page": 62,
+      "detected_colour_labels": 2,
+      "detected_swatch_counts": [
+        4,
+        5
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-121",
+        "XK-122",
+        "XK-123"
+      ],
+      "source_page": 65,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-125",
+        "XK-126"
+      ],
+      "source_page": 67,
+      "detected_colour_labels": 5,
+      "detected_swatch_counts": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-127",
+        "XK-128"
+      ],
+      "source_page": 68,
+      "detected_colour_labels": 3,
+      "detected_swatch_counts": [
+        0,
+        3,
+        1
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-131",
+        "XK-132"
+      ],
+      "source_page": 69,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-133",
+        "XK-134"
+      ],
+      "source_page": 70,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        0
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-135",
+        "XK-136"
+      ],
+      "source_page": 71,
+      "detected_colour_labels": 3,
+      "detected_swatch_counts": [
+        0,
+        3,
+        4
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-137",
+      "source_page": 72,
+      "source_swatch_count": 3,
+      "source_swatch_rgb": [
+        "#b47c46",
+        "#a9a553",
+        "#b14041"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-138",
+      "source_page": 72,
+      "source_swatch_count": 4,
+      "source_swatch_rgb": [
+        "#a5a250",
+        "#d8924e",
+        "#443e38",
+        "#a73e40"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-139",
+        "XK-140"
+      ],
+      "source_page": 73,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        4
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku": "XK-141",
+      "source_page": 74,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#eaea6b",
+        "#f08a69"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-142",
+      "source_page": 74,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#ee8b6a",
+        "#e9e96a"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku": "XK-143",
+      "source_page": 74,
+      "source_swatch_count": 2,
+      "source_swatch_rgb": [
+        "#df9851",
+        "#9a9e50"
+      ],
+      "mapping_status": "auto-detected-multiple-colour-swatches",
+      "publish_status": "not-public-until-per-product-colourway-review",
+      "classification_status": "unreviewed-not-a-frontend-variant",
+      "frontend_colour_picker_exists": false
+    },
+    {
+      "sku_refs": [
+        "XK-146",
+        "XK-147"
+      ],
+      "source_page": 76,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        3
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    },
+    {
+      "sku_refs": [
+        "XK-148",
+        "XK-149",
+        "XK-150",
+        "XK-151"
+      ],
+      "source_page": 77,
+      "detected_colour_labels": 1,
+      "detected_swatch_counts": [
+        1
+      ],
+      "mapping_status": "needs-visual-sku-mapping",
+      "publish_status": "not-public"
+    }
+  ]
+}

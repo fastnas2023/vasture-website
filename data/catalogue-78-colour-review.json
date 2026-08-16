@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "catalogue_id": "catalogue-78-en",
+  "reviewed_date": "2026-08-16",
+  "purpose": "Colour evidence review for future product maintenance. This file is not rendered by the frontend.",
+  "display_policy": {
+    "source_colour_options_no_images": "May later be shown as non-clickable 'catalogue colour options, confirm on enquiry' chips. They must not switch the main image.",
+    "component_colours": "Must not become selectable product colourways.",
+    "image_colour_variants": "May switch product imagery only when every variant has an approved product asset."
+  },
+  "existing_image_colour_variant_groups": [
+    { "id": "xk-017-018-multinorm-sweatshirt", "skus": ["XK-017", "XK-018"] },
+    { "id": "xk-029-033-pullover-hoodie", "skus": ["XK-029", "XK-030", "XK-031", "XK-032", "XK-033"] },
+    { "id": "xk-047-048-cotton-fr-jeans", "skus": ["XK-047", "XK-048"] },
+    { "id": "xk-149-150-womens-reflective-shirts", "skus": ["XK-149", "XK-150"] }
+  ],
+  "visually_confirmed_available_colours_no_separate_images": [
+    { "sku": "XK-008", "source_pdf_page": 7 },
+    { "sku": "XK-009", "source_pdf_page": 8 },
+    { "sku": "XK-010", "source_pdf_page": 8 },
+    { "sku": "XK-013", "source_pdf_page": 10 },
+    { "sku": "XK-027", "source_pdf_page": 18 },
+    { "sku": "XK-028", "source_pdf_page": 20 },
+    { "sku": "XK-049", "source_pdf_page": 31 },
+    { "sku": "XK-053", "source_pdf_page": 33 },
+    { "sku": "XK-055", "source_pdf_page": 34 },
+    { "sku": "XK-056", "source_pdf_page": 34 },
+    { "sku": "XK-059", "source_pdf_page": 36 },
+    { "sku": "XK-060", "source_pdf_page": 36 },
+    { "sku": "XK-076", "source_pdf_page": 45 },
+    { "sku": "XK-079", "source_pdf_page": 47 },
+    { "sku": "XK-081", "source_pdf_page": 47 },
+    { "sku": "XK-107", "source_pdf_page": 60 },
+    { "sku": "XK-121", "source_pdf_page": 65 },
+    { "sku": "XK-125", "source_pdf_page": 67 },
+    { "sku": "XK-126", "source_pdf_page": 67 },
+    { "sku": "XK-127", "source_pdf_page": 68 },
+    { "sku": "XK-135", "source_pdf_page": 71 },
+    { "sku": "XK-136", "source_pdf_page": 71 },
+    { "sku": "XK-139", "source_pdf_page": 73 },
+    { "sku": "XK-140", "source_pdf_page": 73 },
+    { "sku": "XK-146", "source_pdf_page": 76 },
+    { "sku": "XK-147", "source_pdf_page": 76 },
+    { "sku": "XK-151", "source_pdf_page": 77 }
+  ],
+  "visually_confirmed_component_colours_not_variants": [
+    { "sku": "XK-021", "source_pdf_page": 15, "reason": "Orange and navy are the contrast panels of one hi-vis shirt." },
+    { "sku": "XK-022", "source_pdf_page": 15, "reason": "Orange and navy are the contrast panels of one hi-vis shirt." },
+    { "sku": "XK-054", "source_pdf_page": 33, "reason": "Navy and light contrast sections are one trouser design, not independently documented colourways." },
+    { "sku": "XK-098", "source_pdf_page": 54, "reason": "Navy and fluorescent yellow are one multiform trouser design." },
+    { "sku": "XK-099", "source_pdf_page": 54, "reason": "Fluorescent yellow and navy are one multiform trouser design." }
+  ],
+  "do_not_merge_without_product_or_asset_evidence": [
+    { "skus": ["XK-036", "XK-037"], "source_pdf_page": 23, "reason": "Related jackets have different product numbers and are already marked as a related series." },
+    { "skus": ["XK-111", "XK-112"], "source_pdf_page": 61, "reason": "Same polo category, but separate product numbers and no shared source block confirming a variant relationship." },
+    { "skus": ["XK-114", "XK-115", "XK-116"], "source_pdf_page": 62, "reason": "Related hooded sweatshirt layouts need SKU-level asset or supplier confirmation before merging." },
+    { "skus": ["XK-149", "XK-150"], "source_pdf_page": 77, "reason": "Already a confirmed image-variant group; retain its existing frontend implementation." }
+  ],
+  "remaining_source_swatch_records": "See catalogue-78-colour-audit.json. These machine-detected records stay unpublished until a SKU-level visual review confirms whether each swatch is an option or a garment component."
+}
