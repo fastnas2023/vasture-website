@@ -3,38 +3,1482 @@
   "updated_date": "2026-08-15",
   "asset_base_url": "https://fastnas2023.github.io/vasture-website/",
   "products": [
-    {"id":"strategic-ventilation-jacket","sku":null,"name_zh":"战略通风轻量夹克","name_en":"STRATEGIC VENTILATION JACKET","description_zh":"方案包含腋下与背部通风、快干透气、可收纳设计及防泼水功能，适合户外施工与团队工服开发。","product_type":"jacket","tags":["jacket","workwear","waterproof","functional","outdoor","project"],"main_image":"assets/modish/main/strategic-ventilation-jacket.webp","image_alt_zh":"战略通风轻量工作夹克","gallery_images":["assets/modish/pages/page-02.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[2],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":1},
-    {"id":"ultra-light-rain-coat","sku":null,"name_zh":"超轻量防水雨衣","name_en":"ULTRA LIGHTWEIGHT RAIN COAT","description_zh":"方案页标注2.5层防水面料、压胶缝和可收纳结构，适合雨天作业、通勤及轻量户外场景。","product_type":"jacket","tags":["jacket","workwear","waterproof","functional","outdoor","project"],"main_image":"assets/modish/main/ultra-light-rain-coat.webp","image_alt_zh":"超轻量防水雨衣","gallery_images":["assets/modish/pages/page-03.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[3],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":2},
-    {"id":"multi-pocket-tech-jacket","sku":null,"name_zh":"多口袋功能夹克","name_en":"MULTI-POCKET TECH JACKET","description_zh":"围绕多区域收纳、快速取物、可调节细节和轻量耐用结构设计，适合作业工具与随身设备携带。","product_type":"jacket","tags":["jacket","workwear","waterproof","functional","outdoor","project"],"main_image":"assets/modish/main/multi-pocket-tech-jacket.webp","image_alt_zh":"多口袋功能工作夹克","gallery_images":["assets/modish/pages/page-04.webp","assets/modish/pages/page-06.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[4,6],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":3},
-    {"id":"softshell-jacket","sku":null,"name_zh":"三层弹力软壳夹克","name_en":"3-LAYER SOFTSHELL JACKET","description_zh":"方案包含可拆帽、通风区、功能口袋和三层弹力软壳结构，适合多天气户外作业与技术团队。","product_type":"jacket","tags":["jacket","workwear","softshell","waterproof","functional","outdoor","project"],"main_image":"assets/modish/main/softshell-jacket.webp","image_alt_zh":"三层弹力软壳工作夹克","gallery_images":["assets/modish/pages/page-05.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[5],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":4},
-    {"id":"tech-crew-utility-vest","sku":null,"name_zh":"技术团队多口袋背心","name_en":"TECH CREW UTILITY VEST","description_zh":"轻量背心方案结合透气背片、可调节肩部与侧腰、模块化口袋和反光细节，便于工具分类携带。","product_type":"vest","tags":["vest","workwear","mesh","functional","outdoor","project"],"main_image":"assets/modish/main/tech-crew-utility-vest.webp","image_alt_zh":"轻量多口袋技术工作背心","gallery_images":["assets/modish/pages/page-07.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[7],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":5},
-    {"id":"thermal-work-pants","sku":null,"name_zh":"保暖弹力工作裤","name_en":"THERMAL WORK PANTS","description_zh":"方案页标注四向弹力、加固口袋、工具环和保暖内层，面向低温施工及长时间活动需求。","product_type":"pants","tags":["pants","workwear","functional","outdoor","project","stretch","waterproof"],"main_image":"assets/modish/main/thermal-work-pants.webp","image_alt_zh":"保暖弹力工作裤","gallery_images":["assets/modish/pages/page-08.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[8],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":6},
-    {"id":"cargo-pant-02","sku":null,"name_zh":"02 多口袋工装裤","name_en":"02 CARGO PANT","description_zh":"多口袋、工具位、加固腰袢与后腰弹力结构，适合建筑、物流、安装和移动作业团队。","product_type":"pants","tags":["pants","workwear","functional","outdoor","project","stretch","waterproof"],"main_image":"assets/modish/main/cargo-pant-02.webp","image_alt_zh":"02多口袋弹力工装裤","gallery_images":["assets/modish/pages/page-09.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[9],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":7},
-    {"id":"tech-motion-work-pant","sku":null,"name_zh":"隐藏护膝功能工作裤","name_en":"TECH MOTION WORK PANT","description_zh":"内置隐藏式可更换护膝袋、膝后网眼通风和弹力面料，适合需要频繁跪姿操作的工种。","product_type":"pants","tags":["pants","workwear","functional","outdoor","project","stretch","waterproof"],"main_image":"assets/modish/main/tech-motion-work-pant.webp","image_alt_zh":"隐藏护膝功能工作裤","gallery_images":["assets/modish/pages/page-10.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[10],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":8},
-    {"id":"convertible-performance-pant","sku":null,"name_zh":"可拆卸裤腿两用工作裤","name_en":"CONVERTIBLE PERFORMANCE PANT","description_zh":"隐藏拉链可在长裤与短裤间切换，并结合弹力、防泼水和工具收纳细节，适应季节变化。","product_type":"pants","tags":["pants","workwear","functional","outdoor","project","stretch","waterproof"],"main_image":"assets/modish/main/convertible-performance-pant.webp","image_alt_zh":"可拆卸裤腿两用工作裤","gallery_images":["assets/modish/pages/page-11.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[11],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":9},
-    {"id":"hydroactive-cooling-vest","sku":null,"name_zh":"水激活降温背心","name_en":"HYDROACTIVE COOLING VEST","description_zh":"通过浸水、拧干后蒸发降温的功能背心方案，无需电池，适合高温户外、维护和物流作业。","product_type":"vest","tags":["vest","workwear","functional","outdoor","project","cooling"],"main_image":"assets/modish/main/hydroactive-cooling-vest.webp","image_alt_zh":"水激活蒸发降温背心","gallery_images":["assets/modish/pages/page-12.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[12],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":10},
-    {"id":"bio-based-pcm-cooling-vest","sku":null,"name_zh":"生物基相变降温背心","name_en":"BIO-BASED PCM COOLING VEST","description_zh":"方案采用可重复使用的相变降温模块，强调轻量、可调节与无电池运行，适合高温工作环境。","product_type":"vest","tags":["vest","workwear","functional","outdoor","project","cooling"],"main_image":"assets/modish/main/bio-based-pcm-cooling-vest.webp","image_alt_zh":"生物基相变降温背心","gallery_images":["assets/modish/pages/page-13.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[13],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":11},
-    {"id":"utility-tech-shirt","sku":null,"name_zh":"轻量透气功能工作衫","name_en":"UTILITY TECH SHIRT","description_zh":"长袖功能上衣结合透气网眼、后袋、工具袋和反光细节，适合技术服务、骑行和户外团队。","product_type":"workshirt","tags":["workshirt","workwear","mesh","functional","business","project"],"main_image":"assets/modish/main/utility-tech-shirt.webp","image_alt_zh":"轻量透气功能工作衫","gallery_images":["assets/modish/pages/page-14.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[14],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":12},
-    {"id":"utility-tech-vest","sku":null,"name_zh":"透气多口袋功能背心","name_en":"UTILITY TECH VEST","description_zh":"轻量网眼与多口袋收纳相结合，带可调节腰部和耐用细节，适合维修、仓储及活动执行。","product_type":"vest","tags":["vest","workwear","mesh","functional","outdoor","project"],"main_image":"assets/modish/main/utility-tech-vest.webp","image_alt_zh":"透气多口袋功能背心","gallery_images":["assets/modish/pages/page-15.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[15],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":13},
-    {"id":"premium-t-shirts","sku":null,"name_zh":"企业定制圆领 T恤","name_en":"PREMIUM T-SHIRTS","description_zh":"柔软透气基础款搭配肩部、袖口与侧缝品牌细节，可沟通颜色、版型、印花和刺绣方案。","product_type":"workshirt","tags":["workshirt","polo","workwear","knitwear","branding","business","project"],"main_image":"assets/modish/main/premium-t-shirts.webp","image_alt_zh":"企业定制圆领T恤","gallery_images":["assets/modish/pages/page-16.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[16],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":14},
-    {"id":"formal-shirt","sku":null,"name_zh":"企业定制长袖衬衫","name_en":"FORMAL SHIRT","description_zh":"修身商务衬衫方案包含经典领型、可调袖口与撞色细节，适合办公室、会务和企业形象服。","product_type":"workshirt","tags":["workshirt","workwear","branding","business","project"],"main_image":"assets/modish/main/formal-shirt.webp","image_alt_zh":"企业定制长袖商务衬衫","gallery_images":["assets/modish/pages/page-17.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[17],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":15},
-    {"id":"performance-polo","sku":null,"name_zh":"透气拼色企业 Polo","name_en":"PERFORMANCE POLO","description_zh":"透气面料、侧身网眼与撞色门襟和肩线设计，适合工作日常、活动执行和品牌团队服。","product_type":"workshirt","tags":["workshirt","polo","workwear","knitwear","branding","business","project"],"main_image":"assets/modish/main/performance-polo.webp","image_alt_zh":"透气拼色企业Polo衫","gallery_images":["assets/modish/pages/page-18.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[18],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":16},
-    {"id":"performance-cap","sku":null,"name_zh":"可定制贴章透气工作帽","name_en":"PERFORMANCE CAP","description_zh":"网眼拼接、可调节魔术贴后扣与前部贴章区域，适合企业标识、户外团队和活动配发。","product_type":"accessory","tags":["accessory","branding","business","outdoor","project"],"main_image":"assets/modish/main/performance-cap.webp","image_alt_zh":"可定制贴章透气工作帽","gallery_images":["assets/modish/pages/page-19.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[19],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":17},
-    {"id":"performance-beanie","sku":null,"name_zh":"抓绒内里保暖针织帽","name_en":"PERFORMANCE BEANIE","description_zh":"保暖针织与柔软抓绒内里组合，并预留品牌贴章和织标位置，适合冬季户外工作配发。","product_type":"accessory","tags":["accessory","branding","outdoor","project","winter"],"main_image":"assets/modish/main/performance-beanie.webp","image_alt_zh":"抓绒内里保暖针织帽","gallery_images":["assets/modish/pages/page-20.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[20],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":18},
-    {"id":"roll-top-waterproof-backpack","sku":null,"name_zh":"卷口防水工作背包","name_en":"ROLL TOP WATERPROOF BACKPACK","description_zh":"卷口结构、防水主体、快速取物袋与软垫电脑隔层，面向通勤、户外工作与项目装备需求。","product_type":"accessory","tags":["accessory","waterproof","functional","outdoor","project","bag"],"main_image":"assets/modish/main/roll-top-waterproof-backpack.webp","image_alt_zh":"卷口防水工作背包","gallery_images":["assets/modish/pages/page-21.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[21],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":19},
-    {"id":"tool-backpack","sku":null,"name_zh":"多分区工具背包","name_en":"TOOL BACKPACK","description_zh":"加固结构、多分区工具收纳、防泼水面料和软垫背负系统，适合维修、安装与现场服务人员。","product_type":"accessory","tags":["accessory","waterproof","functional","outdoor","project","bag"],"main_image":"assets/modish/main/tool-backpack.webp","image_alt_zh":"多分区工具工作背包","gallery_images":["assets/modish/pages/page-22.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[22],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":20},
-    {"id":"heavy-duty-duffle-bag","sku":null,"name_zh":"重型防水装备包","name_en":"HEAVY DUTY DUFFLE BAG","description_zh":"耐磨防水主体、耐水拉链、多种提背方式与大容量结构，适合工具、装备及项目物料运输。","product_type":"accessory","tags":["accessory","waterproof","functional","outdoor","project","bag"],"main_image":"assets/modish/main/heavy-duty-duffle-bag.webp","image_alt_zh":"重型防水装备包","gallery_images":["assets/modish/pages/page-23.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[23],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":21},
-    {"id":"thermal-lunch-bag","sku":null,"name_zh":"保温工作餐包","name_en":"THERMAL LUNCH BAG","description_zh":"保温内层、宽口开合、独立口袋和便携提手设计，可用于企业配发、户外工作与员工关怀项目。","product_type":"accessory","tags":["accessory","functional","business","outdoor","project","bag"],"main_image":"assets/modish/main/thermal-lunch-bag.webp","image_alt_zh":"保温工作餐包","gallery_images":["assets/modish/pages/page-24.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[24],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":22},
-    {"id":"tool-mug","sku":null,"name_zh":"组合工具创意马克杯","name_en":"TOOL MUG","description_zh":"将可拆卸小工具与马克杯组合的企业礼赠方案，适合建筑、维修和工具行业品牌活动。","product_type":"accessory","tags":["accessory","functional","branding","business","project","gift"],"main_image":"assets/modish/main/tool-mug.webp","image_alt_zh":"组合工具创意马克杯","gallery_images":["assets/modish/pages/page-25.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[25],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":23},
-    {"id":"winter-rainproof-coverall","sku":null,"name_zh":"冬季防雨保暖连体服","name_en":"WINTER & RAIN PROOF COVERALL","description_zh":"防水外层、抓绒与绗缝保暖内里、多口袋和可调节腰部设计，适合寒冷及雨雪作业环境。","product_type":"coverall","tags":["coverall","workwear","waterproof","functional","outdoor","project","winter"],"main_image":"assets/modish/main/winter-rainproof-coverall.webp","image_alt_zh":"冬季防雨保暖连体工作服","gallery_images":["assets/modish/pages/page-26.webp"],"badge":"ODM方案","supply_mode":"odm_proposal","moq_label":"开发","moq_value":"按项目确认","stock_status":"not_claimed","catalogue_id":"modish-centro-edile-en-v2","catalogue_name":"Modish Centro Edile (English v.2)","source_file":"产品图册/modish-centro-edile-en-v2.pdf","source_pages":[26],"added_date":"2026-08-14","source_status":"catalogue_linked","visibility":"public","sort_order":24},
-    {"id":"hvp211-classic-bomber-jacket","sku":"HVP211","name_zh":"HVP211 经典反光飞行夹克","name_en":"HVP211 CLASSIC BOMBER JACKET","description_zh":"画册展示荧光黄、荧光橙、黑色和藏青色四种颜色，标注300D Oxford加PU涂层、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"jacket","tags":["jacket","workwear","waterproof","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvp211-hi-vis-yellow.webp","image_alt_zh":"HVP211经典反光飞行夹克荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvp211-hi-vis-yellow.webp","assets/catalogue-a4/main/hvp211-hi-vis-orange.webp","assets/catalogue-a4/main/hvp211-black.webp","assets/catalogue-a4/main/hvp211-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvp211-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvp211-hi-vis-orange.webp"},{"label_zh":"黑色","label_en":"Black","image":"assets/catalogue-a4/main/hvp211-black.webp"},{"label_zh":"藏青色","label_en":"Navy","image":"assets/catalogue-a4/main/hvp211-navy.webp"}],"detail_images":["assets/catalogue-a4/main/hvp211-hi-vis-orange-detail.webp"],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[2],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":25},
-    {"id":"hvj510-reflective-sweatshirt","sku":"HVJ510","name_zh":"HVJ510 高可视反光卫衣","name_en":"HVJ510 REFLECTIVE SWEATSHIRT","description_zh":"画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"hoodie","tags":["hoodie","workwear","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvj510-hi-vis-yellow.webp","image_alt_zh":"HVJ510高可视反光卫衣荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvj510-hi-vis-yellow.webp","assets/catalogue-a4/main/hvj510-hi-vis-orange.webp","assets/catalogue-a4/main/hvj510-yellow-navy.webp","assets/catalogue-a4/main/hvj510-orange-navy.webp","assets/catalogue-a4/main/hvj510-black.webp","assets/catalogue-a4/main/hvj510-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvj510-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvj510-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hvj510-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hvj510-orange-navy.webp"},{"label_zh":"黑色","label_en":"Black","image":"assets/catalogue-a4/main/hvj510-black.webp"},{"label_zh":"藏青色","label_en":"Navy","image":"assets/catalogue-a4/main/hvj510-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":26},
-    {"id":"hvk05-pull-over-hoodie","sku":"HVK05","name_zh":"HVK05 高可视套头连帽卫衣","name_en":"HVK05 PULL-OVER HOODIE","description_zh":"画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"hoodie","tags":["hoodie","workwear","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvk05-hi-vis-yellow.webp","image_alt_zh":"HVK05高可视套头连帽卫衣荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvk05-hi-vis-yellow.webp","assets/catalogue-a4/main/hvk05-hi-vis-orange.webp","assets/catalogue-a4/main/hvk05-yellow-navy.webp","assets/catalogue-a4/main/hvk05-orange-navy.webp","assets/catalogue-a4/main/hvk05-black.webp","assets/catalogue-a4/main/hvk05-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvk05-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvk05-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hvk05-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hvk05-orange-navy.webp"},{"label_zh":"黑色","label_en":"Black","image":"assets/catalogue-a4/main/hvk05-black.webp"},{"label_zh":"藏青色","label_en":"Navy","image":"assets/catalogue-a4/main/hvk05-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":27},
-    {"id":"hvk07-zip-hoodie","sku":"HVK07","name_zh":"HVK07 高可视拉链连帽卫衣","name_en":"HVK07 ZIP HOODIE","description_zh":"画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"hoodie","tags":["hoodie","workwear","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvk07-hi-vis-yellow.webp","image_alt_zh":"HVK07高可视拉链连帽卫衣荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvk07-hi-vis-yellow.webp","assets/catalogue-a4/main/hvk07-hi-vis-orange.webp","assets/catalogue-a4/main/hvk07-yellow-navy.webp","assets/catalogue-a4/main/hvk07-orange-navy.webp","assets/catalogue-a4/main/hvk07-black.webp","assets/catalogue-a4/main/hvk07-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvk07-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvk07-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hvk07-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hvk07-orange-navy.webp"},{"label_zh":"黑色","label_en":"Black","image":"assets/catalogue-a4/main/hvk07-black.webp"},{"label_zh":"藏青色","label_en":"Navy","image":"assets/catalogue-a4/main/hvk07-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":28},
-    {"id":"hvk09-reflective-softshell-jacket","sku":"HVK09","name_zh":"HVK09 高可视反光软壳夹克","name_en":"HVK09 REFLECTIVE SOFTSHELL JACKET","description_zh":"画册展示6种颜色，标注Bonded Fleece 310G、R380高反光银色材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"jacket","tags":["jacket","softshell","workwear","waterproof","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvk09-hi-vis-yellow.webp","image_alt_zh":"HVK09高可视反光软壳夹克荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvk09-hi-vis-yellow.webp","assets/catalogue-a4/main/hvk09-hi-vis-orange.webp","assets/catalogue-a4/main/hvk09-yellow-navy.webp","assets/catalogue-a4/main/hvk09-orange-navy.webp","assets/catalogue-a4/main/hvk09-black.webp","assets/catalogue-a4/main/hvk09-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvk09-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvk09-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hvk09-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hvk09-orange-navy.webp"},{"label_zh":"黑色","label_en":"Black","image":"assets/catalogue-a4/main/hvk09-black.webp"},{"label_zh":"藏青色","label_en":"Navy","image":"assets/catalogue-a4/main/hvk09-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":29},
-    {"id":"hv016t-reflective-jogging-pants","sku":"HV016T","name_zh":"HV016T 高可视反光运动工作裤","name_en":"HV016T REFLECTIVE JOGGING PANTS","description_zh":"画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 1及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"pants","tags":["pants","workwear","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hv016t-hi-vis-yellow.webp","image_alt_zh":"HV016T高可视反光运动工作裤荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hv016t-hi-vis-yellow.webp","assets/catalogue-a4/main/hv016t-hi-vis-orange.webp","assets/catalogue-a4/main/hv016t-yellow-navy.webp","assets/catalogue-a4/main/hv016t-orange-navy.webp","assets/catalogue-a4/main/hv016t-black.webp","assets/catalogue-a4/main/hv016t-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hv016t-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hv016t-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hv016t-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hv016t-orange-navy.webp"},{"label_zh":"黑色","label_en":"Black","image":"assets/catalogue-a4/main/hv016t-black.webp"},{"label_zh":"藏青色","label_en":"Navy","image":"assets/catalogue-a4/main/hv016t-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":30},
-    {"id":"hvk06-quarter-zip-hoodie","sku":"HVK06","name_zh":"HVK06 高可视四分之一拉链卫衣","name_en":"HVK06 1/4 ZIP HOODIE","description_zh":"画册展示荧光黄和荧光橙两种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"hoodie","tags":["hoodie","workwear","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvk06-hi-vis-yellow.webp","image_alt_zh":"HVK06高可视四分之一拉链卫衣荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvk06-hi-vis-yellow.webp","assets/catalogue-a4/main/hvk06-hi-vis-orange.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvk06-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvk06-hi-vis-orange.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":31},
-    {"id":"hv006-reflective-softshell-gilet","sku":"HV006","name_zh":"HV006 高可视反光软壳马甲","name_en":"HV006 REFLECTIVE SOFTSHELL GILET","description_zh":"画册展示4种颜色，标注Bonded Fleece 310G、R380高反光银色材料、EN20471 Class 2及S至XXL尺码；具体认证、库存和起订条件需询价确认。","product_type":"vest","tags":["vest","softshell","workwear","waterproof","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hv006-hi-vis-yellow.webp","image_alt_zh":"HV006高可视反光软壳马甲荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hv006-hi-vis-yellow.webp","assets/catalogue-a4/main/hv006-hi-vis-orange.webp","assets/catalogue-a4/main/hv006-yellow-navy.webp","assets/catalogue-a4/main/hv006-orange-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hv006-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hv006-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hv006-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hv006-orange-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[1],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":32},
-    {"id":"hvp711-seven-in-one-jacket","sku":"HVP711","name_zh":"HVP711 多功能7合1反光夹克","name_en":"HVP711 MULTI-FUNCTIONAL 7-IN-1 JACKET","description_zh":"画册展示4种颜色，标注300D Oxford加PU涂层180G、R420高反光银色T/C材料、EN20471 Class 3及S至XXL尺码；具体组合方式、认证、库存和起订条件需询价确认。","product_type":"jacket","tags":["jacket","workwear","waterproof","functional","outdoor","project","reflective"],"main_image":"assets/catalogue-a4/main/hvp711-hi-vis-yellow.webp","image_alt_zh":"HVP711多功能7合1反光夹克荧光黄色单品图","gallery_images":["assets/catalogue-a4/main/hvp711-hi-vis-yellow.webp","assets/catalogue-a4/main/hvp711-hi-vis-orange.webp","assets/catalogue-a4/main/hvp711-yellow-navy.webp","assets/catalogue-a4/main/hvp711-orange-navy.webp"],"color_variants":[{"label_zh":"荧光黄","label_en":"Hi Vis Yellow","image":"assets/catalogue-a4/main/hvp711-hi-vis-yellow.webp"},{"label_zh":"荧光橙","label_en":"Hi Vis Orange","image":"assets/catalogue-a4/main/hvp711-hi-vis-orange.webp"},{"label_zh":"黄/藏青","label_en":"Yellow/Navy","image":"assets/catalogue-a4/main/hvp711-yellow-navy.webp"},{"label_zh":"橙/藏青","label_en":"Orange/Navy","image":"assets/catalogue-a4/main/hvp711-orange-navy.webp"}],"badge":"新画册","supply_mode":"catalogue_inquiry","moq_label":"供货","moq_value":"询价确认","stock_status":"not_claimed","catalogue_id":"catalogue-a4","catalogue_name":"Catalogue A4","source_file":"产品图册/catalogue-a4.pdf","source_pages":[2],"added_date":"2026-08-15","source_status":"catalogue_linked","visibility":"public","sort_order":33}
+    {
+      "id": "strategic-ventilation-jacket",
+      "sku": null,
+      "name_zh": "战略通风轻量夹克",
+      "name_en": "STRATEGIC VENTILATION JACKET",
+      "description_zh": "方案包含腋下与背部通风、快干透气、可收纳设计及防泼水功能，适合户外施工与团队工服开发。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/strategic-ventilation-jacket.webp",
+      "image_alt_zh": "战略通风轻量工作夹克",
+      "gallery_images": [
+        "assets/modish/pages/page-02.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 1
+    },
+    {
+      "id": "ultra-light-rain-coat",
+      "sku": null,
+      "name_zh": "超轻量防水雨衣",
+      "name_en": "ULTRA LIGHTWEIGHT RAIN COAT",
+      "description_zh": "方案页标注2.5层防水面料、压胶缝和可收纳结构，适合雨天作业、通勤及轻量户外场景。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/ultra-light-rain-coat.webp",
+      "image_alt_zh": "超轻量防水雨衣",
+      "gallery_images": [
+        "assets/modish/pages/page-03.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        3
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 2
+    },
+    {
+      "id": "multi-pocket-tech-jacket",
+      "sku": null,
+      "name_zh": "多口袋功能夹克",
+      "name_en": "MULTI-POCKET TECH JACKET",
+      "description_zh": "围绕多区域收纳、快速取物、可调节细节和轻量耐用结构设计，适合作业工具与随身设备携带。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/multi-pocket-tech-jacket.webp",
+      "image_alt_zh": "多口袋功能工作夹克",
+      "gallery_images": [
+        "assets/modish/pages/page-04.webp",
+        "assets/modish/pages/page-06.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        4,
+        6
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 3
+    },
+    {
+      "id": "softshell-jacket",
+      "sku": null,
+      "name_zh": "三层弹力软壳夹克",
+      "name_en": "3-LAYER SOFTSHELL JACKET",
+      "description_zh": "方案包含可拆帽、通风区、功能口袋和三层弹力软壳结构，适合多天气户外作业与技术团队。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "softshell",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/softshell-jacket.webp",
+      "image_alt_zh": "三层弹力软壳工作夹克",
+      "gallery_images": [
+        "assets/modish/pages/page-05.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        5
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 4
+    },
+    {
+      "id": "tech-crew-utility-vest",
+      "sku": null,
+      "name_zh": "技术团队多口袋背心",
+      "name_en": "TECH CREW UTILITY VEST",
+      "description_zh": "轻量背心方案结合透气背片、可调节肩部与侧腰、模块化口袋和反光细节，便于工具分类携带。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "mesh",
+        "functional",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/tech-crew-utility-vest.webp",
+      "image_alt_zh": "轻量多口袋技术工作背心",
+      "gallery_images": [
+        "assets/modish/pages/page-07.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        7
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 5
+    },
+    {
+      "id": "thermal-work-pants",
+      "sku": null,
+      "name_zh": "保暖弹力工作裤",
+      "name_en": "THERMAL WORK PANTS",
+      "description_zh": "方案页标注四向弹力、加固口袋、工具环和保暖内层，面向低温施工及长时间活动需求。",
+      "product_type": "pants",
+      "tags": [
+        "pants",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "stretch",
+        "waterproof"
+      ],
+      "main_image": "assets/modish/main/thermal-work-pants.webp",
+      "image_alt_zh": "保暖弹力工作裤",
+      "gallery_images": [
+        "assets/modish/pages/page-08.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        8
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 6
+    },
+    {
+      "id": "cargo-pant-02",
+      "sku": null,
+      "name_zh": "02 多口袋工装裤",
+      "name_en": "02 CARGO PANT",
+      "description_zh": "多口袋、工具位、加固腰袢与后腰弹力结构，适合建筑、物流、安装和移动作业团队。",
+      "product_type": "pants",
+      "tags": [
+        "pants",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "stretch",
+        "waterproof"
+      ],
+      "main_image": "assets/modish/main/cargo-pant-02.webp",
+      "image_alt_zh": "02多口袋弹力工装裤",
+      "gallery_images": [
+        "assets/modish/pages/page-09.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        9
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 7
+    },
+    {
+      "id": "tech-motion-work-pant",
+      "sku": null,
+      "name_zh": "隐藏护膝功能工作裤",
+      "name_en": "TECH MOTION WORK PANT",
+      "description_zh": "内置隐藏式可更换护膝袋、膝后网眼通风和弹力面料，适合需要频繁跪姿操作的工种。",
+      "product_type": "pants",
+      "tags": [
+        "pants",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "stretch",
+        "waterproof"
+      ],
+      "main_image": "assets/modish/main/tech-motion-work-pant.webp",
+      "image_alt_zh": "隐藏护膝功能工作裤",
+      "gallery_images": [
+        "assets/modish/pages/page-10.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        10
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 8
+    },
+    {
+      "id": "convertible-performance-pant",
+      "sku": null,
+      "name_zh": "可拆卸裤腿两用工作裤",
+      "name_en": "CONVERTIBLE PERFORMANCE PANT",
+      "description_zh": "隐藏拉链可在长裤与短裤间切换，并结合弹力、防泼水和工具收纳细节，适应季节变化。",
+      "product_type": "pants",
+      "tags": [
+        "pants",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "stretch",
+        "waterproof"
+      ],
+      "main_image": "assets/modish/main/convertible-performance-pant.webp",
+      "image_alt_zh": "可拆卸裤腿两用工作裤",
+      "gallery_images": [
+        "assets/modish/pages/page-11.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        11
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 9
+    },
+    {
+      "id": "hydroactive-cooling-vest",
+      "sku": null,
+      "name_zh": "水激活降温背心",
+      "name_en": "HYDROACTIVE COOLING VEST",
+      "description_zh": "通过浸水、拧干后蒸发降温的功能背心方案，无需电池，适合高温户外、维护和物流作业。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "cooling"
+      ],
+      "main_image": "assets/modish/main/hydroactive-cooling-vest.webp",
+      "image_alt_zh": "水激活蒸发降温背心",
+      "gallery_images": [
+        "assets/modish/pages/page-12.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        12
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 10
+    },
+    {
+      "id": "bio-based-pcm-cooling-vest",
+      "sku": null,
+      "name_zh": "生物基相变降温背心",
+      "name_en": "BIO-BASED PCM COOLING VEST",
+      "description_zh": "方案采用可重复使用的相变降温模块，强调轻量、可调节与无电池运行，适合高温工作环境。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "cooling"
+      ],
+      "main_image": "assets/modish/main/bio-based-pcm-cooling-vest.webp",
+      "image_alt_zh": "生物基相变降温背心",
+      "gallery_images": [
+        "assets/modish/pages/page-13.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        13
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 11
+    },
+    {
+      "id": "utility-tech-shirt",
+      "sku": null,
+      "name_zh": "轻量透气功能工作衫",
+      "name_en": "UTILITY TECH SHIRT",
+      "description_zh": "长袖功能上衣结合透气网眼、后袋、工具袋和反光细节，适合技术服务、骑行和户外团队。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "mesh",
+        "functional",
+        "business",
+        "project"
+      ],
+      "main_image": "assets/modish/main/utility-tech-shirt.webp",
+      "image_alt_zh": "轻量透气功能工作衫",
+      "gallery_images": [
+        "assets/modish/pages/page-14.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        14
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 12
+    },
+    {
+      "id": "utility-tech-vest",
+      "sku": null,
+      "name_zh": "透气多口袋功能背心",
+      "name_en": "UTILITY TECH VEST",
+      "description_zh": "轻量网眼与多口袋收纳相结合，带可调节腰部和耐用细节，适合维修、仓储及活动执行。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "workwear",
+        "mesh",
+        "functional",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/utility-tech-vest.webp",
+      "image_alt_zh": "透气多口袋功能背心",
+      "gallery_images": [
+        "assets/modish/pages/page-15.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        15
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 13
+    },
+    {
+      "id": "premium-t-shirts",
+      "sku": null,
+      "name_zh": "企业定制圆领 T恤",
+      "name_en": "PREMIUM T-SHIRTS",
+      "description_zh": "柔软透气基础款搭配肩部、袖口与侧缝品牌细节，可沟通颜色、版型、印花和刺绣方案。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "polo",
+        "workwear",
+        "knitwear",
+        "branding",
+        "business",
+        "project"
+      ],
+      "main_image": "assets/modish/main/premium-t-shirts.webp",
+      "image_alt_zh": "企业定制圆领T恤",
+      "gallery_images": [
+        "assets/modish/pages/page-16.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        16
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 14
+    },
+    {
+      "id": "formal-shirt",
+      "sku": null,
+      "name_zh": "企业定制长袖衬衫",
+      "name_en": "FORMAL SHIRT",
+      "description_zh": "修身商务衬衫方案包含经典领型、可调袖口与撞色细节，适合办公室、会务和企业形象服。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "workwear",
+        "branding",
+        "business",
+        "project"
+      ],
+      "main_image": "assets/modish/main/formal-shirt.webp",
+      "image_alt_zh": "企业定制长袖商务衬衫",
+      "gallery_images": [
+        "assets/modish/pages/page-17.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        17
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 15
+    },
+    {
+      "id": "performance-polo",
+      "sku": null,
+      "name_zh": "透气拼色企业 Polo",
+      "name_en": "PERFORMANCE POLO",
+      "description_zh": "透气面料、侧身网眼与撞色门襟和肩线设计，适合工作日常、活动执行和品牌团队服。",
+      "product_type": "workshirt",
+      "tags": [
+        "workshirt",
+        "polo",
+        "workwear",
+        "knitwear",
+        "branding",
+        "business",
+        "project"
+      ],
+      "main_image": "assets/modish/main/performance-polo.webp",
+      "image_alt_zh": "透气拼色企业Polo衫",
+      "gallery_images": [
+        "assets/modish/pages/page-18.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        18
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 16
+    },
+    {
+      "id": "performance-cap",
+      "sku": null,
+      "name_zh": "可定制贴章透气工作帽",
+      "name_en": "PERFORMANCE CAP",
+      "description_zh": "网眼拼接、可调节魔术贴后扣与前部贴章区域，适合企业标识、户外团队和活动配发。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "branding",
+        "business",
+        "outdoor",
+        "project"
+      ],
+      "main_image": "assets/modish/main/performance-cap.webp",
+      "image_alt_zh": "可定制贴章透气工作帽",
+      "gallery_images": [
+        "assets/modish/pages/page-19.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        19
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 17
+    },
+    {
+      "id": "performance-beanie",
+      "sku": null,
+      "name_zh": "抓绒内里保暖针织帽",
+      "name_en": "PERFORMANCE BEANIE",
+      "description_zh": "保暖针织与柔软抓绒内里组合，并预留品牌贴章和织标位置，适合冬季户外工作配发。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "branding",
+        "outdoor",
+        "project",
+        "winter"
+      ],
+      "main_image": "assets/modish/main/performance-beanie.webp",
+      "image_alt_zh": "抓绒内里保暖针织帽",
+      "gallery_images": [
+        "assets/modish/pages/page-20.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        20
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 18
+    },
+    {
+      "id": "roll-top-waterproof-backpack",
+      "sku": null,
+      "name_zh": "卷口防水工作背包",
+      "name_en": "ROLL TOP WATERPROOF BACKPACK",
+      "description_zh": "卷口结构、防水主体、快速取物袋与软垫电脑隔层，面向通勤、户外工作与项目装备需求。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "bag"
+      ],
+      "main_image": "assets/modish/main/roll-top-waterproof-backpack.webp",
+      "image_alt_zh": "卷口防水工作背包",
+      "gallery_images": [
+        "assets/modish/pages/page-21.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        21
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 19
+    },
+    {
+      "id": "tool-backpack",
+      "sku": null,
+      "name_zh": "多分区工具背包",
+      "name_en": "TOOL BACKPACK",
+      "description_zh": "加固结构、多分区工具收纳、防泼水面料和软垫背负系统，适合维修、安装与现场服务人员。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "bag"
+      ],
+      "main_image": "assets/modish/main/tool-backpack.webp",
+      "image_alt_zh": "多分区工具工作背包",
+      "gallery_images": [
+        "assets/modish/pages/page-22.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        22
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 20
+    },
+    {
+      "id": "heavy-duty-duffle-bag",
+      "sku": null,
+      "name_zh": "重型防水装备包",
+      "name_en": "HEAVY DUTY DUFFLE BAG",
+      "description_zh": "耐磨防水主体、耐水拉链、多种提背方式与大容量结构，适合工具、装备及项目物料运输。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "bag"
+      ],
+      "main_image": "assets/modish/main/heavy-duty-duffle-bag.webp",
+      "image_alt_zh": "重型防水装备包",
+      "gallery_images": [
+        "assets/modish/pages/page-23.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        23
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 21
+    },
+    {
+      "id": "thermal-lunch-bag",
+      "sku": null,
+      "name_zh": "保温工作餐包",
+      "name_en": "THERMAL LUNCH BAG",
+      "description_zh": "保温内层、宽口开合、独立口袋和便携提手设计，可用于企业配发、户外工作与员工关怀项目。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "business",
+        "outdoor",
+        "project",
+        "bag"
+      ],
+      "main_image": "assets/modish/main/thermal-lunch-bag.webp",
+      "image_alt_zh": "保温工作餐包",
+      "gallery_images": [
+        "assets/modish/pages/page-24.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        24
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 22
+    },
+    {
+      "id": "tool-mug",
+      "sku": null,
+      "name_zh": "组合工具创意马克杯",
+      "name_en": "TOOL MUG",
+      "description_zh": "将可拆卸小工具与马克杯组合的企业礼赠方案，适合建筑、维修和工具行业品牌活动。",
+      "product_type": "accessory",
+      "tags": [
+        "accessory",
+        "functional",
+        "branding",
+        "business",
+        "project",
+        "gift"
+      ],
+      "main_image": "assets/modish/main/tool-mug.webp",
+      "image_alt_zh": "组合工具创意马克杯",
+      "gallery_images": [
+        "assets/modish/pages/page-25.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        25
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 23
+    },
+    {
+      "id": "winter-rainproof-coverall",
+      "sku": null,
+      "name_zh": "冬季防雨保暖连体服",
+      "name_en": "WINTER & RAIN PROOF COVERALL",
+      "description_zh": "防水外层、抓绒与绗缝保暖内里、多口袋和可调节腰部设计，适合寒冷及雨雪作业环境。",
+      "product_type": "coverall",
+      "tags": [
+        "coverall",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "winter"
+      ],
+      "main_image": "assets/modish/main/winter-rainproof-coverall.webp",
+      "image_alt_zh": "冬季防雨保暖连体工作服",
+      "gallery_images": [
+        "assets/modish/pages/page-26.webp"
+      ],
+      "badge": "ODM方案",
+      "supply_mode": "odm_proposal",
+      "moq_label": "开发",
+      "moq_value": "按项目确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "modish-centro-edile-en-v2",
+      "catalogue_name": "Modish Centro Edile (English v.2)",
+      "source_file": "产品图册/modish-centro-edile-en-v2.pdf",
+      "source_pages": [
+        26
+      ],
+      "added_date": "2026-08-14",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 24
+    },
+    {
+      "id": "hvp211-classic-bomber-jacket",
+      "sku": "HVP211",
+      "name_zh": "HVP211 经典反光飞行夹克",
+      "name_en": "HVP211 CLASSIC BOMBER JACKET",
+      "description_zh": "画册展示荧光黄、荧光橙、黑色和藏青色四种颜色，标注300D Oxford加PU涂层、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp211-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP211经典反光飞行夹克荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp211-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp211-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvp211-black.webp",
+        "assets/catalogue-a4/main/hvp211-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp211-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp211-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvp211-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvp211-navy.webp"
+        }
+      ],
+      "detail_images": [
+        "assets/catalogue-a4/main/hvp211-hi-vis-orange-detail.webp"
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 25
+    },
+    {
+      "id": "hvj510-reflective-sweatshirt",
+      "sku": "HVJ510",
+      "name_zh": "HVJ510 高可视反光卫衣",
+      "name_en": "HVJ510 REFLECTIVE SWEATSHIRT",
+      "description_zh": "画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "hoodie",
+      "tags": [
+        "hoodie",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvj510-hi-vis-yellow.webp",
+      "image_alt_zh": "HVJ510高可视反光卫衣荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvj510-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj510-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvj510-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvj510-orange-navy.webp",
+        "assets/catalogue-a4/main/hvj510-black.webp",
+        "assets/catalogue-a4/main/hvj510-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvj510-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvj510-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvj510-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvj510-orange-navy.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvj510-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvj510-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 26
+    },
+    {
+      "id": "hvk05-pull-over-hoodie",
+      "sku": "HVK05",
+      "name_zh": "HVK05 高可视套头连帽卫衣",
+      "name_en": "HVK05 PULL-OVER HOODIE",
+      "description_zh": "画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "hoodie",
+      "tags": [
+        "hoodie",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvk05-hi-vis-yellow.webp",
+      "image_alt_zh": "HVK05高可视套头连帽卫衣荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvk05-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvk05-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvk05-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvk05-orange-navy.webp",
+        "assets/catalogue-a4/main/hvk05-black.webp",
+        "assets/catalogue-a4/main/hvk05-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvk05-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvk05-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvk05-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvk05-orange-navy.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvk05-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvk05-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 27
+    },
+    {
+      "id": "hvk07-zip-hoodie",
+      "sku": "HVK07",
+      "name_zh": "HVK07 高可视拉链连帽卫衣",
+      "name_en": "HVK07 ZIP HOODIE",
+      "description_zh": "画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "hoodie",
+      "tags": [
+        "hoodie",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvk07-hi-vis-yellow.webp",
+      "image_alt_zh": "HVK07高可视拉链连帽卫衣荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvk07-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvk07-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvk07-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvk07-orange-navy.webp",
+        "assets/catalogue-a4/main/hvk07-black.webp",
+        "assets/catalogue-a4/main/hvk07-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvk07-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvk07-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvk07-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvk07-orange-navy.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvk07-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvk07-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 28
+    },
+    {
+      "id": "hvk09-reflective-softshell-jacket",
+      "sku": "HVK09",
+      "name_zh": "HVK09 高可视反光软壳夹克",
+      "name_en": "HVK09 REFLECTIVE SOFTSHELL JACKET",
+      "description_zh": "画册展示6种颜色，标注Bonded Fleece 310G、R380高反光银色材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "softshell",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvk09-hi-vis-yellow.webp",
+      "image_alt_zh": "HVK09高可视反光软壳夹克荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvk09-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvk09-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvk09-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvk09-orange-navy.webp",
+        "assets/catalogue-a4/main/hvk09-black.webp",
+        "assets/catalogue-a4/main/hvk09-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvk09-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvk09-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvk09-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvk09-orange-navy.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hvk09-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hvk09-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 29
+    },
+    {
+      "id": "hv016t-reflective-jogging-pants",
+      "sku": "HV016T",
+      "name_zh": "HV016T 高可视反光运动工作裤",
+      "name_en": "HV016T REFLECTIVE JOGGING PANTS",
+      "description_zh": "画册展示6种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 1及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "pants",
+      "tags": [
+        "pants",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hv016t-hi-vis-yellow.webp",
+      "image_alt_zh": "HV016T高可视反光运动工作裤荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hv016t-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hv016t-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hv016t-yellow-navy.webp",
+        "assets/catalogue-a4/main/hv016t-orange-navy.webp",
+        "assets/catalogue-a4/main/hv016t-black.webp",
+        "assets/catalogue-a4/main/hv016t-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hv016t-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hv016t-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hv016t-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hv016t-orange-navy.webp"
+        },
+        {
+          "label_zh": "黑色",
+          "label_en": "Black",
+          "image": "assets/catalogue-a4/main/hv016t-black.webp"
+        },
+        {
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-a4/main/hv016t-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 30
+    },
+    {
+      "id": "hvk06-quarter-zip-hoodie",
+      "sku": "HVK06",
+      "name_zh": "HVK06 高可视四分之一拉链卫衣",
+      "name_en": "HVK06 1/4 ZIP HOODIE",
+      "description_zh": "画册展示荧光黄和荧光橙两种颜色，标注Fleece 280G、R380高反光材料、EN20471 Class 3及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "hoodie",
+      "tags": [
+        "hoodie",
+        "workwear",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvk06-hi-vis-yellow.webp",
+      "image_alt_zh": "HVK06高可视四分之一拉链卫衣荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvk06-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvk06-hi-vis-orange.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvk06-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvk06-hi-vis-orange.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 31
+    },
+    {
+      "id": "hv006-reflective-softshell-gilet",
+      "sku": "HV006",
+      "name_zh": "HV006 高可视反光软壳马甲",
+      "name_en": "HV006 REFLECTIVE SOFTSHELL GILET",
+      "description_zh": "画册展示4种颜色，标注Bonded Fleece 310G、R380高反光银色材料、EN20471 Class 2及S至XXL尺码；具体认证、库存和起订条件需询价确认。",
+      "product_type": "vest",
+      "tags": [
+        "vest",
+        "softshell",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hv006-hi-vis-yellow.webp",
+      "image_alt_zh": "HV006高可视反光软壳马甲荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hv006-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hv006-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hv006-yellow-navy.webp",
+        "assets/catalogue-a4/main/hv006-orange-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hv006-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hv006-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hv006-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hv006-orange-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        1
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 32
+    },
+    {
+      "id": "hvp711-seven-in-one-jacket",
+      "sku": "HVP711",
+      "name_zh": "HVP711 多功能7合1反光夹克",
+      "name_en": "HVP711 MULTI-FUNCTIONAL 7-IN-1 JACKET",
+      "description_zh": "画册展示4种颜色，标注300D Oxford加PU涂层180G、R420高反光银色T/C材料、EN20471 Class 3及S至XXL尺码；具体组合方式、认证、库存和起订条件需询价确认。",
+      "product_type": "jacket",
+      "tags": [
+        "jacket",
+        "workwear",
+        "waterproof",
+        "functional",
+        "outdoor",
+        "project",
+        "reflective"
+      ],
+      "main_image": "assets/catalogue-a4/main/hvp711-hi-vis-yellow.webp",
+      "image_alt_zh": "HVP711多功能7合1反光夹克荧光黄色单品图",
+      "gallery_images": [
+        "assets/catalogue-a4/main/hvp711-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp711-hi-vis-orange.webp",
+        "assets/catalogue-a4/main/hvp711-yellow-navy.webp",
+        "assets/catalogue-a4/main/hvp711-orange-navy.webp"
+      ],
+      "color_variants": [
+        {
+          "label_zh": "荧光黄",
+          "label_en": "Hi Vis Yellow",
+          "image": "assets/catalogue-a4/main/hvp711-hi-vis-yellow.webp"
+        },
+        {
+          "label_zh": "荧光橙",
+          "label_en": "Hi Vis Orange",
+          "image": "assets/catalogue-a4/main/hvp711-hi-vis-orange.webp"
+        },
+        {
+          "label_zh": "黄/藏青",
+          "label_en": "Yellow/Navy",
+          "image": "assets/catalogue-a4/main/hvp711-yellow-navy.webp"
+        },
+        {
+          "label_zh": "橙/藏青",
+          "label_en": "Orange/Navy",
+          "image": "assets/catalogue-a4/main/hvp711-orange-navy.webp"
+        }
+      ],
+      "badge": "新画册",
+      "supply_mode": "catalogue_inquiry",
+      "moq_label": "供货",
+      "moq_value": "询价确认",
+      "stock_status": "not_claimed",
+      "catalogue_id": "catalogue-a4",
+      "catalogue_name": "Catalogue A4",
+      "source_file": "产品图册/catalogue-a4.pdf",
+      "source_pages": [
+        2
+      ],
+      "added_date": "2026-08-15",
+      "source_status": "catalogue_linked",
+      "visibility": "public",
+      "sort_order": 33
+    }
   ]
 }

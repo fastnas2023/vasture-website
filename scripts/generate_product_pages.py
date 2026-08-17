@@ -231,7 +231,9 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
         f"../{image}?v={CATALOGUE_IMAGE_VERSION}"
         for image in detail_image_paths
     ]
-    wearing_reference = bool(detail_image_paths) and all("-model" in image for image in detail_image_paths)
+    wearing_reference = product.get("wearing_reference", False) or (
+        bool(detail_image_paths) and all("-model" in image for image in detail_image_paths)
+    )
     colour_variants = product.get("color_variants", [])
     is_colour_gallery = bool(colour_variants)
     gallery_eyebrow = "COLOUR OPTIONS" if is_colour_gallery else "CATALOGUE REFERENCE"
@@ -278,7 +280,7 @@ def page_html(product: dict, related: list[dict], header: str, footer: str) -> s
             <p>画册展示多个可选颜色；当前未收录每个颜色的独立产品图，因此不会切换主图。具体颜色、面料与供货条件请询价确认。</p>
           </aside>'''
 
-    if is_colour_gallery and detail_images:
+    if detail_images:
         detail_eyebrow = "WEARING REFERENCE" if wearing_reference else "DETAIL VIEW"
         detail_title = "模特穿着效果" if wearing_reference else "面料与工艺细节"
         detail_description = (
