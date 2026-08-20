@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://fastnas2023.github.io/vasture-website/products.html" />
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="css/brand.css?v=20260816-clean-main-images-1" />
+  <link rel="stylesheet" href="css/brand.css?v=20260821-procurement-filter-2" />
 </head>
 <body>
 
@@ -112,130 +112,116 @@
         <aside class="filter-sidebar">
           <div class="filter-card">
             <div class="filter-head">
-              <h3>筛选条件</h3>
+              <div>
+                <span class="filter-kicker">PRODUCT FINDER</span>
+                <h3>按需求选款</h3>
+              </div>
               <div class="filter-head-actions">
                 <button type="button" class="filter-mobile-toggle" aria-expanded="false">展开筛选</button>
-                <button type="button" class="filter-reset">重置筛选</button>
+                <button type="button" class="filter-reset" hidden>清除</button>
               </div>
             </div>
 
-            <p class="filter-guide">产品分类单选，其他条件可组合筛选</p>
+            <p class="filter-guide">先选产品类别，再叠加功能或面料条件。</p>
+            <div class="filter-selection" data-filter-selection hidden>
+              <span class="filter-selection__label">已选条件</span>
+              <div class="filter-selection__list" data-filter-selection-list></div>
+            </div>
 
             <div class="filter-group">
-              <div class="filter-group-title">产品分类（单选）</div>
+              <div class="filter-group-title">产品类别 <span>单选</span></div>
               <div class="filter-options">
-                <label class="filter-option">
+                <label class="filter-option filter-option--all">
                   <input type="radio" name="type" value="all" checked />
-                  <span>全部产品</span>
+                  <span class="filter-option__label">全部产品</span>
                   <span class="count">211</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="hoodie" />
-                  <span>卫衣 / 帽衫</span>
+                  <span class="filter-option__label">卫衣 / 帽衫</span>
                   <span class="count">13</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="workshirt" />
-                  <span>工作衫 / Polo / T恤</span>
+                  <span class="filter-option__label">工作衫 / Polo / T恤</span>
                   <span class="count">51</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="jacket" />
-                  <span>夹克 / 防水外套</span>
+                  <span class="filter-option__label">夹克 / 防水外套</span>
                   <span class="count">35</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="vest" />
-                  <span>工作背心 / 功能背心</span>
+                  <span class="filter-option__label">工作背心 / 功能背心</span>
                   <span class="count">22</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="pants" />
-                  <span>工作裤 / 功能裤</span>
+                  <span class="filter-option__label">工作裤 / 功能裤</span>
                   <span class="count">47</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="coverall" />
-                  <span>连体服 / 工装</span>
+                  <span class="filter-option__label">连体服 / 工装</span>
                   <span class="count">25</span>
                 </label>
                 <label class="filter-option">
                   <input type="radio" name="type" value="accessory" />
-                  <span>工装配件 / 周边</span>
+                  <span class="filter-option__label">工装配件 / 周边</span>
                   <span class="count">18</span>
                 </label>
               </div>
             </div>
 
-            <div class="filter-group">
-              <div class="filter-group-title">面料材质</div>
+            <div class="filter-group filter-group--chips">
+              <div class="filter-group-title">核心功能 <span>可多选</span></div>
               <div class="filter-options">
                 <label class="filter-option">
-                  <input type="checkbox" name="fabric" value="softshell" />
-                  <span>软壳 / 复合面料</span>
-                  <span class="count">3</span>
+                  <input type="checkbox" name="feature" value="reflective" />
+                  <span class="filter-option__label">反光 / 高可视</span>
+                  <span class="count"></span>
                 </label>
                 <label class="filter-option">
-                  <input type="checkbox" name="fabric" value="mesh" />
-                  <span>网眼 / 透气面料</span>
-                  <span class="count">18</span>
+                  <input type="checkbox" name="feature" value="flame-resistant" />
+                  <span class="filter-option__label">阻燃防护</span>
+                  <span class="count"></span>
                 </label>
                 <label class="filter-option">
-                  <input type="checkbox" name="fabric" value="stretch" />
-                  <span>弹力 / 功能面料</span>
-                  <span class="count">37</span>
+                  <input type="checkbox" name="feature" value="waterproof" />
+                  <span class="filter-option__label">防水 / 防风</span>
+                  <span class="count"></span>
                 </label>
                 <label class="filter-option">
-                  <input type="checkbox" name="fabric" value="knitwear" />
-                  <span>针织 / 企业上装</span>
-                  <span class="count">11</span>
+                  <input type="checkbox" name="feature" value="stretch" />
+                  <span class="filter-option__label">弹力 / 耐磨</span>
+                  <span class="count"></span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox" name="feature" value="winter" />
+                  <span class="filter-option__label">冬季保暖</span>
+                  <span class="count"></span>
                 </label>
               </div>
             </div>
 
-            <div class="filter-group">
-              <div class="filter-group-title">功能与定制</div>
+            <div class="filter-group filter-group--chips">
+              <div class="filter-group-title">面料偏好 <span>可多选</span></div>
               <div class="filter-options">
                 <label class="filter-option">
-                  <input type="checkbox" name="craft" value="branding" />
-                  <span>品牌标识 / 刺绣</span>
-                  <span class="count">6</span>
+                  <input type="checkbox" name="material" value="mesh" />
+                  <span class="filter-option__label">透气网眼</span>
+                  <span class="count"></span>
                 </label>
                 <label class="filter-option">
-                  <input type="checkbox" name="craft" value="waterproof" />
-                  <span>防水 / 防风</span>
-                  <span class="count">25</span>
+                  <input type="checkbox" name="material" value="softshell" />
+                  <span class="filter-option__label">软壳 / 复合</span>
+                  <span class="count"></span>
                 </label>
                 <label class="filter-option">
-                  <input type="checkbox" name="craft" value="functional" />
-                  <span>多口袋 / 功能细节</span>
-                  <span class="count">82</span>
-                </label>
-                <label class="filter-option">
-                  <input type="checkbox" name="craft" value="cooling" />
-                  <span>降温 / 清凉功能</span>
-                  <span class="count">2</span>
-                </label>
-                <label class="filter-option">
-                  <input type="checkbox" name="craft" value="winter" />
-                  <span>冬季 / 保暖</span>
-                  <span class="count">8</span>
-                </label>
-              </div>
-            </div>
-
-            <div class="filter-group">
-              <div class="filter-group-title">应用场景</div>
-              <div class="filter-options">
-                <label class="filter-option">
-                  <input type="checkbox" name="scene" value="outdoor" />
-                  <span>户外施工</span>
-                  <span class="count">67</span>
-                </label>
-                <label class="filter-option">
-                  <input type="checkbox" name="scene" value="business" />
-                  <span>企业工服</span>
-                  <span class="count">47</span>
+                  <input type="checkbox" name="material" value="knitwear" />
+                  <span class="filter-option__label">针织面料</span>
+                  <span class="count"></span>
                 </label>
               </div>
             </div>
@@ -2520,6 +2506,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260816-product-pagination-1" defer></script>
+  <script src="js/main.js?v=20260821-procurement-filter-2" defer></script>
 </body>
 </html>
