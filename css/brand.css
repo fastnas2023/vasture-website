@@ -1273,8 +1273,8 @@ html.dark .factor-icon {
 /* ---- Filter Sidebar ---- */
 .products-layout {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 48px;
+  grid-template-columns: 280px 1fr;
+  gap: 32px;
   padding: 48px 0 80px;
 }
 .filter-sidebar {
@@ -1286,7 +1286,8 @@ html.dark .factor-icon {
   background: var(--cf-surface);
   border: 1px solid var(--cf-border);
   border-radius: var(--cf-radius-lg);
-  padding: 24px;
+  padding: 20px;
+  box-shadow: 0 12px 30px rgba(15, 46, 79, 0.045);
 }
 @media (min-width: 769px) {
   .filter-card {
@@ -1298,11 +1299,19 @@ html.dark .factor-icon {
 }
 .filter-head {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding-bottom: 16px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
   border-bottom: 1px solid var(--cf-line);
+}
+.filter-kicker {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--cf-brand-600);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
 }
 .filter-head h3 {
   font-size: 16px;
@@ -1313,7 +1322,7 @@ html.dark .factor-icon {
 .filter-head-actions {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
 }
 .filter-mobile-toggle {
   display: none;
@@ -1330,47 +1339,97 @@ html.dark .factor-icon {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px 0;
-  font-weight: 500;
+  padding: 5px 0;
+  font-weight: 700;
   transition: color 150ms cubic-bezier(0.2,0.8,0.2,1);
 }
 .filter-reset:hover {
   color: var(--cf-brand-800);
 }
 .filter-guide {
-  margin: -4px 0 22px;
+  margin: 0 0 14px;
   color: var(--cf-ink-3);
   font-size: 12px;
   line-height: 1.55;
 }
+.filter-selection {
+  margin: 0 0 18px;
+  padding: 10px;
+  border: 1px solid rgba(15, 46, 79, 0.12);
+  border-radius: 12px;
+  background: var(--cf-neutral-50);
+}
+.filter-selection__label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--cf-ink-3);
+  font-size: 11px;
+  font-weight: 700;
+}
+.filter-selection__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.filter-selection__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 28px;
+  padding: 4px 8px;
+  border: 1px solid rgba(15, 46, 79, 0.16);
+  border-radius: var(--cf-radius-pill);
+  background: var(--cf-surface);
+  color: var(--cf-primary);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.filter-selection__tag::after { content: "×"; font-size: 14px; line-height: 1; }
 .filter-group {
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 .filter-group:last-child {
   margin-bottom: 0;
 }
 .filter-group-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 750;
   color: var(--cf-ink-2);
-  margin-bottom: 14px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+}
+.filter-group-title span {
+  color: var(--cf-ink-3);
+  font-size: 11px;
+  font-weight: 500;
 }
 .filter-options {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 4px;
 }
 .filter-option {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-height: 36px;
+  padding: 7px 8px;
+  border: 1px solid transparent;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--cf-ink);
   user-select: none;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
 }
+.filter-option:hover { background: var(--cf-neutral-50); }
+.filter-option:has(input:checked) { border-color: rgba(15, 46, 79, 0.15); background: rgba(15, 46, 79, 0.055); }
+.filter-option--all { margin-bottom: 3px; border-bottom-color: var(--cf-line); border-radius: 10px 10px 6px 6px; }
 .filter-option input[type="checkbox"],
 .filter-option input[type="radio"] {
   appearance: none;
@@ -1418,15 +1477,27 @@ html.dark .factor-icon {
 .filter-option span {
   transition: color 150ms cubic-bezier(0.2,0.8,0.2,1);
 }
-.filter-option:hover span {
+.filter-option:hover .filter-option__label,
+.filter-option:has(input:checked) .filter-option__label {
   color: var(--cf-primary);
 }
 .filter-option .count {
   margin-left: auto;
-  font-size: 12px;
+  min-width: 24px;
+  padding: 2px 5px;
+  border-radius: var(--cf-radius-pill);
+  background: var(--cf-neutral-100);
   color: var(--cf-ink-3);
+  font-size: 11px;
+  line-height: 1.25;
+  text-align: center;
   font-variant-numeric: tabular-nums;
 }
+.filter-option:has(input:checked) .count { background: rgba(15, 46, 79, 0.12); color: var(--cf-primary); }
+.filter-group--chips .filter-options { flex-direction: row; flex-wrap: wrap; gap: 7px; }
+.filter-group--chips .filter-option { min-height: 32px; padding: 6px 8px; border-color: var(--cf-border); border-radius: var(--cf-radius-pill); }
+.filter-group--chips .filter-option input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.filter-group--chips .filter-option .count { display: none; }
 .filter-option.is-disabled {
   cursor: not-allowed;
   opacity: 0.42;
