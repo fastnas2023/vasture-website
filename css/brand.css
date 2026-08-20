@@ -1638,11 +1638,13 @@ html.dark .factor-icon {
 }
 .product-card[data-catalogue-id="catalogue-a4"] .product-card__img,
 .product-card[data-catalogue-id="catalogue-a4"] .product-card__img img,
-.product-card__img img[src*="-front-clean.webp"] {
+.product-card__img img[src*="-front-clean.webp"],
+.product-card__img img[src*="-front-ai.webp"] {
   background: #F2F4F5;
 }
 .product-card[data-catalogue-id="catalogue-a4"] .product-card__img img,
-.product-card__img img[src*="-front-clean.webp"] {
+.product-card__img img[src*="-front-clean.webp"],
+.product-card__img img[src*="-front-ai.webp"] {
   object-fit: contain;
   padding: 8px;
 }
@@ -1931,8 +1933,10 @@ html.dark .factor-icon {
 .product-detail__main-media--contain img { object-fit: contain; transition: opacity 140ms ease; }
 .product-detail__main-media--contain img.is-switching { opacity: .35; }
 /* Clean single-product assets use a square studio canvas: preserve the full garment in the 4:3 detail frame. */
-.product-detail__main-media:has(img[src*="-front-clean.webp"]) { background: #F2F4F5; box-shadow: var(--cf-shadow-2); }
-.product-detail__main-media img[src*="-front-clean.webp"] { object-fit: contain; padding: 8px; }
+.product-detail__main-media:has(img[src*="-front-clean.webp"]),
+.product-detail__main-media:has(img[src*="-front-ai.webp"]) { background: #F2F4F5; box-shadow: var(--cf-shadow-2); }
+.product-detail__main-media img[src*="-front-clean.webp"],
+.product-detail__main-media img[src*="-front-ai.webp"] { object-fit: contain; padding: 8px; }
 .product-detail__badge {
   position: absolute;
   top: 20px;

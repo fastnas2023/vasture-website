@@ -532,7 +532,13 @@
       currentPage = Math.min(Math.max(currentPage, 1), pageCount);
       const start = (currentPage - 1) * pageSize;
       const visible = new Set(matched.slice(start, start + pageSize));
-      cards.forEach((card) => { card.style.display = visible.has(card) ? '' : 'none'; });
+      cards.forEach((card) => {
+        const isCurrentPage = visible.has(card);
+        card.style.display = isCurrentPage ? '' : 'none';
+        // Pagination can reveal cards after the initial observer pass; keep
+        // current-page catalogue content visible instead of leaving blank rows.
+        if (isCurrentPage) card.classList.add('visible');
+      });
 
       if (countEl) countEl.textContent = matched.length;
       if (productGrid) productGrid.hidden = matched.length === 0;
