@@ -1,0 +1,467 @@
+{
+  "generated_at": "2026-08-20",
+  "source": "产品图册/catalogue-a4.pdf page 5 rendered at 400 dpi",
+  "background": "#F2F4F5",
+  "purpose": "Replace incorrectly cropped A4 page-5 storefront product mains with complete isolated product views.",
+  "items": [
+    {
+      "sku": "HVJ210",
+      "colour": "hi-vis-yellow",
+      "original": "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj210-hi-vis-yellow-source.png",
+      "output": "assets/catalogue-a4/main/hvj210-hi-vis-yellow-clean.webp",
+      "source_size": [
+        384,
+        384
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -79,
+        -18,
+        490,
+        409
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ210",
+      "colour": "hi-vis-orange",
+      "original": "assets/catalogue-a4/main/hvj210-hi-vis-orange.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj210-hi-vis-orange-source.png",
+      "output": "assets/catalogue-a4/main/hvj210-hi-vis-orange-clean.webp",
+      "source_size": [
+        368,
+        384
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -74,
+        -18,
+        496,
+        409
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ210",
+      "colour": "black",
+      "original": "assets/catalogue-a4/main/hvj210-black.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj210-black-source.png",
+      "output": "assets/catalogue-a4/main/hvj210-black-clean.webp",
+      "source_size": [
+        374,
+        384
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -82,
+        -27,
+        519,
+        424
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ210",
+      "colour": "navy",
+      "original": "assets/catalogue-a4/main/hvj210-navy.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj210-navy-source.png",
+      "output": "assets/catalogue-a4/main/hvj210-navy-clean.webp",
+      "source_size": [
+        408,
+        384
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -74,
+        -26,
+        526,
+        424
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ410",
+      "colour": "hi-vis-yellow",
+      "original": "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj410-hi-vis-yellow-source.png",
+      "output": "assets/catalogue-a4/main/hvj410-hi-vis-yellow-clean.webp",
+      "source_size": [
+        388,
+        400
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -80,
+        -13,
+        489,
+        413
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ410",
+      "colour": "hi-vis-orange",
+      "original": "assets/catalogue-a4/main/hvj410-hi-vis-orange.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj410-hi-vis-orange-source.png",
+      "output": "assets/catalogue-a4/main/hvj410-hi-vis-orange-clean.webp",
+      "source_size": [
+        372,
+        400
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -72,
+        -13,
+        496,
+        413
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ410",
+      "colour": "black",
+      "original": "assets/catalogue-a4/main/hvj410-black.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj410-black-source.png",
+      "output": "assets/catalogue-a4/main/hvj410-black-clean.webp",
+      "source_size": [
+        378,
+        400
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -76,
+        -18,
+        521,
+        429
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ410",
+      "colour": "navy",
+      "original": "assets/catalogue-a4/main/hvj410-navy.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj410-navy-source.png",
+      "output": "assets/catalogue-a4/main/hvj410-navy-clean.webp",
+      "source_size": [
+        408,
+        400
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -62,
+        -22,
+        527,
+        420
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ910",
+      "colour": "hi-vis-yellow",
+      "original": "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj910-hi-vis-yellow-source.png",
+      "output": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+      "source_size": [
+        388,
+        436
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -75,
+        -23,
+        516,
+        420
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ910",
+      "colour": "hi-vis-orange",
+      "original": "assets/catalogue-a4/main/hvj910-hi-vis-orange.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj910-hi-vis-orange-source.png",
+      "output": "assets/catalogue-a4/main/hvj910-hi-vis-orange-clean.webp",
+      "source_size": [
+        372,
+        436
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -79,
+        -23,
+        512,
+        420
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ910",
+      "colour": "yellow-navy",
+      "original": "assets/catalogue-a4/main/hvj910-yellow-navy.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj910-yellow-navy-source.png",
+      "output": "assets/catalogue-a4/main/hvj910-yellow-navy-clean.webp",
+      "source_size": [
+        378,
+        436
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -66,
+        -18,
+        509,
+        413
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVJ910",
+      "colour": "orange-navy",
+      "original": "assets/catalogue-a4/main/hvj910-orange-navy.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvj910-orange-navy-source.png",
+      "output": "assets/catalogue-a4/main/hvj910-orange-navy-clean.webp",
+      "source_size": [
+        408,
+        436
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -61,
+        -18,
+        514,
+        413
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVW706",
+      "colour": "hi-vis-yellow",
+      "original": "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvw706-hi-vis-yellow-source.png",
+      "output": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+      "source_size": [
+        388,
+        460
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -143,
+        -23,
+        459,
+        429
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVW706",
+      "colour": "hi-vis-orange",
+      "original": "assets/catalogue-a4/main/hvw706-hi-vis-orange.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvw706-hi-vis-orange-source.png",
+      "output": "assets/catalogue-a4/main/hvw706-hi-vis-orange-clean.webp",
+      "source_size": [
+        372,
+        460
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -184,
+        -15,
+        407,
+        428
+      ],
+      "detected_background_rgb": [
+        251.0,
+        251.0,
+        251.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVW706",
+      "colour": "black",
+      "original": "assets/catalogue-a4/main/hvw706-black.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvw706-black-source.png",
+      "output": "assets/catalogue-a4/main/hvw706-black-clean.webp",
+      "source_size": [
+        378,
+        460
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -14,
+        -11,
+        579,
+        434
+      ],
+      "detected_background_rgb": [
+        251.0,
+        251.0,
+        251.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVW706",
+      "colour": "navy",
+      "original": "assets/catalogue-a4/main/hvw706-navy.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvw706-navy-source.png",
+      "output": "assets/catalogue-a4/main/hvw706-navy-clean.webp",
+      "source_size": [
+        220,
+        460
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -108,
+        9,
+        445,
+        424
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "sku": "HVW706",
+      "colour": "pink",
+      "original": "assets/catalogue-a4/main/hvw706-pink.webp",
+      "source": "output/catalogue-a4-page5-recrop/hvw706-pink-source.png",
+      "output": "assets/catalogue-a4/main/hvw706-pink-clean.webp",
+      "source_size": [
+        212,
+        460
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -210,
+        -13,
+        385,
+        433
+      ],
+      "detected_background_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    }
+  ]
+}

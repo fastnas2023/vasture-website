@@ -1,0 +1,371 @@
+{
+  "generated_at": "2026-08-20",
+  "source": "产品图册/catalogue-78-en.pdf rendered at 400 dpi",
+  "background": "#F2F4F5",
+  "purpose": "Replace incomplete, composite or model-led product mains with a complete single-product front view.",
+  "items": [
+    {
+      "product_id": "xk-002-fr-solid-vent-work-shirt",
+      "source_page": 4,
+      "source": "output/catalogue-78-main-recrop/xk-002-fr-solid-vent-work-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-002-fr-solid-vent-work-shirt-front-clean.webp",
+      "source_size": [
+        660,
+        1760
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -863,
+        -19,
+        1523,
+        1770
+      ],
+      "detected_background_rgb": [
+        254.0,
+        254.0,
+        253.5
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-003-inherent-lightweight-fr-rip-stop-work-shirt",
+      "source_page": 5,
+      "source": "output/catalogue-78-main-recrop/xk-003-inherent-lightweight-fr-rip-stop-work-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-003-inherent-lightweight-fr-rip-stop-work-shirt-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-008-women-s-non-fr-work-shirt",
+      "source_page": 7,
+      "source": "output/catalogue-78-main-recrop/xk-008-women-s-non-fr-work-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-008-women-s-non-fr-work-shirt-front-clean.webp",
+      "source_size": [
+        1230,
+        1870
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -716,
+        -79,
+        1850,
+        1846
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-009-women-s-work-shirt",
+      "source_page": 8,
+      "source": "output/catalogue-78-main-recrop/xk-009-women-s-work-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-009-women-s-work-shirt-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-026-apple-green-work-shirt",
+      "source_page": 17,
+      "source": "output/catalogue-78-main-recrop/xk-026-apple-green-work-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-026-apple-green-work-shirt-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-076-flame-retardant-coverall",
+      "source_page": 45,
+      "source": "output/catalogue-78-main-recrop/xk-076-flame-retardant-coverall-source.png",
+      "output": "assets/catalogue-78/main/xk-076-flame-retardant-coverall-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-077-flame-retardant-coverall",
+      "source_page": 45,
+      "source": "output/catalogue-78-main-recrop/xk-077-flame-retardant-coverall-source.png",
+      "output": "assets/catalogue-78/main/xk-077-flame-retardant-coverall-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-086-hi-vis-stretch-trousers",
+      "source_page": 50,
+      "source": "output/catalogue-78-main-recrop/xk-086-hi-vis-stretch-trousers-source.png",
+      "output": "assets/catalogue-78/main/xk-086-hi-vis-stretch-trousers-front-clean.webp",
+      "source_size": [
+        570,
+        2220
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -764,
+        535,
+        1429,
+        2179
+      ],
+      "detected_background_rgb": [
+        247.0,
+        248.0,
+        247.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-090-4-way-stretch-cargo-pants",
+      "source_page": 51,
+      "source": "output/catalogue-78-main-recrop/xk-090-4-way-stretch-cargo-pants-source.png",
+      "output": "assets/catalogue-78/main/xk-090-4-way-stretch-cargo-pants-front-clean.webp",
+      "source_size": [
+        520,
+        1680
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -960,
+        -12,
+        1290,
+        1675
+      ],
+      "detected_background_rgb": [
+        242.0,
+        245.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-095-stretch-reflective-softshell-jacket",
+      "source_page": 53,
+      "source": "output/catalogue-78-main-recrop/xk-095-stretch-reflective-softshell-jacket-source.png",
+      "output": "assets/catalogue-78/main/xk-095-stretch-reflective-softshell-jacket-front-clean.webp",
+      "source_size": [
+        780,
+        1920
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -602,
+        -24,
+        1382,
+        1464
+      ],
+      "detected_background_rgb": [
+        205.0,
+        203.0,
+        203.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-096-stretch-reflective-softshell-jacket",
+      "source_page": 53,
+      "source": "output/catalogue-78-main-recrop/xk-096-stretch-reflective-softshell-jacket-source.png",
+      "output": "assets/catalogue-78/main/xk-096-stretch-reflective-softshell-jacket-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-105-inherent-lightweight-hi-vis-long-sleeve-shirt",
+      "source_page": 59,
+      "source": "output/catalogue-78-main-recrop/xk-105-inherent-lightweight-hi-vis-long-sleeve-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-105-inherent-lightweight-hi-vis-long-sleeve-shirt-front-clean.webp",
+      "source_size": [
+        1040,
+        2090
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -581,
+        -26,
+        1717,
+        1698
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-106-inherent-fr-hi-vis-two-tone-work-shirt",
+      "source_page": 59,
+      "source": "output/catalogue-78-main-recrop/xk-106-inherent-fr-hi-vis-two-tone-work-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-106-inherent-fr-hi-vis-two-tone-work-shirt-front-clean.webp",
+      "source_size": [
+        1020,
+        2070
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -637,
+        -27,
+        1657,
+        1693
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-107-fr-crew-neck-tee-shirt",
+      "source_page": 60,
+      "source": "output/catalogue-78-main-recrop/xk-107-fr-crew-neck-tee-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-107-fr-crew-neck-tee-shirt-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-111-multinorm-polo-shirt",
+      "source_page": 61,
+      "source": "output/catalogue-78-main-recrop/xk-111-multinorm-polo-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-111-multinorm-polo-shirt-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-112-multinorm-polo-shirt",
+      "source_page": 61,
+      "source": "output/catalogue-78-main-recrop/xk-112-multinorm-polo-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-112-multinorm-polo-shirt-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-127-hi-vis-cargo-suit",
+      "source_page": 68,
+      "source": "output/catalogue-78-main-recrop/xk-127-hi-vis-cargo-suit-source.png",
+      "output": "assets/catalogue-78/main/xk-127-hi-vis-cargo-suit-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-134-half-sleeved-fr-dual-stripe-mesh-vest",
+      "source_page": 70,
+      "source": "output/catalogue-78-main-recrop/xk-134-half-sleeved-fr-dual-stripe-mesh-vest-source.png",
+      "output": "assets/catalogue-78/main/xk-134-half-sleeved-fr-dual-stripe-mesh-vest-front-clean.webp",
+      "source_size": [
+        1300,
+        1690
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -663,
+        -89,
+        1963,
+        1881
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-139-hi-vis-cargo-vest-and-short",
+      "source_page": 73,
+      "source": "output/catalogue-78-main-recrop/xk-139-hi-vis-cargo-vest-and-short-source.png",
+      "output": "assets/catalogue-78/main/xk-139-hi-vis-cargo-vest-and-short-front-clean.webp",
+      "method": "python-tight-crop-background-normalisation (reused)"
+    },
+    {
+      "product_id": "xk-141-high-visibility-birdseye-mesh-shirt",
+      "source_page": 74,
+      "source": "output/catalogue-78-main-recrop/xk-141-high-visibility-birdseye-mesh-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-141-high-visibility-birdseye-mesh-shirt-front-clean.webp",
+      "source_size": [
+        870,
+        1520
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -652,
+        -158,
+        1522,
+        1473
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-142-catalogue-product",
+      "source_page": 74,
+      "source": "output/catalogue-78-main-recrop/xk-142-catalogue-product-source.png",
+      "output": "assets/catalogue-78/main/xk-142-catalogue-product-front-clean.webp",
+      "source_size": [
+        930,
+        1780
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -547,
+        49,
+        1477,
+        1566
+      ],
+      "detected_background_rgb": [
+        252.0,
+        251.0,
+        250.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "product_id": "xk-145-hi-vis-long-sleeves-birdseye-safety-t-shirt",
+      "source_page": 75,
+      "source": "output/catalogue-78-main-recrop/xk-145-hi-vis-long-sleeves-birdseye-safety-t-shirt-source.png",
+      "output": "assets/catalogue-78/main/xk-145-hi-vis-long-sleeves-birdseye-safety-t-shirt-front-clean.webp",
+      "source_size": [
+        1040,
+        1900
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -666,
+        60,
+        1776,
+        1892
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    }
+  ]
+}

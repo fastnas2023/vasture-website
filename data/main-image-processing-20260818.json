@@ -1,0 +1,2791 @@
+{
+  "generated_at": "2026-08-18",
+  "background": "#F2F4F5",
+  "purpose": "Storefront main-image whitespace remediation; originals remain in assets for traceability.",
+  "items": [
+    {
+      "source": "assets/catalogue-78/main/xk-001-front.webp",
+      "output": "assets/catalogue-78/main/xk-001-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        85,
+        182,
+        915,
+        805
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-002-front.webp",
+      "output": "assets/catalogue-78/main/xk-002-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        61,
+        181,
+        941,
+        841
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-003-front.webp",
+      "output": "assets/catalogue-78/main/xk-003-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        110,
+        209,
+        887,
+        791
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-004-front.webp",
+      "output": "assets/catalogue-78/main/xk-004-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        145,
+        229,
+        852,
+        759
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-005-front.webp",
+      "output": "assets/catalogue-78/main/xk-005-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        108,
+        206,
+        889,
+        792
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-006-front.webp",
+      "output": "assets/catalogue-78/main/xk-006-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        118,
+        205,
+        879,
+        775
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-009-front.webp",
+      "output": "assets/catalogue-78/main/xk-009-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        69,
+        178,
+        929,
+        822
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-010-front.webp",
+      "output": "assets/catalogue-78/main/xk-010-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        92,
+        188,
+        915,
+        805
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-014-front.webp",
+      "output": "assets/catalogue-78/main/xk-014-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        119,
+        203,
+        901,
+        789
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-015-front.webp",
+      "output": "assets/catalogue-78/main/xk-015-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        203,
+        287,
+        794,
+        730
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-016-front.webp",
+      "output": "assets/catalogue-78/main/xk-016-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        285,
+        343,
+        723,
+        672
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-017-front.webp",
+      "output": "assets/catalogue-78/main/xk-017-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        138,
+        240,
+        865,
+        785
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-018-front.webp",
+      "output": "assets/catalogue-78/main/xk-018-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        92,
+        191,
+        910,
+        804
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-021-front.webp",
+      "output": "assets/catalogue-78/main/xk-021-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        47,
+        163,
+        940,
+        832
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-022-front.webp",
+      "output": "assets/catalogue-78/main/xk-022-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        158,
+        263,
+        802,
+        747
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-023-front.webp",
+      "output": "assets/catalogue-78/main/xk-023-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        71,
+        174,
+        939,
+        826
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-026-front.webp",
+      "output": "assets/catalogue-78/main/xk-026-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        193,
+        271,
+        805,
+        729
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-028-front.webp",
+      "output": "assets/catalogue-78/main/xk-028-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        83,
+        196,
+        902,
+        809
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-029-front.webp",
+      "output": "assets/catalogue-78/main/xk-029-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -225,
+        -43,
+        1230,
+        1048
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-030-front.webp",
+      "output": "assets/catalogue-78/main/xk-030-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        282,
+        332,
+        733,
+        670
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-031-front.webp",
+      "output": "assets/catalogue-78/main/xk-031-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        284,
+        330,
+        739,
+        670
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-032-front.webp",
+      "output": "assets/catalogue-78/main/xk-032-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        251,
+        306,
+        751,
+        681
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-033-front.webp",
+      "output": "assets/catalogue-78/main/xk-033-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        229,
+        311,
+        729,
+        686
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-040-front.webp",
+      "output": "assets/catalogue-78/main/xk-040-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        49,
+        167,
+        954,
+        846
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-041-front.webp",
+      "output": "assets/catalogue-78/main/xk-041-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        80,
+        193,
+        898,
+        807
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-042-front.webp",
+      "output": "assets/catalogue-78/main/xk-042-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        105,
+        175,
+        928,
+        792
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-043-front.webp",
+      "output": "assets/catalogue-78/main/xk-043-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -49,
+        86,
+        1039,
+        901
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-049-front.webp",
+      "output": "assets/catalogue-78/main/xk-049-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -63,
+        83,
+        1070,
+        932
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-051-front.webp",
+      "output": "assets/catalogue-78/main/xk-051-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -71,
+        60,
+        1099,
+        937
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-052-front.webp",
+      "output": "assets/catalogue-78/main/xk-052-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -52,
+        77,
+        1097,
+        938
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-053-front.webp",
+      "output": "assets/catalogue-78/main/xk-053-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        5,
+        126,
+        993,
+        867
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-054-front.webp",
+      "output": "assets/catalogue-78/main/xk-054-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        36,
+        153,
+        954,
+        842
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-055-front.webp",
+      "output": "assets/catalogue-78/main/xk-055-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -65,
+        63,
+        1035,
+        887
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-056-front.webp",
+      "output": "assets/catalogue-78/main/xk-056-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        13,
+        132,
+        952,
+        836
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-057-front.webp",
+      "output": "assets/catalogue-78/main/xk-057-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        74,
+        178,
+        921,
+        814
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-058-front.webp",
+      "output": "assets/catalogue-78/main/xk-058-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -65,
+        87,
+        1043,
+        918
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-062-front.webp",
+      "output": "assets/catalogue-78/main/xk-062-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -20,
+        107,
+        1022,
+        888
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-063-front.webp",
+      "output": "assets/catalogue-78/main/xk-063-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -35,
+        109,
+        1015,
+        896
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-064-front.webp",
+      "output": "assets/catalogue-78/main/xk-064-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -32,
+        120,
+        1005,
+        898
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-067-front.webp",
+      "output": "assets/catalogue-78/main/xk-067-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -83,
+        86,
+        1078,
+        957
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-069-front.webp",
+      "output": "assets/catalogue-78/main/xk-069-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -80,
+        70,
+        1057,
+        922
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-075-front.webp",
+      "output": "assets/catalogue-78/main/xk-075-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -115,
+        52,
+        1063,
+        936
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-081-front.webp",
+      "output": "assets/catalogue-78/main/xk-081-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -48,
+        108,
+        1048,
+        930
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-082-front.webp",
+      "output": "assets/catalogue-78/main/xk-082-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -28,
+        109,
+        1013,
+        891
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-083-front.webp",
+      "output": "assets/catalogue-78/main/xk-083-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -23,
+        113,
+        1006,
+        885
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-084-front.webp",
+      "output": "assets/catalogue-78/main/xk-084-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        134,
+        188,
+        891,
+        755
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-085-front.webp",
+      "output": "assets/catalogue-78/main/xk-085-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        101,
+        214,
+        866,
+        788
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-086-front.webp",
+      "output": "assets/catalogue-78/main/xk-086-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        116,
+        256,
+        897,
+        842
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-087-front.webp",
+      "output": "assets/catalogue-78/main/xk-087-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        122,
+        208,
+        878,
+        775
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-088-front.webp",
+      "output": "assets/catalogue-78/main/xk-088-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        100,
+        247,
+        898,
+        845
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-089-front.webp",
+      "output": "assets/catalogue-78/main/xk-089-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        84,
+        201,
+        856,
+        781
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-090-front.webp",
+      "output": "assets/catalogue-78/main/xk-090-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        107,
+        248,
+        893,
+        837
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-091-front.webp",
+      "output": "assets/catalogue-78/main/xk-091-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        126,
+        196,
+        874,
+        757
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-092-front.webp",
+      "output": "assets/catalogue-78/main/xk-092-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        123,
+        253,
+        879,
+        820
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-093-front.webp",
+      "output": "assets/catalogue-78/main/xk-093-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        140,
+        202,
+        863,
+        745
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-094-front.webp",
+      "output": "assets/catalogue-78/main/xk-094-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        121,
+        253,
+        877,
+        820
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-095-front.webp",
+      "output": "assets/catalogue-78/main/xk-095-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        78,
+        184,
+        922,
+        816
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-096-front.webp",
+      "output": "assets/catalogue-78/main/xk-096-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        60,
+        171,
+        940,
+        831
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-097-front.webp",
+      "output": "assets/catalogue-78/main/xk-097-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        133,
+        226,
+        844,
+        759
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-098-front.webp",
+      "output": "assets/catalogue-78/main/xk-098-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -68,
+        65,
+        1098,
+        940
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-100-front.webp",
+      "output": "assets/catalogue-78/main/xk-100-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        140,
+        204,
+        980,
+        833
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-101-front.webp",
+      "output": "assets/catalogue-78/main/xk-101-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        108,
+        223,
+        922,
+        834
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-102-front.webp",
+      "output": "assets/catalogue-78/main/xk-102-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        153,
+        229,
+        955,
+        831
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-103-front.webp",
+      "output": "assets/catalogue-78/main/xk-103-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        96,
+        217,
+        927,
+        840
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-104-front.webp",
+      "output": "assets/catalogue-78/main/xk-104-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        93,
+        188,
+        920,
+        808
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-105-front.webp",
+      "output": "assets/catalogue-78/main/xk-105-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        106,
+        182,
+        937,
+        805
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-106-front.webp",
+      "output": "assets/catalogue-78/main/xk-106-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        87,
+        190,
+        913,
+        810
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-107-front.webp",
+      "output": "assets/catalogue-78/main/xk-107-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        142,
+        150,
+        898,
+        717
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-108-front.webp",
+      "output": "assets/catalogue-78/main/xk-108-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        113,
+        153,
+        894,
+        739
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-109-front.webp",
+      "output": "assets/catalogue-78/main/xk-109-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        101,
+        184,
+        949,
+        819
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-110-front.webp",
+      "output": "assets/catalogue-78/main/xk-110-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        68,
+        181,
+        912,
+        814
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-111-front.webp",
+      "output": "assets/catalogue-78/main/xk-111-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        76,
+        124,
+        924,
+        759
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-112-front.webp",
+      "output": "assets/catalogue-78/main/xk-112-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        78,
+        196,
+        954,
+        854
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-114-front.webp",
+      "output": "assets/catalogue-78/main/xk-114-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        87,
+        142,
+        926,
+        771
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-115-front.webp",
+      "output": "assets/catalogue-78/main/xk-115-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        34,
+        132,
+        968,
+        833
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-116-front.webp",
+      "output": "assets/catalogue-78/main/xk-116-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        85,
+        172,
+        912,
+        792
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-117-front.webp",
+      "output": "assets/catalogue-78/main/xk-117-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -111,
+        40,
+        1129,
+        970
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-118-front.webp",
+      "output": "assets/catalogue-78/main/xk-118-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        43,
+        155,
+        977,
+        855
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-119-front.webp",
+      "output": "assets/catalogue-78/main/xk-119-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -49,
+        134,
+        1039,
+        949
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-122-front.webp",
+      "output": "assets/catalogue-78/main/xk-122-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        66,
+        180,
+        926,
+        825
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-123-front.webp",
+      "output": "assets/catalogue-78/main/xk-123-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        103,
+        218,
+        855,
+        782
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-124-front.webp",
+      "output": "assets/catalogue-78/main/xk-124-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        100,
+        299,
+        910,
+        906
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-125-front.webp",
+      "output": "assets/catalogue-78/main/xk-125-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        46,
+        337,
+        919,
+        991
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-127-front.webp",
+      "output": "assets/catalogue-78/main/xk-127-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        195,
+        4,
+        832,
+        481
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-131-front.webp",
+      "output": "assets/catalogue-78/main/xk-131-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        81,
+        166,
+        899,
+        779
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-132-front.webp",
+      "output": "assets/catalogue-78/main/xk-132-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        52,
+        172,
+        948,
+        845
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-133-front.webp",
+      "output": "assets/catalogue-78/main/xk-133-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        146,
+        208,
+        890,
+        766
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-135-front.webp",
+      "output": "assets/catalogue-78/main/xk-135-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -43,
+        90,
+        1065,
+        920
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-136-front.webp",
+      "output": "assets/catalogue-78/main/xk-136-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -94,
+        58,
+        1104,
+        957
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-137-front.webp",
+      "output": "assets/catalogue-78/main/xk-137-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -103,
+        46,
+        1125,
+        967
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-138-front.webp",
+      "output": "assets/catalogue-78/main/xk-138-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -61,
+        80,
+        1071,
+        930
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-141-front.webp",
+      "output": "assets/catalogue-78/main/xk-141-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        113,
+        201,
+        894,
+        787
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-142-front.webp",
+      "output": "assets/catalogue-78/main/xk-142-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        144,
+        223,
+        863,
+        762
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-143-front.webp",
+      "output": "assets/catalogue-78/main/xk-143-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        128,
+        196,
+        905,
+        779
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-144-front.webp",
+      "output": "assets/catalogue-78/main/xk-144-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        58,
+        161,
+        942,
+        824
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-145-front.webp",
+      "output": "assets/catalogue-78/main/xk-145-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        63,
+        164,
+        939,
+        821
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-146-front.webp",
+      "output": "assets/catalogue-78/main/xk-146-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        25,
+        118,
+        975,
+        832
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-147-front.webp",
+      "output": "assets/catalogue-78/main/xk-147-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        50,
+        163,
+        910,
+        807
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-148-front.webp",
+      "output": "assets/catalogue-78/main/xk-148-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        108,
+        222,
+        872,
+        796
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-149-front.webp",
+      "output": "assets/catalogue-78/main/xk-149-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        92,
+        205,
+        918,
+        825
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-150-front.webp",
+      "output": "assets/catalogue-78/main/xk-150-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        73,
+        205,
+        900,
+        825
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-78/main/xk-151-front.webp",
+      "output": "assets/catalogue-78/main/xk-151-front-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        120,
+        208,
+        910,
+        800
+      ],
+      "detected_background_rgb": [
+        246.0,
+        246.0,
+        246.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/ct01-black.webp",
+      "output": "assets/catalogue-a4/main/ct01-black-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -65,
+        78,
+        1060,
+        922
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/ct01-navy.webp",
+      "output": "assets/catalogue-a4/main/ct01-navy-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -228,
+        78,
+        896,
+        922
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-dark-denim.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-dark-denim-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        6,
+        172,
+        944,
+        876
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-hi-vis-orange.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-hi-vis-orange-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        53,
+        202,
+        880,
+        822
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        79,
+        197,
+        914,
+        823
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-pink.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-pink-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        22,
+        206,
+        840,
+        819
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-red.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-red-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -14,
+        181,
+        866,
+        841
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-royal-blue.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-royal-blue-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -9,
+        184,
+        864,
+        838
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/hvdw15-washed-denim.webp",
+      "output": "assets/catalogue-a4/main/hvdw15-washed-denim-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        -20,
+        156,
+        927,
+        866
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/tfc100-green.webp",
+      "output": "assets/catalogue-a4/main/tfc100-green-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        100,
+        211,
+        897,
+        809
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp",
+      "output": "assets/catalogue-a4/main/tfc100-hi-vis-yellow-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        100,
+        206,
+        903,
+        809
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/tfc100-navy.webp",
+      "output": "assets/catalogue-a4/main/tfc100-navy-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        103,
+        214,
+        897,
+        809
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/tfc100-red.webp",
+      "output": "assets/catalogue-a4/main/tfc100-red-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        93,
+        250,
+        784,
+        768
+      ],
+      "detected_background_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    },
+    {
+      "source": "assets/catalogue-a4/main/tfc100-royal-blue.webp",
+      "output": "assets/catalogue-a4/main/tfc100-royal-blue-tight.webp",
+      "source_size": [
+        1000,
+        1000
+      ],
+      "output_size": [
+        1200,
+        900
+      ],
+      "crop_box": [
+        166,
+        279,
+        824,
+        771
+      ],
+      "detected_background_rgb": [
+        242.0,
+        244.0,
+        245.0
+      ],
+      "method": "python-tight-crop-background-normalisation"
+    }
+  ]
+}

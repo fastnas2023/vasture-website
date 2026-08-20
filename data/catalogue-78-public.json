@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_date": "2026-08-15",
+  "updated_date": "2026-08-20",
   "asset_base_url": "https://fastnas2023.github.io/vasture-website/",
   "products": [
     {
@@ -16,7 +16,7 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-001-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-001-front-tight.webp",
       "image_alt_zh": "XK-001 长袖迷彩工作衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -50,8 +50,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-002-front.webp",
-      "image_alt_zh": "XK-002 阻燃纯色透气工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-002-fr-solid-vent-work-shirt-front-ai.webp",
+      "image_alt_zh": "XK-002 阻燃纯色透气工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -84,8 +84,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-003-front.webp",
-      "image_alt_zh": "XK-003 本质阻燃轻量防撕裂工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-003-inherent-lightweight-fr-rip-stop-work-shirt-front-clean.webp",
+      "image_alt_zh": "XK-003 本质阻燃轻量防撕裂工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -119,7 +119,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-004-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-004-front-tight.webp",
       "image_alt_zh": "XK-004 阻燃弹力珍珠按扣工作衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -153,8 +153,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-005-front.webp",
-      "image_alt_zh": "XK-005 经典纽扣阻燃工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-005-classic-button-down-fr-work-shirt-front-ai.webp",
+      "image_alt_zh": "XK-005 经典纽扣阻燃工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -187,8 +187,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-006-front.webp",
-      "image_alt_zh": "XK-006 阻燃格纹工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-006-fr-plaid-work-shirt-front-ai.webp",
+      "image_alt_zh": "XK-006 阻燃格纹工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -221,8 +221,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-007-front.webp",
-      "image_alt_zh": "XK-007 珍珠按扣阻燃牛仔工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-007-denim-fr-work-shirt-with-pearl-snaps-front-ai.webp",
+      "image_alt_zh": "XK-007 珍珠按扣阻燃牛仔工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -254,8 +254,8 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-008-front.webp",
-      "image_alt_zh": "XK-008 女式非阻燃工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-008-women-s-non-fr-work-shirt-front-clean.webp",
+      "image_alt_zh": "XK-008 女式非阻燃工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -287,8 +287,8 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-009-front.webp",
-      "image_alt_zh": "XK-009 女式工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-009-women-s-work-shirt-front-clean.webp",
+      "image_alt_zh": "XK-009 女式工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -321,7 +321,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-010-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-010-front-tight.webp",
       "image_alt_zh": "XK-010 女式阻燃圆领衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -356,7 +356,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-011-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-011-front-clean.webp",
       "image_alt_zh": "XK-011 阻燃弹力圆领长袖T恤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -374,7 +374,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 80
+      "sort_order": 80,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-011-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-012-fr-crew-neck-tee-shirt",
@@ -390,7 +394,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-012-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-012-front-clean.webp",
       "image_alt_zh": "XK-012 阻燃圆领长袖T恤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -408,7 +412,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 81
+      "sort_order": 81,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-012-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-013-fr-henley-shirt-raglan-sleeve",
@@ -424,7 +432,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-013-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-013-front-clean.webp",
       "image_alt_zh": "XK-013 阻燃插肩袖亨利领衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -442,7 +450,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 82
+      "sort_order": 82,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-013-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-014-functional-base-layer",
@@ -457,7 +469,7 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-014-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-014-front-tight.webp",
       "image_alt_zh": "XK-014 功能性阻燃打底套装画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -492,7 +504,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-015-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-015-front-tight.webp",
       "image_alt_zh": "XK-015 阻燃Polo衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -527,7 +539,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-016-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-016-front-tight.webp",
       "image_alt_zh": "XK-016 多标准防护半拉链卫衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -561,7 +573,7 @@
         "knitwear",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-017-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-017-front-tight.webp",
       "image_alt_zh": "XK-017/018 多标准防护圆领卫衣画册单品参考图",
       "gallery_images": [
         "assets/catalogue-78/main/xk-017-front.webp",
@@ -571,12 +583,12 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-78/main/xk-017-front.webp"
+          "image": "assets/catalogue-78/main/xk-017-front-tight.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy Blue",
-          "image": "assets/catalogue-78/main/xk-018-front.webp"
+          "image": "assets/catalogue-78/main/xk-018-front-tight.webp"
         }
       ],
       "badge": "英文画册",
@@ -675,7 +687,7 @@
         "reflective",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-021-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-021-front-tight.webp",
       "image_alt_zh": "XK-021 高可视封闭前襟长袖工作衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -710,7 +722,7 @@
         "mesh",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-022-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-022-front-tight.webp",
       "image_alt_zh": "XK-022 男式高可视腋下网眼透气工作衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -745,7 +757,7 @@
         "mesh",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-023-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-023-front-tight.webp",
       "image_alt_zh": "XK-023 高可视鸟眼网布反光圆领衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -846,8 +858,8 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-026-front.webp",
-      "image_alt_zh": "XK-026 苹果绿反光工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-026-apple-green-work-shirt-front-ai.webp",
+      "image_alt_zh": "XK-026 苹果绿反光工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -913,7 +925,7 @@
         "stretch",
         "knitwear"
       ],
-      "main_image": "assets/catalogue-78/main/xk-028-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-028-front-tight.webp",
       "image_alt_zh": "XK-028 弹力全拉链连帽卫衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -947,7 +959,7 @@
         "knitwear",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-030-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-029-front-clean.webp",
       "image_alt_zh": "XK-029/030/031/032/033 阻燃套头连帽卫衣画册单品参考图",
       "gallery_images": [
         "assets/catalogue-78/main/xk-029-front.webp",
@@ -958,29 +970,29 @@
       ],
       "color_variants": [
         {
-          "label_zh": "藏青色模特参考",
-          "label_en": "Navy Model Reference",
-          "image": "assets/catalogue-78/main/xk-029-front.webp"
+          "label_zh": "藏青色",
+          "label_en": "Navy",
+          "image": "assets/catalogue-78/main/xk-029-front-clean.webp"
         },
         {
           "label_zh": "浅灰色",
           "label_en": "Light Grey",
-          "image": "assets/catalogue-78/main/xk-030-front.webp"
+          "image": "assets/catalogue-78/main/xk-030-front-tight.webp"
         },
         {
           "label_zh": "深灰色",
           "label_en": "Dark Grey",
-          "image": "assets/catalogue-78/main/xk-031-front.webp"
+          "image": "assets/catalogue-78/main/xk-031-front-tight.webp"
         },
         {
           "label_zh": "黑色",
           "label_en": "Black",
-          "image": "assets/catalogue-78/main/xk-032-front.webp"
+          "image": "assets/catalogue-78/main/xk-032-front-tight.webp"
         },
         {
           "label_zh": "黄色",
           "label_en": "Yellow",
-          "image": "assets/catalogue-78/main/xk-033-front.webp"
+          "image": "assets/catalogue-78/main/xk-033-front-tight.webp"
         }
       ],
       "badge": "英文画册",
@@ -997,7 +1009,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 97
+      "sort_order": 97,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-029-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-034-fr-insulated-duck-jacket",
@@ -1210,7 +1226,7 @@
         "winter",
         "outdoor"
       ],
-      "main_image": "assets/catalogue-78/main/xk-040-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-040-front-tight.webp",
       "image_alt_zh": "XK-040 防水户外冬季夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1243,7 +1259,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-041-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-041-front-tight.webp",
       "image_alt_zh": "XK-041 海工阻燃反光夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1277,7 +1293,7 @@
         "winter",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-042-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-042-front-tight.webp",
       "image_alt_zh": "XK-042 海工阻燃冬季夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1311,7 +1327,7 @@
         "stretch",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-043-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-043-front-tight.webp",
       "image_alt_zh": "XK-043 阻燃弹力长裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1345,7 +1361,7 @@
         "stretch",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-044-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-044-front-clean.webp",
       "image_alt_zh": "XK-044 阻燃弹力长裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1363,7 +1379,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 108
+      "sort_order": 108,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-044-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-045-offshore-anti-flame-trousers",
@@ -1492,7 +1512,7 @@
         "stretch",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-049-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-049-front-tight.webp",
       "image_alt_zh": "XK-049 男式阻燃弹力牛仔裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1558,7 +1578,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-051-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-051-front-tight.webp",
       "image_alt_zh": "XK-051 棉质基础工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1590,7 +1610,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-052-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-052-front-tight.webp",
       "image_alt_zh": "XK-052 涤棉工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1623,7 +1643,7 @@
         "catalogue",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-053-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-053-front-tight.webp",
       "image_alt_zh": "XK-053 涤棉工装多袋裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1655,7 +1675,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-054-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-054-front-tight.webp",
       "image_alt_zh": "XK-054 轻量反光工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1688,7 +1708,7 @@
         "catalogue",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-055-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-055-front-tight.webp",
       "image_alt_zh": "XK-055 多功能工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1722,7 +1742,7 @@
         "stretch",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-056-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-056-front-tight.webp",
       "image_alt_zh": "XK-056 弹力多功能工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1755,7 +1775,7 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-057-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-057-front-tight.webp",
       "image_alt_zh": "XK-057 防撕裂弹力短裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1788,7 +1808,7 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-058-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-058-front-tight.webp",
       "image_alt_zh": "XK-058 防撕裂弹力长裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1921,7 +1941,7 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-062-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-062-front-tight.webp",
       "image_alt_zh": "XK-062 带工具袋弹力牛仔裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1953,7 +1973,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-063-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-063-front-tight.webp",
       "image_alt_zh": "XK-063 弹力保暖打底裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -1987,7 +2007,7 @@
         "stretch",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-064-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-064-front-tight.webp",
       "image_alt_zh": "XK-064 四向弹力工装多袋裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2084,7 +2104,7 @@
         "catalogue",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-067-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-067-front-tight.webp",
       "image_alt_zh": "XK-067 白色工装多袋裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2151,7 +2171,7 @@
         "catalogue",
         "reflective"
       ],
-      "main_image": "assets/catalogue-78/main/xk-069-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-069-front-tight.webp",
       "image_alt_zh": "XK-069 带反光带安全工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2184,7 +2204,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-070-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-070-front-clean.webp",
       "image_alt_zh": "XK-070 阻燃连体工作服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2202,7 +2222,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 133
+      "sort_order": 133,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-070-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-071-flame-retardant-coverall",
@@ -2250,7 +2274,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-072-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-072-front-clean.webp",
       "image_alt_zh": "XK-072 本质阻燃连体工作服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2268,7 +2292,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 135
+      "sort_order": 135,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-072-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-073-offshore-anti-flame-coverall",
@@ -2283,7 +2311,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-073-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-073-front-clean.webp",
       "image_alt_zh": "XK-073 海工阻燃连体工作服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2301,7 +2329,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 136
+      "sort_order": 136,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-073-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-074-offshore-anti-flame-coverall",
@@ -2316,7 +2348,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-074-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-074-front-clean.webp",
       "image_alt_zh": "XK-074 海工阻燃高可视连体服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2334,7 +2366,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 137
+      "sort_order": 137,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-074-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-075-flame-retardant-coverall",
@@ -2349,7 +2385,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-075-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-075-front-tight.webp",
       "image_alt_zh": "XK-075 阻燃反光连体工作服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2382,8 +2418,8 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-076-front.webp",
-      "image_alt_zh": "XK-076 阻燃连体工作服画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-076-flame-retardant-coverall-front-clean.webp",
+      "image_alt_zh": "XK-076 阻燃连体工作服完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -2415,8 +2451,8 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-077-front.webp",
-      "image_alt_zh": "XK-077 阻燃反光连体工作服画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-077-flame-retardant-coverall-front-clean.webp",
+      "image_alt_zh": "XK-077 阻燃反光连体工作服完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -2447,7 +2483,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-078-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-078-front-clean.webp",
       "image_alt_zh": "XK-078 飞行员连体工作服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2465,7 +2501,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 141
+      "sort_order": 141,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-078-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-079-hi-visibility-two-tone-coverall",
@@ -2544,7 +2584,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-081-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-081-front-tight.webp",
       "image_alt_zh": "XK-081 女式非阻燃连体工作服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2578,7 +2618,7 @@
         "winter",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-082-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-082-front-tight.webp",
       "image_alt_zh": "XK-082 阻燃加厚背带裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2610,7 +2650,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-083-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-083-front-tight.webp",
       "image_alt_zh": "XK-083 画册款式（名称待确认）画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2644,7 +2684,7 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-084-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-084-front-tight.webp",
       "image_alt_zh": "XK-084 高可视弹力工作裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2678,7 +2718,7 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-085-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-085-front-tight.webp",
       "image_alt_zh": "XK-085 高可视弹力工作裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2712,8 +2752,8 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-086-front.webp",
-      "image_alt_zh": "XK-086 高可视弹力工作裤画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-086-hi-vis-stretch-trousers-front-clean.webp",
+      "image_alt_zh": "XK-086 高可视弹力工作裤完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -2746,7 +2786,7 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-087-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-087-front-tight.webp",
       "image_alt_zh": "XK-087 高可视弹力工作裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2780,7 +2820,7 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-088-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-088-front-tight.webp",
       "image_alt_zh": "XK-088 高可视弹力工作裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2814,7 +2854,7 @@
         "stretch",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-089-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-089-front-tight.webp",
       "image_alt_zh": "XK-089 四向弹力工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2848,8 +2888,8 @@
         "stretch",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-090-front.webp",
-      "image_alt_zh": "XK-090 四向弹力工装裤画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-090-4-way-stretch-cargo-pants-front-ai.webp",
+      "image_alt_zh": "XK-090 四向弹力工装裤完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -2881,7 +2921,7 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-091-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-091-front-tight.webp",
       "image_alt_zh": "XK-091 弹力软壳夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2914,8 +2954,8 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-092-front.webp",
-      "image_alt_zh": "XK-092 弹力软壳夹克画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-092-stretch-softshell-jacket-front-ai.webp",
+      "image_alt_zh": "XK-092 弹力软壳夹克完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -2947,7 +2987,7 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-093-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-093-front-tight.webp",
       "image_alt_zh": "XK-093 弹力软壳夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -2980,8 +3020,8 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-094-front.webp",
-      "image_alt_zh": "XK-094 弹力软壳夹克画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-094-stretch-softshell-jacket-front-ai.webp",
+      "image_alt_zh": "XK-094 弹力软壳夹克完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3014,8 +3054,8 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-095-front.webp",
-      "image_alt_zh": "XK-095 弹力反光软壳夹克画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-095-stretch-reflective-softshell-jacket-front-clean.webp",
+      "image_alt_zh": "XK-095 弹力反光软壳夹克完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3048,8 +3088,8 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-096-front.webp",
-      "image_alt_zh": "XK-096 弹力反光软壳夹克画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-096-stretch-reflective-softshell-jacket-front-clean.webp",
+      "image_alt_zh": "XK-096 弹力反光软壳夹克完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3082,7 +3122,7 @@
         "reflective",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-097-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-097-front-tight.webp",
       "image_alt_zh": "XK-097 弹力反光软壳夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3116,7 +3156,7 @@
         "stretch",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-098-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-098-front-tight.webp",
       "image_alt_zh": "XK-098 四向弹力多标准防护裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3182,7 +3222,7 @@
         "stretch",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-100-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-100-front-tight.webp",
       "image_alt_zh": "XK-100 四向弹力多标准防护夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3216,7 +3256,7 @@
         "reflective",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-101-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-101-front-tight.webp",
       "image_alt_zh": "XK-101 阻燃高可视夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3249,7 +3289,7 @@
         "catalogue",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-102-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-102-front-tight.webp",
       "image_alt_zh": "XK-102 本质阻燃多标准防护夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3283,7 +3323,7 @@
         "waterproof",
         "outdoor"
       ],
-      "main_image": "assets/catalogue-78/main/xk-103-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-103-front-tight.webp",
       "image_alt_zh": "XK-103 阻燃及防电弧雨衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3317,7 +3357,7 @@
         "reflective",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-104-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-104-front-tight.webp",
       "image_alt_zh": "XK-104 本质阻燃轻量高可视纯色工作衫画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3351,8 +3391,8 @@
         "reflective",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-105-front.webp",
-      "image_alt_zh": "XK-105 本质阻燃轻量高可视长袖工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-105-inherent-lightweight-hi-vis-long-sleeve-shirt-front-ai.webp",
+      "image_alt_zh": "XK-105 本质阻燃轻量高可视长袖工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3386,8 +3426,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-106-front.webp",
-      "image_alt_zh": "XK-106 本质阻燃高可视双色工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-106-inherent-fr-hi-vis-two-tone-work-shirt-front-ai.webp",
+      "image_alt_zh": "XK-106 本质阻燃高可视双色工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3420,8 +3460,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-107-front.webp",
-      "image_alt_zh": "XK-107 阻燃圆领长袖T恤画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-107-fr-crew-neck-tee-shirt-front-clean.webp",
+      "image_alt_zh": "XK-107 阻燃圆领长袖T恤完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3454,7 +3494,7 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-108-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-108-front-tight.webp",
       "image_alt_zh": "XK-108 阻燃圆领长袖T恤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3487,7 +3527,7 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-109-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-109-front-tight.webp",
       "image_alt_zh": "XK-109 画册款式（名称待确认）画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3520,7 +3560,7 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-110-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-110-front-tight.webp",
       "image_alt_zh": "XK-110 画册款式（名称待确认）画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3555,8 +3595,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-111-front.webp",
-      "image_alt_zh": "XK-111 多标准防护Polo衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-111-multinorm-polo-shirt-front-clean.webp",
+      "image_alt_zh": "XK-111 多标准防护Polo衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3590,8 +3630,8 @@
         "flame-resistant",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-112-front.webp",
-      "image_alt_zh": "XK-112 多标准防护Polo衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-112-multinorm-polo-shirt-front-clean.webp",
+      "image_alt_zh": "XK-112 多标准防护Polo衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3624,7 +3664,7 @@
         "reflective",
         "knitwear"
       ],
-      "main_image": "assets/catalogue-78/main/xk-113-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-113-front-clean.webp",
       "image_alt_zh": "XK-113 高可视黄色套头连帽卫衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3642,7 +3682,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 176
+      "sort_order": 176,
+      "detail_images": [
+        "assets/catalogue-78/main/xk-113-front.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "xk-114-fleece-hooded-sweatshirt",
@@ -3657,7 +3701,7 @@
         "catalogue",
         "knitwear"
       ],
-      "main_image": "assets/catalogue-78/main/xk-114-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-114-front-tight.webp",
       "image_alt_zh": "XK-114 抓绒连帽卫衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3690,7 +3734,7 @@
         "catalogue",
         "knitwear"
       ],
-      "main_image": "assets/catalogue-78/main/xk-115-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-115-front-tight.webp",
       "image_alt_zh": "XK-115 抓绒连帽卫衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3723,7 +3767,7 @@
         "catalogue",
         "knitwear"
       ],
-      "main_image": "assets/catalogue-78/main/xk-116-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-116-front-tight.webp",
       "image_alt_zh": "XK-116 抓绒连帽卫衣画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3757,7 +3801,7 @@
         "stretch",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-117-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-117-front-tight.webp",
       "image_alt_zh": "XK-117 四向弹力多标准防护连体服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3789,7 +3833,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-118-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-118-front-tight.webp",
       "image_alt_zh": "XK-118 多标准防护连体服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3823,7 +3867,7 @@
         "winter",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-119-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-119-front-tight.webp",
       "image_alt_zh": "XK-119 本质阻燃多标准冬季连体服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3857,8 +3901,8 @@
         "winter",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-120-front.webp",
-      "image_alt_zh": "XK-120 防火冬季连体服画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-120-anti-flame-winter-coverall-front-ai.webp",
+      "image_alt_zh": "XK-120 防火冬季连体服完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3925,7 +3969,7 @@
         "catalogue",
         "reflective"
       ],
-      "main_image": "assets/catalogue-78/main/xk-122-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-122-front-tight.webp",
       "image_alt_zh": "XK-122 反光安全夹克画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3957,7 +4001,7 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-123-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-123-front-tight.webp",
       "image_alt_zh": "XK-123 画册款式（名称待确认）画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -3991,7 +4035,7 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-124-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-124-front-tight.webp",
       "image_alt_zh": "XK-124 高可视工装套装画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4025,7 +4069,7 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-125-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-125-front-tight.webp",
       "image_alt_zh": "XK-125 高可视工装套装画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4093,8 +4137,8 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-127-front.webp",
-      "image_alt_zh": "XK-127 高可视工装套装画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-127-hi-vis-cargo-suit-front-ai.webp",
+      "image_alt_zh": "XK-127 高可视工装套装完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4126,8 +4170,8 @@
         "catalogue",
         "reflective"
       ],
-      "main_image": "assets/catalogue-78/main/xk-128-front.webp",
-      "image_alt_zh": "XK-128 高可视双面安全背心画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-128-hi-vis-reversible-safety-vest-front-ai.webp",
+      "image_alt_zh": "XK-128 高可视双面安全背心完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4159,7 +4203,7 @@
         "catalogue",
         "reflective"
       ],
-      "main_image": "assets/catalogue-78/main/xk-131-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-131-front-tight.webp",
       "image_alt_zh": "XK-131 高可视安全背心画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4193,7 +4237,7 @@
         "reflective",
         "mesh"
       ],
-      "main_image": "assets/catalogue-78/main/xk-132-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-132-front-tight.webp",
       "image_alt_zh": "XK-132 高可视网眼反光安全背心画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4227,7 +4271,7 @@
         "mesh",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-133-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-133-front-tight.webp",
       "image_alt_zh": "XK-133 阻燃双条纹网眼背心画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4261,8 +4305,8 @@
         "mesh",
         "flame-resistant"
       ],
-      "main_image": "assets/catalogue-78/main/xk-134-front.webp",
-      "image_alt_zh": "XK-134 短袖阻燃双条纹网眼背心画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-134-half-sleeved-fr-dual-stripe-mesh-vest-front-ai.webp",
+      "image_alt_zh": "XK-134 短袖阻燃双条纹网眼背心完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4294,7 +4338,7 @@
         "catalogue",
         "stretch"
       ],
-      "main_image": "assets/catalogue-78/main/xk-135-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-135-front-tight.webp",
       "image_alt_zh": "XK-135 弹力工作裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4328,7 +4372,7 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-136-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-136-front-tight.webp",
       "image_alt_zh": "XK-136 高可视工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4362,7 +4406,7 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-137-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-137-front-tight.webp",
       "image_alt_zh": "XK-137 高可视工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4396,7 +4440,7 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-138-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-138-front-tight.webp",
       "image_alt_zh": "XK-138 高可视工装裤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4430,8 +4474,8 @@
         "reflective",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-139-front.webp",
-      "image_alt_zh": "XK-139 高可视工装背心及短裤套装画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-139-hi-vis-cargo-vest-and-short-front-ai.webp",
+      "image_alt_zh": "XK-139 高可视工装背心及短裤套装完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4499,8 +4543,8 @@
         "mesh",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-141-front.webp",
-      "image_alt_zh": "XK-141 高可视鸟眼网眼工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-141-high-visibility-birdseye-mesh-shirt-front-ai.webp",
+      "image_alt_zh": "XK-141 高可视鸟眼网眼工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4531,8 +4575,8 @@
         "workwear",
         "catalogue"
       ],
-      "main_image": "assets/catalogue-78/main/xk-142-front.webp",
-      "image_alt_zh": "XK-142 画册款式（名称待确认）画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-142-catalogue-product-front-ai.webp",
+      "image_alt_zh": "XK-142 画册款式（名称待确认）完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4566,7 +4610,7 @@
         "mesh",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-143-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-143-front-tight.webp",
       "image_alt_zh": "XK-143 高可视长袖透气鸟眼网眼安全T恤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4600,7 +4644,7 @@
         "reflective",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-144-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-144-front-tight.webp",
       "image_alt_zh": "XK-144 高可视T恤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4635,8 +4679,8 @@
         "mesh",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-145-front.webp",
-      "image_alt_zh": "XK-145 高可视长袖鸟眼网眼安全T恤画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-145-hi-vis-long-sleeves-birdseye-safety-t-shirt-front-ai.webp",
+      "image_alt_zh": "XK-145 高可视长袖鸟眼网眼安全T恤完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -4668,7 +4712,7 @@
         "catalogue",
         "reflective"
       ],
-      "main_image": "assets/catalogue-78/main/xk-146-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-146-front-tight.webp",
       "image_alt_zh": "XK-146 高可视TC连体服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4701,7 +4745,7 @@
         "catalogue",
         "reflective"
       ],
-      "main_image": "assets/catalogue-78/main/xk-147-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-147-front-tight.webp",
       "image_alt_zh": "XK-147 高可视TC连体服画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4734,7 +4778,7 @@
         "catalogue",
         "mesh"
       ],
-      "main_image": "assets/catalogue-78/main/xk-148-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-148-front-tight.webp",
       "image_alt_zh": "XK-148 女式基础款安全网眼背心画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -4768,8 +4812,8 @@
         "reflective",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-149-front.webp",
-      "image_alt_zh": "XK-149/150 女式反光工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-149-womens-reflective-shirts-front-ai.webp",
+      "image_alt_zh": "XK-149/150 女式反光工作衫完整单品主图",
       "gallery_images": [
         "assets/catalogue-78/main/xk-149-front.webp",
         "assets/catalogue-78/main/xk-150-front.webp"
@@ -4778,12 +4822,12 @@
         {
           "label_zh": "连续反光带",
           "label_en": "Solid Reflective Tape",
-          "image": "assets/catalogue-78/main/xk-149-front.webp"
+          "image": "assets/catalogue-78/main/xk-149-front-tight.webp"
         },
         {
           "label_zh": "分段反光带",
           "label_en": "Segmented Reflective Tape",
-          "image": "assets/catalogue-78/main/xk-150-front.webp"
+          "image": "assets/catalogue-78/main/xk-150-front-tight.webp"
         }
       ],
       "badge": "英文画册",
@@ -4816,8 +4860,8 @@
         "reflective",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-151-front.webp",
-      "image_alt_zh": "XK-151 反光工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-151-reflective-shirts-front-ai.webp",
+      "image_alt_zh": "XK-151 反光工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",

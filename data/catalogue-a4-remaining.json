@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_date": "2026-08-15",
+  "updated_date": "2026-08-20",
   "asset_base_url": "https://fastnas2023.github.io/vasture-website/",
   "products": [
     {
@@ -218,22 +218,22 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hv008f-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HV008F 双面穿抓绒保暖背心荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hv008f-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hv008f-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hv008f-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hv008f-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hv008f-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hv008f-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -250,7 +250,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 38
+      "sort_order": 38,
+      "detail_images": [
+        "assets/catalogue-a4/main/hv008f-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hv008f-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hv005-multi-pocket-body-warmer",
@@ -317,22 +322,22 @@
         "reflective",
         "waterproof"
       ],
-      "main_image": "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvp300-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVP300 经典高速公路反光夹克荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvp300-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hvp300-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvp300-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvp300-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvp300-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvp300-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -349,7 +354,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 40
+      "sort_order": 40,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvp300-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp300-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hvp302-two-tone-motorway-jacket",
@@ -367,22 +377,22 @@
         "reflective",
         "waterproof"
       ],
-      "main_image": "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvp302-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVP302 双色高速公路反光夹克荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvp302-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hvp302-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvp302-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvp302-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvp302-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvp302-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -399,7 +409,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 41
+      "sort_order": 41,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvp302-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvp302-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hvw120-renewable-open-mesh-waistcoat",
@@ -734,8 +749,8 @@
         "reflective",
         "mesh"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw108-mash-hi-vis-yellow.webp",
-      "image_alt_zh": "HVW108-MASH 多口袋网眼反光背心荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvw108-mash-hi-vis-yellow-front-ai.webp",
+      "image_alt_zh": "HVW108-MASH 多口袋网眼反光背心完整单品主图",
       "gallery_images": [
         "assets/catalogue-a4/main/hvw108-mash-hi-vis-yellow.webp",
         "assets/catalogue-a4/main/hvw108-mash-hi-vis-orange.webp"
@@ -1300,34 +1315,34 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp",
-      "image_alt_zh": "HVJ210 高可视短袖Polo衫荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvj210-hi-vis-yellow-clean.webp",
+      "image_alt_zh": "HVJ210 高可视短袖Polo衫完整单品图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj210-hi-vis-orange.webp",
-        "assets/catalogue-a4/main/hvj210-black.webp",
-        "assets/catalogue-a4/main/hvj210-navy.webp"
+        "assets/catalogue-a4/main/hvj210-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj210-hi-vis-orange-clean.webp",
+        "assets/catalogue-a4/main/hvj210-black-clean.webp",
+        "assets/catalogue-a4/main/hvj210-navy-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj210-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj210-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj210-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj210-hi-vis-orange-clean.webp"
         },
         {
           "label_zh": "黑色",
           "label_en": "Black",
-          "image": "assets/catalogue-a4/main/hvj210-black.webp"
+          "image": "assets/catalogue-a4/main/hvj210-black-clean.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy",
-          "image": "assets/catalogue-a4/main/hvj210-navy.webp"
+          "image": "assets/catalogue-a4/main/hvj210-navy-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1361,34 +1376,34 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp",
-      "image_alt_zh": "HVJ410 高可视短袖T恤荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvj410-hi-vis-yellow-clean.webp",
+      "image_alt_zh": "HVJ410 高可视短袖T恤完整单品图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj410-hi-vis-orange.webp",
-        "assets/catalogue-a4/main/hvj410-black.webp",
-        "assets/catalogue-a4/main/hvj410-navy.webp"
+        "assets/catalogue-a4/main/hvj410-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj410-hi-vis-orange-clean.webp",
+        "assets/catalogue-a4/main/hvj410-black-clean.webp",
+        "assets/catalogue-a4/main/hvj410-navy-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj410-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj410-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj410-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj410-hi-vis-orange-clean.webp"
         },
         {
           "label_zh": "黑色",
           "label_en": "Black",
-          "image": "assets/catalogue-a4/main/hvj410-black.webp"
+          "image": "assets/catalogue-a4/main/hvj410-black-clean.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy",
-          "image": "assets/catalogue-a4/main/hvj410-navy.webp"
+          "image": "assets/catalogue-a4/main/hvj410-navy-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1422,34 +1437,34 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp",
-      "image_alt_zh": "HVJ910 Top Cool V领反光T恤荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+      "image_alt_zh": "HVJ910 Top Cool V领反光T恤完整单品图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj910-hi-vis-orange.webp",
-        "assets/catalogue-a4/main/hvj910-yellow-navy.webp",
-        "assets/catalogue-a4/main/hvj910-orange-navy.webp"
+        "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj910-hi-vis-orange-clean.webp",
+        "assets/catalogue-a4/main/hvj910-yellow-navy-clean.webp",
+        "assets/catalogue-a4/main/hvj910-orange-navy-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj910-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj910-hi-vis-orange-clean.webp"
         },
         {
           "label_zh": "黄/藏青",
           "label_en": "Yellow/Navy",
-          "image": "assets/catalogue-a4/main/hvj910-yellow-navy.webp"
+          "image": "assets/catalogue-a4/main/hvj910-yellow-navy-clean.webp"
         },
         {
           "label_zh": "橙/藏青",
           "label_en": "Orange/Navy",
-          "image": "assets/catalogue-a4/main/hvj910-orange-navy.webp"
+          "image": "assets/catalogue-a4/main/hvj910-orange-navy-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1483,22 +1498,22 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvj220-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVJ220 双色短袖反光Polo衫荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj220-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hvj220-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj220-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj220-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj220-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj220-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1515,7 +1530,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 54
+      "sort_order": 54,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvj220-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj220-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hvj400-two-tone-short-sleeve-t-shirt",
@@ -1532,22 +1552,22 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvj400-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVJ400 双色短袖反光T恤荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj400-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hvj400-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj400-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj400-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj400-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj400-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1564,7 +1584,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 55
+      "sort_order": 55,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvj400-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj400-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hvj310-long-sleeve-polo",
@@ -1581,22 +1606,22 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvj310-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVJ310 高可视长袖Polo衫荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj310-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hvj310-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj310-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj310-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj310-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj310-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1613,7 +1638,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 56
+      "sort_order": 56,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvj310-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj310-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hvj420-long-sleeve-t-shirt",
@@ -1630,22 +1660,22 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvj420-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVJ420 高可视长袖T恤荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj420-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/hvj420-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj420-hi-vis-orange-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj420-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj420-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvj420-hi-vis-orange-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1662,7 +1692,12 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 57
+      "sort_order": 57,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvj420-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj420-hi-vis-orange.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "hvw706-kensington-jacket",
@@ -1679,40 +1714,40 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp",
-      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克完整单品图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvw706-hi-vis-orange.webp",
-        "assets/catalogue-a4/main/hvw706-black.webp",
-        "assets/catalogue-a4/main/hvw706-navy.webp",
-        "assets/catalogue-a4/main/hvw706-pink.webp"
+        "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvw706-hi-vis-orange-clean.webp",
+        "assets/catalogue-a4/main/hvw706-black-clean.webp",
+        "assets/catalogue-a4/main/hvw706-navy-clean.webp",
+        "assets/catalogue-a4/main/hvw706-pink-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvw706-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvw706-hi-vis-orange-clean.webp"
         },
         {
           "label_zh": "黑色",
           "label_en": "Black",
-          "image": "assets/catalogue-a4/main/hvw706-black.webp"
+          "image": "assets/catalogue-a4/main/hvw706-black-clean.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy",
-          "image": "assets/catalogue-a4/main/hvw706-navy.webp"
+          "image": "assets/catalogue-a4/main/hvw706-navy-clean.webp"
         },
         {
           "label_zh": "粉色",
           "label_en": "Pink",
-          "image": "assets/catalogue-a4/main/hvw706-pink.webp"
+          "image": "assets/catalogue-a4/main/hvw706-pink-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -1745,7 +1780,7 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow-tight.webp",
       "image_alt_zh": "HVDW15 反光包边宠物背心荧光黄画册参考图",
       "gallery_images": [
         "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp",
@@ -1760,37 +1795,37 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-hi-vis-yellow-tight.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvdw15-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-hi-vis-orange-tight.webp"
         },
         {
           "label_zh": "粉色",
           "label_en": "Pink",
-          "image": "assets/catalogue-a4/main/hvdw15-pink.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-pink-tight.webp"
         },
         {
           "label_zh": "红色",
           "label_en": "Red",
-          "image": "assets/catalogue-a4/main/hvdw15-red.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-red-tight.webp"
         },
         {
           "label_zh": "宝蓝",
           "label_en": "Royal Blue",
-          "image": "assets/catalogue-a4/main/hvdw15-royal-blue.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-royal-blue-tight.webp"
         },
         {
           "label_zh": "水洗丹宁",
           "label_en": "Washed Denim",
-          "image": "assets/catalogue-a4/main/hvdw15-washed-denim.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-washed-denim-tight.webp"
         },
         {
           "label_zh": "深丹宁",
           "label_en": "Dark Denim",
-          "image": "assets/catalogue-a4/main/hvdw15-dark-denim.webp"
+          "image": "assets/catalogue-a4/main/hvdw15-dark-denim-tight.webp"
         }
       ],
       "badge": "新画册",
@@ -1985,7 +2020,7 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/tfc100-hi-vis-yellow-tight.webp",
       "image_alt_zh": "TFC100 安全防撞帽荧光黄画册参考图",
       "gallery_images": [
         "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp",
@@ -1998,27 +2033,27 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/tfc100-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/tfc100-hi-vis-yellow-tight.webp"
         },
         {
           "label_zh": "绿色",
           "label_en": "Green",
-          "image": "assets/catalogue-a4/main/tfc100-green.webp"
+          "image": "assets/catalogue-a4/main/tfc100-green-tight.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy",
-          "image": "assets/catalogue-a4/main/tfc100-navy.webp"
+          "image": "assets/catalogue-a4/main/tfc100-navy-tight.webp"
         },
         {
           "label_zh": "红色",
           "label_en": "Red",
-          "image": "assets/catalogue-a4/main/tfc100-red.webp"
+          "image": "assets/catalogue-a4/main/tfc100-red-tight.webp"
         },
         {
           "label_zh": "宝蓝",
           "label_en": "Royal Blue",
-          "image": "assets/catalogue-a4/main/tfc100-royal-blue.webp"
+          "image": "assets/catalogue-a4/main/tfc100-royal-blue-tight.webp"
         }
       ],
       "badge": "新画册",
@@ -2051,22 +2086,22 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/c6713-hi-vis-yellow.webp",
-      "image_alt_zh": "C6713 反光棒球帽荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/c6713-hi-vis-yellow-ai.webp",
+      "image_alt_zh": "C6713 反光棒球帽荧光黄完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/c6713-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/c6713-hi-vis-orange.webp"
+        "assets/catalogue-a4/main/c6713-hi-vis-yellow-ai.webp",
+        "assets/catalogue-a4/main/c6713-hi-vis-orange-ai.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/c6713-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/c6713-hi-vis-yellow-ai.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/c6713-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/main/c6713-hi-vis-orange-ai.webp"
         }
       ],
       "badge": "新画册",
@@ -2099,7 +2134,7 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/ct01-black.webp",
+      "main_image": "assets/catalogue-a4/main/ct01-black-tight.webp",
       "image_alt_zh": "CT01 夹式领带黑色画册参考图",
       "gallery_images": [
         "assets/catalogue-a4/main/ct01-black.webp",
@@ -2109,12 +2144,12 @@
         {
           "label_zh": "黑色",
           "label_en": "Black",
-          "image": "assets/catalogue-a4/main/ct01-black.webp"
+          "image": "assets/catalogue-a4/main/ct01-black-tight.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy",
-          "image": "assets/catalogue-a4/main/ct01-navy.webp"
+          "image": "assets/catalogue-a4/main/ct01-navy-tight.webp"
         }
       ],
       "badge": "新画册",
@@ -2243,16 +2278,16 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp",
+      "main_image": "assets/catalogue-a4/main/hvw068-hi-vis-yellow-clean.webp",
       "image_alt_zh": "HVW068 反光背包防雨罩荧光黄画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp"
+        "assets/catalogue-a4/main/hvw068-hi-vis-yellow-clean.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvw068-hi-vis-yellow-clean.webp"
         }
       ],
       "badge": "新画册",
@@ -2269,7 +2304,11 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 67
+      "sort_order": 67,
+      "detail_images": [
+        "assets/catalogue-a4/main/hvw068-hi-vis-yellow.webp"
+      ],
+      "wearing_reference": true
     },
     {
       "id": "wk006-knee-pads",

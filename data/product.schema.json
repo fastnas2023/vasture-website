@@ -47,6 +47,7 @@
         "image_alt_zh": { "type": "string", "minLength": 1 },
         "gallery_images": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
         "detail_images": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "wearing_reference": { "type": "boolean" },
         "color_variants": { "type": "array", "items": { "$ref": "#/$defs/colorVariant" }, "minItems": 1 },
         "badge": { "type": "string", "minLength": 1 },
         "supply_mode": { "enum": ["catalogue_inquiry", "odm_proposal", "ready_stock", "oem", "odm"] },
