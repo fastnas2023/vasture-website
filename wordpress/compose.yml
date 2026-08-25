@@ -1,0 +1,36 @@
+services:
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${WORDPRESS_DB_NAME:-vasture}
+      MARIADB_USER: ${WORDPRESS_DB_USER:-vasture}
+      MARIADB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-change-me}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:-change-root-password}
+    volumes:
+      - vasture_db:/var/lib/mysql
+
+  wordpress:
+    image: wordpress:6.8-php8.2-apache
+    depends_on:
+      - db
+    restart: unless-stopped
+    ports:
+      - "${WORDPRESS_PORT:-8088}:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME:-vasture}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER:-vasture}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-change-me}
+      VASTURE_CATALOGUE_SOURCE: /var/www/vasture-source
+    volumes:
+      - wordpress_data:/var/www/html
+      - ./wp-content/themes/vasture-b2b:/var/www/html/wp-content/themes/vasture-b2b
+      - ./wp-content/plugins/vasture-catalogue-core:/var/www/html/wp-content/plugins/vasture-catalogue-core
+      # The static site remains the visual template and is also the product-import source.
+      - ../:/var/www/vasture-source:ro
+      - ../:/var/www/html/wp-content/themes/vasture-b2b/static:ro
+
+volumes:
+  vasture_db:
+  wordpress_data:

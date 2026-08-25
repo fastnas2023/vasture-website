@@ -23,6 +23,10 @@
   onScroll();
 
   // ---------- 2. Active Nav Highlight by data-dom-id ----------
+  // WordPress renders its own archive/page URLs. Do not replace them with
+  // legacy .html links when this shared script is loaded by the WP theme.
+  const isWordPressTheme = document.body.classList.contains('wp-theme-vasture-b2b');
+  if (!isWordPressTheme) {
   const pageMap = {
     'nav-home': 'index.html',
     'nav-products': 'products.html',
@@ -105,6 +109,7 @@
   });
   document.querySelectorAll('.mobile-drawer [data-theme-toggle]').forEach((el) => el.remove());
   document.querySelectorAll('.mobile-drawer .lang-switch').forEach((el) => el.remove());
+  }
 
   // ---------- 2.8. Social profile links ----------
   // Add the complete public profile URL here when each account is ready.
