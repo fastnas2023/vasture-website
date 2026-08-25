@@ -167,7 +167,7 @@ final class Vasture_Catalogue_Core {
     }
 
     private static function source_root(): string {
-        $root = getenv('VASTURE_CATALOGUE_SOURCE') ?: '';
+        $root = getenv('VASTURE_CATALOGUE_SOURCE') ?: (defined('VASTURE_CATALOGUE_SOURCE') ? VASTURE_CATALOGUE_SOURCE : '');
         return untrailingslashit($root ?: dirname(__DIR__, 4));
     }
 
