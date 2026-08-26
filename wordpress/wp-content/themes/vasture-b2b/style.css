@@ -141,6 +141,7 @@ body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px;
 .vasture-product-card__color { width: 9px; height: 9px; border-radius: 50%; background: var(--vasture-accent); border: 1px solid rgba(0,0,0,.18); }
 
 .vasture-pagination { display: flex; justify-content: center; margin: 44px 0 70px; }
+.vasture-pagination--mobile { display: none; }
 .vasture-pagination > .page-numbers { align-items: center; display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; list-style: none; margin: 0; padding: 0; }
 .vasture-pagination > .page-numbers > li { display: flex; list-style: none; margin: 0; padding: 0; }
 .vasture-pagination .page-numbers a,
@@ -219,6 +220,8 @@ body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px;
   .vasture-catalogue-results { padding-top: 20px; }
   .vasture-results-toolbar { align-items: flex-start; flex-direction: column; gap: 12px; padding: 15px 16px; }
   .vasture-results-toolbar .grid-toolbar__right { justify-content: space-between; width: 100%; }
+  .vasture-pagination--desktop { display: none; }
+  .vasture-pagination--mobile { display: flex; }
   .vasture-breadcrumb ol { min-height: 44px; }
   .vasture-breadcrumb li { font-size: 12px; }
   .vasture-breadcrumb li:nth-last-child(n + 3) { display: none; }
