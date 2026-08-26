@@ -2366,16 +2366,16 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/rp01-silver.webp",
+      "main_image": "assets/catalogue-a4/main/rp01-silver-clean-ai.webp",
       "image_alt_zh": "RP01 热转印反光条银色画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/rp01-silver.webp"
+        "assets/catalogue-a4/main/rp01-silver-clean-ai.webp"
       ],
       "color_variants": [
         {
           "label_zh": "银色",
           "label_en": "Silver",
-          "image": "assets/catalogue-a4/main/rp01-silver.webp"
+          "image": "assets/catalogue-a4/main/rp01-silver-clean-ai.webp"
         }
       ],
       "badge": "新画册",
