@@ -6,7 +6,7 @@
       <div class="footer-main">
         <a href="<?php echo esc_url(vasture_page_url('index')); ?>" class="logo-link"><span class="logo-link__text"><strong><?php echo esc_html(vasture_t('卓圣轩服贸', 'ZSX Garment')); ?></strong><small><?php echo esc_html(vasture_t('扬州卓圣轩服装贸易有限公司', 'Yangzhou ZSX Garment Trading Co., Ltd.')); ?></small></span></a>
         <p><?php echo esc_html(vasture_t('面向海外品牌、批发商与项目采购，提供工作服现货、OEM贴牌与ODM开发沟通。', 'For brands, distributors and project buyers: ready-stock workwear, OEM private label and ODM development support.')); ?></p>
-        <p><a href="mailto:admin@zsxgarment.com">admin@zsxgarment.com</a></p>
+        <p><a href="mailto:allen@zsxgarment.com">allen@zsxgarment.com</a></p>
         <div class="footer-whatsapp">
           <span><?php echo vasture_social_icon_svg('whatsapp'); ?></span>
           <div>
