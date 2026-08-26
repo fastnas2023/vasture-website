@@ -37,6 +37,6 @@
   </div>
 </header>
 <main id="main-content" role="main" tabindex="-1">
-<?php if (!is_post_type_archive('vasture_product') && !is_page('contact')) : ?>
+<?php if (!is_post_type_archive('vasture_product') && !is_page('contact') && !is_page('certifications')) : ?>
   <?php vasture_breadcrumbs(); ?>
 <?php endif; ?>

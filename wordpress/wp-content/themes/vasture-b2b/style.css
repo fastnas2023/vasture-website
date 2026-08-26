@@ -194,6 +194,40 @@ body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px;
 .vasture-product__details h2 { color: var(--vasture-ink); font-size: 28px; }
 .vasture-product__detail-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .vasture-product__detail-gallery img { background: var(--vasture-surface); border: 1px solid var(--vasture-border); border-radius: 14px; display: block; height: auto; width: 100%; }
+.vasture-product__compliance { align-items: flex-start; background: #f7faf9; border: 1px solid #c9ddd4; border-radius: 14px; display: flex; gap: 18px; justify-content: space-between; margin: 22px 0 26px; padding: 18px; }
+.vasture-product__compliance-eyebrow { color: #32735d; display: block; font-size: 10px; font-weight: 800; letter-spacing: .1em; margin-bottom: 5px; text-transform: uppercase; }
+.vasture-product__compliance strong { color: var(--vasture-ink); display: block; font-size: 15px; }
+.vasture-product__compliance p { color: var(--vasture-muted); font-size: 12px; line-height: 1.65; margin: 7px 0 0; max-width: 56ch; }
+.vasture-product__compliance a { align-items: center; border: 1px solid #91b6a7; border-radius: 999px; color: #235b48; display: inline-flex; flex: 0 0 auto; font-size: 12px; font-weight: 750; gap: 6px; padding: 9px 12px; text-decoration: none; }
+.vasture-product__compliance a:hover { background: #235b48; border-color: #235b48; color: #fff; }
+.vasture-product__compliance-actions { align-items: flex-end; display: flex; flex: 0 0 auto; flex-direction: column; gap: 8px; }
+.vasture-product__compliance a.is-document { border-color: transparent; color: var(--vasture-muted); font-size: 11px; padding: 2px 3px; }
+.vasture-product__compliance a.is-document:hover { background: transparent; border-color: transparent; color: #235b48; text-decoration: underline; }
+.vasture-certifications-header { background: linear-gradient(112deg, #102d3a 0%, #1c4653 100%); }
+.vasture-certifications-header__eyebrow { color: #a9d9c1; font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.vasture-certifications { padding: 52px 0 82px; }
+.vasture-certifications__intro { align-items: baseline; border-bottom: 1px solid var(--vasture-border); display: flex; gap: 18px; justify-content: space-between; margin-bottom: 28px; padding-bottom: 20px; }
+.vasture-certifications__intro > span { color: var(--vasture-accent-strong); font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.vasture-certifications__intro p { color: var(--vasture-muted); line-height: 1.7; margin: 0; max-width: 680px; }
+.vasture-certifications__grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+.vasture-certificate-card { background: #fff; border: 1px solid var(--vasture-border); border-radius: 20px; box-shadow: 0 14px 38px rgba(15,46,79,.06); max-width: 920px; padding: clamp(24px, 4vw, 42px); }
+.vasture-certificate-card__top { align-items: center; display: flex; gap: 18px; }
+.vasture-certificate-card__mark { align-items: center; background: #e6f1ed; border: 1px solid #bdd7cb; border-radius: 14px; color: #28624e; display: inline-flex; font-size: 20px; font-weight: 850; height: 56px; justify-content: center; letter-spacing: -.06em; width: 56px; }
+.vasture-certificate-card__eyebrow { color: var(--vasture-muted); display: block; font-size: 10px; font-weight: 800; letter-spacing: .1em; margin-bottom: 5px; text-transform: uppercase; }
+.vasture-certificate-card h2 { color: var(--vasture-ink); font-size: clamp(22px, 3vw, 32px); margin: 0; }
+.vasture-certificate-card__facts { border-bottom: 1px solid var(--vasture-border); border-top: 1px solid var(--vasture-border); display: grid; gap: 18px 28px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 30px 0 20px; padding: 20px 0; }
+.vasture-certificate-card__facts div { min-width: 0; }
+.vasture-certificate-card__facts dt { color: var(--vasture-muted); font-size: 11px; font-weight: 750; letter-spacing: .06em; margin-bottom: 5px; text-transform: uppercase; }
+.vasture-certificate-card__facts dd { color: var(--vasture-ink); font-size: 14px; line-height: 1.55; margin: 0; }
+.vasture-certificate-card__scope { background: var(--vasture-surface); border-radius: 12px; display: grid; gap: 5px; margin-bottom: 16px; padding: 15px 16px; }
+.vasture-certificate-card__scope span { color: var(--vasture-muted); font-size: 11px; font-weight: 750; }
+.vasture-certificate-card__scope strong { color: var(--vasture-ink); font-size: 15px; }
+.vasture-certificate-card__standards { display: flex; flex-wrap: wrap; gap: 8px; }
+.vasture-certificate-card__standards span { background: #eef4f2; border: 1px solid #d1e2db; border-radius: 999px; color: #285d4d; font-size: 12px; font-weight: 700; padding: 7px 10px; }
+.vasture-certificate-card__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+.vasture-certificate-card__actions .cf-btn { text-decoration: none; }
+.vasture-certificate-card__secondary { align-items: center; border: 1px solid var(--vasture-border); border-radius: 10px; color: var(--vasture-navy); display: inline-flex; font-size: 13px; font-weight: 750; gap: 7px; padding: 11px 14px; text-decoration: none; }
+.vasture-certificate-card__secondary:hover { border-color: var(--vasture-navy); }
 .vasture-breadcrumb + .vasture-product { padding-top: 42px; }
 .vasture-not-found { background: var(--vasture-surface); padding: 88px 0 100px; }
 .vasture-not-found__card { background: #fff; border: 1px solid var(--vasture-border); border-radius: 20px; max-width: 760px; padding: clamp(30px, 6vw, 70px); }
@@ -237,6 +271,11 @@ body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px;
   .vasture-product__fact:last-child { border-bottom: 0; }
   .vasture-inquiry-form__grid { grid-template-columns: 1fr; }
   .vasture-product__detail-gallery { grid-template-columns: 1fr; }
+  .vasture-product__compliance { flex-direction: column; }
+  .vasture-product__compliance-actions { align-items: flex-start; }
+  .vasture-certifications { padding: 34px 0 56px; }
+  .vasture-certifications__intro { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .vasture-certificate-card__facts { grid-template-columns: 1fr; }
   .vasture-en-page { padding: 38px 0 54px; }
   .vasture-en-page__grid { grid-template-columns: 1fr; }
   .vasture-en-page__cta { align-items: flex-start; flex-direction: column; padding: 26px; }

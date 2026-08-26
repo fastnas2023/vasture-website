@@ -34,7 +34,7 @@ function vasture_document_title(array $parts): array {
     } elseif (is_page('contact')) {
         $parts['title'] = 'Contact for Inquiry';
     } elseif (is_page()) {
-        $titles = ['about' => 'About ZSX Garment', 'factory' => 'Supply Chain Capability', 'services' => 'OEM / ODM Workwear Services', 'blog' => 'Workwear Sourcing Insights', 'resources' => 'Procurement Resources'];
+        $titles = ['about' => 'About ZSX Garment', 'factory' => 'Supply Chain Capability', 'services' => 'OEM / ODM Workwear Services', 'blog' => 'Workwear Sourcing Insights', 'resources' => 'Procurement Resources', 'certifications' => 'Certifications & Compliance'];
         $slug = (string) get_post_field('post_name', get_queried_object_id());
         if (isset($titles[$slug])) {
             $parts['title'] = $titles[$slug];
@@ -46,7 +46,7 @@ add_filter('document_title_parts', 'vasture_document_title');
 
 function vasture_enqueue_assets(): void {
     wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260821');
-    wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260826-10');
+    wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260826-11');
     // The legacy filter is client-side and assumes all product cards are present.
     // The WordPress archive queries filters server-side, so do not let that script
     // overwrite server result counts or pagination on the archive.
@@ -276,6 +276,7 @@ function vasture_page_display_title(int $post_id): string {
         'services' => 'OEM / ODM Services',
         'blog' => 'Workwear Sourcing Insights',
         'resources' => 'Procurement Resources',
+        'certifications' => 'Certifications & Compliance',
         'contact' => 'Contact for Inquiry',
     ];
     $slug = (string) get_post_field('post_name', $post_id);
@@ -505,6 +506,28 @@ function vasture_english_static_page(string $slug): string {
 function vasture_product_meta(int $post_id, string $key, $default = '') {
     $value = get_post_meta($post_id, '_vasture_' . $key, true);
     return $value === '' || $value === null ? $default : $value;
+}
+
+function vasture_certification_documents(): array {
+    static $certifications = null;
+    if ($certifications !== null) {
+        return $certifications;
+    }
+    $file = get_template_directory() . '/assets/certifications/certifications.json';
+    if (!is_readable($file)) {
+        return $certifications = [];
+    }
+    $decoded = json_decode((string) file_get_contents($file), true);
+    return $certifications = is_array($decoded) ? $decoded : [];
+}
+
+function vasture_certification_file_url(string $filename): string {
+    return trailingslashit(get_template_directory_uri()) . 'assets/certifications/' . rawurlencode(basename($filename));
+}
+
+function vasture_product_has_certification(int $post_id, string $certificate_id): bool {
+    $assigned = array_filter(array_map('sanitize_title', array_map('trim', explode(',', (string) vasture_product_meta($post_id, 'certification_ids', '')))));
+    return in_array(sanitize_title($certificate_id), $assigned, true);
 }
 
 function vasture_product_image_url(int $post_id, string $size = 'large'): string {

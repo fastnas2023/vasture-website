@@ -33,6 +33,7 @@
         <a href="<?php echo esc_url(vasture_page_url('services')); ?>">OEM/ODM</a>
         <a href="<?php echo esc_url(vasture_page_url('factory')); ?>"><?php echo esc_html(vasture_t('供应链能力', 'Supply Chain')); ?></a>
         <a href="<?php echo esc_url(vasture_page_url('resources')); ?>"><?php echo esc_html(vasture_t('采购资料', 'Resources')); ?></a>
+        <a href="<?php echo esc_url(vasture_page_url('certifications')); ?>"><?php echo esc_html(vasture_t('证书与认证', 'Certifications')); ?></a>
         <a href="<?php echo esc_url(vasture_page_url('contact')); ?>"><?php echo esc_html(vasture_t('联系询价', 'Contact for Inquiry')); ?></a>
       </nav>
     </div>

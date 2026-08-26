@@ -1,0 +1,21 @@
+[
+  {
+    "id": "dk-ppe002779-i01",
+    "name_zh": "高可视背心 EU 型式检验证书",
+    "name_en": "Hi-Vis Vest EU Type Examination Certificate",
+    "certificate_no": "DK-PPE002779 i01",
+    "issuer": "TÜV SÜD DANMARK ApS (Notified Body 2443)",
+    "product_scope": "High visibility clothing - Hi-Vis Vest",
+    "models": ["HW", "LHVW100-Y", "LHVW102-Y"],
+    "standards": ["EN ISO 13688:2013+A1:2021", "EN ISO 20471:2013+A1:2016"],
+    "protection_class": "Category II, Class 2",
+    "colour": "Fluorescent Yellow",
+    "size_range": "S-3XL",
+    "issued_on": "2026-08-17",
+    "valid_until": "2031-08-16",
+    "files": [
+      {"label_zh": "查看 EU 型式检验证书", "label_en": "View EU Type Examination Certificate", "file": "dk-ppe002779-i01-eu-type-examination-certificate.pdf"},
+      {"label_zh": "查看证书附件与型号范围", "label_en": "View Annex and Model Scope", "file": "dk-ppe002779-i01-annex.pdf"}
+    ]
+  }
+]

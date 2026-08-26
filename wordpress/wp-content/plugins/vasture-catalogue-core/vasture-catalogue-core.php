@@ -76,7 +76,7 @@ final class Vasture_Catalogue_Core {
             'public' => true, 'show_in_rest' => true, 'hierarchical' => false,
         ]);
 
-        foreach (['product_id', 'sku', 'name_en', 'badge', 'supply_mode', 'moq_label', 'moq_value', 'catalogue_id', 'catalogue_name', 'source_file', 'source_pages', 'added_date'] as $key) {
+        foreach (['product_id', 'sku', 'name_en', 'badge', 'supply_mode', 'moq_label', 'moq_value', 'catalogue_id', 'catalogue_name', 'source_file', 'source_pages', 'added_date', 'certification_ids'] as $key) {
             register_post_meta(self::PRODUCT_TYPE, '_vasture_' . $key, ['single' => true, 'type' => 'string', 'show_in_rest' => true]);
         }
         foreach (['gallery_ids', 'detail_ids', 'color_variants'] as $key) {
@@ -331,11 +331,11 @@ final class Vasture_Catalogue_Core {
 
     public static function render_product_meta_box(WP_Post $post): void {
         wp_nonce_field('vasture_product_meta', 'vasture_product_meta_nonce');
-        $fields = ['product_id' => '稳定产品 ID', 'sku' => '型号 / SKU', 'name_en' => '英文名称', 'badge' => '前台标记', 'supply_mode' => '供货方式', 'moq_label' => 'MOQ 标签', 'moq_value' => 'MOQ 值', 'catalogue_id' => '画册 ID', 'catalogue_name' => '画册名称', 'source_file' => 'PDF 文件', 'source_pages' => 'PDF 页码', 'added_date' => '录入日期'];
+        $fields = ['product_id' => '稳定产品 ID', 'sku' => '型号 / SKU', 'name_en' => '英文名称', 'badge' => '前台标记', 'supply_mode' => '供货方式', 'moq_label' => 'MOQ 标签', 'moq_value' => 'MOQ 值', 'catalogue_id' => '画册 ID', 'catalogue_name' => '画册名称', 'source_file' => 'PDF 文件', 'source_pages' => 'PDF 页码', 'added_date' => '录入日期', 'certification_ids' => '认证文件 ID（逗号分隔）'];
         echo '<table class="form-table"><tbody>';
         foreach ($fields as $key => $label) {
             $value = get_post_meta($post->ID, '_vasture_' . $key, true);
-            echo '<tr><th><label for="vasture_' . esc_attr($key) . '">' . esc_html($label) . '</label></th><td><input class="regular-text" id="vasture_' . esc_attr($key) . '" name="vasture_meta[' . esc_attr($key) . ']" value="' . esc_attr((string) $value) . '" /></td></tr>';
+            echo '<tr><th><label for="vasture_' . esc_attr($key) . '">' . esc_html($label) . '</label></th><td><input class="regular-text" id="vasture_' . esc_attr($key) . '" name="vasture_meta[' . esc_attr($key) . ']" value="' . esc_attr((string) $value) . '" />' . ($key === 'certification_ids' ? '<p class="description">例如：dk-ppe002779-i01。仅在产品型号明确属于证书范围后填写。</p>' : '') . '</td></tr>';
         }
         $variants = get_post_meta($post->ID, '_vasture_color_variants', true);
         echo '<tr><th><label for="vasture_color_variants">颜色图数据</label></th><td><textarea class="large-text code" rows="7" id="vasture_color_variants" name="vasture_color_variants" placeholder="导入产品会自动生成。">' . esc_textarea(wp_json_encode($variants ?: [], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)) . '</textarea><p class="description">每项包含中文/英文颜色名和媒体库 attachment_id。首次维护建议通过重新导入 JSON 完成。</p></td></tr>';
