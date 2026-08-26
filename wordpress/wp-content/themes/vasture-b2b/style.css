@@ -104,6 +104,20 @@ body:not(.home) > main { padding-top: 72px; }
 .vasture-page-header { background: var(--vasture-navy); color: #fff; padding: 72px 0 56px; }
 .vasture-page-header h1 { color: #fff; font-size: clamp(34px, 5vw, 58px); margin: 0 0 14px; }
 .vasture-page-header p { color: rgba(255,255,255,.75); max-width: 760px; font-size: 17px; line-height: 1.75; }
+/* The archive is an active buying surface, so show filters and products within
+   the first viewport instead of using the landing-page hero proportions. */
+body.post-type-archive-vasture_product .vasture-page-header { padding: 48px 0 36px; }
+body.post-type-archive-vasture_product .vasture-page-header h1 { font-size: clamp(32px, 4vw, 50px); margin-bottom: 10px; }
+body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px; margin-bottom: 0; }
+.vasture-catalogue-results { padding-top: 30px; }
+.vasture-catalogue-results .products-layout { padding-top: 0; }
+.vasture-results-toolbar { align-items: center; background: #fff; border-color: #d7e1e5; box-shadow: 0 12px 30px rgba(15, 46, 79, .045); margin-bottom: 22px; min-height: 74px; }
+.vasture-results-toolbar__eyebrow { color: var(--vasture-accent-strong); display: block; font-size: 10px; font-weight: 800; letter-spacing: .12em; line-height: 1; margin-bottom: 7px; text-transform: uppercase; }
+.vasture-results-toolbar__number { color: var(--vasture-ink); font-size: 29px; font-variant-numeric: tabular-nums; letter-spacing: -.05em; line-height: .9; }
+.vasture-results-toolbar__label { color: var(--vasture-muted); font-size: 14px; font-weight: 650; margin-left: 4px; }
+.vasture-results-toolbar__hint { color: var(--vasture-muted); font-size: 13px; }
+.vasture-results-toolbar__clear { align-items: center; border: 1px solid var(--vasture-border); border-radius: 999px; color: var(--vasture-navy); display: inline-flex; font-size: 12px; font-weight: 750; padding: 8px 12px; text-decoration: none; }
+.vasture-results-toolbar__clear:hover { background: var(--vasture-navy); border-color: var(--vasture-navy); color: #fff; }
 .vasture-en-page { padding: 60px 0 86px; }
 .vasture-en-page__grid { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .vasture-en-page__card { background: #fff; border: 1px solid var(--vasture-border); border-radius: 18px; padding: 28px; }
@@ -201,6 +215,10 @@ body:not(.home) > main { padding-top: 72px; }
   .header-actions { margin-left: 10px; }
   .header-actions .cf-btn { font-size: 13px; padding-inline: 12px; }
   .vasture-page-header { padding: 42px 0 34px; }
+  body.post-type-archive-vasture_product .vasture-page-header { padding: 34px 0 28px; }
+  .vasture-catalogue-results { padding-top: 20px; }
+  .vasture-results-toolbar { align-items: flex-start; flex-direction: column; gap: 12px; padding: 15px 16px; }
+  .vasture-results-toolbar .grid-toolbar__right { justify-content: space-between; width: 100%; }
   .vasture-breadcrumb ol { min-height: 44px; }
   .vasture-breadcrumb li { font-size: 12px; }
   .vasture-breadcrumb li:nth-last-child(n + 3) { display: none; }
