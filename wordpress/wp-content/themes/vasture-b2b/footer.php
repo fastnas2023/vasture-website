@@ -11,7 +11,6 @@
           <span><?php echo vasture_social_icon_svg('whatsapp'); ?></span>
           <div>
             <a href="<?php echo esc_url(vasture_whatsapp_url('8617826699113')); ?>" target="_blank" rel="noopener noreferrer"><?php echo esc_html(vasture_t('周翔 · WhatsApp', 'Zhou Xiang · WhatsApp')); ?> +86 178 2669 9113</a>
-            <a href="<?php echo esc_url(vasture_whatsapp_url('8613936691595')); ?>" target="_blank" rel="noopener noreferrer"><?php echo esc_html(vasture_t('我的 WhatsApp', 'Direct WhatsApp')); ?> +86 139 3669 1595</a>
           </div>
         </div>
         <div class="footer-social" aria-label="<?php echo esc_attr(vasture_t('社交媒体', 'Social media')); ?>">
@@ -45,7 +44,6 @@
   <div class="vasture-whatsapp-float__panel">
     <strong><?php echo esc_html(vasture_t('WhatsApp 咨询', 'WhatsApp inquiry')); ?></strong>
     <a href="<?php echo esc_url(vasture_whatsapp_url('8617826699113')); ?>" target="_blank" rel="noopener noreferrer"><span><?php echo esc_html(vasture_t('周翔', 'Zhou Xiang')); ?></span><b>+86 178 2669 9113</b></a>
-    <a href="<?php echo esc_url(vasture_whatsapp_url('8613936691595')); ?>" target="_blank" rel="noopener noreferrer"><span><?php echo esc_html(vasture_t('我的 WhatsApp', 'Direct WhatsApp')); ?></span><b>+86 139 3669 1595</b></a>
   </div>
 </details>
 <?php wp_footer(); ?>

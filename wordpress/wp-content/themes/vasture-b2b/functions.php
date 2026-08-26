@@ -45,13 +45,13 @@ function vasture_document_title(array $parts): array {
 add_filter('document_title_parts', 'vasture_document_title');
 
 function vasture_enqueue_assets(): void {
-    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-hero-paths-3');
+    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-hero-lazy-4');
     wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260826-14');
     // The legacy filter is client-side and assumes all product cards are present.
     // The WordPress archive queries filters server-side, so do not let that script
     // overwrite server result counts or pagination on the archive.
     if (!is_post_type_archive('vasture_product')) {
-        wp_enqueue_script('vasture-main', vasture_asset_url('js/main.js'), [], '20260827-hero-paths-3', true);
+        wp_enqueue_script('vasture-main', vasture_asset_url('js/main.js'), [], '20260827-hero-lazy-4', true);
     }
     if (is_singular('vasture_product')) {
         wp_enqueue_script('vasture-variants', get_template_directory_uri() . '/assets/js/product-variants.js', [], '1.0.0', true);
@@ -331,6 +331,12 @@ function vasture_rewrite_source_markup(string $html): string {
     }, $html) ?: $html;
     $html = preg_replace('/(?:(?:\.\.\/)?)(assets\/|css\/|js\/)/', $theme_static . '$1', $html) ?: $html;
     $html = str_replace("location.href='contact.html'", "location.href='" . esc_url(vasture_page_url('contact')) . "'", $html);
+    $html = preg_replace_callback('/<img\\b(?![^>]*\\bloading=)([^>]*)>/i', static function ($matches) {
+        if (stripos($matches[1], 'data-product-colour-main') !== false) {
+            return '<img decoding="async" fetchpriority="high"' . $matches[1] . '>';
+        }
+        return '<img loading="lazy" decoding="async"' . $matches[1] . '>';
+    }, $html) ?: $html;
     return $html;
 }
 
@@ -346,18 +352,18 @@ function vasture_translate_source_markup(string $html): string {
         '面向海外品牌、批发商与项目采购，提供反光服、夹克、背心、工作裤与连体服等产品目录、现货确认和品牌定制沟通。' => 'For brands, distributors and project buyers: high-visibility workwear, jackets, vests, trousers and coveralls, with catalogue selection, stock confirmation and private-label support.',
         '获取报价' => 'Request a Quote',
         '查看产品目录' => 'View Product Catalogue',
-        '现货工作服采购' => 'Ready-stock Workwear Sourcing',
-        '快速确认款式、颜色、尺码与可供库存' => 'Quickly confirm available styles, colours, sizes and stock.',
-        'OEM 品牌贴牌' => 'OEM Private Label Manufacturing',
-        '按 Logo、包装与尺码要求组织生产' => 'Produce to agreed logo, packaging and sizing requirements.',
+        '现货工作服采购' => 'Ready-stock Workwear',
+        '确认目录款、颜色、尺码与可供库存' => 'Styles, colours, sizes & stock confirmation.',
+        'OEM 品牌贴牌' => 'OEM Private Label',
+        '按品牌标识、包装、尺码与交期组织生产' => 'Logo, packaging & production requirements.',
         'ODM 工作服开发' => 'ODM Workwear Development',
-        '从面料、版型到系列方案的一站式开发' => 'End-to-end development from fabric and fit to a product range.',
+        '从面料、版型到产品系列的一站式开发' => 'Fabric, fit & range development.',
         '项目与批量供货' => 'Project & Bulk Supply',
-        '服务品牌商、经销商及工程项目采购' => 'For brands, distributors and project procurement teams.',
-        '现货工作服采购 · 款式与库存确认' => 'READY-STOCK WORKWEAR · STYLE & STOCK CONFIRMATION',
-        'OEM 品牌贴牌 · Logo、包装与生产确认' => 'OEM PRIVATE LABEL · LOGO, PACKAGING & PRODUCTION',
-        'ODM 工作服开发 · 面料、版型与系列方案' => 'ODM WORKWEAR DEVELOPMENT · FABRIC, FIT & RANGE',
-        '项目与批量供货 · 品牌商、经销商与工程采购' => 'PROJECT & BULK SUPPLY · BRANDS, DISTRIBUTORS & PROJECTS',
+        '服务品牌、经销商与工程项目采购' => 'For brands, distributors & project buyers.',
+        '现货工作服采购 · 目录款与库存确认' => 'READY-STOCK WORKWEAR · CATALOGUE & STOCK',
+        'OEM 品牌贴牌 · Logo、包装与生产确认' => 'OEM PRIVATE LABEL · PRODUCTION TO YOUR SPEC',
+        'ODM 工作服开发 · 面料、版型与系列方案' => 'ODM DEVELOPMENT · FABRIC, FIT & RANGE',
+        '项目与批量供货 · 品牌商、经销商与工程采购' => 'PROJECT & BULK SUPPLY · LARGE-QUANTITY SOURCING',
         '目录选款与库存确认' => 'Catalogue selection & stock confirmation',
         '来图来样与贴牌沟通' => 'Artwork, samples & private-label support',
         '版型、面料与系列开发' => 'Design, fabric & collection development',
