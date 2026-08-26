@@ -2319,3 +2319,40 @@ html.dark .factor-icon {
   .catalogue-lightbox { width: calc(100vw - 20px); height: calc(100vh - 20px); }
   .catalogue-lightbox__image-wrap { padding: 12px; }
 }
+
+/* ---- Bilingual layout parity ----
+   Chinese and English share the same visual bands. Copy is allowed to wrap,
+   but the first viewport, controls and buyer paths keep the same anchor. */
+:root {
+  --vasture-hero-block-desktop: 984px;
+  --vasture-hero-block-mobile: 1120px;
+  --vasture-page-band-mobile: 337px;
+}
+.hero {
+  box-sizing: border-box;
+  display: flex;
+  min-height: var(--vasture-hero-block-desktop);
+}
+.hero .cf-container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: calc(var(--vasture-hero-block-desktop) - 238px);
+}
+.hero .hero-scene-control { margin: auto 0 28px; }
+.hero .hero-stats { margin-top: 0; }
+
+/* WordPress page headers use the same content band at every locale. */
+.vasture-page-header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  min-height: 270px;
+}
+
+@media (max-width: 768px) {
+  .hero { min-height: var(--vasture-hero-block-mobile); }
+  .hero .cf-container { min-height: calc(var(--vasture-hero-block-mobile) - 188px); }
+  .hero .hero-scene-control { margin: auto 0 24px; }
+  .vasture-page-header { min-height: var(--vasture-page-band-mobile); }
+}

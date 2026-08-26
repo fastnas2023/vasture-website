@@ -45,7 +45,7 @@ function vasture_document_title(array $parts): array {
 add_filter('document_title_parts', 'vasture_document_title');
 
 function vasture_enqueue_assets(): void {
-    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-hero-lazy-4');
+    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-bilingual-5');
     wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260826-14');
     // The legacy filter is client-side and assumes all product cards are present.
     // The WordPress archive queries filters server-side, so do not let that script
