@@ -24,9 +24,12 @@
 
   // ---------- 1.5. Hero scene controls ----------
   const hero = document.querySelector('.hero');
-  const heroSceneTabs = hero ? Array.from(hero.querySelectorAll('[data-hero-scene]')) : [];
+  const heroSceneTabs = hero ? Array.from(hero.querySelectorAll('.hero-scene-control [data-hero-scene]')) : [];
   const heroSceneControl = hero ? hero.querySelector('.hero-scene-control') : null;
   const heroSceneCount = hero ? hero.querySelector('.hero-scene-control__count') : null;
+  const heroEyebrowCopy = hero ? hero.querySelector('.hero-eyebrow-copy') : null;
+  const heroPathPreviews = hero ? Array.from(hero.querySelectorAll('[data-hero-preview-scene]')) : [];
+  const defaultHeroEyebrow = heroEyebrowCopy ? heroEyebrowCopy.textContent : '';
   const reduceHeroMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const heroSceneDuration = 5600;
   let heroSceneIndex = 0;
@@ -66,6 +69,22 @@
     // hero made a normal mouse position prevent any automatic rotation.
     heroSceneControl && heroSceneControl.addEventListener('mouseenter', stopHeroScenes);
     heroSceneControl && heroSceneControl.addEventListener('mouseleave', startHeroScenes);
+
+    const previewBuyerPath = (path) => {
+      stopHeroScenes();
+      renderHeroScene(Number(path.dataset.heroPreviewScene || 0), true);
+      if (heroEyebrowCopy) heroEyebrowCopy.textContent = path.dataset.heroPreviewCopy || defaultHeroEyebrow;
+    };
+    const resetBuyerPath = () => {
+      if (heroEyebrowCopy) heroEyebrowCopy.textContent = defaultHeroEyebrow;
+      startHeroScenes();
+    };
+    heroPathPreviews.forEach((path) => {
+      path.addEventListener('mouseenter', () => previewBuyerPath(path));
+      path.addEventListener('mouseleave', resetBuyerPath);
+      path.addEventListener('focus', () => previewBuyerPath(path));
+      path.addEventListener('blur', resetBuyerPath);
+    });
   }
 
   // ---------- 2. Active Nav Highlight by data-dom-id ----------
