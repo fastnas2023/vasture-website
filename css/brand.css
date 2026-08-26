@@ -464,15 +464,30 @@ html.dark .mobile-drawer-nav a.active { background: rgba(122,156,181,0.12); }
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../assets/hero-workwear-showroom.png');
+  z-index: 0;
+  background: #0D2735;
+}
+.hero__scene {
+  position: absolute;
+  inset: 0;
   background-size: cover;
   background-position: center center;
-  opacity: 0.92;
   filter: saturate(0.9) contrast(1.05);
-  transform: scale(1.03) translate3d(0, 0, 0);
-  transform-origin: center center;
-  animation: hero-background-drift 18s ease-in-out infinite alternate;
-  will-change: transform;
+  opacity: 0;
+  z-index: 0;
+  will-change: opacity, background-position;
+}
+.hero__scene--showroom {
+  background-image: url('../assets/hero-workwear-showroom.png');
+  animation: hero-scene-showroom 36s ease-in-out infinite, hero-scene-pan 21s ease-in-out infinite alternate;
+}
+.hero__scene--quality {
+  background-image: url('../assets/hero-workwear-qc-showroom.webp');
+  animation: hero-scene-quality 36s ease-in-out infinite, hero-scene-pan 24s ease-in-out infinite alternate-reverse;
+}
+.hero__scene--fulfilment {
+  background-image: url('../assets/hero-workwear-fulfilment.webp');
+  animation: hero-scene-fulfilment 36s ease-in-out infinite, hero-scene-pan 22s ease-in-out infinite alternate;
 }
 .hero::after {
   content: "";
@@ -484,6 +499,8 @@ html.dark .mobile-drawer-nav a.active { background: rgba(122,156,181,0.12); }
     linear-gradient(180deg, rgba(5,24,40,0.02) 0%, rgba(4,20,34,0.24) 100%);
   animation: hero-overlay-breathe 9s ease-in-out infinite alternate;
   will-change: opacity;
+  z-index: 1;
+  pointer-events: none;
 }
 .hero .cf-container {
   position: relative;
@@ -602,9 +619,27 @@ html.dark .mobile-drawer-nav a.active { background: rgba(122,156,181,0.12); }
   line-height: 1.4;
 }
 
-@keyframes hero-background-drift {
-  0% { transform: scale(1.03) translate3d(0, 0, 0); }
-  100% { transform: scale(1.07) translate3d(-0.8%, -0.35%, 0); }
+@keyframes hero-scene-showroom {
+  0%, 27% { opacity: 0.92; }
+  33%, 94% { opacity: 0; }
+  100% { opacity: 0.92; }
+}
+
+@keyframes hero-scene-quality {
+  0%, 27% { opacity: 0; }
+  33%, 60% { opacity: 0.92; }
+  66%, 100% { opacity: 0; }
+}
+
+@keyframes hero-scene-fulfilment {
+  0%, 60% { opacity: 0; }
+  66%, 94% { opacity: 0.92; }
+  100% { opacity: 0; }
+}
+
+@keyframes hero-scene-pan {
+  0% { background-position: 50% 50%; }
+  100% { background-position: 47% 49%; }
 }
 
 @keyframes hero-overlay-breathe {
@@ -1881,24 +1916,20 @@ html.dark .factor-icon {
     border-bottom: 0;
   }
   .product-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  .hero { padding: 112px 0 56px; }
+  .hero { padding: 132px 0 56px; }
   .hero .reveal { transition-duration: 450ms; }
   .hero-eyebrow.reveal { transition-delay: 0ms; }
   .hero-title.reveal { transition-delay: 70ms; }
   .hero-subtitle.reveal { transition-delay: 140ms; }
   .hero-ctas.reveal { transition-delay: 210ms; }
   .hero-stats.reveal { transition-delay: 280ms; }
-  .hero::before {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    border-radius: 0;
-    opacity: 0.48;
+  .hero__scene {
     background-position: center center;
-    box-shadow: none;
-    -webkit-mask-image: none;
-    mask-image: none;
-    animation-duration: 24s;
+  }
+  .hero__scene--showroom,
+  .hero__scene--quality,
+  .hero__scene--fulfilment {
+    opacity: 0.72;
   }
   .hero::after {
     background:
@@ -1927,11 +1958,13 @@ html.dark .factor-icon {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero::before,
+  .hero__scene,
   .hero::after,
   .hero-eyebrow-dot {
     animation: none;
   }
+  .hero__scene { opacity: 0 !important; }
+  .hero__scene--showroom { opacity: 0.92 !important; }
   .hero-eyebrow.reveal,
   .hero-title.reveal,
   .hero-subtitle.reveal,
