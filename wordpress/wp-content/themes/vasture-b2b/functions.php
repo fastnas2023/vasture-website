@@ -45,13 +45,13 @@ function vasture_document_title(array $parts): array {
 add_filter('document_title_parts', 'vasture_document_title');
 
 function vasture_enqueue_assets(): void {
-    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-hero-scenes-1');
+    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-hero-controls-2');
     wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260826-14');
     // The legacy filter is client-side and assumes all product cards are present.
     // The WordPress archive queries filters server-side, so do not let that script
     // overwrite server result counts or pagination on the archive.
     if (!is_post_type_archive('vasture_product')) {
-        wp_enqueue_script('vasture-main', vasture_asset_url('js/main.js'), [], '20260826', true);
+        wp_enqueue_script('vasture-main', vasture_asset_url('js/main.js'), [], '20260827-hero-controls-2', true);
     }
     if (is_singular('vasture_product')) {
         wp_enqueue_script('vasture-variants', get_template_directory_uri() . '/assets/js/product-variants.js', [], '1.0.0', true);

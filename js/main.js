@@ -22,6 +22,52 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  // ---------- 1.5. Hero scene controls ----------
+  const hero = document.querySelector('.hero');
+  const heroSceneTabs = hero ? Array.from(hero.querySelectorAll('[data-hero-scene]')) : [];
+  const heroSceneControl = hero ? hero.querySelector('.hero-scene-control') : null;
+  const heroSceneCount = hero ? hero.querySelector('.hero-scene-control__count') : null;
+  const reduceHeroMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const heroSceneDuration = 5600;
+  let heroSceneIndex = 0;
+  let heroSceneTimer = null;
+
+  if (hero && heroSceneTabs.length) {
+    const stopHeroScenes = () => {
+      if (heroSceneTimer) window.clearInterval(heroSceneTimer);
+      heroSceneTimer = null;
+    };
+    const renderHeroScene = (index, restartProgress = false) => {
+      heroSceneIndex = (index + heroSceneTabs.length) % heroSceneTabs.length;
+      hero.dataset.activeScene = String(heroSceneIndex);
+      heroSceneTabs.forEach((tab, tabIndex) => {
+        tab.classList.remove('is-active');
+        tab.setAttribute('aria-selected', String(tabIndex === heroSceneIndex));
+      });
+      if (restartProgress) void hero.offsetWidth;
+      heroSceneTabs[heroSceneIndex].classList.add('is-active');
+      if (heroSceneCount) heroSceneCount.textContent = `0${heroSceneIndex + 1} / 0${heroSceneTabs.length}`;
+    };
+    const startHeroScenes = () => {
+      if (reduceHeroMotion) return;
+      stopHeroScenes();
+      heroSceneTimer = window.setInterval(() => renderHeroScene(heroSceneIndex + 1, true), heroSceneDuration);
+    };
+
+    renderHeroScene(0, true);
+    startHeroScenes();
+    heroSceneTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        renderHeroScene(Number(tab.dataset.heroScene || 0), true);
+        startHeroScenes();
+      });
+    });
+    // Only pause while the visitor is choosing a scene. Pausing on the whole
+    // hero made a normal mouse position prevent any automatic rotation.
+    heroSceneControl && heroSceneControl.addEventListener('mouseenter', stopHeroScenes);
+    heroSceneControl && heroSceneControl.addEventListener('mouseleave', startHeroScenes);
+  }
+
   // ---------- 2. Active Nav Highlight by data-dom-id ----------
   // WordPress renders its own archive/page URLs. Do not replace them with
   // legacy .html links when this shared script is loaded by the WP theme.
