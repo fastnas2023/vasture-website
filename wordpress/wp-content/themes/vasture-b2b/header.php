@@ -31,6 +31,7 @@
         <a href="<?php echo esc_url(vasture_page_url('services')); ?>"<?php echo vasture_nav_current_attribute('services'); ?>>OEM/ODM</a>
         <a href="<?php echo esc_url(vasture_page_url('blog')); ?>"<?php echo vasture_nav_current_attribute('blog'); ?>><?php echo esc_html(vasture_t('行业资讯', 'Insights')); ?></a>
         <a href="<?php echo esc_url(vasture_page_url('resources')); ?>"<?php echo vasture_nav_current_attribute('resources'); ?>><?php echo esc_html(vasture_t('采购资料', 'Resources')); ?></a>
+        <a class="vasture-mobile-nav__quote" href="<?php echo esc_url(vasture_page_url('contact')); ?>"><?php echo esc_html(vasture_t('获取报价', 'Request a Quote')); ?> <span aria-hidden="true">→</span></a>
       </div>
     </details>
     <div class="header-actions"><a href="<?php echo esc_url(vasture_page_url('contact')); ?>" class="cf-btn cf-btn-primary"><?php echo esc_html(vasture_t('获取报价', 'Request a Quote')); ?> <span aria-hidden="true">→</span></a></div>
