@@ -17,6 +17,7 @@ $selected = array_filter(array_merge($type ? [$type] : [], $features, $materials
 $is_en = vasture_is_en();
 ?>
 <section class="vasture-page-header"><div class="cf-container"><h1><?php echo $is_en ? 'Workwear & Functional Apparel<br/>Catalogue and Brand Manufacturing' : '工作服与功能性服装<br/>产品方案与品牌定制'; ?></h1><p><?php echo esc_html(vasture_t('从画册选款开始，按产品类别、核心功能和面料偏好筛选；每款产品可进一步提交供货、OEM或ODM询盘。', 'Start with the catalogue, then filter by product type, performance and fabric preference. Every product can be used for supply, OEM or ODM inquiries.')); ?></p></div></section>
+<?php vasture_breadcrumbs(); ?>
 <section class="cf-container" style="padding-top:48px"><div class="products-layout">
   <aside class="filter-sidebar"><div class="filter-card"><div class="filter-head"><div><span class="filter-kicker">PRODUCT FINDER</span><h3><?php echo esc_html(vasture_t('按需求选款', 'Find Products by Requirement')); ?></h3></div></div><p class="filter-guide"><?php echo esc_html(vasture_t('先选产品类别，再叠加功能或面料条件。', 'Choose a product type first, then add performance or fabric filters.')); ?></p>
   <form method="get" class="vasture-filter-form"><?php if ($is_en) : ?><input type="hidden" name="lang" value="en" /><?php endif; ?><div class="vasture-filter-search"><input type="search" name="q" value="<?php echo esc_attr($search); ?>" placeholder="<?php echo esc_attr(vasture_t('搜索型号、名称或功能', 'Search product ID, name or feature')); ?>" /><button type="submit"><?php echo esc_html(vasture_t('搜索', 'Search')); ?></button></div>
