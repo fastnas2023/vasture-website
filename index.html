@@ -39,7 +39,7 @@
   </script>
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="assets/logo-mark.png" />
-  <link rel="stylesheet" href="css/brand.css?v=20260815-social-footer-36" />
+  <link rel="stylesheet" href="css/brand.css?v=20260827-bilingual-5" />
 </head>
 <body>
 
@@ -108,10 +108,13 @@
 
     <!-- ============ Hero Section ============ -->
     <section class="hero">
+      <div class="hero__scene hero__scene--showroom" aria-hidden="true"></div>
+      <div class="hero__scene hero__scene--quality" aria-hidden="true"></div>
+      <div class="hero__scene hero__scene--fulfilment" aria-hidden="true"></div>
       <div class="cf-container">
         <div class="hero-eyebrow reveal">
           <span class="hero-eyebrow-dot"></span>
-          <span>工作服采购 · OEM / ODM · 现货供应</span>
+          <span class="hero-eyebrow-copy">工作服采购 · OEM / ODM · 现货供应</span>
         </div>
         <h1 class="hero-title reveal">
           <em>工作服现货</em><br />
@@ -130,22 +133,30 @@
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
         </div>
+        <div class="hero-scene-control reveal" aria-label="Hero scenes">
+          <div class="hero-scene-control__tabs" role="tablist" aria-label="Hero scenes">
+            <button class="hero-scene-control__tab is-active" type="button" role="tab" aria-selected="true" aria-label="Hero scene 1" data-hero-scene="0"><span></span></button>
+            <button class="hero-scene-control__tab" type="button" role="tab" aria-selected="false" aria-label="Hero scene 2" data-hero-scene="1"><span></span></button>
+            <button class="hero-scene-control__tab" type="button" role="tab" aria-selected="false" aria-label="Hero scene 3" data-hero-scene="2"><span></span></button>
+          </div>
+          <span class="hero-scene-control__count" aria-live="polite">01 / 03</span>
+        </div>
         <div class="hero-stats reveal">
-          <div class="hero-stat">
-            <div class="hero-stat-num">现货</div>
-            <div class="hero-stat-label">目录选款与库存确认</div>
+          <div class="hero-stat" tabindex="0" data-hero-preview-scene="0" data-hero-preview-copy="现货工作服采购 · 目录款与库存确认">
+            <div class="hero-stat-num">现货工作服采购</div>
+            <div class="hero-stat-label">确认目录款、颜色、尺码与可供库存</div>
           </div>
-          <div class="hero-stat">
-            <div class="hero-stat-num">OEM</div>
-            <div class="hero-stat-label">来图来样与贴牌沟通</div>
+          <div class="hero-stat" tabindex="0" data-hero-preview-scene="1" data-hero-preview-copy="OEM 品牌贴牌 · Logo、包装与生产确认">
+            <div class="hero-stat-num">OEM 品牌贴牌</div>
+            <div class="hero-stat-label">按品牌标识、包装、尺码与交期组织生产</div>
           </div>
-          <div class="hero-stat">
-            <div class="hero-stat-num">ODM</div>
-            <div class="hero-stat-label">版型、面料与系列开发</div>
+          <div class="hero-stat" tabindex="0" data-hero-preview-scene="2" data-hero-preview-copy="ODM 工作服开发 · 面料、版型与系列方案">
+            <div class="hero-stat-num">ODM 工作服开发</div>
+            <div class="hero-stat-label">从面料、版型到产品系列的一站式开发</div>
           </div>
-          <div class="hero-stat">
-            <div class="hero-stat-num">B2B</div>
-            <div class="hero-stat-label">批发商、品牌与项目采购</div>
+          <div class="hero-stat" tabindex="0" data-hero-preview-scene="2" data-hero-preview-copy="项目与批量供货 · 品牌商、经销商与工程采购">
+            <div class="hero-stat-num">项目与批量供货</div>
+            <div class="hero-stat-label">服务品牌、经销商与工程项目采购</div>
           </div>
         </div>
       </div>
@@ -222,7 +233,7 @@
         </nav>
         <div class="products-grid">
           <a href="products.html?type=workshirt" class="product-cat-card reveal">
-            <img class="pcc-img" src="assets/modish/main/performance-polo.webp" alt="透气拼色企业 Polo 产品方案" loading="lazy" />
+            <img class="pcc-img" src="assets/modish/main/performance-polo.webp" alt="透气拼色企业 Polo 产品方案" loading="lazy" decoding="async" />
             <div class="pcc-overlay"></div>
             <div class="pcc-content">
               <span class="pcc-tag">WORK SHIRT / POLO</span>
@@ -232,7 +243,7 @@
             </div>
           </a>
           <a href="products.html?type=jacket" class="product-cat-card reveal">
-            <img class="pcc-img" src="assets/modish/main/softshell-jacket.webp" alt="三层弹力软壳工作夹克产品方案" loading="lazy" />
+            <img class="pcc-img" src="assets/modish/main/softshell-jacket.webp" alt="三层弹力软壳工作夹克产品方案" loading="lazy" decoding="async" />
             <div class="pcc-overlay"></div>
             <div class="pcc-content">
               <span class="pcc-tag">FUNCTIONAL JACKET</span>
@@ -242,7 +253,7 @@
             </div>
           </a>
           <a href="products.html?type=vest" class="product-cat-card reveal">
-            <img class="pcc-img" src="assets/modish/main/utility-tech-vest.webp" alt="透气多口袋功能工作背心产品方案" loading="lazy" />
+            <img class="pcc-img" src="assets/modish/main/utility-tech-vest.webp" alt="透气多口袋功能工作背心产品方案" loading="lazy" decoding="async" />
             <div class="pcc-overlay"></div>
             <div class="pcc-content">
               <span class="pcc-tag">UTILITY / COOLING VEST</span>
@@ -252,7 +263,7 @@
             </div>
           </a>
           <a href="products.html?type=pants" class="product-cat-card reveal">
-            <img class="pcc-img" src="assets/modish/main/tech-motion-work-pant.webp" alt="隐藏护膝功能工作裤产品方案" loading="lazy" />
+            <img class="pcc-img" src="assets/modish/main/tech-motion-work-pant.webp" alt="隐藏护膝功能工作裤产品方案" loading="lazy" decoding="async" />
             <div class="pcc-overlay"></div>
             <div class="pcc-content">
               <span class="pcc-tag">PERFORMANCE PANTS</span>
@@ -262,7 +273,7 @@
             </div>
           </a>
           <a href="products.html?type=coverall" class="product-cat-card reveal">
-            <img class="pcc-img" src="assets/modish/main/winter-rainproof-coverall.webp" alt="冬季防雨保暖连体工作服产品方案" loading="lazy" />
+            <img class="pcc-img" src="assets/modish/main/winter-rainproof-coverall.webp" alt="冬季防雨保暖连体工作服产品方案" loading="lazy" decoding="async" />
             <div class="pcc-overlay"></div>
             <div class="pcc-content">
               <span class="pcc-tag">WINTER COVERALL</span>
@@ -272,7 +283,7 @@
             </div>
           </a>
           <a href="products.html?type=accessory" class="product-cat-card reveal">
-            <img class="pcc-img" src="assets/modish/main/tool-backpack.webp" alt="多分区工具工作背包产品方案" loading="lazy" />
+            <img class="pcc-img" src="assets/modish/main/tool-backpack.webp" alt="多分区工具工作背包产品方案" loading="lazy" decoding="async" />
             <div class="pcc-overlay"></div>
             <div class="pcc-content">
               <span class="pcc-tag">WORK GEAR</span>
@@ -368,7 +379,7 @@
       <div class="cf-container">
         <div class="showcase-video reveal">
           <div class="showcase-video__media">
-            <img src="assets/hero-workwear-showroom.png" alt="工作服展厅与产品展示视频封面" loading="lazy" />
+            <img src="assets/hero-workwear-showroom.png" alt="工作服展厅与产品展示视频封面" loading="lazy" decoding="async" />
             <div class="showcase-video__veil"></div>
             <div class="showcase-video__play" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.2v13.6a1 1 0 0 0 1.5.86l10.5-6.8a1 1 0 0 0 0-1.72L9.5 4.34A1 1 0 0 0 8 5.2Z"/></svg>
@@ -484,6 +495,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260815-social-footer-36" defer></script>
+  <script src="js/main.js?v=20260827-hero-lazy-4" defer></script>
 </body>
 </html>

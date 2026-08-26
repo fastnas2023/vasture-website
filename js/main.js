@@ -22,7 +22,76 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  // ---------- 1.5. Hero scene controls ----------
+  const hero = document.querySelector('.hero');
+  const heroSceneTabs = hero ? Array.from(hero.querySelectorAll('.hero-scene-control [data-hero-scene]')) : [];
+  const heroSceneControl = hero ? hero.querySelector('.hero-scene-control') : null;
+  const heroSceneCount = hero ? hero.querySelector('.hero-scene-control__count') : null;
+  const heroEyebrowCopy = hero ? hero.querySelector('.hero-eyebrow-copy') : null;
+  const heroPathPreviews = hero ? Array.from(hero.querySelectorAll('[data-hero-preview-scene]')) : [];
+  const defaultHeroEyebrow = heroEyebrowCopy ? heroEyebrowCopy.textContent : '';
+  const reduceHeroMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const heroSceneDuration = 5600;
+  let heroSceneIndex = 0;
+  let heroSceneTimer = null;
+
+  if (hero && heroSceneTabs.length) {
+    const stopHeroScenes = () => {
+      if (heroSceneTimer) window.clearInterval(heroSceneTimer);
+      heroSceneTimer = null;
+    };
+    const renderHeroScene = (index, restartProgress = false) => {
+      heroSceneIndex = (index + heroSceneTabs.length) % heroSceneTabs.length;
+      hero.dataset.activeScene = String(heroSceneIndex);
+      heroSceneTabs.forEach((tab, tabIndex) => {
+        tab.classList.remove('is-active');
+        tab.setAttribute('aria-selected', String(tabIndex === heroSceneIndex));
+      });
+      if (restartProgress) void hero.offsetWidth;
+      heroSceneTabs[heroSceneIndex].classList.add('is-active');
+      if (heroSceneCount) heroSceneCount.textContent = `0${heroSceneIndex + 1} / 0${heroSceneTabs.length}`;
+    };
+    const startHeroScenes = () => {
+      if (reduceHeroMotion) return;
+      stopHeroScenes();
+      heroSceneTimer = window.setInterval(() => renderHeroScene(heroSceneIndex + 1, true), heroSceneDuration);
+    };
+
+    renderHeroScene(0, true);
+    startHeroScenes();
+    heroSceneTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        renderHeroScene(Number(tab.dataset.heroScene || 0), true);
+        startHeroScenes();
+      });
+    });
+    // Only pause while the visitor is choosing a scene. Pausing on the whole
+    // hero made a normal mouse position prevent any automatic rotation.
+    heroSceneControl && heroSceneControl.addEventListener('mouseenter', stopHeroScenes);
+    heroSceneControl && heroSceneControl.addEventListener('mouseleave', startHeroScenes);
+
+    const previewBuyerPath = (path) => {
+      stopHeroScenes();
+      renderHeroScene(Number(path.dataset.heroPreviewScene || 0), true);
+      if (heroEyebrowCopy) heroEyebrowCopy.textContent = path.dataset.heroPreviewCopy || defaultHeroEyebrow;
+    };
+    const resetBuyerPath = () => {
+      if (heroEyebrowCopy) heroEyebrowCopy.textContent = defaultHeroEyebrow;
+      startHeroScenes();
+    };
+    heroPathPreviews.forEach((path) => {
+      path.addEventListener('mouseenter', () => previewBuyerPath(path));
+      path.addEventListener('mouseleave', resetBuyerPath);
+      path.addEventListener('focus', () => previewBuyerPath(path));
+      path.addEventListener('blur', resetBuyerPath);
+    });
+  }
+
   // ---------- 2. Active Nav Highlight by data-dom-id ----------
+  // WordPress renders its own archive/page URLs. Do not replace them with
+  // legacy .html links when this shared script is loaded by the WP theme.
+  const isWordPressTheme = document.body.classList.contains('wp-theme-vasture-b2b');
+  if (!isWordPressTheme) {
   const pageMap = {
     'nav-home': 'index.html',
     'nav-products': 'products.html',
@@ -105,6 +174,7 @@
   });
   document.querySelectorAll('.mobile-drawer [data-theme-toggle]').forEach((el) => el.remove());
   document.querySelectorAll('.mobile-drawer .lang-switch').forEach((el) => el.remove());
+  }
 
   // ---------- 2.8. Social profile links ----------
   // Add the complete public profile URL here when each account is ready.
@@ -385,7 +455,9 @@
     const paginationStatus = document.querySelector('[data-product-pagination-status]');
     const filterCard = filterSidebar.querySelector('.filter-card');
     const mobileToggle = filterSidebar.querySelector('.filter-mobile-toggle');
-    const filterGroups = ['type', 'fabric', 'craft', 'scene'];
+    const selectionBox = filterSidebar.querySelector('[data-filter-selection]');
+    const selectionList = filterSidebar.querySelector('[data-filter-selection-list]');
+    const filterGroups = ['type', 'feature', 'material'];
     const pageSize = 24;
     let currentPage = 1;
 
@@ -401,7 +473,7 @@
     });
 
     function getFilters() {
-      const out = { type: [], fabric: [], craft: [], scene: [] };
+      const out = { type: [], feature: [], material: [] };
       filterGroups.forEach((group) => {
         filterSidebar.querySelectorAll(`input[name="${group}"]:checked`).forEach((cb) => out[group].push(cb.value));
       });
@@ -428,24 +500,66 @@
         filterSidebar.querySelectorAll(`input[name="${group}"]`).forEach((input) => {
           let optionCount;
           if (group === 'type') {
-            optionCount = input.value === 'all'
-              ? allCards.length
-              : allCards.filter((card) => card._filterTokens.has(input.value)).length;
+            const candidateFilters = {};
+            filterGroups.forEach((name) => { candidateFilters[name] = filters[name].slice(); });
+            candidateFilters.type = input.value === 'all' ? [] : [input.value];
+            optionCount = allCards.filter((card) => matchesFilters(card, candidateFilters)).length;
           } else {
             const candidateFilters = {};
             filterGroups.forEach((name) => { candidateFilters[name] = filters[name].slice(); });
-            candidateFilters[group] = [input.value];
+            if (!input.checked) candidateFilters[group] = [...new Set([...candidateFilters[group], input.value])];
             optionCount = allCards.filter((card) => matchesFilters(card, candidateFilters)).length;
           }
 
           const option = input.closest('.filter-option');
           const optionCountEl = option && option.querySelector('.count');
           if (optionCountEl) optionCountEl.textContent = optionCount;
-          const shouldDisable = group !== 'type' && optionCount === 0 && !input.checked;
+          const shouldDisable = optionCount === 0 && !input.checked;
           input.disabled = shouldDisable;
           option && option.classList.toggle('is-disabled', shouldDisable);
         });
       });
+    }
+
+    function filterLabel(input) {
+      return input.closest('.filter-option')?.querySelector('.filter-option__label')?.textContent?.trim() || input.value;
+    }
+
+    function renderSelectedFilters(filters) {
+      if (!selectionBox || !selectionList) return;
+      const activeInputs = filterGroups.flatMap((group) => filters[group]
+        .filter((value) => group !== 'type' || value !== 'all')
+        .map((value) => filterSidebar.querySelector(`input[name="${group}"][value="${value}"]`))
+        .filter(Boolean));
+      const hasSearch = Boolean(searchInput?.value.trim());
+      const hasActive = activeInputs.length > 0 || hasSearch;
+      selectionBox.hidden = !hasActive;
+      if (resetBtn) resetBtn.hidden = !hasActive;
+      if (!hasActive) {
+        selectionList.replaceChildren();
+        return;
+      }
+      const fragment = document.createDocumentFragment();
+      activeInputs.forEach((input) => {
+        const tag = document.createElement('button');
+        tag.type = 'button';
+        tag.className = 'filter-selection__tag';
+        tag.dataset.filterName = input.name;
+        tag.dataset.filterValue = input.value;
+        tag.setAttribute('aria-label', `移除筛选：${filterLabel(input)}`);
+        tag.textContent = filterLabel(input);
+        fragment.appendChild(tag);
+      });
+      if (hasSearch) {
+        const tag = document.createElement('button');
+        tag.type = 'button';
+        tag.className = 'filter-selection__tag';
+        tag.dataset.clearSearch = 'true';
+        tag.setAttribute('aria-label', `清除搜索：${searchInput.value.trim()}`);
+        tag.textContent = `搜索：${searchInput.value.trim()}`;
+        fragment.appendChild(tag);
+      }
+      selectionList.replaceChildren(fragment);
     }
 
     function syncProductUrl() {
@@ -461,6 +575,14 @@
       } else {
         url.searchParams.delete('page');
       }
+      filterGroups.filter((group) => group !== 'type').forEach((group) => {
+        const values = Array.from(filterSidebar.querySelectorAll(`input[name="${group}"]:checked`)).map((input) => input.value);
+        if (values.length) url.searchParams.set(group, values.join(','));
+        else url.searchParams.delete(group);
+      });
+      const query = searchInput?.value.trim();
+      if (query) url.searchParams.set('q', query);
+      else url.searchParams.delete('q');
       try {
         window.history.replaceState({}, '', url.href);
       } catch (error) {
@@ -545,6 +667,7 @@
       if (emptyState) emptyState.hidden = matched.length !== 0;
       renderPagination(matched.length);
       updateFilterOptions(filters);
+      renderSelectedFilters(filters);
     }
 
     function goToPage(page, scrollToResults = false) {
@@ -554,14 +677,7 @@
       if (scrollToResults && productGrid) productGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
-    filterSidebar.querySelectorAll('input').forEach((input) => input.addEventListener('change', () => {
-      if (input.name === 'type') {
-        filterSidebar.querySelectorAll('input[name="fabric"], input[name="craft"], input[name="scene"]')
-          .forEach((secondary) => { secondary.checked = false; });
-        syncProductUrl();
-      }
-      goToPage(1);
-    }));
+    filterSidebar.querySelectorAll('input').forEach((input) => input.addEventListener('change', () => goToPage(1)));
     sortSelect && sortSelect.addEventListener('change', () => {
       goToPage(1);
     });
@@ -571,8 +687,9 @@
       if (!button || button.disabled) return;
       goToPage(button.dataset.page, true);
     });
-    const requestedType = new URLSearchParams(window.location.search).get('type');
-    const requestedPage = Number(new URLSearchParams(window.location.search).get('page'));
+    const requestedParams = new URLSearchParams(window.location.search);
+    const requestedType = requestedParams.get('type');
+    const requestedPage = Number(requestedParams.get('page'));
     if (requestedType) {
       const requestedRadio = Array.from(filterSidebar.querySelectorAll('input[name="type"]'))
         .find((radio) => radio.value === requestedType);
@@ -582,12 +699,21 @@
         syncProductUrl();
       }
     }
+    filterGroups.filter((group) => group !== 'type').forEach((group) => {
+      const values = (requestedParams.get(group) || '').split(',').filter(Boolean);
+      values.forEach((value) => {
+        const input = filterSidebar.querySelector(`input[name="${group}"][value="${value}"]`);
+        if (input) input.checked = true;
+      });
+    });
+    if (searchInput && requestedParams.get('q')) searchInput.value = requestedParams.get('q');
     if (Number.isInteger(requestedPage) && requestedPage > 1) currentPage = requestedPage;
 
     function resetFilters(showMessage) {
       filterSidebar.querySelectorAll('input[type="checkbox"]').forEach((cb) => { cb.checked = false; });
       const allType = filterSidebar.querySelector('input[name="type"][value="all"]');
       if (allType) allType.checked = true;
+      if (searchInput) searchInput.value = '';
       if (sortSelect) sortSelect.value = 'recommend';
       currentPage = 1;
       syncProductUrl();
@@ -596,6 +722,22 @@
     }
 
     resetBtn && resetBtn.addEventListener('click', () => resetFilters(true));
+    selectionList && selectionList.addEventListener('click', (event) => {
+      const tag = event.target.closest('.filter-selection__tag');
+      if (!tag) return;
+      if (tag.dataset.clearSearch === 'true' && searchInput) {
+        searchInput.value = '';
+      } else {
+        const input = filterSidebar.querySelector(`input[name="${tag.dataset.filterName}"][value="${tag.dataset.filterValue}"]`);
+        if (input?.type === 'radio') {
+          const allType = filterSidebar.querySelector('input[name="type"][value="all"]');
+          if (allType) allType.checked = true;
+        } else if (input) {
+          input.checked = false;
+        }
+      }
+      goToPage(1);
+    });
     emptyResetBtn && emptyResetBtn.addEventListener('click', () => resetFilters(false));
     apply();
     syncProductUrl();
