@@ -593,6 +593,33 @@ html.dark .mobile-drawer-nav a.active { background: rgba(122,156,181,0.12); }
   background: rgba(255,255,255,0.12);
   border-color: rgba(255,255,255,0.5);
 }
+.hero-routes {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  max-width: 940px;
+}
+.hero > .cf-container > .hero-ctas { margin-bottom: 19px; }
+.hero-route {
+  border-left: 2px solid rgba(255,176,0,0.72);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+.hero-route:hover,
+.hero-route:focus-visible {
+  background: rgba(255,255,255,0.08);
+  border-left-color: var(--cf-safety);
+  outline: none;
+  transform: translateY(-1px);
+}
+.hero-route__label { font-size: 13px; font-weight: 750; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hero-route__copy { display: none; }
 .hero-scene-control {
   display: inline-flex;
   align-items: center;
@@ -1511,6 +1538,11 @@ html.dark .factor-icon {
   font-size: 11px;
   font-weight: 500;
 }
+.filter-group > summary { cursor: pointer; list-style: none; }
+.filter-group > summary::-webkit-details-marker { display: none; }
+.filter-group > summary::after { color: var(--cf-brand-600); content: '+'; font-size: 17px; font-weight: 500; line-height: 1; margin-left: 8px; }
+.filter-group[open] > summary::after { content: '−'; }
+.filter-group:not([open]) > summary { margin-bottom: 0; }
 .filter-options {
   display: flex;
   flex-direction: column;
@@ -1795,9 +1827,11 @@ html.dark .factor-icon {
 }
 .product-card__img {
   position: relative;
-  aspect-ratio: 4 / 3;
+  /* Apparel needs a portrait frame: trousers, coveralls and jackets remain
+     legible without being made to fill a landscape card. */
+  aspect-ratio: 4 / 5;
   overflow: hidden;
-  background: var(--cf-surface-2);
+  background: #F3F3F5;
 }
 .product-favorite { appearance: none; border: 0; cursor: pointer; }
 .product-card__img .product-favorite { position: absolute; top: 12px; right: 12px; z-index: 2; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.92); color: var(--cf-primary); font-size: 22px; line-height: 1; box-shadow: 0 4px 14px rgba(15,46,79,.12); }
@@ -1806,7 +1840,10 @@ html.dark .factor-icon {
 .product-card__img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* Product cards must show the whole garment. Cropping a portrait main image
+     makes a complete source look defective in the catalogue. */
+  object-fit: contain;
+  padding: clamp(8px, 1vw, 14px);
   display: block;
   transition: transform 500ms cubic-bezier(0.2,0.8,0.2,1);
 }
@@ -1820,10 +1857,10 @@ html.dark .factor-icon {
 .product-card__img img[src*="-front-clean.webp"],
 .product-card__img img[src*="-front-ai.webp"] {
   object-fit: contain;
-  padding: 8px;
 }
 .product-card:hover .product-card__img img {
-  transform: scale(1.06);
+  /* Keep the full product visible on hover as well. */
+  transform: scale(1.01);
 }
 .product-card__badge {
   position: absolute;
@@ -2011,6 +2048,7 @@ html.dark .factor-icon {
   .hero-subtitle { font-size: 16px; line-height: 1.65; margin-bottom: 28px; }
   .hero-ctas { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 42px; max-width: 360px; }
   .hero-ctas .cf-btn { width: 100%; }
+  .hero-routes { display: none; }
   .hero-scene-control { margin: -24px 0 24px; }
   .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding-top: 20px; }
   .hero-stat { min-height: 112px; gap: 4px; padding: 15px; }
@@ -2061,6 +2099,7 @@ html.dark .factor-icon {
   .hero-stat { min-height: 106px; padding: 14px; }
   .hero-stat-num { font-size: 18px; line-height: 1.18; }
   .hero-stat-label { font-size: 12px; }
+  .hero-routes { gap: 8px; }
   .product-grid { grid-template-columns: 1fr; }
   .grid-toolbar { flex-direction: column; gap: 12px; align-items: flex-start; }
   .grid-toolbar__right { width: 100%; justify-content: space-between; }
@@ -2283,7 +2322,7 @@ html.dark .factor-icon {
 .product-detail__related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .product-detail__related-card { display: flex; align-items: center; gap: 18px; min-width: 0; padding: 14px; border: 1px solid var(--cf-border); border-radius: var(--cf-radius-lg); background: var(--cf-surface); color: inherit; text-decoration: none; transition: transform 220ms ease, box-shadow 220ms ease; }
 .product-detail__related-card:hover { transform: translateY(-3px); box-shadow: var(--cf-shadow-2); }
-.product-detail__related-card img { width: 110px; aspect-ratio: 4 / 3; flex: 0 0 auto; border-radius: var(--cf-radius-md); object-fit: cover; background: var(--cf-surface-2); }
+.product-detail__related-card img { width: 88px; aspect-ratio: 4 / 5; flex: 0 0 auto; padding: 4px; border-radius: var(--cf-radius-md); object-fit: contain; background: #F3F3F5; }
 .product-detail__related-card span { min-width: 0; }
 .product-detail__related-card small, .product-detail__related-card strong { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .product-detail__related-card small { margin-bottom: 7px; color: var(--cf-primary); font-size: 10px; font-weight: 700; letter-spacing: .05em; }

@@ -25,6 +25,7 @@ function vasture_document_title(array $parts): array {
     if (!vasture_is_en()) {
         return $parts;
     }
+    $parts['site'] = 'ZSX Garment';
     if (is_singular('vasture_product')) {
         $parts['title'] = vasture_product_display_name((int) get_queried_object_id());
     } elseif (is_post_type_archive('vasture_product')) {
@@ -44,9 +45,64 @@ function vasture_document_title(array $parts): array {
 }
 add_filter('document_title_parts', 'vasture_document_title');
 
+/**
+ * Keep each language version indexable with its own canonical URL and provide
+ * concise descriptions for search results. The catalogue is bilingual by a
+ * query parameter, so WordPress's default canonical needs replacing here.
+ */
+function vasture_seo_base_url(): string {
+    if (is_singular()) {
+        return get_permalink();
+    }
+    if (is_post_type_archive('vasture_product')) {
+        return get_post_type_archive_link('vasture_product') ?: home_url('/products/');
+    }
+    if (is_front_page()) {
+        return home_url('/');
+    }
+    return home_url('/');
+}
+
+function vasture_meta_description(): string {
+    if (is_singular('vasture_product')) {
+        return wp_strip_all_tags(vasture_product_summary((int) get_queried_object_id()));
+    }
+    if (is_post_type_archive('vasture_product')) {
+        return vasture_t(
+            '浏览工作服与功能性服装目录，按产品类别、功能和面料筛选，并提交供货、OEM 或 ODM 询盘。',
+            'Browse workwear and functional apparel by product type, performance and fabric, then send a supply, OEM or ODM inquiry.'
+        );
+    }
+    if (is_front_page()) {
+        return vasture_t(
+            '卓圣轩服贸面向品牌、批发商和项目采购，提供工作服选款、现货确认、OEM 与 ODM 定制沟通。',
+            'ZSX Garment supports brands, distributors and project buyers with workwear sourcing, stock confirmation, OEM and ODM manufacturing.'
+        );
+    }
+    return vasture_t(
+        '卓圣轩服贸提供工作服产品目录、供货询价及 OEM、ODM 定制沟通服务。',
+        'ZSX Garment provides a workwear catalogue, supply inquiries and OEM or ODM manufacturing support.'
+    );
+}
+
+function vasture_render_locale_seo(): void {
+    $base_url = vasture_seo_base_url();
+    $zh_url = remove_query_arg('lang', $base_url);
+    $en_url = add_query_arg('lang', 'en', $zh_url);
+    $canonical = vasture_is_en() ? $en_url : $zh_url;
+
+    printf("<link rel=\"canonical\" href=\"%s\" />\n", esc_url($canonical));
+    printf("<link rel=\"alternate\" hreflang=\"zh-CN\" href=\"%s\" />\n", esc_url($zh_url));
+    printf("<link rel=\"alternate\" hreflang=\"en\" href=\"%s\" />\n", esc_url($en_url));
+    printf("<link rel=\"alternate\" hreflang=\"x-default\" href=\"%s\" />\n", esc_url($zh_url));
+    printf("<meta name=\"description\" content=\"%s\" />\n", esc_attr(vasture_meta_description()));
+}
+remove_action('wp_head', 'rel_canonical');
+add_action('wp_head', 'vasture_render_locale_seo', 1);
+
 function vasture_enqueue_assets(): void {
-    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260827-bilingual-5');
-    wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260826-14');
+    wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260907-apparel-grid-1');
+    wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260904-conversion-17');
     // The legacy filter is client-side and assumes all product cards are present.
     // The WordPress archive queries filters server-side, so do not let that script
     // overwrite server result counts or pagination on the archive.
@@ -354,7 +410,7 @@ function vasture_translate_source_markup(string $html): string {
         '查看产品目录' => 'View Product Catalogue',
         '现货工作服采购' => 'Ready-stock Workwear',
         '确认目录款、颜色、尺码与可供库存' => 'Styles, colours, sizes & stock confirmation.',
-        'OEM 品牌贴牌' => 'OEM Private Label',
+        'OEM 品牌贴牌' => 'Private-label OEM',
         '按品牌标识、包装、尺码与交期组织生产' => 'Logo, packaging & production requirements.',
         'ODM 工作服开发' => 'ODM Workwear Development',
         '从面料、版型到产品系列的一站式开发' => 'Fabric, fit & range development.',
@@ -447,6 +503,14 @@ function vasture_translate_source_markup(string $html): string {
         '支持来图来样、贴牌换标和产品开发沟通，先确认需求，再确认样衣、数量与交期。' => 'We support artwork and sample review, private-label changes and product development, with requirements, samples, quantities and lead times confirmed in order.',
         '面向批发商、品牌方和企业项目采购，支持颜色、尺码、包装和交付要求逐项确认。' => 'For distributors, brands and corporate projects, colours, sizes, packing and delivery requirements are confirmed item by item.',
         '工作服展厅与产品展示视频封面' => 'Workwear showroom and product presentation video cover',
+        '采购路径' => 'Sourcing routes',
+        '目录与现货' => 'Catalogue & ready stock',
+        '快速确认目录款、颜色、尺码与库存' => 'Quickly confirm styles, colours, sizes and available stock.',
+        '确认 Logo、包装、尺码与生产要求' => 'Confirm logo, packing, sizing and production requirements.',
+        'ODM 产品开发' => 'ODM product development',
+        '围绕面料、版型与系列开展开发' => 'Develop around fabric, fit and a product range.',
+        '项目与批量供货' => 'Project & bulk supply',
+        '对接品牌、经销与工程采购需求' => 'Support brand, distributor and project procurement needs.',
     ];
     return strtr($html, $map);
 }

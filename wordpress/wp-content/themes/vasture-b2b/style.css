@@ -113,6 +113,10 @@ body:not(.home) > main { padding-top: 76px; }
 .vasture-whatsapp-float__panel a { border-top: 1px solid #edf1f2; display: grid; gap: 3px; padding-top: 10px; text-decoration: none; }
 .vasture-whatsapp-float__panel a span { color: var(--vasture-muted); font-size: 12px; }
 .vasture-whatsapp-float__panel a b { color: var(--vasture-navy); font-size: 14px; }
+@media (min-width: 821px) {
+  body.single-vasture_product .vasture-whatsapp-float { left: 22px; right: auto; }
+  body.single-vasture_product .vasture-whatsapp-float__panel { left: 0; right: auto; }
+}
 
 .vasture-page-header { background: var(--vasture-navy); color: #fff; padding: 72px 0 56px; }
 .vasture-page-header h1 { color: #fff; font-size: clamp(34px, 5vw, 58px); margin: 0 0 14px; }
@@ -124,6 +128,12 @@ body.post-type-archive-vasture_product .vasture-page-header h1 { font-size: clam
 body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px; margin-bottom: 0; }
 .vasture-catalogue-results { padding-top: 30px; }
 .vasture-catalogue-results .products-layout { padding-top: 0; }
+.vasture-catalogue-search { align-items: end; background: #fff; border: 1px solid #d7e1e5; border-radius: 16px; box-shadow: 0 12px 30px rgba(15, 46, 79, .045); display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr) auto; margin: 0 0 22px; padding: 16px; }
+.vasture-catalogue-search label { color: var(--vasture-navy); display: grid; font-size: 12px; font-weight: 800; gap: 7px; letter-spacing: .02em; }
+.vasture-catalogue-search input { background: #fff; border: 1px solid var(--vasture-border); border-radius: 10px; color: var(--vasture-ink); font: inherit; min-height: 48px; padding: 11px 14px; width: 100%; }
+.vasture-catalogue-search input:focus { border-color: var(--vasture-accent); box-shadow: 0 0 0 3px rgba(201,101,34,.14); outline: 0; }
+.vasture-catalogue-search button { background: var(--vasture-navy); border: 0; border-radius: 10px; color: #fff; cursor: pointer; font: inherit; font-weight: 800; min-height: 48px; padding: 0 19px; white-space: nowrap; }
+.vasture-catalogue-search button:hover { background: var(--vasture-accent-strong); }
 .vasture-results-toolbar { align-items: center; background: #fff; border-color: #d7e1e5; box-shadow: 0 12px 30px rgba(15, 46, 79, .045); margin-bottom: 22px; min-height: 74px; }
 .vasture-results-toolbar__eyebrow { color: var(--vasture-accent-strong); display: block; font-size: 10px; font-weight: 800; letter-spacing: .12em; line-height: 1; margin-bottom: 7px; text-transform: uppercase; }
 .vasture-results-toolbar__number { color: var(--vasture-ink); font-size: 29px; font-variant-numeric: tabular-nums; letter-spacing: -.05em; line-height: .9; }
@@ -141,9 +151,9 @@ body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px;
 .vasture-en-page__cta h2 { color: var(--vasture-ink); font-size: clamp(24px, 3vw, 34px); margin: 8px 0 0; }
 
 .vasture-filter-form { display: contents; }
-.vasture-filter-search { display: flex; gap: 8px; margin: 0 0 16px; }
+.vasture-filter-search { display: grid; gap: 8px; margin: 0 0 16px; }
 .vasture-filter-search input { min-width: 0; width: 100%; border: 1px solid var(--vasture-border); border-radius: 8px; padding: 10px 12px; font: inherit; }
-.vasture-filter-search button { border: 0; border-radius: 8px; background: var(--vasture-navy); color: #fff; padding: 10px 12px; font: inherit; cursor: pointer; }
+.vasture-filter-search button { border: 0; border-radius: 8px; background: var(--vasture-navy); color: #fff; padding: 10px 12px; font: inherit; cursor: pointer; width: 100%; }
 .vasture-filter-search input:focus, .vasture-inquiry-form input:focus, .vasture-inquiry-form textarea:focus, .vasture-inquiry-form select:focus { border-color: var(--vasture-accent); box-shadow: 0 0 0 3px rgba(201,101,34,.14); outline: 0; }
 .vasture-filter-option { cursor: pointer; }
 .vasture-filter-option input { accent-color: var(--vasture-navy); }
@@ -180,6 +190,18 @@ body.post-type-archive-vasture_product .vasture-page-header p { font-size: 16px;
 .vasture-product__fact:nth-child(even) { padding-left: 18px; }
 .vasture-product__fact span { display: block; color: var(--vasture-muted); font-size: 12px; margin-bottom: 4px; }
 .vasture-product__fact strong { color: var(--vasture-ink); font-size: 14px; }
+.vasture-product__specification { display: grid; gap: 12px; margin: 0 0 26px; }
+.vasture-product__specification-card { border: 1px solid var(--vasture-border); border-radius: 14px; padding: 18px; }
+.vasture-product__specification-card > span { color: var(--vasture-accent-strong); display: block; font-size: 11px; font-weight: 800; letter-spacing: .08em; margin-bottom: 6px; text-transform: uppercase; }
+.vasture-product__specification-card h2 { color: var(--vasture-ink); font-size: 17px; line-height: 1.25; margin: 0 0 13px; }
+.vasture-product__specification-card dl { display: grid; gap: 9px; margin: 0; }
+.vasture-product__specification-card dl div { display: grid; gap: 3px; }
+.vasture-product__specification-card dt { color: var(--vasture-muted); font-size: 12px; }
+.vasture-product__specification-card dd { color: var(--vasture-ink); font-size: 14px; font-weight: 700; margin: 0; }
+.vasture-product__specification-card.is-listed { background: #f7fafb; }
+.vasture-product__specification-card.is-order { background: #fffaf4; border-color: rgba(201,101,34,.28); }
+.vasture-product__specification-card.is-order p { color: #405661; font-size: 14px; line-height: 1.65; margin: 0; }
+.vasture-product__specification-card.is-order ul { color: #405661; display: grid; font-size: 13px; gap: 5px; line-height: 1.45; margin: 13px 0 0; padding-left: 18px; }
 .vasture-product__color-label { color: var(--vasture-muted); font-size: 14px; margin: 8px 0 10px; }
 .vasture-product__color-label strong { color: var(--vasture-ink); }
 .vasture-product__colour-options { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 26px; }
@@ -408,6 +430,8 @@ body.post-type-archive-vasture_product .vasture-page-header { padding: 52px 0 40
   .site-header .cf-container { height: 68px; gap: var(--vasture-space-2); }
   .site-header .logo-link__text { gap: 2px; padding-left: 10px; }
   .site-header .logo-link__text strong { font-size: 19px; }
+  .vasture-catalogue-search { align-items: stretch; grid-template-columns: 1fr; margin-bottom: 18px; }
+  .vasture-catalogue-search button { width: 100%; }
   .site-header .logo-link__text small { font-size: 9.5px; }
   .vasture-lang-switch { min-height: 34px; padding-inline: 10px; }
   .header-actions .cf-btn { min-height: 38px; padding-inline: 12px; }

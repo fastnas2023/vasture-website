@@ -49,15 +49,40 @@ def metrics(path: Path) -> dict[str, float | int]:
     mask = distance > 28
     edge_spread = np.linalg.norm(edge - background, axis=1)
     if int(mask.sum()) < 180:
-        return {'bbox_width_ratio': 0.0, 'bbox_height_ratio': 0.0, 'foreground_area_ratio': 0.0, 'edge_touch_count': 0, 'edge_variation': round(float(np.percentile(edge_spread, 90)), 1)}
+        return {
+            'bbox_width_ratio': 0.0,
+            'bbox_height_ratio': 0.0,
+            'foreground_area_ratio': 0.0,
+            'edge_touch_count': 0,
+            'edge_variation': round(float(np.percentile(edge_spread, 90)), 1),
+            'asymmetric_row_ratio': 0.0,
+        }
     ys, xs = np.where(mask)
     x0, x1, y0, y1 = int(xs.min()), int(xs.max()), int(ys.min()), int(ys.max())
+    # A garment photographed front-on normally has a broadly balanced outer
+    # silhouette. A high proportion of strongly uneven rows is not proof of a
+    # bad image (accessories and angled products exist), but it is useful for
+    # finding source images such as a shirt with a missing sleeve that border
+    # checks alone cannot see.
+    centre_x = (x0 + x1) / 2
+    row_asymmetry: list[float] = []
+    for y in range(y0, y1 + 1):
+        row = np.where(mask[y])[0]
+        if len(row) < 4:
+            continue
+        left = centre_x - float(row.min())
+        right = float(row.max()) - centre_x
+        span = left + right
+        if span >= 20:
+            row_asymmetry.append(abs(left - right) / span)
+    asymmetric_row_ratio = float(np.mean(np.asarray(row_asymmetry) > 0.30)) if row_asymmetry else 0.0
     return {
         'bbox_width_ratio': round((x1 - x0 + 1) / 400, 3),
         'bbox_height_ratio': round((y1 - y0 + 1) / 400, 3),
         'foreground_area_ratio': round(float(mask.mean()), 3),
         'edge_touch_count': sum((x0 <= 1, y0 <= 1, x1 >= 398, y1 >= 398)),
         'edge_variation': round(float(np.percentile(edge_spread, 90)), 1),
+        'asymmetric_row_ratio': round(asymmetric_row_ratio, 3),
     }
 
 
@@ -72,6 +97,8 @@ def flags(value: dict[str, float | int]) -> list[str]:
     # only rather than an automated background replacement decision.
     if value['edge_variation'] > 62:
         found.append('possible_unclean_or_scene_background')
+    if value['asymmetric_row_ratio'] >= 0.04:
+        found.append('possible_irregular_or_incomplete_outline')
     return found
 
 
