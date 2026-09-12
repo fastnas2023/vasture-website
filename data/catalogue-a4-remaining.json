@@ -541,100 +541,100 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
-      "image_alt_zh": "HVJ259 反光包边套头背心荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-yellow-hd-v3.webp",
+      "image_alt_zh": "HVJ259 反光包边套头背心完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
-        "assets/catalogue-a4/main/hvj259-hi-vis-orange.webp",
-        "assets/catalogue-a4/main/hvj259-red.webp",
-        "assets/catalogue-a4/main/hvj259-lake-blue.webp",
-        "assets/catalogue-a4/main/hvj259-green.webp",
-        "assets/catalogue-a4/main/hvj259-purple.webp",
-        "assets/catalogue-a4/main/hvj259-sky-blue.webp",
-        "assets/catalogue-a4/main/hvj259-white.webp",
-        "assets/catalogue-a4/main/hvj259-raspberry.webp",
-        "assets/catalogue-a4/main/hvj259-navy.webp",
-        "assets/catalogue-a4/main/hvj259-black.webp",
-        "assets/catalogue-a4/main/hvj259-lime.webp",
-        "assets/catalogue-a4/main/hvj259-royal-blue.webp",
-        "assets/catalogue-a4/main/hvj259-pink.webp",
-        "assets/catalogue-a4/main/hvj259-grey.webp"
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-yellow-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-orange-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-red-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-lake-blue-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-green-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-purple-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-sky-blue-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-white-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-raspberry-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-navy-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-black-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-lime-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-royal-blue-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-pink-hd-v3.webp",
+        "assets/catalogue-a4/hvj259-colours-v3/hvj259-grey-hd-v3.webp"
       ],
       "color_variants": [
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-yellow-hd-v3.webp"
         },
         {
           "label_zh": "荧光橙",
           "label_en": "Hi Vis Orange",
-          "image": "assets/catalogue-a4/main/hvj259-hi-vis-orange.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-orange-hd-v3.webp"
         },
         {
           "label_zh": "红色",
           "label_en": "Red",
-          "image": "assets/catalogue-a4/main/hvj259-red.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-red-hd-v3.webp"
         },
         {
           "label_zh": "湖蓝",
           "label_en": "Lake Blue",
-          "image": "assets/catalogue-a4/main/hvj259-lake-blue.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-lake-blue-hd-v3.webp"
         },
         {
           "label_zh": "绿色",
           "label_en": "Green",
-          "image": "assets/catalogue-a4/main/hvj259-green.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-green-hd-v3.webp"
         },
         {
           "label_zh": "紫色",
           "label_en": "Purple",
-          "image": "assets/catalogue-a4/main/hvj259-purple.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-purple-hd-v3.webp"
         },
         {
           "label_zh": "天蓝",
           "label_en": "Sky Blue",
-          "image": "assets/catalogue-a4/main/hvj259-sky-blue.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-sky-blue-hd-v3.webp"
         },
         {
           "label_zh": "白色",
           "label_en": "White",
-          "image": "assets/catalogue-a4/main/hvj259-white.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-white-hd-v3.webp"
         },
         {
           "label_zh": "树莓红",
           "label_en": "Raspberry",
-          "image": "assets/catalogue-a4/main/hvj259-raspberry.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-raspberry-hd-v3.webp"
         },
         {
           "label_zh": "藏青色",
           "label_en": "Navy",
-          "image": "assets/catalogue-a4/main/hvj259-navy.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-navy-hd-v3.webp"
         },
         {
           "label_zh": "黑色",
           "label_en": "Black",
-          "image": "assets/catalogue-a4/main/hvj259-black.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-black-hd-v3.webp"
         },
         {
           "label_zh": "亮绿",
           "label_en": "Lime",
-          "image": "assets/catalogue-a4/main/hvj259-lime.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-lime-hd-v3.webp"
         },
         {
           "label_zh": "宝蓝",
           "label_en": "Royal Blue",
-          "image": "assets/catalogue-a4/main/hvj259-royal-blue.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-royal-blue-hd-v3.webp"
         },
         {
           "label_zh": "粉色",
           "label_en": "Pink",
-          "image": "assets/catalogue-a4/main/hvj259-pink.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-pink-hd-v3.webp"
         },
         {
           "label_zh": "灰色",
           "label_en": "Grey",
-          "image": "assets/catalogue-a4/main/hvj259-grey.webp"
+          "image": "assets/catalogue-a4/hvj259-colours-v3/hvj259-grey-hd-v3.webp"
         }
       ],
       "badge": "新画册",
@@ -651,7 +651,199 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 43
+      "sort_order": 43,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
+        "method": "reviewed-ai-restoration"
+      },
+      "colour_image_review": {
+        "date": "2026-09-12",
+        "method": "HD master with catalogue colour references",
+        "variants": [
+          {
+            "label_zh": "荧光黄",
+            "label_en": "Hi Vis Yellow",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-yellow-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-hi-vis-yellow-ai-v2.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              222.0,
+              249.0,
+              70.0
+            ]
+          },
+          {
+            "label_zh": "荧光橙",
+            "label_en": "Hi Vis Orange",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-hi-vis-orange-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-hi-vis-orange.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              253.0,
+              87.0,
+              15.0
+            ]
+          },
+          {
+            "label_zh": "红色",
+            "label_en": "Red",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-red-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-red.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              148.0,
+              0.0,
+              19.0
+            ]
+          },
+          {
+            "label_zh": "湖蓝",
+            "label_en": "Lake Blue",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-lake-blue-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-lake-blue.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              1.0,
+              124.0,
+              176.0
+            ]
+          },
+          {
+            "label_zh": "绿色",
+            "label_en": "Green",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-green-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-green.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              31.0,
+              92.0,
+              65.0
+            ]
+          },
+          {
+            "label_zh": "紫色",
+            "label_en": "Purple",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-purple-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-purple.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              70.0,
+              26.0,
+              113.0
+            ]
+          },
+          {
+            "label_zh": "天蓝",
+            "label_en": "Sky Blue",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-sky-blue-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-sky-blue.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              139.0,
+              184.0,
+              231.0
+            ]
+          },
+          {
+            "label_zh": "白色",
+            "label_en": "White",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-white-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-white.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              227.0,
+              227.0,
+              227.0
+            ]
+          },
+          {
+            "label_zh": "树莓红",
+            "label_en": "Raspberry",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-raspberry-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-raspberry.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              133.0,
+              13.0,
+              99.0
+            ]
+          },
+          {
+            "label_zh": "藏青色",
+            "label_en": "Navy",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-navy-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-navy.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              29.0,
+              29.0,
+              42.0
+            ]
+          },
+          {
+            "label_zh": "黑色",
+            "label_en": "Black",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-black-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-black.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              36.0,
+              36.0,
+              36.0
+            ]
+          },
+          {
+            "label_zh": "亮绿",
+            "label_en": "Lime",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-lime-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-lime.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              143.5,
+              234.0,
+              107.0
+            ]
+          },
+          {
+            "label_zh": "宝蓝",
+            "label_en": "Royal Blue",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-royal-blue-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-royal-blue.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              34.0,
+              48.0,
+              140.0
+            ]
+          },
+          {
+            "label_zh": "粉色",
+            "label_en": "Pink",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-pink-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-pink.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              252.0,
+              64.0,
+              120.0
+            ]
+          },
+          {
+            "label_zh": "灰色",
+            "label_en": "Grey",
+            "source": "assets/catalogue-a4/hvj259-colours-v3/hvj259-grey-hd-v3.webp",
+            "previous": "assets/catalogue-a4/main/hvj259-grey.webp",
+            "method": "HD-master-colour-illustration",
+            "sample_rgb": [
+              120.0,
+              120.0,
+              120.0
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "hvw820-renewable-executive-waistcoat",
@@ -1437,10 +1629,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
-      "image_alt_zh": "HVJ910 Top Cool V领反光T恤完整单品图",
+      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVJ910 Top Cool V领反光T恤完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj910-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvj910-hi-vis-orange-clean.webp",
         "assets/catalogue-a4/main/hvj910-yellow-navy-clean.webp",
         "assets/catalogue-a4/main/hvj910-orange-navy-clean.webp"
@@ -1449,7 +1641,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp"
+          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -1481,7 +1673,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 53
+      "sort_order": 53,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "hvj220-two-tone-short-sleeve-polo",
@@ -1714,10 +1912,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
-      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克完整单品图",
+      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvw706-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvw706-hi-vis-orange-clean.webp",
         "assets/catalogue-a4/main/hvw706-black-clean.webp",
         "assets/catalogue-a4/main/hvw706-navy-clean.webp",
@@ -1727,7 +1925,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp"
+          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -1764,7 +1962,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 58
+      "sort_order": 58,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "hvdw15-reflective-border-dog-vest",
@@ -1858,10 +2062,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
-      "image_alt_zh": "HVW066 可印刷反光臂带荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVW066 可印刷反光臂带完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw066-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvw066-hi-vis-orange.webp",
         "assets/catalogue-a4/main/hvw066-pink.webp",
         "assets/catalogue-a4/main/hvw066-lime.webp",
@@ -1873,7 +2077,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -1920,7 +2124,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 60
+      "sort_order": 60,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "id03-id-arm-bands",
@@ -2366,16 +2576,16 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/rp01-silver.webp",
+      "main_image": "assets/catalogue-a4/main/rp01-silver-clean-ai.webp",
       "image_alt_zh": "RP01 热转印反光条银色画册参考图",
       "gallery_images": [
-        "assets/catalogue-a4/main/rp01-silver.webp"
+        "assets/catalogue-a4/main/rp01-silver-clean-ai.webp"
       ],
       "color_variants": [
         {
           "label_zh": "银色",
           "label_en": "Silver",
-          "image": "assets/catalogue-a4/main/rp01-silver.webp"
+          "image": "assets/catalogue-a4/main/rp01-silver-clean-ai.webp"
         }
       ],
       "badge": "新画册",

@@ -620,7 +620,7 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-019-front.webp",
+      "main_image": "assets/catalogue-78/main/xk-019-front-complete-ai.webp",
       "image_alt_zh": "XK-019 短袖T恤画册单品参考图",
       "gallery_images": [],
       "color_variants": [],
@@ -891,8 +891,8 @@
         "catalogue",
         "business"
       ],
-      "main_image": "assets/catalogue-78/main/xk-027-front.webp",
-      "image_alt_zh": "XK-027 绿色速干工作衫画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-027-front-high-source-v2.webp",
+      "image_alt_zh": "XK-027 绿色速干工作衫完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -909,7 +909,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 95
+      "sort_order": 95,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-78/main/xk-027-front.webp",
+        "method": "300-dpi-pdf-recrop"
+      }
     },
     {
       "id": "xk-028-stretched-front-zip-hoodie",
@@ -1842,8 +1848,8 @@
         "stretch",
         "functional"
       ],
-      "main_image": "assets/catalogue-78/main/xk-059-front.webp",
-      "image_alt_zh": "XK-059 弹力多功能短裤画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-059-front-high-source-v2.webp",
+      "image_alt_zh": "XK-059 弹力多功能短裤完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -1860,7 +1866,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 122
+      "sort_order": 122,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-78/main/xk-059-front.webp",
+        "method": "300-dpi-pdf-recrop"
+      }
     },
     {
       "id": "xk-060-3-4-length-stretch-trousers",
@@ -3936,8 +3948,8 @@
         "waterproof",
         "outdoor"
       ],
-      "main_image": "assets/catalogue-78/main/xk-121-front.webp",
-      "image_alt_zh": "XK-121 高可视防水夹克画册单品参考图",
+      "main_image": "assets/catalogue-78/main/xk-121-front-ai-v2.webp",
+      "image_alt_zh": "XK-121 高可视防水夹克完整单品主图",
       "gallery_images": [],
       "color_variants": [],
       "badge": "英文画册",
@@ -3954,7 +3966,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 184
+      "sort_order": 184,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-78/main/xk-121-front.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "xk-122-reflective-safety-jackets",
