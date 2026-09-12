@@ -541,10 +541,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
-      "image_alt_zh": "HVJ259 反光包边套头背心荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVJ259 反光包边套头背心完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvj259-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvj259-hi-vis-orange.webp",
         "assets/catalogue-a4/main/hvj259-red.webp",
         "assets/catalogue-a4/main/hvj259-lake-blue.webp",
@@ -564,7 +564,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvj259-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -651,7 +651,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 43
+      "sort_order": 43,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvj259-hi-vis-yellow.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "hvw820-renewable-executive-waistcoat",
@@ -1437,10 +1443,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
-      "image_alt_zh": "HVJ910 Top Cool V领反光T恤完整单品图",
+      "main_image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVJ910 Top Cool V领反光T恤完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvj910-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvj910-hi-vis-orange-clean.webp",
         "assets/catalogue-a4/main/hvj910-yellow-navy-clean.webp",
         "assets/catalogue-a4/main/hvj910-orange-navy-clean.webp"
@@ -1449,7 +1455,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp"
+          "image": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -1481,7 +1487,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 53
+      "sort_order": 53,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvj910-hi-vis-yellow-clean.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "hvj220-two-tone-short-sleeve-polo",
@@ -1714,10 +1726,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
-      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克完整单品图",
+      "main_image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVW706 Kensington抓绒里反光夹克完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+        "assets/catalogue-a4/main/hvw706-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvw706-hi-vis-orange-clean.webp",
         "assets/catalogue-a4/main/hvw706-black-clean.webp",
         "assets/catalogue-a4/main/hvw706-navy-clean.webp",
@@ -1727,7 +1739,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp"
+          "image": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -1764,7 +1776,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 58
+      "sort_order": 58,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvw706-hi-vis-yellow-clean.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "hvdw15-reflective-border-dog-vest",
@@ -1858,10 +1876,10 @@
         "project",
         "reflective"
       ],
-      "main_image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
-      "image_alt_zh": "HVW066 可印刷反光臂带荧光黄画册参考图",
+      "main_image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow-ai-v2.webp",
+      "image_alt_zh": "HVW066 可印刷反光臂带完整单品主图",
       "gallery_images": [
-        "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
+        "assets/catalogue-a4/main/hvw066-hi-vis-yellow-ai-v2.webp",
         "assets/catalogue-a4/main/hvw066-hi-vis-orange.webp",
         "assets/catalogue-a4/main/hvw066-pink.webp",
         "assets/catalogue-a4/main/hvw066-lime.webp",
@@ -1873,7 +1891,7 @@
         {
           "label_zh": "荧光黄",
           "label_en": "Hi Vis Yellow",
-          "image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp"
+          "image": "assets/catalogue-a4/main/hvw066-hi-vis-yellow-ai-v2.webp"
         },
         {
           "label_zh": "荧光橙",
@@ -1920,7 +1938,13 @@
       "added_date": "2026-08-15",
       "source_status": "catalogue_linked",
       "visibility": "public",
-      "sort_order": 60
+      "sort_order": 60,
+      "main_image_review": {
+        "status": "reviewed",
+        "date": "2026-09-10",
+        "previous": "assets/catalogue-a4/main/hvw066-hi-vis-yellow.webp",
+        "method": "reviewed-ai-restoration"
+      }
     },
     {
       "id": "id03-id-arm-bands",
