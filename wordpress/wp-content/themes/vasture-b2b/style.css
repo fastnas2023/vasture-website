@@ -45,7 +45,14 @@ a { color: var(--vasture-navy-2); text-underline-offset: 3px; }
 .site-header .logo-link, .mobile-drawer .logo-link { grid-template-columns: none; grid-template-rows: none; }
 .site-header .logo-link::before, .mobile-drawer .logo-link::before { content: none; display: none; }
 .logo-link__mark { display: none; }
-.logo-link__text { border-left: 2px solid var(--vasture-accent); display: grid; gap: 3px; padding-left: 12px; }
+.site-header .logo-link--identity { gap: 12px; }
+.site-header .logo-link.logo-link--identity .logo-link__wordmark { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; color: #fff; font-family: var(--vasture-font-ui); line-height: 1; white-space: nowrap; }
+.logo-link__wordmark b { color: #fff; font-size: 29px; font-weight: 750; letter-spacing: -.025em; line-height: .9; }
+.logo-link__wordmark em { color: #fff; font-size: 9px; font-weight: 550; font-style: normal; letter-spacing: .23em; line-height: 1; }
+@media (max-width: 600px) { .site-header .logo-link--identity { gap: 9px; } .logo-link__wordmark b { font-size: 25px; } .logo-link__wordmark em { font-size: 8px; letter-spacing: .19em; } }
+.logo-link__text { display: grid; gap: 3px; padding-left: 12px; }
+.site-header .logo-link::before, .site-footer .logo-link::before { content: ''; display: block; flex: 0 0 44px; width: 44px; height: 40px; background: url('static/assets/zsx-garment-mark-light.svg') center / contain no-repeat; }
+@media (max-width: 600px) { .site-header .logo-link::before { flex-basis: 32px; width: 32px; height: 30px; } }
 .logo-link__text strong { color: var(--vasture-ink); font-size: 21px; font-weight: 750; letter-spacing: -.025em; line-height: 1.08; }
 .logo-link__text small { color: var(--vasture-muted); font-size: 10.5px; letter-spacing: .025em; line-height: 1.25; }
 .site-header .logo-link__text strong { color: #fff; }

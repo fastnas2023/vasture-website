@@ -102,7 +102,7 @@ add_action('wp_head', 'vasture_render_locale_seo', 1);
 
 function vasture_enqueue_assets(): void {
     wp_enqueue_style('vasture-brand', vasture_asset_url('css/brand.css'), [], '20260907-apparel-grid-1');
-    wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260904-conversion-17');
+    wp_enqueue_style('vasture-theme', get_stylesheet_uri(), ['vasture-brand'], '20260916-garment-lockup-3');
     // The legacy filter is client-side and assumes all product cards are present.
     // The WordPress archive queries filters server-side, so do not let that script
     // overwrite server result counts or pagination on the archive.

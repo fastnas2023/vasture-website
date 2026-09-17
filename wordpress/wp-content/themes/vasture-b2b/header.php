@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0D2735" />
   <?php wp_head(); ?>
+  <link rel="icon" type="image/svg+xml" href="<?php echo esc_url(vasture_asset_url('assets/zsx-garment-mark.svg')); ?>" />
+  <link rel="icon" sizes="32x32" href="<?php echo esc_url(vasture_asset_url('assets/zsx-garment.ico')); ?>" />
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <a class="vasture-skip-link" href="#main-content"><?php echo esc_html(vasture_t('跳至主要内容', 'Skip to main content')); ?></a>
 <header class="site-header" role="banner">
   <div class="cf-container">
-    <a href="<?php echo esc_url(vasture_page_url('index')); ?>" class="logo-link"><span class="logo-link__text"><strong><?php echo esc_html(vasture_t('卓圣轩服贸', 'ZSX Garment')); ?></strong><small><?php echo esc_html(vasture_t('扬州卓圣轩服装贸易有限公司', 'Yangzhou ZSX Garment Trading Co., Ltd.')); ?></small></span></a>
+    <a href="<?php echo esc_url(vasture_page_url('index')); ?>" class="logo-link logo-link--identity" aria-label="<?php echo esc_attr(vasture_t('卓圣轩服贸 — 首页', 'ZSX Garment — Home')); ?>"><span class="logo-link__wordmark"><b>ZSX</b><em>GARMENT</em></span></a>
     <nav role="navigation" aria-label="<?php echo esc_attr(vasture_t('主导航', 'Main navigation')); ?>">
       <a href="<?php echo esc_url(vasture_page_url('index')); ?>" class="<?php echo vasture_nav_is_current('index') ? 'is-current' : ''; ?>"<?php echo vasture_nav_current_attribute('index'); ?>><?php echo esc_html(vasture_t('首页', 'Home')); ?></a>
       <a href="<?php echo esc_url(vasture_page_url('products')); ?>" class="<?php echo vasture_nav_is_current('products') ? 'is-current' : ''; ?>"<?php echo vasture_nav_current_attribute('products'); ?>><?php echo esc_html(vasture_t('产品中心', 'Products')); ?></a>
